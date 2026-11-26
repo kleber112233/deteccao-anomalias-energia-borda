@@ -7,6 +7,14 @@ atributos reais; (2) o custo do sistema completo ao vivo (atributos + cascata) p
 Arquivo a copiar: `resultados\_transferencia\e2_pi.tar` (código novo do detector + modelos + dados das 2 casas +
 `e2.sh`). Ele substitui a pasta `~/tcc-pi/detector` antiga (a versão do Pi ainda é a anterior à otimização K3).
 
+> **No repositório público:** o `e2_pi.tar` (81 MB) não foi publicado, porque reúne modelos e dados que podem ser
+> regerados. Para montá-lo, junte numa pasta: `detector/` (README, `pyproject.toml`, `requirements.txt` e o pacote
+> `detector/detector`); `pacotes/perfil1_s1` e `pacotes/perfil3_s1` (de `pi/pacotes`); `baselines/perfil1/semente_1`
+> e `baselines/perfil3/semente_1` (de `resultados/baselines_v1`, com os `.onnx` regerados por
+> `python -m detector baselines`); `dados/perfil1/semente_1` e `dados/perfil3/semente_1` (de `datasets/v1`,
+> regerados por `simulador/ferramentas/gerar_datasets.py`); e `pi/e2.sh`. Dentro dessa pasta, rode `tar cf e2_pi.tar *`.
+> Os resultados desta medição estão em `resultados/e2_20261123_0912`.
+
 ## Antes de começar
 - Dissipador/ventoinha no Pi (na última medida ele chegou a 82,6 °C e reduziu o clock: `throttled=0xe0000`).
 - Reinicie o Pi para zerar os contadores de throttling.
