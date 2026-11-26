@@ -38,7 +38,7 @@ comerciais. O que é medido na placa é o custo da detecção (tempo, memória, 
 | `simulador/` | Simulador `casasim`: catálogo de 229 aparelhos (PBE/Inmetro e fabricantes), 80 medidores, três perfis de casa, painel web, publicação MQTT, gerador de carga e validação contra EPE, ANEEL/CPFL e Boa Energia. 32 testes. |
 | `detector/` | Atributos causais, os cinco detectores, exportação para ONNX, cascata, avaliação por evento, serviço MQTT do Pi e análises dos ensaios. 29 testes. O `DIARIO.md` registra cada decisão e cada número. |
 | `pi/` | Preparo do Raspberry Pi 5, roteiros dos ensaios E2 e E3/E4/E6 e os pacotes de modelos que rodam na placa (`pi/pacotes`). |
-| `datasets/v1/` | Manifesto das 15 séries congeladas (3 perfis × 5 sementes × 120 dias), com SHA-256 de cada arquivo, gabaritos das falhas e resumos. |
+| `datasets/v1/` | Manifesto das 15 séries congeladas (3 perfis × 5 sementes × 120 dias), com SHA-256 de cada arquivo, gabaritos das falhas, resumos e a cópia arquivada do simulador que gerou as séries. |
 | `resultados/` | Resultados de todos os ensaios (E1 a E6) e o pacote com as tabelas e figuras do artigo (`resultados/pacote_artigo`). |
 | `dados_reais/` | Fontes de dados reais usadas como referência, com links de download, e a curva B1 da CPFL Paulista (ANEEL) já tratada. |
 | `tcc artigo/imagens/figuras_no_tcc/` | Fotos e capturas da bancada usadas no artigo (Figuras 2, 4 e 5). |
@@ -75,6 +75,11 @@ computador e no Pi) e PyTorch 2.15 (só no computador, para treinar as redes).
 
    O último comando refaz as 15 séries em `datasets/v1` (cerca de 860 MB). Tudo é determinístico pela
    semente, e os arquivos gerados podem ser conferidos pelos SHA-256 de `datasets/v1/manifesto.json`.
+
+   A versão exata do simulador que gerou as séries está arquivada em `datasets/v1/simulador_v1.tar`: o resumo
+   SHA-256 do seu código e dos dados de entrada é igual ao campo `hash_codigo_e_dados_de_entrada` do manifesto.
+   A versão atual da pasta `simulador` difere dela só na linha de comando (`__main__.py`), no gerador de carga
+   (`carga.py`) e na publicação MQTT (`mqtt.py`), acrescentados depois para os ensaios no Raspberry Pi.
 
 2. **Detector** (Windows, dentro de `detector`):
 
