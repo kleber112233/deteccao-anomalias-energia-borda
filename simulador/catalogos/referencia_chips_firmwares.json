@@ -1,0 +1,342 @@
+{
+ "chips": [
+  {
+   "chip": "BL0937 (Belling)",
+   "erro_potencia": "Potência ativa: 0,3% típ. / 0,5% máx. numa faixa dinâmica de 2500:1 (medido no pino CF). Vrms e Irms: 0,3%.",
+   "erro_energia": "Mesmo valor da potência (a energia vem da soma dos pulsos CF): <±0,5% em 2500:1.",
+   "amostragem_ou_atualizacao": "Não tem registradores nem UART: gera pulsos CF (potência) e CF1 (corrente ou tensão, escolhida pelo pino SEL). O microcontrolador mede o período dos pulsos, então a taxa de atualização depende do firmware. Com cargas pequenas os pulsos ficam lentos. A detecção de sobrecorrente responde em 200 ms.",
+   "fonte_url": "https://www.belling.com.cn/media/file_object/bel_product/BL0937/datasheet/BL0937_V1.02_en.pdf",
+   "observacoes": "Faixa de corrente de 4 mA a 30 A com shunt de 1 mΩ. Variação de CF: <0,2% com 300 mA e <0,3% com 50 mA. Por usar a mesma interface do HLW8012, roda no driver hlw8012 do ESPHome (model: BL0937, SEL invertido) e no driver HLW/BL do Tasmota. Os erros são do chip; o aparelho precisa de calibração (shunt e divisor), e sem ela o erro real pode ser bem maior."
+  },
+  {
+   "chip": "HLW8012 (HiLink/Hiliwi)",
+   "erro_potencia": "Potência ativa: ±0,2% numa faixa de 1000:1 (entrada de 0,1% a 100%).",
+   "erro_energia": "±0,2% (pulsos CF, atende a precisão da IEC 687/1036).",
+   "amostragem_ou_atualizacao": "Saída por pulsos CF e CF1, selecionados pelo SEL. Clock interno de 3,579 MHz; filtro digital com saída a MCLK/128. A taxa de leitura é definida pelo firmware (o ESPHome alterna o SEL a cada 8 atualizações, change_mode_every=8).",
+   "fonte_url": "https://github.com/xoseperez/hlw8012/blob/master/docs/HLW8012.pdf",
+   "observacoes": "Irms e Vrms: ±0,5% numa faixa de 500:1. Datasheet em chinês (REV 1.3). Segundo o ESPHome, o CSE7759 (sem B) e o BL0937 são compatíveis com ele."
+  },
+  {
+   "chip": "HLW8032 (Hiliwei)",
+   "erro_potencia": "Potência ativa: 0,2% numa faixa dinâmica de 1000:1.",
+   "erro_energia": "Não há valor separado; o pulso PF de energia ativa segue a mesma precisão de 0,2%.",
+   "amostragem_ou_atualizacao": "UART a 4800 bps que envia um pacote a cada 50 ms. O ESPHome avisa que são várias atualizações por segundo e recomenda filtro de média ou throttle.",
+   "fonte_url": "https://www.lcsc.com/datasheet/C128023.pdf",
+   "observacoes": "Irms e Vrms: 0,5% numa faixa de 1000:1. Também mede potência aparente e FP. Comum em módulos M5Stack e em algumas tomadas Tuya."
+  },
+  {
+   "chip": "CSE7766 (Chipsea)",
+   "erro_potencia": "Acima de 55 W: 0,5% típ. / ±1% máx. De 15 a 55 W: 0,8% típ. / ±3% máx. Abaixo de 15 W: erro absoluto de 0,5 W típ. / 1,5 W máx. Potência mínima medida: 2 W.",
+   "erro_energia": "Erro acumulado de energia: ±1%.",
+   "amostragem_ou_atualizacao": "Envia pela UART (4800 bps, paridade par) um pacote de 24 bytes, que leva cerca de 55 ms; ou seja, várias atualizações por segundo, sem precisar de requisição.",
+   "fonte_url": "https://itead.cc/wp-content/uploads/2022/05/CSE7766.pdf",
+   "observacoes": "Chip calibrado de fábrica (dispensa calibração). Corrente com shunt de 1 mΩ: ±1% máx. de 250 mA a 30,9 A, 5–10 mA de erro absoluto de 50 a 249 mA, mínimo de 50 mA. Tensão: ±1% de 80 a 260 V. Usado no Sonoff POW R2/R3, no POW Elite e no Athom BR 16A."
+  },
+  {
+   "chip": "CSE7759B (Chipsea)",
+   "erro_potencia": "Acima de 55 W: 1% típ. / ±2% máx. Abaixo de 55 W: erro absoluto de 1 W típ. / 2,5 W máx. Potência mínima: 3 W.",
+   "erro_energia": "Erro acumulado de energia: ±2%.",
+   "amostragem_ou_atualizacao": "A UART envia um pacote automaticamente a cada 50 ms (24 bytes a 4800 bps, ~55 ms).",
+   "fonte_url": "https://www.lcsc.com/datasheet/C19274461.pdf",
+   "observacoes": "Calibração de fábrica com desvio de ±2%. Com componentes externos de 1%, o erro do aparelho inteiro fica em até ±3% sem calibrar. Corrente: ±2% (250 mA–30,9 A), mínimo de 60 mA. Depois do reset, a medição leva no mínimo 800 ms para começar. No ESPHome usa o componente cse7766. Datasheet em chinês, V1.3."
+  },
+  {
+   "chip": "CSE7761 (Chipsea)",
+   "erro_potencia": "Médias de potência e RMS: <0,1% em 1000:1 para o RMS.",
+   "erro_energia": "Energia ativa: <0,1% numa faixa dinâmica de 5000:1.",
+   "amostragem_ou_atualizacao": "Registradores de média (RMS, potência, FP) atualizam a 3,4, 6,8, 13,6 ou 27,2 Hz, conforme a configuração. Valores instantâneos e forma de onda: 6,99 kHz. Frequência: a cada ~0,64 s.",
+   "fonte_url": "https://www.lcsc.com/datasheet/C19193569.pdf",
+   "observacoes": "Dois canais de corrente, interface SPI ou UART (4800/9600). No Tasmota é usado no Sonoff Dual R3 e no POW CT (POW Ring). Datasheet em chinês, V1.1."
+  },
+  {
+   "chip": "BL0942 (Belling)",
+   "erro_potencia": "De 30 A a 100 mA: 0,2%. De 100 a 50 mA: 0,4%. De 50 a 10 mA: 0,6% (shunt de 1 mΩ).",
+   "erro_energia": "Energia ativa: <0,1% numa faixa dinâmica de 4000:1.",
+   "amostragem_ou_atualizacao": "Registradores de RMS e potência atualizam a cada 400 ms (padrão) ou 800 ms (RMS_UPDATE_SEL). RMS rápido: 10 a 160 ms em 50 Hz (8,3 a 133 ms em 60 Hz). Forma de onda: 7,8 kSPS.",
+   "fonte_url": "https://www.belling.com.cn/media/file_object/bel_product/BL0942/datasheet/BL0942_V1.06_en.pdf",
+   "observacoes": "Erro de ganho de fábrica abaixo de 1%, por isso pode dispensar calibração. Erro de RMS: 0,2% (35 A–100 mA), 2% (100–50 mA), 6% (50–10 mA). UART a 4800 bps ou SPI. O ESPHome usa line_frequency 50 Hz por padrão; no Brasil é preciso configurar 60 Hz. Usado nos Shelly Gen3 (1PM Gen3, Plus 1PM Mini, PM Mini) segundo o Tasmota, e no Shelly 1PM Gen4 segundo o devices.esphome.io."
+  },
+  {
+   "chip": "BL0940 (Belling)",
+   "erro_potencia": "Energia/potência ativa com sinal grande (35 A–100 mA, shunt de 1 mΩ): 0,2%. Com sinal pequeno o erro aumenta (RMS chega a 6% na faixa mais baixa).",
+   "erro_energia": "Faixa de medição de 4000:1, com 0,2% para sinal grande.",
+   "amostragem_ou_atualizacao": "Registradores RMS e WATT atualizam em média a cada 400 ms (padrão) ou 800 ms. RMS rápido: 10 a 40 ms em 50 Hz (8,3 a 33 ms em 60 Hz).",
+   "fonte_url": "https://www.belling.com.cn/media/file_object/bel_product/BL0940/datasheet/BL0940_V1.1_en.pdf",
+   "observacoes": "Segundo a nota de aplicação, o erro de ganho vem calibrado de fábrica abaixo de 1%; com componentes de 1%, o aparelho inteiro fica em até 2% na corrente básica, sem calibração (https://www.belling.com.cn/media/file_object/bel_product/BL0940/guide/BL0940_APPNote_TSSOP14_V1.04_EN.pdf). Recomenda limitar a 16 A com shunt de 1 mΩ. No Tasmota é usado na BlitzWolf SHP10."
+  },
+  {
+   "chip": "ADE7953 (Analog Devices)",
+   "erro_potencia": "Erro de IRMS <0,2% em 1000:1. A potência instantânea fica disponível em registradores.",
+   "erro_energia": "Energia ativa e reativa: <0,1% em 3000:1 (canal A) e 0,1% em 1000:1 (canal B).",
+   "amostragem_ou_atualizacao": "ADCs a 6,99 kSPS. Os registradores de RMS e de potência ativa atualizam a 6,99 kHz, com acomodação de ~200 ms. Banda de 1,23 kHz.",
+   "fonte_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7953.pdf",
+   "observacoes": "Atende às normas IEC 62053-21/22/23 e EN 50470. Tem 2 canais de corrente e interface SPI, I2C ou UART. Pelo código-fonte do Tasmota (xnrg_07), é usado nos Shelly 2.5, EM, Pro EM, Plus 2PM, 2PM Gen3, Pro 1PM, Pro 2PM e Pro 4PM."
+  },
+  {
+   "chip": "ATM90E32AS (Microchip/Atmel M90E32AS)",
+   "erro_potencia": "Parâmetros medidos (Vrms, Irms, potências médias, FP, frequência, ângulo): erro fiducial abaixo de ±0,5%.",
+   "erro_energia": "Energia ativa: ±0,1%. Reativa: ±0,2%. Faixa dinâmica de 6000:1, adequado a medidores classe 0,2S/0,5S/1.",
+   "amostragem_ou_atualizacao": "Os parâmetros são médias de 16 ciclos (~320 ms em 50 Hz; ~267 ms em 60 Hz, valor calculado) e atualizam a cerca de 3 Hz. Temperatura: a cada ~100 ms.",
+   "fonte_url": "http://ww1.microchip.com/downloads/en/devicedoc/Atmel-46003-SE-M90E32AS-Datasheet.pdf",
+   "observacoes": "Polifásico (3 V + 3 I), com interface SPI. Calibração de um ponto por fase. Usado em placas DIY tipo CircuitSetup Expandable 6-channel. No ESPHome: componente atm90e32, update_interval de 60 s por padrão."
+  },
+  {
+   "chip": "PZEM-004T v3.0 (módulo Peacefair; o chip interno não é informado no manual)",
+   "erro_potencia": "Potência ativa: 0,5%. Faixa de 0–2,3 kW (versão de 10 A) ou 0–23 kW (versão de 100 A). Resolução de 0,1 W; potência de partida de 0,4 W.",
+   "erro_energia": "Energia ativa: 0,5%. Faixa de 0–9999,99 kWh, resolução de 1 Wh.",
+   "amostragem_ou_atualizacao": "Responde por Modbus-RTU (UART TTL, 9600 bps) quando o mestre pede. O manual não informa a taxa interna de atualização; o intervalo é o do polling do firmware (ESPHome pzemac: 60 s por padrão; Tasmota: lê a cada 1 s).",
+   "fonte_url": "https://innovatorsguru.com/wp-content/uploads/2019/06/PZEM-004T-V3.0-Datasheet-User-Manual.pdf",
+   "observacoes": "Tensão de 80–260 V com 0,5% de erro. Corrente: 0–10 A (shunt) ou 0–100 A (TC), com 0,5% de erro e corrente de partida de 0,01 A / 0,02 A. FP: 1%. Frequência: 45–65 Hz, 0,5%. O módulo precisa estar ligado na rede quando o ESP inicia (ESPHome). A v4.0 não tem datasheet próprio nesta pesquisa; a mesma especificação foi assumida."
+  },
+  {
+   "chip": "SCT-013 (TC de núcleo dividido YHDC) + ADC",
+   "erro_potencia": "O TC não mede potência: só corrente. A potência é estimada (I × V nominal × FP suposto) ou calculada com uma referência de tensão (por exemplo, ZMPT101B/EmonLib).",
+   "erro_energia": "Depende do ADC e da integração feita no firmware.",
+   "amostragem_ou_atualizacao": "Analógica. No ESPHome, o ct_clamp amostra durante sample_duration=200 ms (10 ciclos em 50 Hz; 12 ciclos em 60 Hz) e publica a cada update_interval (60 s por padrão).",
+   "fonte_url": "https://dl.btc.pl/kamami_wa/sct-013-x_dss.pdf",
+   "observacoes": "Não linearidade de ±3% entre 10% e 120% da corrente nominal. Modelos de 5 a 100 A; o SCT-013-000 tem saída de corrente de 50 mA, os demais saída de 1 V com resistor interno. Abaixo de 10% da corrente nominal o erro não é especificado. A calibração é obrigatória (calibrate_linear no ESPHome)."
+  },
+  {
+   "chip": "ADC do ESP32",
+   "erro_potencia": "Não se aplica (mede tensão). Erro total de tensão depois da calibração por eFuse Vref: ±23 mV (atten 0, 100–950 mV), ±30 mV (atten 1, 100–1250 mV), ±40 mV (atten 2, 150–1750 mV), ±60 mV (atten 3, 150–2450 mV).",
+   "erro_energia": "Não se aplica.",
+   "amostragem_ou_atualizacao": "Até 2 Msps (controlador DIG) ou 200 ksps (RTC). INL de 12 LSB, DNL de 7 LSB.",
+   "fonte_url": "https://documentation.espressif.com/esp32_datasheet_en.pdf",
+   "observacoes": "Sem calibração, a medição varia ±6% entre chips. Acima de ~2450 mV com atten 3 a precisão piora. No ESPHome (adc + ct_clamp), o update_interval padrão é 60 s. É a opção DIY menos precisa; melhor usar ADS1115 ou um chip medidor."
+  },
+  {
+   "chip": "ADS1115 (Texas Instruments)",
+   "erro_potencia": "Não se aplica (ADC). Erro de ganho de 0,01% típ. / 0,15% máx. (FSR ±2,048 V, 25 °C); INL de 1 LSB; offset de ±1 LSB (diferencial) ou ±3 LSB (simples).",
+   "erro_energia": "Não se aplica.",
+   "amostragem_ou_atualizacao": "Taxa programável: 8, 16, 32, 64, 128, 250, 475 ou 860 SPS (variação de ±10%). A 860 SPS isso dá ~14 amostras por ciclo em 60 Hz (cálculo), divididas entre os canais multiplexados.",
+   "fonte_url": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+   "observacoes": "16 bits, I2C e PGA de ±0,256 a ±6,144 V. No ESPHome: sample_rate de 860 por padrão e update_interval de 60 s por padrão. Com poucas amostras por ciclo, o RMS de TC fica aproximado."
+  },
+  {
+   "chip": "ACS712 (Allegro, efeito Hall)",
+   "erro_potencia": "Não se aplica (sensor de corrente). Erro total de saída de ±1,5% a 25 °C (especificado para Ip = ±5 A); não linearidade de 1,5%.",
+   "erro_energia": "Não se aplica.",
+   "amostragem_ou_atualizacao": "Saída analógica com banda de 80 kHz e subida de 5 µs; a amostragem depende do ADC/firmware.",
+   "fonte_url": "https://www.allegromicro.com/-/media/files/datasheets/acs712-datasheet.pdf",
+   "observacoes": "Medição invasiva (em série). O ruído pico a pico é da ordem de dezenas de mV, o que pesa em correntes baixas. Para potência, precisa de referência de tensão."
+  }
+ ],
+ "firmwares": [
+  {
+   "firmware": "Tasmota",
+   "componente": "TelePeriod (telemetria MQTT tele/.../SENSOR com ENERGY)",
+   "intervalo_padrao_s": 300,
+   "intervalo_minimo_s": 10,
+   "envio_por_variacao": "Sim, pelo PowerDelta (veja a linha abaixo).",
+   "fonte_url": "https://tasmota.github.io/docs/Commands/",
+   "observacoes": "TelePeriod aceita 0 (desativa) ou de 10 a 3600 s; o padrão é TELE_PERIOD=300 em my_user_config.h. Comandos Status 8/10 ou uma consulta HTTP devolvem o valor atual quando pedidos."
+  },
+  {
+   "firmware": "Tasmota",
+   "componente": "PowerDelta (envio por variação de potência)",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": 1,
+   "envio_por_variacao": "PowerDelta: 0 = desligado (padrão); 1–100 = variação em %; 101–32000 = variação absoluta (valor − 100, em W). A verificação roda a cada segundo e compara com a potência de cerca de 3 s antes (histórico de 3 posições). Não envia quando o relé desliga.",
+   "fonte_url": "https://github.com/arendst/Tasmota/blob/development/tasmota/tasmota_xdrv_driver/xdrv_03_energy.ino",
+   "observacoes": "No xdrv_03_energy.ino, EnergyMarginCheck() é chamada em EnergyEverySecond(). O padrão 0 vem dos Settings zerados (settings.ino). PowerLow e PowerHigh geram alarmes por limite."
+  },
+  {
+   "firmware": "Tasmota",
+   "componente": "Leitura interna dos drivers de energia (HLW8012/BL0937, CSE7766, BL09xx, PZEM-AC, ADE7953, CSE7761)",
+   "intervalo_padrao_s": 1,
+   "intervalo_minimo_s": 1,
+   "envio_por_variacao": "Não se aplica (é a taxa interna de leitura).",
+   "fonte_url": "https://github.com/arendst/Tasmota/tree/development/tasmota/tasmota_xnrg_energy",
+   "observacoes": "Os drivers calculam os valores em FUNC_ENERGY_EVERY_SECOND ou FUNC_EVERY_SECOND, ou seja, 1 vez por segundo. O HLW/BL0937 e o CSE7761 também têm tarefas a cada 200 ms; o CSE7766 e o BL09xx leem a serial continuamente (FUNC_LOOP) e consolidam a cada 1 s. Com ENERGY_WATCHDOG=4, depois de 4 s sem dados válidos os valores são zerados."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "hlw8012 (também BL0937 e CSE7759)",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo; dá para usar filtros (delta, throttle) no sensor.",
+   "fonte_url": "https://esphome.io/components/sensor/hlw8012/",
+   "observacoes": "change_mode_every=8 (alterna entre medir tensão e corrente a cada 8 atualizações; a primeira leitura depois de trocar é descartada). Corrente e tensão não são medidas no mesmo instante."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "cse7766 (também CSE7759B)",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "O chip envia várias atualizações por segundo; a documentação recomenda filtro throttle_average.",
+   "fonte_url": "https://esphome.io/components/sensor/cse7766/",
+   "observacoes": "O exemplo oficial usa throttle_average de 60 s. Não há update_interval: a publicação segue o que chega pela UART, menos o que o filtro descarta."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "bl0942",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo (só por filtros).",
+   "fonte_url": "https://esphome.io/components/sensor/bl0942/",
+   "observacoes": "line_frequency é 50 Hz por padrão (no Brasil, configurar 60 Hz). Configurações da comunidade para Shelly usam 1–5 s (devices.esphome.io)."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "bl0940 / bl0939",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo.",
+   "fonte_url": "https://esphome.io/components/sensor/bl0940/",
+   "observacoes": "Na página do bl0939 o update_interval padrão também é 60 s."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "hlw8032",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "O chip envia várias atualizações por segundo; recomenda-se filtro de média ou throttle.",
+   "fonte_url": "https://esphome.io/components/sensor/hlw8032/",
+   "observacoes": "UART a 4800 bps, paridade par."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "cse7761",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo.",
+   "fonte_url": "https://esphome.io/components/sensor/cse7761/",
+   "observacoes": "A configuração da comunidade para o Sonoff POWCT usa 2 s."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "pzemac (PZEM-004T v3)",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo.",
+   "fonte_url": "https://esphome.io/components/sensor/pzemac/",
+   "observacoes": "Modbus a 9600 bps; vários módulos podem dividir o barramento com endereços diferentes."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "ct_clamp (sobre adc ou ads1115)",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo.",
+   "fonte_url": "https://esphome.io/components/sensor/ct_clamp/",
+   "observacoes": "sample_duration é 200 ms por padrão e o update_interval tem de ser maior que ele. Precisa de calibração com calibrate_linear."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "ade7953 (i2c/spi)",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo.",
+   "fonte_url": "https://esphome.io/components/sensor/ade7953/",
+   "observacoes": "use_accumulated_energy_registers é false por padrão. Configurações da comunidade para Shelly usam de 0,4 s (Pro 2PM) a 20 s (EM Gen3)."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "atm90e32",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo.",
+   "fonte_url": "https://esphome.io/components/sensor/atm90e32/",
+   "observacoes": "O chip atualiza a ~3 Hz, então valores abaixo de ~0,3 s não trazem informação nova."
+  },
+  {
+   "firmware": "ESPHome",
+   "componente": "ads1115 / adc",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não nativo.",
+   "fonte_url": "https://esphome.io/components/sensor/ads1115/",
+   "observacoes": "No ads1115, sample_rate é 860 SPS por padrão. No adc do ESP32, samples=1 e attenuation=0 dB por padrão (~1,1 V de fundo de escala)."
+  },
+  {
+   "firmware": "Shelly Gen2/Gen3/Gen4 (API RPC)",
+   "componente": "Switch (relés e tomadas com medição: 1PM, 2PM, Plug, Pro xPM)",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Envia NotifyStatus (WebSocket/MQTT events/rpc) quando o status muda. Há os webhooks switch.active_power_change e switch.active_power_measurement (este último num período monotônico), mas a página do Switch não informa o limiar de variação.",
+   "fonte_url": "https://shelly-api-docs.shelly.cloud/gen2/ComponentsAndServices/Switch",
+   "observacoes": "aenergy.by_minute traz a energia em mWh dos últimos 3 minutos completos, com minute_ts. Switch.GetStatus por HTTP pode ser consultado à vontade (polling). No MQTT, rpc_ntf é true e status_ntf é false por padrão (https://shelly-api-docs.shelly.cloud/gen2/ComponentsAndServices/Mqtt)."
+  },
+  {
+   "firmware": "Shelly Gen2/Gen3/Gen4 (API RPC)",
+   "componente": "PM1 (medidores de 1 canal sem relé, ex.: PM Mini)",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "apower_change dispara quando a potência ativa muda pelo menos 1 W e 5% em relação ao último valor enviado; current_change, com 0,02 A e 5%.",
+   "fonte_url": "https://shelly-api-docs.shelly.cloud/gen2/ComponentsAndServices/PM1",
+   "observacoes": "Também tem alarmes de sub/sobretensão, corrente e potência."
+  },
+  {
+   "firmware": "Shelly Gen2/Gen3/Gen4 (API RPC)",
+   "componente": "EM / EM1 (Pro 3EM, 3EM-63 Gen3, Pro EM-50, EM Mini Gen4)",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "active_power_change dispara com variação de pelo menos 10 W e 5%; voltage_change com 1 V e 5%; current_change com 0,05 A e 5%; total_current_change (EM) com 3 A e 5%.",
+   "fonte_url": "https://shelly-api-docs.shelly.cloud/gen2/ComponentsAndServices/EM",
+   "observacoes": "Vale tanto para o EM quanto para o EM1 (https://shelly-api-docs.shelly.cloud/gen2/ComponentsAndServices/EM1). O EM.GetStatus/EM1.GetStatus por HTTP pode ser consultado à vontade."
+  },
+  {
+   "firmware": "Shelly Gen2/Gen3/Gen4 (API RPC)",
+   "componente": "EMData / EM1Data (histórico gravado no aparelho)",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": 60,
+   "envio_por_variacao": "Não (é registro local; lido com EMData.GetData).",
+   "fonte_url": "https://shelly-api-docs.shelly.cloud/gen2/ComponentsAndServices/EMData",
+   "observacoes": "No exemplo do GetRecords os registros têm period 60 s. GetNetEnergies agrega em 300, 900, 1800 ou 3600 s."
+  },
+  {
+   "firmware": "Tuya (local via tinytuya / LocalTuya)",
+   "componente": "DPs de potência, corrente, tensão e energia (ex.: 18/19/20 em tomadas)",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Com conexão persistente o aparelho envia DPs quando mudam (o LocalTuya trabalha por push). Algumas tomadas só atualizam a potência depois de um comando UPDATEDPS (tinytuya: updatedps([18,19,20])).",
+   "fonte_url": "https://github.com/jasonacox/tinytuya/blob/master/README.md",
+   "observacoes": "A Tuya não documenta o intervalo de reporte. No LocalTuya o scan interval é opcional; abaixo de 10 s pode causar instabilidade e o recomendado é 30 s (https://github.com/rospogrigio/localtuya/blob/master/README.md). O valor depende de cada fabricante (white-label)."
+  },
+  {
+   "firmware": "TP-Link Tapo (API local; python-kasa / plugp100)",
+   "componente": "Tapo P110: energia e potência atual",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não há push local: o cliente precisa chamar update() (polling).",
+   "fonte_url": "https://github.com/python-kasa/python-kasa/blob/master/README.md",
+   "observacoes": "A página da TP-Link Brasil fala em monitoramento de energia em tempo real no app Tapo, sem dar intervalo nem precisão. Bibliotecas da comunidade costumam usar polling de 5–60 s (escolha do usuário, sem base oficial)."
+  },
+  {
+   "firmware": "Zigbee2MQTT",
+   "componente": "Tuya TS011F_plug_3 (firmware ≥1.0.5, fabricado desde o 4º tri de 2021)",
+   "intervalo_padrao_s": 60,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Não: a Tuya desativou o reporte automático de potência, tensão e corrente, então o Z2M faz polling.",
+   "fonte_url": "https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html",
+   "observacoes": "measurement_poll_interval é 60 s por padrão; -1 desativa e o mínimo aceito pelo esquema é -1. Os TS011F_plug_1 (firmware antigo) reportam sozinhos (https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html)."
+  },
+  {
+   "firmware": "Zigbee2MQTT",
+   "componente": "Tuya PJ-1203A (medidor Zigbee de pinça, 2 canais bidirecional)",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": 3,
+   "envio_por_variacao": "Reporta em ciclo configurável (update_frequency).",
+   "fonte_url": "https://www.zigbee2mqtt.io/devices/PJ-1203A.html",
+   "observacoes": "update_frequency vai de 3 a 60 s. Serve de referência para medidores Zigbee de pinça Tuya, mas cada modelo precisa ser checado."
+  },
+  {
+   "firmware": "Zigbee2MQTT",
+   "componente": "Tuya TS0601 DIN (disjuntores e medidores DIN Zigbee)",
+   "intervalo_padrao_s": null,
+   "intervalo_minimo_s": null,
+   "envio_por_variacao": "Reporte iniciado pelo aparelho (DPs Tuya); a página não informa o intervalo.",
+   "fonte_url": "https://www.zigbee2mqtt.io/devices/TS0601_din.html",
+   "observacoes": "A página observa que a energia fica nula até o medidor acumular cerca de 0,2 kWh. Tem opções de calibração e precisão por grandeza."
+  },
+  {
+   "firmware": "IoTaWatt (firmware próprio)",
+   "componente": "Datalog e envio a InfluxDB/Emoncms",
+   "intervalo_padrao_s": 5,
+   "intervalo_minimo_s": 5,
+   "envio_por_variacao": "Não; o envio é periódico, de 5 a 3600 s em passos de 5 s, e o bulk send agrupa vários intervalos.",
+   "fonte_url": "https://docs.iotawatt.com/en/master/influxDB.html",
+   "observacoes": "O datalog local guarda dados de 5 em 5 s (https://docs.iotawatt.com/en/master/integrators.html)."
+  }
+ ]
+}

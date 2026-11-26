@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>casasim: simulador da casa (TCC)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--plano:#f9f9f7;--sup:#fcfcfb;--tinta:#0b0b0b;--tinta2:#52514e;--borda:#e3e2dd;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--crit:#d03b3b;--bom:#0ca30c;--aviso:#fab219}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 system-ui,Segoe UI,Roboto,sans-serif;background:var(--plano);color:var(--tinta)}
+header{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:end;padding:10px 16px;background:var(--sup);border-bottom:1px solid var(--borda);position:sticky;top:0;z-index:5}
+header h1{font-size:16px;margin:0 12px 4px 0}label{display:flex;flex-direction:column;font-size:11px;color:var(--tinta2);gap:2px}
+input,select,button,textarea{font:inherit;padding:5px 7px;border:1px solid var(--borda);border-radius:6px;background:#fff;color:var(--tinta)}
+button{cursor:pointer}button.pri{background:var(--s1);color:#fff;border-color:var(--s1)}button.perigo{background:var(--crit);color:#fff;border-color:var(--crit)}
+button.mini{padding:2px 7px;font-size:12px}
+nav{display:flex;gap:4px;padding:8px 16px 0}nav button{border-radius:8px 8px 0 0;border-bottom:none;background:#efeee9}nav button.ativa{background:var(--sup);font-weight:600}
+main{padding:12px 16px 40px}.cartao{background:var(--sup);border:1px solid var(--borda);border-radius:10px;padding:12px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:10px}
+.kpi .v{font-size:24px;font-weight:650}.kpi .r{font-size:11px;color:var(--tinta2)}.kpi .s{font-size:12px;color:var(--tinta2)}
+.grade{display:grid;gap:10px;margin-bottom:10px}.g2{grid-template-columns:2fr 1fr}.g31{grid-template-columns:3fr 1fr}
+@media(max-width:1000px){.g2,.g31{grid-template-columns:1fr}}
+h2{font-size:13px;margin:0 0 8px;font-weight:600}h3{font-size:13px;margin:12px 0 6px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{text-align:left;padding:4px 6px;border-bottom:1px solid var(--borda);vertical-align:middle}th{color:var(--tinta2);font-weight:500}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.barra{height:14px;background:var(--s1);border-radius:0 4px 4px 0;min-width:1px}.linhab{display:grid;grid-template-columns:130px 1fr 64px;gap:6px;align-items:center;font-size:12.5px;margin:3px 0}
+.tag{display:inline-block;padding:1px 7px;border-radius:10px;font-size:11px;border:1px solid var(--borda);color:var(--tinta2)}
+.tag.crit{background:#fbe9e9;border-color:var(--crit);color:#8f1f1f}.tag.ok{background:#e8f6e8;border-color:var(--bom);color:#075c07}.tag.av{background:#fff4d6;border-color:var(--aviso);color:#6b4a00}
+#dica{position:fixed;pointer-events:none;background:#0b0b0b;color:#fff;padding:4px 8px;border-radius:6px;font-size:12px;display:none;z-index:9}
+.msg{font-size:12.5px;margin:3px 0;padding:4px 8px;border-radius:6px}.msg.e{background:#fbe9e9}.msg.a{background:#fff4d6}.msg.i{background:#eef3fa}
+.comodo-m{border:1px solid var(--borda);border-radius:8px;padding:8px;margin-bottom:8px;background:#fff}
+.oculto{display:none}svg text{font-family:inherit}small{color:var(--tinta2)}
+</style>
+</head>
+<body>
+<header>
+ <h1>casasim <small>simulador da casa</small></h1>
+ <label>Cenário<select id="cen"></select></label>
+ <label>Data inicial<input id="data" type="date" value="2026-01-05"></label>
+ <label>Hora<input id="hora" type="time" value="17:30"></label>
+ <label>Velocidade<select id="vel"><option value="1">1× (tempo real)</option><option value="10">10×</option><option value="60" selected>60× (1 s = 1 min)</option><option value="300">300×</option><option value="1800">1800×</option></select></label>
+ <label>Semente<input id="sem" type="number" value="42" style="width:70px"></label>
+ <label>Bandeira<select id="band"><option value="verde">verde</option><option value="amarela">amarela</option><option value="vermelha_1">vermelha 1</option><option value="vermelha_2">vermelha 2</option></select></label>
+ <label>Broker MQTT (opcional)<input id="mqtt" placeholder="ex.: 192.168.0.50" style="width:140px"></label>
+ <button class="pri" id="bIni">Iniciar</button><button id="bPar">Parar</button>
+ <span id="st" class="tag">parado</span>
+</header>
+<nav><button id="aPainel" class="ativa">Painel</button><button id="aMont">Montagem da casa</button></nav>
+<main>
+<section id="painel">
+ <div class="kpis" id="kpis"></div>
+ <div class="grade g2">
+  <div class="cartao"><h2>Potência total da casa hoje (média de 5 min, kW)</h2><canvas id="graf" height="190" style="width:100%"></canvas></div>
+  <div class="cartao"><h2>Potência por cômodo agora (W)</h2><div id="barras"></div></div>
+ </div>
+ <div class="grade g31">
+  <div class="cartao"><h2>Planta da casa <small>(clique num aparelho para escolhê-lo como alvo da falha)</small></h2><div id="planta"></div>
+   <div style="font-size:11.5px;color:var(--tinta2);margin-top:4px">Potência real do aparelho: <span id="legenda"></span> &nbsp; O contorno vermelho marca falha ativa. A etiqueta pequena é o medidor.</div></div>
+  <div class="cartao"><h2>Injetar falha</h2>
+   <label>Tipo<select id="fTipo"></select></label><div id="fDesc" style="font-size:12px;color:var(--tinta2);margin:4px 0 8px"></div>
+   <label>Alvo<select id="fAlvo"></select></label>
+   <label style="margin-top:6px">Duração (min, vazio = padrão)<input id="fDur" type="number" min="1"></label>
+   <label style="margin-top:6px">Intensidade (fator ou W, vazio = sorteio)<input id="fInt" type="number" step="0.1"></label>
+   <button class="perigo" id="bFalha" style="margin-top:8px;width:100%">Injetar agora</button>
+   <h3>Falhas injetadas</h3><div id="lFalhas" style="font-size:12.5px"></div>
+   <h3>Alertas recebidos do Raspberry Pi</h3><div id="lAlertas" style="font-size:12.5px"><small>nenhum (tópico casa/sistema/alertas)</small></div>
+  </div>
+ </div>
+ <div class="cartao"><h2>Medidores: o que o Raspberry Pi recebe</h2><div style="overflow:auto"><table id="tMed"></table></div></div>
+</section>
+<section id="mont" class="oculto">
+ <div class="grade g31">
+  <div>
+   <div class="cartao" style="margin-bottom:10px;display:flex;gap:10px;flex-wrap:wrap;align-items:end">
+    <label>Partir do cenário<select id="mBase"></select></label>
+    <label>Nome da nova casa<input id="mNome" value="minha casa"></label>
+    <label>Ligação<select id="mLig"><option>monofásica 127 V</option><option>bifásica 127/220 V</option></select></label>
+    <button id="mAddCom">+ cômodo</button><button class="pri" id="mSalvar">Salvar cenário</button><span id="mSt"></span>
+   </div>
+   <div id="mComodos"></div>
+   <div class="cartao" style="margin-bottom:10px"><h2>Medidores instalados</h2><table id="mMed"></table><button id="mAddMed" class="mini" style="margin-top:6px">+ medidor</button></div>
+   <div class="cartao"><h2>Moradores e rotina <small>(dias úteis; os demais campos ficam no JSON avançado)</small></h2><table id="mPes"></table>
+    <details style="margin-top:8px"><summary>JSON avançado (moradores e hábitos)</summary><textarea id="mJson" style="width:100%;height:260px;font:12px monospace"></textarea><button id="mJsonOk" class="mini">Aplicar JSON</button></details></div>
+  </div>
+  <div class="cartao" style="align-self:start;position:sticky;top:70px"><h2>Conferência da montagem</h2><div id="mVal"></div></div>
+ </div>
+</section>
+</main>
+<div id="dica"></div>
+<script src="/static/app.js?v=2"></script>
+</body>
+</html>

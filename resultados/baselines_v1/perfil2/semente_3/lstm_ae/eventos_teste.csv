@@ -1,0 +1,14 @@
+falha_id,tipo,alvo,canal_direto,ini,fim,detectado,atraso_min,localizado,canais_alerta
+F0018,duracao_excessiva,suite_casal.ar_condicionado,r1,1788494017,1788519217,False,,False,
+F0019,fora_de_horario,sala.videogame,t2,1788667988,1788675188,True,4.866666666666666,True,t2
+F0020,fora_de_horario,banheiro_social.chuveiro_eletrico,c_c2,1788762313,1788763033,False,,False,
+F0021,pico,cozinha.air_fryer,t5,1788854598,1788858103,False,,False,
+F0022,magnitude,cozinha.micro_ondas,t4,1788968427,1788992231,False,,False,
+F0023,duracao_excessiva,cozinha.geladeira,t1,1789203680,1789225241,False,,False,
+F0024,magnitude,banheiro_suite.chuveiro_eletrico,c_c1,1789345969,1789419382,False,,False,
+F0027,fora_de_horario,quarto_2.ventilador,,1789629318,1789636518,False,,False,
+F0029,pico,area_de_servico.ferro_passar,t7,1789836704,1789839038,False,,False,
+F0030,duracao_excessiva,area_de_servico.ferro_passar,t7,1789960689,1789971489,True,15.85,True,t7
+F0031,consumo_nao_explicado,geral,q_c1,1790098538,1790111388,False,,False,
+F0033,consumo_nao_explicado,geral,q_c1,1790366367,1790405238,False,,False,
+F0034,queda,cozinha.purificador_agua,,1790497953,1790513520,False,,False,

@@ -1,0 +1,50 @@
+nohup: ignoring input
+== antes  2026-11-23 08:33:01
+governador: performance
+freq_mhz: 2400
+temp=36.2'C
+throttled=0x0
+ 08:33:01 up 1 min,  1 user,  load average: 0.05, 0.03, 0.01
+-- custo perfil1_semente_1
+usage: detector [-h]
+                {baselines,consolidar,cascata,empacotar,servico,reproduzir,ambiente}
+                ...
+detector: error: argument cmd: invalid choice: 'custo' (choose from 'baselines', 'consolidar', 'cascata', 'empacotar', 'servico', 'reproduzir', 'ambiente')
+== depois de custo perfil1_semente_1  2026-11-23 08:33:08
+governador: performance
+freq_mhz: 2400
+temp=39.5'C
+throttled=0x0
+ 08:33:08 up 1 min,  1 user,  load average: 0.12, 0.05, 0.01
+-- custo perfil3_semente_1
+usage: detector [-h]
+                {baselines,consolidar,cascata,empacotar,servico,reproduzir,ambiente}
+                ...
+detector: error: argument cmd: invalid choice: 'custo' (choose from 'baselines', 'consolidar', 'cascata', 'empacotar', 'servico', 'reproduzir', 'ambiente')
+== depois de custo perfil3_semente_1  2026-11-23 08:33:08
+governador: performance
+freq_mhz: 2400
+temp=38.4'C
+throttled=0x0
+ 08:33:08 up 1 min,  1 user,  load average: 0.12, 0.05, 0.01
+-- reproduzir perfil1_s1
+{"mensagens": 358626, "minutos": 36000, "canais": 6, "segundos": 47.48919705399999, "ms_por_minuto": 1.3191443626111108, "us_por_mensagem": 132.41983864527387, "ms_atributos": 1.1241150343334074, "ms_estagio1": 0.16005435494449413, "ms_estagio2": 0.0, "escalados_pct": 0.0, "alertas": 24, "orcamento": 0.0, "temp_c": 43.0}
+{"mensagens": 358626, "minutos": 36000, "canais": 6, "segundos": 50.63237519500001, "ms_por_minuto": 1.406454866527778, "us_por_mensagem": 141.18434021794295, "ms_atributos": 1.1250400091111379, "ms_estagio1": 0.16408816891668937, "ms_estagio2": 0.0802612124444219, "escalados_pct": 4.96612422048532, "alertas": 25, "orcamento": 0.05, "temp_c": 44.1}
+{"mensagens": 358626, "minutos": 36000, "canais": 6, "segundos": 113.53277049400003, "ms_por_minuto": 3.1536880692777784, "us_por_mensagem": 316.5770761015655, "ms_atributos": 1.1906647416110658, "ms_estagio1": 0.23427770794442893, "ms_estagio2": 1.6692385871662048, "escalados_pct": 99.83550032992872, "alertas": 24, "orcamento": 1.0, "temp_c": 44.1}
+== depois de reproduzir perfil1_s1  2026-11-23 08:36:43
+governador: performance
+freq_mhz: 2400
+temp=45.5'C
+throttled=0x0
+ 08:36:43 up 5 min,  1 user,  load average: 0.98, 0.54, 0.22
+-- reproduzir perfil3_s1
+{"mensagens": 1658462, "minutos": 36000, "canais": 32, "segundos": 247.51858665999998, "ms_por_minuto": 6.87551629611111, "us_por_mensagem": 149.24585951321163, "ms_atributos": 5.755927215444414, "ms_estagio1": 0.9572852204161835, "ms_estagio2": 0.0, "escalados_pct": 0.0, "alertas": 16, "orcamento": 0.0, "temp_c": 43.55}
+{"mensagens": 1658462, "minutos": 36000, "canais": 32, "segundos": 275.67883393299996, "ms_por_minuto": 7.657745387027777, "us_por_mensagem": 166.22559572242233, "ms_atributos": 5.843250301194514, "ms_estagio1": 1.0729745270015454, "ms_estagio2": 0.5499002925273955, "escalados_pct": 5.569573710615326, "alertas": 16, "orcamento": 0.05, "temp_c": 43.55}
+{"mensagens": 1658462, "minutos": 36000, "canais": 32, "segundos": 638.844928248, "ms_por_minuto": 17.745692451333333, "us_por_mensagem": 385.2032354362054, "ms_atributos": 6.13728073908371, "ms_estagio1": 1.4373961073924464, "ms_estagio2": 9.844751962359641, "escalados_pct": 99.83549966106656, "alertas": 16, "orcamento": 1.0, "temp_c": 44.1}
+== depois de reproduzir perfil3_s1  2026-11-23 08:56:17
+governador: performance
+freq_mhz: 2400
+temp=46.1'C
+throttled=0x0
+ 08:56:17 up 24 min,  1 user,  load average: 1.00, 1.00, 0.82
+PRONTO: resultados em ~/tcc-pi/e2_20261123_0833

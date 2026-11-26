@@ -1,0 +1,14 @@
+falha_id,tipo,alvo,canal_direto,ini,fim,detectado,atraso_min,localizado,canais_alerta
+F0018,magnitude,escritorio.monitor,t3,1801175206,1801178033,False,,False,
+F0020,fora_de_horario,cozinha.micro_ondas,t4,1801456332,1801456692,False,,False,
+F0021,duracao_excessiva,cozinha.air_fryer,t5,1801573561,1801578961,True,26.983333333333334,True,t5
+F0023,magnitude,cozinha.micro_ondas,t4,1801842111,1801869632,False,,False,
+F0024,pico,area_externa.bomba_dagua,r2,1801950476,1801953933,False,,False,
+F0025,consumo_nao_explicado,geral,q_c1,1802206504,1802223716,False,,False,
+F0026,pico,cozinha.geladeira,t1,1802346537,1802348930,True,26.05,True,t1
+F0027,fora_de_horario,quarto_2.ventilador,,1802405507,1802412707,False,,False,
+F0028,fora_de_horario,cozinha.air_fryer,t5,1802503728,1802505228,True,18.2,True,t5
+F0030,queda,cozinha.geladeira,t1,1802731945,1802747678,True,5.583333333333333,True,t1
+F0032,consumo_nao_explicado,geral,q_c1,1802921207,1802948532,False,,False,
+F0033,duracao_excessiva,cozinha.air_fryer,t5,1803007408,1803012808,True,4.533333333333333,True,t5
+F0034,duracao_excessiva,area_de_servico.ferro_passar,t7,1803100949,1803111749,True,5.516666666666667,True,t7

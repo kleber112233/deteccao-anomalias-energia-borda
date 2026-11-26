@@ -1,0 +1,7 @@
+tipo de falha,Regra (limiar fixo),Isolation Forest,OCSVM,Autoencoder,LSTM-AE
+Consumo não explicado,1/30,0/30,7/30,11/30,3/30
+Duração excessiva,7/45,5/45,28/45,34/45,29/45
+Fora de horário,2/45,8/45,28/45,14/45,23/45
+Magnitude,25/31,3/31,5/31,5/31,4/31
+Pico,8/30,0/30,9/30,13/30,3/30
+Queda,0/17,1/17,12/17,10/17,8/17

@@ -1,0 +1,17 @@
+# Ambiente do detector no notebook (Windows, Python 3.11). Versões iguais às do Raspberry Pi onde há
+# ambos (numpy, pandas, scikit-learn, onnxruntime): o modelo treinado aqui roda lá.
+# Instalação (dentro de TCC\detector):
+#   py -3.11 -m venv .venv
+#   .\.venv\Scripts\python -m pip install -r requirements.txt
+-e ../simulador          # casasim: leitura dos datasets congelados sem as colunas de gabarito
+numpy==2.4.6
+pandas==3.1.1
+pyarrow==26.0.1
+scikit-learn==1.9.1
+onnxruntime==1.32.0
+onnx==1.23.2
+skl2onnx==1.20.0
+onnxscript==0.7.2        # exigido pelo torch.onnx
+torch==2.15.0            # no Windows o pacote do PyPI é só CPU
+psutil>=7,<8
+pytest>=8

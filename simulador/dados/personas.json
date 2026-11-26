@@ -1,0 +1,525 @@
+{
+ "_leiame": "Moradores e hábitos de cada perfil. Horários em HH:MM (hora local). 'util' = segunda a sexta; 'fds' = sábado e domingo. Dias da semana: 0 = segunda ... 6 = domingo. Tudo aqui é suposição de cenário (personas fictícias), calibrada para bater com as metas de dados/metas_validacao.json. Pode ser editado à mão ou pelo modo de montagem.",
+ "perfil1": {
+  "familia": "Família Souza",
+  "descricao": "Casal com um filho adolescente, casa própria de 2 quartos em bairro popular de Marília. Os dois adultos trabalham fora o dia todo; o filho estuda de manhã.",
+  "moradores": [
+   {
+    "id": "marlene",
+    "nome": "Marlene",
+    "idade": 41,
+    "ocupacao": "auxiliar de limpeza em escola",
+    "quarto": "Quarto casal",
+    "chuveiro": "Banheiro",
+    "util": {
+     "acorda": "05:30",
+     "sai": "06:30",
+     "volta": "17:15",
+     "dorme": "22:00"
+    },
+    "fds": {
+     "acorda": "07:30",
+     "sai": "09:30",
+     "volta": "12:00",
+     "dorme": "23:00",
+     "prob_saida": 0.5
+    },
+    "home_office": [],
+    "variacao_min": 12,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 8
+    }
+   },
+   {
+    "id": "jose_carlos",
+    "nome": "José Carlos",
+    "idade": 44,
+    "ocupacao": "pedreiro",
+    "quarto": "Quarto casal",
+    "chuveiro": "Banheiro",
+    "util": {
+     "acorda": "05:30",
+     "sai": "06:15",
+     "volta": "18:00",
+     "dorme": "22:15"
+    },
+    "fds": {
+     "acorda": "07:45",
+     "sai": "14:00",
+     "volta": "17:00",
+     "dorme": "23:00",
+     "prob_saida": 0.4
+    },
+    "home_office": [],
+    "variacao_min": 15,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 7
+    }
+   },
+   {
+    "id": "kaua",
+    "nome": "Kauã",
+    "idade": 15,
+    "ocupacao": "estudante (escola estadual, manhã)",
+    "quarto": "Quarto filho",
+    "chuveiro": "Banheiro",
+    "util": {
+     "acorda": "06:10",
+     "sai": "06:45",
+     "volta": "12:40",
+     "dorme": "23:00"
+    },
+    "fds": {
+     "acorda": "09:30",
+     "sai": "15:00",
+     "volta": "18:30",
+     "dorme": "00:30",
+     "prob_saida": 0.5
+    },
+    "home_office": [],
+    "variacao_min": 15,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 10
+    },
+    "tv_dia": true
+   }
+  ],
+  "habitos": {
+   "carga_base_w": 18,
+   "lavagem": {
+    "dias": [
+     1,
+     3,
+     5
+    ],
+    "hora_util": "18:40",
+    "hora_fds": "09:00",
+    "prob_secagem": 0.0
+   },
+   "ferro": {
+    "dias": [
+     6
+    ],
+    "hora": "16:00",
+    "duracao_min": 40
+   },
+   "cozinha": {
+    "air_fryer_jantar": 0.35,
+    "forno_semana": 0,
+    "liquidificador_manha": 0.25,
+    "lava_loucas": 0.0,
+    "cafes_capsula_dia": 0
+   },
+   "tv": {
+    "sala_noite_prob": 0.95,
+    "dia_prob": 0.6,
+    "quarto_min": 0
+   },
+   "clima": {
+    "limiar_ventilador_c": 25.5,
+    "limiar_ar_c": 99,
+    "setpoint_ar_c": 23,
+    "limiar_ar_estar_c": 99
+   },
+   "banho": {
+    "temp_potencia_max_c": 18,
+    "temp_potencia_min_c": 34,
+    "segundo_banho_prob": 0.15
+   },
+   "luz_externa": "nenhuma",
+   "piscina": null,
+   "veiculo_eletrico": null
+  },
+  "faixa_renda_sm": "3-5"
+ },
+ "perfil2": {
+  "familia": "Família Oliveira",
+  "descricao": "Casal com dois filhos em casa de 3 quartos com escritório. Ele trabalha em regime híbrido (home office três dias por semana); ela é professora; as crianças estudam de manhã.",
+  "moradores": [
+   {
+    "id": "ricardo",
+    "nome": "Ricardo",
+    "idade": 39,
+    "ocupacao": "analista de sistemas (híbrido)",
+    "quarto": "Suíte casal",
+    "chuveiro": "Banheiro suíte",
+    "carro": "combustao",
+    "util": {
+     "acorda": "06:45",
+     "sai": "07:40",
+     "volta": "18:20",
+     "dorme": "23:15"
+    },
+    "fds": {
+     "acorda": "08:30",
+     "sai": "10:00",
+     "volta": "13:00",
+     "dorme": "00:00",
+     "prob_saida": 0.6
+    },
+    "home_office": [
+     0,
+     2,
+     4
+    ],
+    "variacao_min": 15,
+    "banho": {
+     "periodo": "manha",
+     "duracao_min": 8
+    },
+    "usa_computador": true
+   },
+   {
+    "id": "fernanda",
+    "nome": "Fernanda",
+    "idade": 37,
+    "ocupacao": "professora da rede municipal",
+    "quarto": "Suíte casal",
+    "chuveiro": "Banheiro suíte",
+    "carro": "combustao",
+    "util": {
+     "acorda": "06:00",
+     "sai": "06:50",
+     "volta": "17:40",
+     "dorme": "22:45"
+    },
+    "fds": {
+     "acorda": "08:00",
+     "sai": "10:00",
+     "volta": "13:00",
+     "dorme": "23:30",
+     "prob_saida": 0.6
+    },
+    "home_office": [],
+    "variacao_min": 12,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 10
+    },
+    "usa_secador": 0.5
+   },
+   {
+    "id": "laura",
+    "nome": "Laura",
+    "idade": 12,
+    "ocupacao": "estudante (manhã)",
+    "quarto": "Quarto 1",
+    "chuveiro": "Banheiro social",
+    "util": {
+     "acorda": "06:20",
+     "sai": "06:50",
+     "volta": "12:45",
+     "dorme": "22:00"
+    },
+    "fds": {
+     "acorda": "09:00",
+     "sai": "10:00",
+     "volta": "13:00",
+     "dorme": "23:00",
+     "prob_saida": 0.6
+    },
+    "home_office": [],
+    "variacao_min": 12,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 9
+    },
+    "tv_dia": true
+   },
+   {
+    "id": "miguel",
+    "nome": "Miguel",
+    "idade": 8,
+    "ocupacao": "estudante (manhã)",
+    "quarto": "Quarto 2",
+    "chuveiro": "Banheiro social",
+    "util": {
+     "acorda": "06:20",
+     "sai": "06:50",
+     "volta": "12:45",
+     "dorme": "21:30"
+    },
+    "fds": {
+     "acorda": "08:30",
+     "sai": "10:00",
+     "volta": "13:00",
+     "dorme": "22:30",
+     "prob_saida": 0.6
+    },
+    "home_office": [],
+    "variacao_min": 12,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 7
+    },
+    "joga": true,
+    "tv_dia": true
+   }
+  ],
+  "habitos": {
+   "carga_base_w": 40,
+   "lavagem": {
+    "dias": [
+     0,
+     2,
+     4,
+     5
+    ],
+    "hora_util": "19:00",
+    "hora_fds": "09:30",
+    "prob_secagem": 0.0
+   },
+   "ferro": {
+    "dias": [
+     2,
+     6
+    ],
+    "hora": "20:00",
+    "duracao_min": 45
+   },
+   "cozinha": {
+    "air_fryer_jantar": 0.45,
+    "forno_semana": 0,
+    "liquidificador_manha": 0.35,
+    "lava_loucas": 0.0,
+    "cafes_capsula_dia": 0
+   },
+   "tv": {
+    "sala_noite_prob": 0.95,
+    "dia_prob": 0.6,
+    "quarto_min": 50
+   },
+   "clima": {
+    "limiar_ventilador_c": 25.5,
+    "limiar_ar_c": 23.0,
+    "setpoint_ar_c": 23,
+    "limiar_ar_estar_c": 99
+   },
+   "banho": {
+    "temp_potencia_max_c": 18,
+    "temp_potencia_min_c": 34,
+    "segundo_banho_prob": 0.1
+   },
+   "luz_externa": "ate_23h",
+   "piscina": null,
+   "veiculo_eletrico": null
+  },
+  "faixa_renda_sm": "5-10"
+ },
+ "perfil3": {
+  "familia": "Família Almeida",
+  "descricao": "Casal, dois filhos e a avó em casa de alto padrão com 4 suítes, piscina e carro elétrico. Uma funcionária cuida da casa de segunda a sexta, das 8h às 16h.",
+  "moradores": [
+   {
+    "id": "eduardo",
+    "nome": "Eduardo",
+    "idade": 52,
+    "ocupacao": "médico",
+    "quarto": "Suíte master",
+    "chuveiro": "Suíte master",
+    "carro": "eletrico",
+    "util": {
+     "acorda": "06:00",
+     "sai": "07:00",
+     "volta": "19:30",
+     "dorme": "23:30"
+    },
+    "fds": {
+     "acorda": "08:00",
+     "sai": "10:30",
+     "volta": "14:30",
+     "dorme": "00:00",
+     "prob_saida": 0.6
+    },
+    "home_office": [],
+    "variacao_min": 20,
+    "banho": {
+     "periodo": "manha",
+     "duracao_min": 10
+    }
+   },
+   {
+    "id": "patricia",
+    "nome": "Patrícia",
+    "idade": 49,
+    "ocupacao": "advogada (home office às terças e quintas)",
+    "quarto": "Suíte master",
+    "chuveiro": "Suíte master",
+    "carro": "combustao",
+    "util": {
+     "acorda": "06:30",
+     "sai": "08:15",
+     "volta": "18:30",
+     "dorme": "23:30"
+    },
+    "fds": {
+     "acorda": "08:30",
+     "sai": "10:30",
+     "volta": "14:30",
+     "dorme": "00:00",
+     "prob_saida": 0.6
+    },
+    "home_office": [
+     1,
+     3
+    ],
+    "variacao_min": 15,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 14
+    },
+    "usa_secador": 0.6,
+    "usa_computador": true
+   },
+   {
+    "id": "beatriz",
+    "nome": "Beatriz",
+    "idade": 20,
+    "ocupacao": "universitária (período integral)",
+    "quarto": "Suíte 2",
+    "chuveiro": "Suíte 2",
+    "carro": "combustao",
+    "util": {
+     "acorda": "06:20",
+     "sai": "07:10",
+     "volta": "18:00",
+     "dorme": "00:15"
+    },
+    "fds": {
+     "acorda": "09:30",
+     "sai": "16:00",
+     "volta": "22:00",
+     "dorme": "01:00",
+     "prob_saida": 0.7
+    },
+    "home_office": [],
+    "variacao_min": 20,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 15
+    },
+    "usa_secador": 0.4
+   },
+   {
+    "id": "gustavo",
+    "nome": "Gustavo",
+    "idade": 17,
+    "ocupacao": "estudante do ensino médio (manhã)",
+    "quarto": "Suíte 3",
+    "chuveiro": "Suíte 3",
+    "util": {
+     "acorda": "06:15",
+     "sai": "06:50",
+     "volta": "13:00",
+     "dorme": "23:45"
+    },
+    "fds": {
+     "acorda": "10:00",
+     "sai": "16:00",
+     "volta": "20:00",
+     "dorme": "01:00",
+     "prob_saida": 0.5
+    },
+    "home_office": [],
+    "variacao_min": 15,
+    "banho": {
+     "periodo": "noite",
+     "duracao_min": 12
+    },
+    "joga": true,
+    "tv_dia": true
+   },
+   {
+    "id": "helena",
+    "nome": "Helena",
+    "idade": 76,
+    "ocupacao": "aposentada",
+    "quarto": "Suíte 4",
+    "chuveiro": "Suíte 4",
+    "util": {
+     "acorda": "06:30",
+     "sai": null,
+     "volta": null,
+     "dorme": "21:30"
+    },
+    "fds": {
+     "acorda": "06:45",
+     "sai": "10:30",
+     "volta": "14:30",
+     "dorme": "21:45",
+     "prob_saida": 0.4
+    },
+    "home_office": [],
+    "variacao_min": 10,
+    "banho": {
+     "periodo": "tarde",
+     "duracao_min": 10
+    },
+    "tv_dia": true
+   }
+  ],
+  "habitos": {
+   "carga_base_w": 60,
+   "lavagem": {
+    "dias": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "hora_util": "09:00",
+    "hora_fds": "10:00",
+    "prob_secagem": 0.5
+   },
+   "ferro": {
+    "dias": [
+     0,
+     2,
+     4
+    ],
+    "hora": "10:45",
+    "duracao_min": 60
+   },
+   "cozinha": {
+    "air_fryer_jantar": 0.4,
+    "forno_semana": 3,
+    "liquidificador_manha": 0.5,
+    "lava_loucas": 0.95,
+    "cafes_capsula_dia": 5
+   },
+   "tv": {
+    "sala_noite_prob": 0.95,
+    "dia_prob": 0.7,
+    "quarto_min": 60
+   },
+   "clima": {
+    "limiar_ventilador_c": 99,
+    "limiar_ar_c": 22.5,
+    "setpoint_ar_c": 22,
+    "limiar_ar_estar_c": 27.0
+   },
+   "banho": {
+    "temp_potencia_max_c": 18,
+    "temp_potencia_min_c": 34,
+    "segundo_banho_prob": 0.3
+   },
+   "luz_externa": "noite_toda",
+   "piscina": {
+    "inicio": "09:00",
+    "horas": 4,
+    "horas_verao": 6
+   },
+   "veiculo_eletrico": {
+    "km_dia_medio": 40,
+    "km_dia_desvio": 15,
+    "kwh_por_km": 0.16
+   }
+  },
+  "faixa_renda_sm": "mais de 20"
+ }
+}

@@ -1,0 +1,11 @@
+medida,valor
+falhas injetadas pelo painel,158
+dias simulados (120×),29.73
+revocação (todas),0.335
+revocação — aparelhos com medidor próprio,47/92
+revocação — sem medidor próprio / consumo não explicado,6/66
+precisão,0.981
+alertas falsos por dia,0.034
+atraso mediano de detecção (min simulados),35.3
+"latência do sistema, mediana (s reais)",0.11
+faltas de energia / alertas falsos durante elas,14 / 0

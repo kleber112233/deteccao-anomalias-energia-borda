@@ -1,0 +1,15 @@
+falha_id,tipo,alvo,canal_direto,ini,fim,detectado,atraso_min,localizado,canais_alerta
+F0017,magnitude,escritorio.monitor,t3,1794828996,1794840579,False,,False,
+F0018,duracao_excessiva,banheiro_suite.chuveiro_eletrico,c_c1,1794855781,1794857881,False,,False,
+F0019,duracao_excessiva,area_de_servico.ferro_passar,t7,1794889527,1794900315,True,21.55,True,t7
+F0020,queda,cozinha.geladeira,t1,1795024599,1795044321,False,,False,
+F0021,duracao_excessiva,area_externa.bomba_dagua,r2,1795079678,1795086878,True,122.36666666666666,True,r2
+F0022,fora_de_horario,cozinha.micro_ondas,t4,1795151031,1795151391,False,,False,
+F0025,consumo_nao_explicado,geral,q_c1,1795466059,1795488957,False,,False,
+F0026,pico,banheiro_social.chuveiro_eletrico,c_c2,1795646907,1795649154,False,,False,
+F0027,magnitude,sala.tv,t2,1795798920,1795830060,False,,False,
+F0029,pico,suite_casal.ar_condicionado,r1,1796070638,1796073189,False,,False,
+F0030,fora_de_horario,sala.tv,t2,1796109946,1796115346,True,4.233333333333333,True,t2
+F0031,fora_de_horario,banheiro_suite.chuveiro_eletrico,c_c1,1796276484,1796277204,False,,False,
+F0032,consumo_nao_explicado,geral,q_c1,1796411288,1796435782,False,,False,
+F0034,magnitude,banheiro_suite.chuveiro_eletrico,c_c1,1796811826,1796812219,False,,False,

@@ -1,0 +1,6 @@
+regra    mediana=    10.9 us  p99=    12.3 us  onnx=    0.1 KB/canal
+if       mediana=  2349.6 us  p99=  2549.8 us  onnx=  845.7 KB/canal
+ocsvm    mediana=    19.5 us  p99=    23.9 us  onnx=   10.7 KB/canal
+ae       mediana=    20.6 us  p99=    24.3 us  onnx=    7.9 KB/canal
+lstm_ae  mediana=   196.7 us  p99=   211.6 us  onnx=   61.4 KB/canal
+atributos (vetorizado): 0.062 ms/min  memória do processo: 515.9 MB  Pi depois: {'governador': 'performance', 'freq_mhz': 2400.0, 'temp_c': 44.65, 'throttled': 'throttled=0x0', 'clock_arm': 'frequency(0)=2400027136', 'relogio': '2026-11-23 09:15:40'}

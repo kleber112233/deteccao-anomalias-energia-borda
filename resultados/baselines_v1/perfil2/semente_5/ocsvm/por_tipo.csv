@@ -1,0 +1,7 @@
+tipo,eventos,detectados,atraso_mediana_min,perfil,semente,modelo
+consumo_nao_explicado,2,0,,perfil2,5,ocsvm
+duracao_excessiva,3,1,63.53333333333333,perfil2,5,ocsvm
+fora_de_horario,3,1,2.8,perfil2,5,ocsvm
+magnitude,2,0,,perfil2,5,ocsvm
+pico,2,0,,perfil2,5,ocsvm
+queda,1,1,56.583333333333336,perfil2,5,ocsvm

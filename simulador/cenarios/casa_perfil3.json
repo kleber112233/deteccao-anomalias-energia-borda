@@ -1,0 +1,760 @@
+{
+ "perfil": 3,
+ "nome": "Casa perfil 3 — alto padrão",
+ "ligacao": "bifásica 127/220 V (carga alta)",
+ "cidade": "Marília-SP (clima: INMET A763)",
+ "moradores": "dados/personas.json#perfil3",
+ "comodos": [
+  "Estar/jantar",
+  "Cozinha",
+  "Área gourmet",
+  "Suíte master",
+  "Suíte 2",
+  "Suíte 3",
+  "Suíte 4",
+  "Escritório",
+  "Lavanderia",
+  "Área externa/piscina",
+  "Garagem"
+ ],
+ "medidores": [
+  {
+   "rotulo": "Q",
+   "modelo_id": "kron-konect-120",
+   "modelo": "Kron Medidores (fabricante brasileiro) Konect 120 (multimedidor trilho DIN, medição direta até 120 A, Wi-Fi/Ethernet/RS-485/LoRa)",
+   "onde": "Quadro: medidor geral de trilho DIN (casa toda)",
+   "preco_brl": 2320.0,
+   "mede": [
+    "casa toda"
+   ]
+  },
+  {
+   "rotulo": "C1",
+   "modelo_id": "shelly-pro-3em-120",
+   "modelo": "Shelly Pro 3EM-120 (DIN, 3 fases/3 circuitos + neutro)",
+   "onde": "Quadro: 3 pinças (chuveiros master, 2 e 3)",
+   "preco_brl": 1040.25,
+   "mede": [
+    "Suíte master: chuveiro_eletrico",
+    "Suíte 2: chuveiro_eletrico",
+    "Suíte 3: chuveiro_eletrico"
+   ]
+  },
+  {
+   "rotulo": "C2",
+   "modelo_id": "shelly-pro-3em-120",
+   "modelo": "Shelly Pro 3EM-120 (DIN, 3 fases/3 circuitos + neutro)",
+   "onde": "Quadro: 3 pinças (chuveiro 4, wallbox, piscina)",
+   "preco_brl": 1040.25,
+   "mede": [
+    "Suíte 4: chuveiro_eletrico",
+    "Área externa/piscina: bomba_piscina",
+    "Garagem: carregador_veicular"
+   ]
+  },
+  {
+   "rotulo": "R1",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do ar da suíte master",
+   "preco_brl": 170.0,
+   "mede": [
+    "Suíte master: ar_condicionado"
+   ]
+  },
+  {
+   "rotulo": "R2",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do ar da suíte 2",
+   "preco_brl": 170.0,
+   "mede": [
+    "Suíte 2: ar_condicionado"
+   ]
+  },
+  {
+   "rotulo": "R3",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do ar da suíte 3",
+   "preco_brl": 170.0,
+   "mede": [
+    "Suíte 3: ar_condicionado"
+   ]
+  },
+  {
+   "rotulo": "R4",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do ar da suíte 4",
+   "preco_brl": 170.0,
+   "mede": [
+    "Suíte 4: ar_condicionado"
+   ]
+  },
+  {
+   "rotulo": "R5",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do ar do estar",
+   "preco_brl": 170.0,
+   "mede": [
+    "Estar/jantar: ar_condicionado"
+   ]
+  },
+  {
+   "rotulo": "R6",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do micro-ondas de embutir",
+   "preco_brl": 170.0,
+   "mede": [
+    "Cozinha: micro_ondas"
+   ]
+  },
+  {
+   "rotulo": "R7",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito da lava-louças",
+   "preco_brl": 170.0,
+   "mede": [
+    "Cozinha: lava_loucas"
+   ]
+  },
+  {
+   "rotulo": "R8",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do forno",
+   "preco_brl": 170.0,
+   "mede": [
+    "Cozinha: forno_eletrico"
+   ]
+  },
+  {
+   "rotulo": "R9",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do pressurizador",
+   "preco_brl": 170.0,
+   "mede": [
+    "Área externa/piscina: bomba_dagua"
+   ]
+  },
+  {
+   "rotulo": "P1",
+   "modelo_id": "shelly-pm-mini-gen3",
+   "modelo": "Shelly PM Mini Gen3 (S3PM-001PCEU16) — só medidor, sem relé",
+   "onde": "Atrás da tomada da geladeira",
+   "preco_brl": 408.41,
+   "mede": [
+    "Cozinha: geladeira"
+   ]
+  },
+  {
+   "rotulo": "P2",
+   "modelo_id": "shelly-pm-mini-gen3",
+   "modelo": "Shelly PM Mini Gen3 (S3PM-001PCEU16) — só medidor, sem relé",
+   "onde": "Atrás da tomada do freezer (gourmet)",
+   "preco_brl": 408.41,
+   "mede": [
+    "Área gourmet: freezer"
+   ]
+  },
+  {
+   "rotulo": "L1",
+   "modelo_id": "shelly-1pm-mini-gen4",
+   "modelo": "Shelly 1PM Mini Gen4",
+   "onde": "Atrás do interruptor: iluminação social",
+   "preco_brl": 161.5,
+   "mede": [
+    "Estar/jantar: lampada",
+    "Cozinha: lampada",
+    "Área gourmet: lampada"
+   ]
+  },
+  {
+   "rotulo": "L2",
+   "modelo_id": "shelly-1pm-mini-gen4",
+   "modelo": "Shelly 1PM Mini Gen4",
+   "onde": "Atrás do interruptor: iluminação das suítes",
+   "preco_brl": 161.5,
+   "mede": [
+    "Suíte master: lampada",
+    "Suíte 2: lampada",
+    "Suíte 3: lampada",
+    "Suíte 4: lampada"
+   ]
+  },
+  {
+   "rotulo": "L3",
+   "modelo_id": "shelly-1pm-mini-gen4",
+   "modelo": "Shelly 1PM Mini Gen4",
+   "onde": "Atrás do interruptor: iluminação externa/piscina",
+   "preco_brl": 161.5,
+   "mede": [
+    "Área externa/piscina: lampada",
+    "Garagem: lampada"
+   ]
+  },
+  {
+   "rotulo": "T1",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada do rack do estar (TV + videogame + roteador)",
+   "preco_brl": 46.58,
+   "mede": [
+    "Estar/jantar: tv",
+    "Estar/jantar: videogame",
+    "Estar/jantar: roteador"
+   ]
+  },
+  {
+   "rotulo": "T2",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada da TV da suíte master",
+   "preco_brl": 46.58,
+   "mede": [
+    "Suíte master: tv"
+   ]
+  },
+  {
+   "rotulo": "T3",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada da TV da suíte 2",
+   "preco_brl": 46.58,
+   "mede": [
+    "Suíte 2: tv"
+   ]
+  },
+  {
+   "rotulo": "T4",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada da cafeteira",
+   "preco_brl": 46.58,
+   "mede": [
+    "Cozinha: cafeteira"
+   ]
+  },
+  {
+   "rotulo": "T5",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada do purificador",
+   "preco_brl": 46.58,
+   "mede": [
+    "Cozinha: purificador_agua"
+   ]
+  },
+  {
+   "rotulo": "T6",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada da mesa do escritório",
+   "preco_brl": 46.58,
+   "mede": [
+    "Escritório: computador_desktop",
+    "Escritório: monitor"
+   ]
+  },
+  {
+   "rotulo": "T7",
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "modelo": "Novadigital WK-BR PRO MAX (Tomada Inteligente Wi-Fi 20A com medidor)",
+   "onde": "Tomada da air fryer",
+   "preco_brl": 61.74,
+   "mede": [
+    "Cozinha: air_fryer"
+   ]
+  },
+  {
+   "rotulo": "T8",
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "modelo": "Novadigital WK-BR PRO MAX (Tomada Inteligente Wi-Fi 20A com medidor)",
+   "onde": "Tomada da lava e seca",
+   "preco_brl": 61.74,
+   "mede": [
+    "Lavanderia: maquina_lavar"
+   ]
+  },
+  {
+   "rotulo": "T9",
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "modelo": "Novadigital WK-BR PRO MAX (Tomada Inteligente Wi-Fi 20A com medidor)",
+   "onde": "Tomada do ferro",
+   "preco_brl": 61.74,
+   "mede": [
+    "Lavanderia: ferro_passar"
+   ]
+  },
+  {
+   "rotulo": "T10",
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "modelo": "Novadigital WK-BR PRO MAX (Tomada Inteligente Wi-Fi 20A com medidor)",
+   "onde": "Tomada do secador (suíte master)",
+   "preco_brl": 61.74,
+   "mede": [
+    "Suíte master: secador_cabelo"
+   ]
+  }
+ ],
+ "aparelhos": [
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "smart-geladeira-lg-side-by-side-gc-l257slp1",
+   "aparelho": "LG Geladeira Smart LG Side by Side GC-L257SLP1",
+   "tipo": "geladeira",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "P1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "microondas-panasonic-nn-gb68qbruk",
+   "aparelho": "Panasonic NN-GB68QBRUK",
+   "tipo": "micro_ondas",
+   "quantidade": 1,
+   "circuito": "micro-ondas",
+   "medido_por": "R6",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "lavaloucas-brastemp-blf61ab",
+   "aparelho": "Brastemp BLF61AB (Smart Sensor)",
+   "tipo": "lava_loucas",
+   "quantidade": 1,
+   "circuito": "lava-louças",
+   "medido_por": "R7",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "forno-philco-pfe80a",
+   "aparelho": "Philco PFE80A",
+   "tipo": "forno_eletrico",
+   "quantidade": 1,
+   "circuito": "forno",
+   "medido_por": "R8",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "cafeteira-capsula-nespresso-essenza-mini",
+   "aparelho": "Nespresso Essenza Mini (C30/D30)",
+   "tipo": "cafeteira",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "T4",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "airfryer-mondial-afn-80-bi",
+   "aparelho": "Mondial AFN-80-BI",
+   "tipo": "air_fryer",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "T7",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "purificador-ibbl-vivax-touch",
+   "aparelho": "IBBL Viváx Touch",
+   "tipo": "purificador_agua",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "T5",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "liquidificador-arno-powermax-ln64",
+   "aparelho": "Arno Power Max 2200 LN64",
+   "tipo": "liquidificador",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área gourmet",
+   "aparelho_id": "freezer-electrolux-fei27t",
+   "aparelho": "Electrolux FEI27T",
+   "tipo": "freezer",
+   "quantidade": 1,
+   "circuito": "tomadas gourmet",
+   "medido_por": "P2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Estar/jantar",
+   "aparelho_id": "tv-samsung-qn65qn900f",
+   "aparelho": "Samsung Vision AI TV Neo QLED 8K QN900F 2025 (QN65QN900FGXZD)",
+   "tipo": "tv",
+   "quantidade": 1,
+   "circuito": "tomadas estar",
+   "medido_por": "T1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Estar/jantar",
+   "aparelho_id": "console-xbox-series-x",
+   "aparelho": "Microsoft Xbox Series X 1 TB",
+   "tipo": "videogame",
+   "quantidade": 1,
+   "circuito": "tomadas estar",
+   "medido_por": "T1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Estar/jantar",
+   "aparelho_id": "roteador-tplink-deco-m5",
+   "aparelho": "TP-Link Deco M5 (mesh AC1300)",
+   "tipo": "roteador",
+   "quantidade": 1,
+   "circuito": "tomadas estar",
+   "medido_por": "T1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Estar/jantar",
+   "aparelho_id": "ac-split-lg-ai-dual-inverter-voice-18000",
+   "aparelho": "LG +AI Dual Inverter Voice S3-Q18KL31C",
+   "tipo": "ar_condicionado",
+   "quantidade": 1,
+   "circuito": "ar estar",
+   "medido_por": "R5",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte master",
+   "aparelho_id": "smart-ac-samsung-windfree-connect-ai-12000-f-ar12dyfaawk",
+   "aparelho": "Samsung WindFree Connect AI F-AR12DYFAAWK",
+   "tipo": "ar_condicionado",
+   "quantidade": 1,
+   "circuito": "ar master",
+   "medido_por": "R1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 2",
+   "aparelho_id": "smart-ac-samsung-windfree-connect-ai-12000-f-ar12dyfaawk",
+   "aparelho": "Samsung WindFree Connect AI F-AR12DYFAAWK",
+   "tipo": "ar_condicionado",
+   "quantidade": 1,
+   "circuito": "ar suíte 2",
+   "medido_por": "R2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 3",
+   "aparelho_id": "smart-ac-samsung-windfree-connect-ai-12000-f-ar12dyfaawk",
+   "aparelho": "Samsung WindFree Connect AI F-AR12DYFAAWK",
+   "tipo": "ar_condicionado",
+   "quantidade": 1,
+   "circuito": "ar suíte 3",
+   "medido_por": "R3",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 4",
+   "aparelho_id": "smart-ac-samsung-windfree-connect-ai-12000-f-ar12dyfaawk",
+   "aparelho": "Samsung WindFree Connect AI F-AR12DYFAAWK",
+   "tipo": "ar_condicionado",
+   "quantidade": 1,
+   "circuito": "ar suíte 4",
+   "medido_por": "R4",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte master",
+   "aparelho_id": "tv-lg-oled55b6psa",
+   "aparelho": "LG Smart TV LG OLED AI 4K B6 2026 (OLED55B6PSA)",
+   "tipo": "tv",
+   "quantidade": 1,
+   "circuito": "tomadas suítes",
+   "medido_por": "T2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 2",
+   "aparelho_id": "tv-samsung-qn55q7faa",
+   "aparelho": "Samsung Smart TV Vision AI QLED 4K Q7F 2025 (QN55Q7FAAGXZD)",
+   "tipo": "tv",
+   "quantidade": 1,
+   "circuito": "tomadas suítes",
+   "medido_por": "T3",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte master",
+   "aparelho_id": "chuveiro-lorenzetti-acqua-duo-ultra-7800w-220v",
+   "aparelho": "Lorenzetti Acqua Duo Ultra (ref. 7510098)",
+   "tipo": "chuveiro_eletrico",
+   "quantidade": 1,
+   "circuito": "chuveiro master",
+   "medido_por": "C1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 2",
+   "aparelho_id": "chuveiro-lorenzetti-acqua-duo-ultra-7800w-220v",
+   "aparelho": "Lorenzetti Acqua Duo Ultra (ref. 7510098)",
+   "tipo": "chuveiro_eletrico",
+   "quantidade": 1,
+   "circuito": "chuveiro suíte 2",
+   "medido_por": "C1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 3",
+   "aparelho_id": "chuveiro-lorenzetti-acqua-duo-ultra-7800w-220v",
+   "aparelho": "Lorenzetti Acqua Duo Ultra (ref. 7510098)",
+   "tipo": "chuveiro_eletrico",
+   "quantidade": 1,
+   "circuito": "chuveiro suíte 3",
+   "medido_por": "C1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 4",
+   "aparelho_id": "chuveiro-lorenzetti-acqua-duo-ultra-7800w-220v",
+   "aparelho": "Lorenzetti Acqua Duo Ultra (ref. 7510098)",
+   "tipo": "chuveiro_eletrico",
+   "quantidade": 1,
+   "circuito": "chuveiro suíte 4",
+   "medido_por": "C2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte master",
+   "aparelho_id": "secador-taiff-unique-3100w",
+   "aparelho": "Taiff Unique 3100W",
+   "tipo": "secador_cabelo",
+   "quantidade": 1,
+   "circuito": "tomadas suítes",
+   "medido_por": "T10",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Escritório",
+   "aparelho_id": "desktop-apple-mac-mini-m4",
+   "aparelho": "Apple Mac mini (2024) chip M4, 16 GB, SSD 256 GB",
+   "tipo": "computador_desktop",
+   "quantidade": 1,
+   "circuito": "tomadas escritório",
+   "medido_por": "T6",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Escritório",
+   "aparelho_id": "monitor-samsung-lu32j590uq",
+   "aparelho": "Samsung Monitor Samsung UHD 32\" LU32J590UQLMZD",
+   "tipo": "monitor",
+   "quantidade": 1,
+   "circuito": "tomadas escritório",
+   "medido_por": "T6",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Lavanderia",
+   "aparelho_id": "smart-lavaseca-samsung-wd13fg6b34beaz",
+   "aparelho": "Samsung Lava e Seca Smart WD13FG AI Control WD13FG6B34BEAZ",
+   "tipo": "maquina_lavar",
+   "quantidade": 1,
+   "circuito": "tomadas lavanderia",
+   "medido_por": "T8",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Lavanderia",
+   "aparelho_id": "ferro-arno-express-force-ssef-estacao",
+   "aparelho": "Arno Express Force SSEF",
+   "tipo": "ferro_passar",
+   "quantidade": 1,
+   "circuito": "tomadas lavanderia",
+   "medido_por": "T9",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área externa/piscina",
+   "aparelho_id": "bomba-piscina-sodramar-bvv-150-velocidade-variavel",
+   "aparelho": "Sodramar BVV-150 (velocidade variável)",
+   "tipo": "bomba_piscina",
+   "quantidade": 1,
+   "circuito": "piscina",
+   "medido_por": "C2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área externa/piscina",
+   "aparelho_id": "pressurizador-rowa-rw-in40-5-inverter",
+   "aparelho": "Rowa RW IN40-5 Inverter",
+   "tipo": "bomba_dagua",
+   "quantidade": 1,
+   "circuito": "bomba",
+   "medido_por": "R9",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Garagem",
+   "aparelho_id": "wallbox-intelbras-home-eve-0074h",
+   "aparelho": "Intelbras Home EVE 0074H",
+   "tipo": "carregador_veicular",
+   "quantidade": 1,
+   "circuito": "wallbox",
+   "medido_por": "C2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Garagem",
+   "aparelho_id": "motor-portao-basculante-rossi-new-bv4-wifi",
+   "aparelho": "Rossi New BV4 1/3 HP com módulo Wi-Fi",
+   "tipo": "motor_portao",
+   "quantidade": 1,
+   "circuito": "portão",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Estar/jantar",
+   "aparelho_id": "lampada-smart-positivo-wifi-9w",
+   "aparelho": "Positivo Casa Inteligente Smart Lampada Wi-Fi RGB 9 W E27",
+   "tipo": "lampada",
+   "quantidade": 6,
+   "circuito": "iluminação social",
+   "medido_por": "L1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 3,
+   "circuito": "iluminação social",
+   "medido_por": "L1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área gourmet",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 3,
+   "circuito": "iluminação social",
+   "medido_por": "L1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte master",
+   "aparelho_id": "lampada-smart-positivo-wifi-9w",
+   "aparelho": "Positivo Casa Inteligente Smart Lampada Wi-Fi RGB 9 W E27",
+   "tipo": "lampada",
+   "quantidade": 3,
+   "circuito": "iluminação suítes",
+   "medido_por": "L2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 2",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 2,
+   "circuito": "iluminação suítes",
+   "medido_por": "L2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 3",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 2,
+   "circuito": "iluminação suítes",
+   "medido_por": "L2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte 4",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 2,
+   "circuito": "iluminação suítes",
+   "medido_por": "L2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área externa/piscina",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 4,
+   "circuito": "iluminação externa",
+   "medido_por": "L3",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Garagem",
+   "aparelho_id": "lampada-led-tubular-osram-t8-18w",
+   "aparelho": "Osram / Ledvance LED TUBE T8 18 W 1850 lm G13 (120 cm)",
+   "tipo": "lampada",
+   "quantidade": 2,
+   "circuito": "iluminação externa",
+   "medido_por": "L3",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Escritório",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Lavanderia",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  }
+ ],
+ "resumo": {
+  "custo_med": 7758.26,
+  "custo_ap": 87456.87,
+  "n_ap": 61,
+  "n_tipos": 24,
+  "n_med": 27,
+  "fluxos": 31,
+  "medidos": 57,
+  "zig": [
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4",
+   "shelly-1pm-mini-gen4",
+   "shelly-1pm-mini-gen4",
+   "shelly-1pm-mini-gen4"
+  ]
+ }
+}

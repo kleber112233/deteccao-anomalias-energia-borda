@@ -1,0 +1,10 @@
+[Unit]
+Description=Diagnostico de rede do TCC (grava em /boot/firmware/diag-rede.txt)
+After=NetworkManager.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/diag-rede.sh 90
+
+[Install]
+WantedBy=multi-user.target

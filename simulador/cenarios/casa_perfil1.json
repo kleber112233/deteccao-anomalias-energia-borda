@@ -1,0 +1,269 @@
+{
+ "perfil": 1,
+ "nome": "Casa perfil 1 — modesto",
+ "ligacao": "monofásica 127 V",
+ "cidade": "Marília-SP (clima: INMET A763)",
+ "moradores": "dados/personas.json#perfil1",
+ "comodos": [
+  "Sala",
+  "Cozinha",
+  "Quarto casal",
+  "Quarto filho",
+  "Banheiro",
+  "Área de serviço"
+ ],
+ "medidores": [
+  {
+   "rotulo": "Q",
+   "modelo_id": "mingzhe-medidor-pinca-wifi-80a",
+   "modelo": "Mingzhe (Tuya) Medidor de energia com pinça Wi-Fi 80A monofásico",
+   "onde": "Quadro: pinça no cabo de entrada (casa toda)",
+   "preco_brl": 141.59,
+   "mede": [
+    "casa toda"
+   ]
+  },
+  {
+   "rotulo": "T1",
+   "modelo_id": "ekaza-t206m-10a",
+   "modelo": "EKAZA EKGC-T206M (Tomada Inteligente 10A com medidor)",
+   "onde": "Tomada da geladeira",
+   "preco_brl": 41.78,
+   "mede": [
+    "Cozinha: geladeira"
+   ]
+  },
+  {
+   "rotulo": "T2",
+   "modelo_id": "ekaza-t005-16a",
+   "modelo": "EKAZA EKNX-T005 (Tomada Inteligente 16A com medidor)",
+   "onde": "Tomada do micro-ondas",
+   "preco_brl": 50.29,
+   "mede": [
+    "Cozinha: micro_ondas"
+   ]
+  },
+  {
+   "rotulo": "T3",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada da TV",
+   "preco_brl": 46.58,
+   "mede": [
+    "Sala: tv"
+   ]
+  },
+  {
+   "rotulo": "T4",
+   "modelo_id": "ekaza-t005-16a",
+   "modelo": "EKAZA EKNX-T005 (Tomada Inteligente 16A com medidor)",
+   "onde": "Tomada do ferro",
+   "preco_brl": 50.29,
+   "mede": [
+    "Área de serviço: ferro_passar"
+   ]
+  }
+ ],
+ "aparelhos": [
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "geladeira-consul-crd37mb",
+   "aparelho": "Consul CRD37MB",
+   "tipo": "geladeira",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "T1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "microondas-panasonic-nn-st27lwrun",
+   "aparelho": "Panasonic NN-ST27LWRUN (127V) / NN-ST27LWRUK (220V)",
+   "tipo": "micro_ondas",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "T2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "airfryer-britania-bfr38",
+   "aparelho": "Britânia BFR38 (Dura Mais)",
+   "tipo": "air_fryer",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "liquidificador-britania-black-600w",
+   "aparelho": "Britânia Black 3 velocidades",
+   "tipo": "liquidificador",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "cafeteira-filtro-britania-bcf32c",
+   "aparelho": "Britânia BCF32C",
+   "tipo": "cafeteira",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "tv-samsung-un32h5000f",
+   "aparelho": "Samsung Smart TV HD H5000F 2025 (UN32H5000FGXZD)",
+   "tipo": "tv",
+   "quantidade": 1,
+   "circuito": "tomadas sala",
+   "medido_por": "T3",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "roteador-tplink-archer-c6",
+   "aparelho": "TP-Link Archer C6 (AC1300, Wi-Fi 5, Gigabit)",
+   "tipo": "roteador",
+   "quantidade": 1,
+   "circuito": "tomadas sala",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "vent-coluna-eos-evc60-turbo-vento",
+   "aparelho": "EOS Turbo Vento EVC60",
+   "tipo": "ventilador",
+   "quantidade": 1,
+   "circuito": "tomadas sala",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Quarto casal",
+   "aparelho_id": "vent-mesa-arno-vf42-40cm",
+   "aparelho": "Arno Turbo Force 2 em 1 VF42",
+   "tipo": "ventilador",
+   "quantidade": 1,
+   "circuito": "tomadas quartos",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Quarto filho",
+   "aparelho_id": "vent-mesa-britania-bvt320p-30cm",
+   "aparelho": "Britânia Turbo BVT320P",
+   "tipo": "ventilador",
+   "quantidade": 1,
+   "circuito": "tomadas quartos",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Banheiro",
+   "aparelho_id": "chuveiro-zagonel-moment-4t-5500w-127v",
+   "aparelho": "Zagonel Moment 4 Temperaturas (DMO4T55127BR03)",
+   "tipo": "chuveiro_eletrico",
+   "quantidade": 1,
+   "circuito": "chuveiro",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área de serviço",
+   "aparelho_id": "lavadora-colormaq-lcs10-tanquinho-10kg",
+   "aparelho": "Colormaq Tanquinho LCS10 (linha Ecomax)",
+   "tipo": "maquina_lavar",
+   "quantidade": 1,
+   "circuito": "tomadas serviço",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área de serviço",
+   "aparelho_id": "ferro-philco-pfe01p-seco",
+   "aparelho": "Philco PFE01P Retrô",
+   "tipo": "ferro_passar",
+   "quantidade": 1,
+   "circuito": "tomadas serviço",
+   "medido_por": "T4",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "lampada-led-philips-bulbo-9w",
+   "aparelho": "Philips LED Bulbo 9 W 6500K E27 (9290020380A)",
+   "tipo": "lampada",
+   "quantidade": 2,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "lampada-led-philips-bulbo-9w",
+   "aparelho": "Philips LED Bulbo 9 W 6500K E27 (9290020380A)",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Quarto casal",
+   "aparelho_id": "lampada-led-philips-bulbo-9w",
+   "aparelho": "Philips LED Bulbo 9 W 6500K E27 (9290020380A)",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Quarto filho",
+   "aparelho_id": "lampada-led-philips-bulbo-9w",
+   "aparelho": "Philips LED Bulbo 9 W 6500K E27 (9290020380A)",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Banheiro",
+   "aparelho_id": "lampada-led-philips-bulbo-9w",
+   "aparelho": "Philips LED Bulbo 9 W 6500K E27 (9290020380A)",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área de serviço",
+   "aparelho_id": "lampada-led-philips-bulbo-9w",
+   "aparelho": "Philips LED Bulbo 9 W 6500K E27 (9290020380A)",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  }
+ ],
+ "resumo": {
+  "custo_med": 330.53,
+  "custo_ap": 5890.36,
+  "n_ap": 20,
+  "n_tipos": 12,
+  "n_med": 5,
+  "fluxos": 5,
+  "medidos": 4,
+  "zig": []
+ }
+}

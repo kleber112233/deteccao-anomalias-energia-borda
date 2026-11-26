@@ -1,0 +1,105 @@
+{
+ "pi": "192.168.0.57",
+ "dataset": "../datasets/v1/perfil3/semente_1",
+ "rampa": "0:4000",
+ "intervalo_s": null,
+ "modo": "fiel",
+ "processos": 8,
+ "rodadas": [
+  {
+   "rodada": "E4f_ctrl",
+   "comando": {
+    "marca": "E4f_ctrl",
+    "reset": true,
+    "orcamento": 1.0,
+    "controlador": true,
+    "atraso_max": 30.0
+   },
+   "inicio": 1795460085.3165643,
+   "fim": 1795461888.5237296,
+   "enviadas": 5547190,
+   "geradores": [
+    {
+     "enviadas": 693727,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e4_fiel_v2\\E4f_ctrl_p1.csv",
+     "prefixo": "carga1x1-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693585,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e4_fiel_v2\\E4f_ctrl_p2.csv",
+     "prefixo": "carga1x2-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 692706,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e4_fiel_v2\\E4f_ctrl_p3.csv",
+     "prefixo": "carga1x3-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 694126,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e4_fiel_v2\\E4f_ctrl_p4.csv",
+     "prefixo": "carga1x4-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 692629,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e4_fiel_v2\\E4f_ctrl_p5.csv",
+     "prefixo": "carga1x5-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693545,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e4_fiel_v2\\E4f_ctrl_p6.csv",
+     "prefixo": "carga1x6-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693978,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e4_fiel_v2\\E4f_ctrl_p7.csv",
+     "prefixo": "carga1x7-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 692894,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e4_fiel_v2\\E4f_ctrl_p8.csv",
+     "prefixo": "carga1x8-",
+     "mqtt": true
+    }
+   ]
+  }
+ ]
+}

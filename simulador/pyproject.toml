@@ -1,0 +1,14 @@
+[project]
+name = "casasim"
+version = "0.1.0"
+description = "Simulador comportamental de consumo de energia de uma casa brasileira (TCC, UNIMAR)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "fastapi", "uvicorn[standard]", "paho-mqtt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+# Só o pacote casasim é instalável; as outras pastas (dados, catalogos, cenarios...) são lidas a partir da
+# pasta do simulador (casasim/dados.py usa o caminho do próprio arquivo). Necessário para `pip install -e`.
+[tool.setuptools.packages.find]
+include = ["casasim*"]

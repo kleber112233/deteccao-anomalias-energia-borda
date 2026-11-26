@@ -1,0 +1,32 @@
+# Ambientes, caches e arquivos de editor
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.vscode/
+.~lock.*
+~$*
+*.tmp
+
+# Séries congeladas: entram o LEIAME, o manifesto (SHA-256), os gabaritos e os resumos.
+# Os Parquet (864 MB) são regerados por simulador/ferramentas/gerar_datasets.py e conferidos pelo manifesto.
+datasets/v1/**/*.parquet
+
+# Modelos ONNX dos baselines (247 MB, retreináveis com `python -m detector baselines`).
+# Os modelos que rodam no Raspberry Pi estão em pi/pacotes.
+resultados/baselines_v1/**/*.onnx
+
+# Cópias .tar usadas só para levar pastas ao Raspberry Pi
+resultados/_transferencia/
+
+# Dados de terceiros: entram só o LEIAME (com os links de download) e a curva da ANEEL já tratada
+dados_reais/*
+!dados_reais/LEIAME.md
+!dados_reais/aneel_ctr/
+
+# Artigo: entram só as figuras usadas no texto (o PDF final entra quando estiver pronto)
+tcc artigo/*
+!tcc artigo/imagens/
+tcc artigo/imagens/*
+!tcc artigo/imagens/figuras_no_tcc/

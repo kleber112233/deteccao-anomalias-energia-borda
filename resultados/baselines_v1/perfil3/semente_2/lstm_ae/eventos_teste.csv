@@ -1,0 +1,14 @@
+falha_id,tipo,alvo,canal_direto,ini,fim,detectado,atraso_min,localizado,canais_alerta
+F0018,pico,cozinha.air_fryer,t7,1782203467,1782206276,False,,False,
+F0020,magnitude,suite_4.chuveiro_eletrico,c2_c1,1782592238,1782592953,False,,False,
+F0021,duracao_excessiva,estar_jantar.ar_condicionado,r5,1782685222,1782710422,True,69.63333333333334,True,r5
+F0022,pico,cozinha.geladeira,p1,1782709884,1782711951,False,,False,
+F0023,duracao_excessiva,suite_4.chuveiro_eletrico,c2_c1,1782850249,1782852349,True,32.18333333333333,True,c2_c1
+F0026,fora_de_horario,suite_2.chuveiro_eletrico,c1_c2,1783322711,1783323431,False,,False,
+F0027,consumo_nao_explicado,geral,q,1783459608,1783472048,False,,False,
+F0028,magnitude,cozinha.micro_ondas,r6,1783523472,1783548399,False,,False,
+F0029,duracao_excessiva,area_externa_piscina.bomba_dagua,r9,1783587819,1783595019,False,,False,
+F0030,fora_de_horario,cozinha.air_fryer,t7,1783667493,1783668993,False,,False,
+F0031,fora_de_horario,lavanderia.maquina_lavar,t8,1783837727,1783844687,False,,False,
+F0032,queda,cozinha.purificador_agua,t5,1783968089,1783980074,False,,False,
+F0034,consumo_nao_explicado,geral,q,1784136179,1784176996,False,,False,

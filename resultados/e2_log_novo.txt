@@ -1,0 +1,54 @@
+nohup: ignoring input
+== antes  2026-11-23 09:12:57
+governador: performance
+freq_mhz: 2400
+temp=37.8'C
+throttled=0x0
+ 09:12:57 up 41 min,  1 user,  load average: 0.00, 0.02, 0.25
+-- custo perfil1_semente_1
+regra    mediana=    11.9 us  p99=    12.8 us  onnx=    0.1 KB/canal
+if       mediana=  2179.4 us  p99=  2373.4 us  onnx=  918.2 KB/canal
+ocsvm    mediana=    19.7 us  p99=    23.6 us  onnx=    9.8 KB/canal
+ae       mediana=    19.7 us  p99=    23.1 us  onnx=    8.0 KB/canal
+lstm_ae  mediana=   199.9 us  p99=   213.7 us  onnx=   61.5 KB/canal
+atributos (vetorizado): 0.012 ms/min  memória do processo: 290.6 MB  Pi depois: {'governador': 'performance', 'freq_mhz': 2400.0, 'temp_c': 43.0, 'throttled': 'throttled=0x0', 'clock_arm': 'frequency(0)=2400030464', 'relogio': '2026-11-23 09:13:23'}
+== depois de custo perfil1_semente_1  2026-11-23 09:13:23
+governador: performance
+freq_mhz: 2400
+temp=42.2'C
+throttled=0x0
+ 09:13:23 up 42 min,  1 user,  load average: 0.46, 0.13, 0.28
+-- custo perfil3_semente_1
+regra    mediana=    10.9 us  p99=    12.3 us  onnx=    0.1 KB/canal
+if       mediana=  2349.6 us  p99=  2549.8 us  onnx=  845.7 KB/canal
+ocsvm    mediana=    19.5 us  p99=    23.9 us  onnx=   10.7 KB/canal
+ae       mediana=    20.6 us  p99=    24.3 us  onnx=    7.9 KB/canal
+lstm_ae  mediana=   196.7 us  p99=   211.6 us  onnx=   61.4 KB/canal
+atributos (vetorizado): 0.062 ms/min  memória do processo: 515.9 MB  Pi depois: {'governador': 'performance', 'freq_mhz': 2400.0, 'temp_c': 44.65, 'throttled': 'throttled=0x0', 'clock_arm': 'frequency(0)=2400027136', 'relogio': '2026-11-23 09:15:40'}
+== depois de custo perfil3_semente_1  2026-11-23 09:15:41
+governador: performance
+freq_mhz: 2400
+temp=43.3'C
+throttled=0x0
+ 09:15:41 up 44 min,  1 user,  load average: 0.95, 0.45, 0.39
+-- reproduzir perfil1_s1
+{"mensagens": 358626, "minutos": 36000, "canais": 6, "segundos": 17.112279209000008, "ms_por_minuto": 0.4753410891388891, "us_por_mensagem": 47.7162258425212, "ms_atributos": 0.2888495240841217, "ms_estagio1": 0.15535637752950354, "ms_estagio2": 0.0, "escalados_pct": 0.0, "alertas": 24, "orcamento": 0.0, "temp_c": 43.55}
+{"mensagens": 358626, "minutos": 36000, "canais": 6, "segundos": 20.276907244000085, "ms_por_minuto": 0.5632474234444468, "us_por_mensagem": 56.54053873394591, "ms_atributos": 0.2909615603891653, "ms_estagio1": 0.15946119572365408, "ms_estagio2": 0.07828118605465938, "escalados_pct": 4.96612422048532, "alertas": 25, "orcamento": 0.05, "temp_c": 43.55}
+{"mensagens": 358626, "minutos": 36000, "canais": 6, "segundos": 80.31126878100031, "ms_por_minuto": 2.2308685772500088, "us_por_mensagem": 223.94156804303174, "ms_atributos": 0.3160303143049153, "ms_estagio1": 0.22218006374691868, "ms_estagio2": 1.632531021384845, "escalados_pct": 99.83550032992872, "alertas": 24, "orcamento": 1.0, "temp_c": 45.2}
+== depois de reproduzir perfil1_s1  2026-11-23 09:17:41
+governador: performance
+freq_mhz: 2400
+temp=44.4'C
+throttled=0x0
+ 09:17:41 up 46 min,  1 user,  load average: 1.00, 0.64, 0.47
+-- reproduzir perfil3_s1
+{"mensagens": 1658462, "minutos": 36000, "canais": 32, "segundos": 88.58981998499985, "ms_por_minuto": 2.4608283329166625, "us_por_mensagem": 53.4168524723508, "ms_atributos": 1.4928390908325913, "ms_estagio1": 0.8195482250801484, "ms_estagio2": 0.0, "escalados_pct": 0.0, "alertas": 16, "orcamento": 0.0, "temp_c": 44.65}
+{"mensagens": 1658462, "minutos": 36000, "canais": 32, "segundos": 115.8205435939999, "ms_por_minuto": 3.217237322055553, "us_por_mensagem": 69.83611538521829, "ms_atributos": 1.5634815821404875, "ms_estagio1": 0.9548670700222475, "ms_estagio2": 0.5223397963871119, "escalados_pct": 5.569573710615326, "alertas": 16, "orcamento": 0.05, "temp_c": 44.1}
+{"mensagens": 1658462, "minutos": 36000, "canais": 32, "segundos": 473.8831813840002, "ms_por_minuto": 13.163421705111116, "us_por_mensagem": 285.73653263324707, "ms_atributos": 1.7503829254991639, "ms_estagio1": 1.3765311774071607, "ms_estagio2": 9.716256271192025, "escalados_pct": 99.83549966106656, "alertas": 16, "orcamento": 1.0, "temp_c": 46.3}
+== depois de reproduzir perfil3_s1  2026-11-23 09:29:11
+governador: performance
+freq_mhz: 2400
+temp=45.5'C
+throttled=0x0
+ 09:29:11 up 57 min,  1 user,  load average: 1.00, 0.98, 0.77
+PRONTO: resultados em ~/tcc-pi/e2_20261123_0912

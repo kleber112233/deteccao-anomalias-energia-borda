@@ -1,0 +1,17 @@
+{
+ "modelos_sozinhos": {
+  "ocsvm": {
+   "f1": 0.2727272727272727,
+   "f1_oficial": 0.3529411764705882
+  },
+  "lstm_ae": {
+   "f1": 0.21739130434782608,
+   "f1_oficial": 0.4
+  }
+ },
+ "custos_us_por_janela_x86": {
+  "ocsvm": 1.1316480242811873,
+  "lstm_ae": 55.2644724573153
+ },
+ "vigilancia_min": 30
+}

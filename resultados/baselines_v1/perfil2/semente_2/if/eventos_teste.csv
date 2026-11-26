@@ -1,0 +1,14 @@
+falha_id,tipo,alvo,canal_direto,ini,fim,detectado,atraso_min,localizado,canais_alerta
+F0018,pico,cozinha.air_fryer,t5,1782203467,1782206276,False,,False,
+F0020,magnitude,banheiro_suite.chuveiro_eletrico,c_c1,1782559166,1782559478,False,,False,
+F0021,duracao_excessiva,sala.tv,t2,1782699000,1782769582,False,,False,
+F0022,pico,cozinha.geladeira,t1,1782709884,1782711951,False,,False,
+F0023,duracao_excessiva,area_de_servico.ferro_passar,t7,1782804653,1782815424,False,,False,
+F0026,fora_de_horario,banheiro_social.chuveiro_eletrico,c_c2,1783322711,1783323431,False,,False,
+F0027,consumo_nao_explicado,geral,q_c1,1783459608,1783472048,False,,False,
+F0028,magnitude,cozinha.geladeira,t1,1783517195,1783575507,False,,False,
+F0029,duracao_excessiva,area_externa.bomba_dagua,r2,1783588685,1783595885,True,16.916666666666668,True,r2
+F0030,fora_de_horario,cozinha.air_fryer,t5,1783667493,1783668993,False,,False,
+F0031,fora_de_horario,area_de_servico.ferro_passar,t7,1783837727,1783840127,False,,False,
+F0032,queda,cozinha.geladeira,t1,1783968232,1783979574,False,,False,
+F0034,consumo_nao_explicado,geral,q_c1,1784136179,1784176996,False,,False,

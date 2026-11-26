@@ -1,0 +1,15 @@
+falha_id,tipo,alvo,canal_direto,ini,fim,detectado,atraso_min,localizado,canais_alerta
+F0018,duracao_excessiva,area_de_servico.ferro_passar,t7,1776074867,1776085659,False,,False,
+F0020,consumo_nao_explicado,geral,q_c1,1776257154,1776280890,False,,False,
+F0021,pico,cozinha.geladeira,t1,1776357393,1776360566,False,,False,
+F0022,magnitude,area_externa.bomba_dagua,r2,1776460838,1776534874,False,,False,
+F0024,duracao_excessiva,area_externa.bomba_dagua,r2,1776605687,1776612887,True,17.216666666666665,True,r2
+F0025,magnitude,banheiro_social.chuveiro_eletrico,c_c2,1776677708,1776725635,False,,False,
+F0026,fora_de_horario,suite_casal.ar_condicionado,r1,1776923117,1776930317,False,,False,
+F0027,duracao_excessiva,cozinha.geladeira,t1,1777006894,1777028494,True,132.43333333333334,True,t1
+F0028,fora_de_horario,suite_casal.ar_condicionado,r1,1777093035,1777100235,False,,False,
+F0029,magnitude,area_externa.bomba_dagua,r2,1777202850,1777256603,False,,False,
+F0030,pico,area_de_servico.maquina_lavar,t6,1777377420,1777380354,False,,False,
+F0031,fora_de_horario,area_externa.bomba_dagua,r2,1777530038,1777531838,True,23.366666666666667,True,r2
+F0032,consumo_nao_explicado,geral,q_c1,1777670643,1777709810,False,,False,
+F0034,queda,banheiro_suite.chuveiro_eletrico,c_c1,1777888561,1777888930,False,,False,

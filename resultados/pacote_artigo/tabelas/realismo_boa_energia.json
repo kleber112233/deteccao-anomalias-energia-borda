@@ -1,0 +1,47 @@
+{
+ "metricas": {
+  "Boa Energia (real)": {
+   "dias": 29,
+   "kwh_dia_media": 10.433172413793102,
+   "kwh_mes_30d": 312.99517241379306,
+   "cv_diario": 0.22327513668316737,
+   "pico_sobre_media_hora": 1.6680746425526007,
+   "hora_do_pico": 18,
+   "fracao_noite_18_23h": 0.3422769548059571
+  },
+  "perfil1": {
+   "dias": 345,
+   "kwh_dia_media": 5.031276956521739,
+   "kwh_mes_30d": 150.93830869565218,
+   "cv_diario": 0.17941675590671244,
+   "pico_sobre_media_hora": 3.7019947135903,
+   "hora_do_pico": 19,
+   "fracao_noite_18_23h": 0.5094248496744032,
+   "correlacao_forma_com_real": 0.35037084115022077
+  },
+  "perfil2": {
+   "dias": 345,
+   "kwh_dia_media": 9.702979304347826,
+   "kwh_mes_30d": 291.0893791304348,
+   "cv_diario": 0.1259258839961283,
+   "pico_sobre_media_hora": 3.28737004148488,
+   "hora_do_pico": 19,
+   "fracao_noite_18_23h": 0.47948438881700606,
+   "correlacao_forma_com_real": 0.33587270419068793
+  },
+  "perfil3": {
+   "dias": 345,
+   "kwh_dia_media": 36.63818049275362,
+   "kwh_mes_30d": 1099.1454147826087,
+   "cv_diario": 0.235733788542864,
+   "pico_sobre_media_hora": 3.4124096126737316,
+   "hora_do_pico": 20,
+   "fracao_noite_18_23h": 0.45137498272402904,
+   "correlacao_forma_com_real": 0.48521734368287367
+  }
+ },
+ "boa_energia_partes": {
+  "chuveiro": 0.24764511075415946,
+  "ar-condicionado": 0.16922151492917153
+ }
+}

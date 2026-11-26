@@ -1,0 +1,641 @@
+{
+ "versao": "v1",
+ "gerado_em": "2026-11-17T23:19:20",
+ "casasim": "0.1.0",
+ "hash_codigo_e_dados_de_entrada": "4c544e4c107d27e5d134057a97ff8bf95e8130207abc0010d8c93450da5dc99e",
+ "parametros": {
+  "perfis": [
+   "perfil1",
+   "perfil2",
+   "perfil3"
+  ],
+  "sementes": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "dias": 120,
+  "fracoes": [
+   0.6,
+   0.2,
+   0.2
+  ],
+  "falhas_por_semana": 5.0,
+  "prob_medido": 0.6,
+  "inicio_base": "2026-01-05",
+  "passo_inicio_dias": 73
+ },
+ "regras": [
+  "Treino: nenhuma falha injetada (faltas de energia naturais da rede podem ocorrer e não são anomalia de aparelho).",
+  "Calibração: escolher limiares e τ. Teste: só para o resultado final.",
+  "Colunas anomalia, falha_id, falha_tipo e canal_direto são gabarito: nunca entram no detector.",
+  "Cada semente começa num mês diferente (passo de 73 dias) para cobrir as estações."
+ ],
+ "conjuntos": {
+  "perfil1/semente_1": {
+   "kwh_mes": 163.1,
+   "falhas": 34,
+   "efetivas": 32,
+   "linhas": {
+    "treino": 1036542,
+    "calibracao": 344997,
+    "teste": 344226
+   }
+  },
+  "perfil1/semente_2": {
+   "kwh_mes": 146.7,
+   "falhas": 34,
+   "efetivas": 31,
+   "linhas": {
+    "treino": 1036777,
+    "calibracao": 345146,
+    "teste": 344652
+   }
+  },
+  "perfil1/semente_3": {
+   "kwh_mes": 157.5,
+   "falhas": 34,
+   "efetivas": 33,
+   "linhas": {
+    "treino": 1035891,
+    "calibracao": 344060,
+    "teste": 344680
+   }
+  },
+  "perfil1/semente_4": {
+   "kwh_mes": 159.6,
+   "falhas": 34,
+   "efetivas": 32,
+   "linhas": {
+    "treino": 1036800,
+    "calibracao": 344708,
+    "teste": 344476
+   }
+  },
+  "perfil1/semente_5": {
+   "kwh_mes": 162.4,
+   "falhas": 34,
+   "efetivas": 29,
+   "linhas": {
+    "treino": 1036537,
+    "calibracao": 344753,
+    "teste": 344499
+   }
+  },
+  "perfil2/semente_1": {
+   "kwh_mes": 303.3,
+   "falhas": 34,
+   "efetivas": 30,
+   "linhas": {
+    "treino": 2702039,
+    "calibracao": 898725,
+    "teste": 897340
+   }
+  },
+  "perfil2/semente_2": {
+   "kwh_mes": 288.1,
+   "falhas": 34,
+   "efetivas": 30,
+   "linhas": {
+    "treino": 2702531,
+    "calibracao": 898500,
+    "teste": 897308
+   }
+  },
+  "perfil2/semente_3": {
+   "kwh_mes": 302.6,
+   "falhas": 34,
+   "efetivas": 30,
+   "linhas": {
+    "treino": 2699852,
+    "calibracao": 896870,
+    "teste": 898790
+   }
+  },
+  "perfil2/semente_4": {
+   "kwh_mes": 298.6,
+   "falhas": 34,
+   "efetivas": 28,
+   "linhas": {
+    "treino": 2702970,
+    "calibracao": 898063,
+    "teste": 897933
+   }
+  },
+  "perfil2/semente_5": {
+   "kwh_mes": 301.3,
+   "falhas": 34,
+   "efetivas": 27,
+   "linhas": {
+    "treino": 2701233,
+    "calibracao": 897542,
+    "teste": 897914
+   }
+  },
+  "perfil3/semente_1": {
+   "kwh_mes": 1148.9,
+   "falhas": 34,
+   "efetivas": 30,
+   "linhas": {
+    "treino": 4793230,
+    "calibracao": 1593996,
+    "teste": 1591834
+   }
+  },
+  "perfil3/semente_2": {
+   "kwh_mes": 966.8,
+   "falhas": 34,
+   "efetivas": 30,
+   "linhas": {
+    "treino": 4792697,
+    "calibracao": 1593237,
+    "teste": 1590691
+   }
+  },
+  "perfil3/semente_3": {
+   "kwh_mes": 1130.7,
+   "falhas": 34,
+   "efetivas": 28,
+   "linhas": {
+    "treino": 4787652,
+    "calibracao": 1591261,
+    "teste": 1596052
+   }
+  },
+  "perfil3/semente_4": {
+   "kwh_mes": 1173.0,
+   "falhas": 34,
+   "efetivas": 29,
+   "linhas": {
+    "treino": 4795672,
+    "calibracao": 1592865,
+    "teste": 1593399
+   }
+  },
+  "perfil3/semente_5": {
+   "kwh_mes": 1191.6,
+   "falhas": 34,
+   "efetivas": 29,
+   "linhas": {
+    "treino": 4792786,
+    "calibracao": 1592423,
+    "teste": 1593367
+   }
+  }
+ },
+ "arquivos": [
+  {
+   "arquivo": "perfil1/semente_1/calibracao.parquet",
+   "bytes": 3629608,
+   "sha256": "acd582c76decb6db5c6e6a0189b3ce2c2666018dda7f8db1a17d40f7368d557c"
+  },
+  {
+   "arquivo": "perfil1/semente_1/gabarito_falhas.csv",
+   "bytes": 7431,
+   "sha256": "e03852ce704ce93f9a14d658bb6b0b17b3ca605343f99e3e3e4e77512c10151e"
+  },
+  {
+   "arquivo": "perfil1/semente_1/resumo.json",
+   "bytes": 19703,
+   "sha256": "bf03696026393fa5776129d98e59a19e73a7d8a83dc84d3b6c8f616b000d7164"
+  },
+  {
+   "arquivo": "perfil1/semente_1/teste.parquet",
+   "bytes": 3630431,
+   "sha256": "55bff8f3e4664939c947eeb755ee51e6c31ec826fb7550d61a336b7a40f589d6"
+  },
+  {
+   "arquivo": "perfil1/semente_1/treino.parquet",
+   "bytes": 10918875,
+   "sha256": "b55f82adab94a90ab9781c539167b2c05b6fbaf95980ff1203fc94365a71a1be"
+  },
+  {
+   "arquivo": "perfil1/semente_1/verdade_1min.parquet",
+   "bytes": 2711203,
+   "sha256": "4be159a251e78fc08c211257d4d8875f15aac6aa078c0efaba3579d5b2ff2287"
+  },
+  {
+   "arquivo": "perfil1/semente_2/calibracao.parquet",
+   "bytes": 3590906,
+   "sha256": "d5484fef610599e440eda16737eafe696345887b866c75efdf31b5f627660634"
+  },
+  {
+   "arquivo": "perfil1/semente_2/gabarito_falhas.csv",
+   "bytes": 6982,
+   "sha256": "17586de58535388b43fdf55c6dd8dd7fc21d57ac7bc1b173c6c4d4b25d7db094"
+  },
+  {
+   "arquivo": "perfil1/semente_2/resumo.json",
+   "bytes": 19687,
+   "sha256": "6ec35fafef08f94713b28b8abda0aa298842489a64ded12cc4d27fa5ea78b21c"
+  },
+  {
+   "arquivo": "perfil1/semente_2/teste.parquet",
+   "bytes": 3574941,
+   "sha256": "31c1f832bab3ff06b04a5ce3cb3fe169ecee801184b5a92cd0202885fd1ac07f"
+  },
+  {
+   "arquivo": "perfil1/semente_2/treino.parquet",
+   "bytes": 10838096,
+   "sha256": "bf4934f03bd3943cafd4d169c9b42862f0deb1dd9dc25b54d846eae2861eb2c4"
+  },
+  {
+   "arquivo": "perfil1/semente_2/verdade_1min.parquet",
+   "bytes": 2579525,
+   "sha256": "b5f0b12ac3ae16d416edd6cc1a26fcdfdfd4d966edc576b693e2a99777ad82ef"
+  },
+  {
+   "arquivo": "perfil1/semente_3/calibracao.parquet",
+   "bytes": 3651419,
+   "sha256": "743ef76db89b6437b765d731386312733b0a84001bc3256081ddb1c9f04e0a62"
+  },
+  {
+   "arquivo": "perfil1/semente_3/gabarito_falhas.csv",
+   "bytes": 6854,
+   "sha256": "ca21b4f6a91b3b21e7c1abfd7bd1dfc5bef5273912475d4e67a09eaf8a6e2ca3"
+  },
+  {
+   "arquivo": "perfil1/semente_3/resumo.json",
+   "bytes": 19711,
+   "sha256": "646c7f174f5f8397903b26d6681e43cf98913cb64aa00d8d48ffe8de254e65b7"
+  },
+  {
+   "arquivo": "perfil1/semente_3/teste.parquet",
+   "bytes": 3741676,
+   "sha256": "60a1f758c589588ac1796e116b28f6879d1f13a36cc409d7219dba3dc677b8a5"
+  },
+  {
+   "arquivo": "perfil1/semente_3/treino.parquet",
+   "bytes": 10826524,
+   "sha256": "7413a4ed1137c7f2e883fc2746c5b879df9dfd25b2a28c8caa64936efe82d48d"
+  },
+  {
+   "arquivo": "perfil1/semente_3/verdade_1min.parquet",
+   "bytes": 2693273,
+   "sha256": "e7375dc6cbbbc8ff836a9e9bc474aac5c1a5321bbccebbdd78d8d85285bc5f78"
+  },
+  {
+   "arquivo": "perfil1/semente_4/calibracao.parquet",
+   "bytes": 3650869,
+   "sha256": "a298bb9c76ecae16adc9d4f9ebe08de21147179d3073104b7251ac3009acc4eb"
+  },
+  {
+   "arquivo": "perfil1/semente_4/gabarito_falhas.csv",
+   "bytes": 6569,
+   "sha256": "d8b926b5e554d59a93353c6ceea74eae3c4f42fb9c261fd447063c2b75ed0a15"
+  },
+  {
+   "arquivo": "perfil1/semente_4/resumo.json",
+   "bytes": 19701,
+   "sha256": "0970c9716bf9c817067b51fd9544024101ac0f4fcaf80adddb2e9e426b88a4cd"
+  },
+  {
+   "arquivo": "perfil1/semente_4/teste.parquet",
+   "bytes": 3718245,
+   "sha256": "ad64d578514b06e2700f81096e3999aa116bf40f03184205dfc6ff6e3c12c11d"
+  },
+  {
+   "arquivo": "perfil1/semente_4/treino.parquet",
+   "bytes": 11122982,
+   "sha256": "d80de03459dfcabb2e245fef29916cafc8184c0006c97be87abe53bcb1e7681a"
+  },
+  {
+   "arquivo": "perfil1/semente_4/verdade_1min.parquet",
+   "bytes": 2729374,
+   "sha256": "f5f3ae7c70f30e658669be957c082fc46affdc497087eb3ab0e59b775e2dcd8b"
+  },
+  {
+   "arquivo": "perfil1/semente_5/calibracao.parquet",
+   "bytes": 3681324,
+   "sha256": "94390137c3794e05029b20e9f471e28c1e12179cc3505e1e6c67b744090900de"
+  },
+  {
+   "arquivo": "perfil1/semente_5/gabarito_falhas.csv",
+   "bytes": 7147,
+   "sha256": "ebb22ed6f7b61a4fe19edb667630a02426e1d9753de090a406478097c4d53fe8"
+  },
+  {
+   "arquivo": "perfil1/semente_5/resumo.json",
+   "bytes": 19689,
+   "sha256": "dc8116b38f87b11d1e5698c791e3de03de02785d4b80e5a316faf7fd34fa3ca9"
+  },
+  {
+   "arquivo": "perfil1/semente_5/teste.parquet",
+   "bytes": 3732482,
+   "sha256": "8af6f20217c5ab7caa820e499cf8c2c4dc929d37046694049de2a148f6a00d4f"
+  },
+  {
+   "arquivo": "perfil1/semente_5/treino.parquet",
+   "bytes": 11140645,
+   "sha256": "36c1639a5a34e6b34f9acfb6e80528cd5e140d4d3e7d4dfc7369c7effa37e89c"
+  },
+  {
+   "arquivo": "perfil1/semente_5/verdade_1min.parquet",
+   "bytes": 2678642,
+   "sha256": "137ca8bc1df49b37fc286ee02529bbdd0af2c8424f6c229837d67f97d3a1eb93"
+  },
+  {
+   "arquivo": "perfil2/semente_1/calibracao.parquet",
+   "bytes": 9475104,
+   "sha256": "9c60305190c59bb3cc7c89fa107cf69c7d993871dd2838449cc9e07f7528041c"
+  },
+  {
+   "arquivo": "perfil2/semente_1/gabarito_falhas.csv",
+   "bytes": 7610,
+   "sha256": "08acb6a30706e098feae2cd669f253f7c60cb49733e40e0ee88e6ef52b209052"
+  },
+  {
+   "arquivo": "perfil2/semente_1/resumo.json",
+   "bytes": 23276,
+   "sha256": "ed6b7855d9beec4075d5efebc6a6c9414a8c928222d4b6bde4557921833f0258"
+  },
+  {
+   "arquivo": "perfil2/semente_1/teste.parquet",
+   "bytes": 9466100,
+   "sha256": "bc424b43790c30798cf2bf5b348a29a3c5eb472ddce63687c2ed4176bc62d859"
+  },
+  {
+   "arquivo": "perfil2/semente_1/treino.parquet",
+   "bytes": 28470416,
+   "sha256": "7dd682be88af80385ad3ce5e0143c9781f25bbf6830af00d353c68bb673a9931"
+  },
+  {
+   "arquivo": "perfil2/semente_1/verdade_1min.parquet",
+   "bytes": 3922946,
+   "sha256": "66d8bd67977f91169f49ad08c078137f8c1ed5079071a6a0eeed76dff3e6f5c0"
+  },
+  {
+   "arquivo": "perfil2/semente_2/calibracao.parquet",
+   "bytes": 9438179,
+   "sha256": "140b44ee40f7dc8f529edddc59de615e81b7036c27e5bdc385e14e14c475145e"
+  },
+  {
+   "arquivo": "perfil2/semente_2/gabarito_falhas.csv",
+   "bytes": 7382,
+   "sha256": "e7fddfc8ef2de5f211238a0b847b4b9c10ece77c0e9259e65d097a840aa6be20"
+  },
+  {
+   "arquivo": "perfil2/semente_2/resumo.json",
+   "bytes": 23244,
+   "sha256": "7cf9a22c68297c4551543b085016391bb95b1af66204f94886349ad0f7d56725"
+  },
+  {
+   "arquivo": "perfil2/semente_2/teste.parquet",
+   "bytes": 9388238,
+   "sha256": "d9d64dd609a481927379769b02d132540b93779b31f5f417918279fd8e3caed9"
+  },
+  {
+   "arquivo": "perfil2/semente_2/treino.parquet",
+   "bytes": 28588887,
+   "sha256": "b66967cb910557a24b082fe21759a5b00b319662cacaa3478bbd8125300e2b34"
+  },
+  {
+   "arquivo": "perfil2/semente_2/verdade_1min.parquet",
+   "bytes": 3723422,
+   "sha256": "3f9d4833788f89f210eb8cf457d9510ab5365fb24c997cce7639400125863120"
+  },
+  {
+   "arquivo": "perfil2/semente_3/calibracao.parquet",
+   "bytes": 9506350,
+   "sha256": "4a36c748a314c347c2bdb2cbe99144f17b4b1ee1d2fba4316943cbf23f39cb1f"
+  },
+  {
+   "arquivo": "perfil2/semente_3/gabarito_falhas.csv",
+   "bytes": 7212,
+   "sha256": "f3b98dcdd028cac024fb1faee15084f37b37dad0eeacde8c72e1d492310118e8"
+  },
+  {
+   "arquivo": "perfil2/semente_3/resumo.json",
+   "bytes": 23263,
+   "sha256": "4c5b6c119d72191d326c820a89143865ce294228fd3458f4ea9e9fefe465564a"
+  },
+  {
+   "arquivo": "perfil2/semente_3/teste.parquet",
+   "bytes": 9657608,
+   "sha256": "020a1d6f1aab1eb22e11caefbb9daed6ee651eb5e08fc1bdf693e35403212ffc"
+  },
+  {
+   "arquivo": "perfil2/semente_3/treino.parquet",
+   "bytes": 28443440,
+   "sha256": "dbcd3c61df2eaaae2a4292b7dbc6749c38956a86ae92b1443c72d60c28ad41c5"
+  },
+  {
+   "arquivo": "perfil2/semente_3/verdade_1min.parquet",
+   "bytes": 3844391,
+   "sha256": "e59fb7b6b0c29d8b1659a9c9fa27cebaba972f51ed1f4c4674115a370cfd50a4"
+  },
+  {
+   "arquivo": "perfil2/semente_4/calibracao.parquet",
+   "bytes": 9364794,
+   "sha256": "c3f2ae1aab9510dbbb8c58d7a151755ff6a55c4f493e5d46191411191e88d8c6"
+  },
+  {
+   "arquivo": "perfil2/semente_4/gabarito_falhas.csv",
+   "bytes": 6899,
+   "sha256": "84da71933df438e90e02587f8ebc919a2b5cd60483bfc81aa06bfe2699a3e115"
+  },
+  {
+   "arquivo": "perfil2/semente_4/resumo.json",
+   "bytes": 23256,
+   "sha256": "f5cbcd858639abb99ccf1df69ad25d61520a29553b2a6e69c19816a9edaa96cb"
+  },
+  {
+   "arquivo": "perfil2/semente_4/teste.parquet",
+   "bytes": 9491092,
+   "sha256": "6f34fe4458c03a7f42e5bc8ac8cfa3e76222b9c57bc2c213b72c5fe1ebb05080"
+  },
+  {
+   "arquivo": "perfil2/semente_4/treino.parquet",
+   "bytes": 28678912,
+   "sha256": "65e555036fb53ffa71f12d19b872485715274c92c15f41eb7cedd76e0600ae45"
+  },
+  {
+   "arquivo": "perfil2/semente_4/verdade_1min.parquet",
+   "bytes": 3893954,
+   "sha256": "3aa938470e7f6c7d592051849dcd30bfd3fc5e838b292d664231381b95f6431d"
+  },
+  {
+   "arquivo": "perfil2/semente_5/calibracao.parquet",
+   "bytes": 9322317,
+   "sha256": "be340fd3c289b7dde08aa1cf194de40539911b2510009a224f45f8627cd1aec0"
+  },
+  {
+   "arquivo": "perfil2/semente_5/gabarito_falhas.csv",
+   "bytes": 6939,
+   "sha256": "41a594e202b8ef9d0e6a7ab52c8eb192097feb0b5ac65795d5ecc15d869f3a6f"
+  },
+  {
+   "arquivo": "perfil2/semente_5/resumo.json",
+   "bytes": 23260,
+   "sha256": "eb910b1e4a88572dd89b63d156caebc02c4298192ccef5b8c7e2e991a48f91ea"
+  },
+  {
+   "arquivo": "perfil2/semente_5/teste.parquet",
+   "bytes": 9433008,
+   "sha256": "bbc083bd0046d831d8d8a0b5335d6f94e4ba74245e38fcad5a1c44e452e613a0"
+  },
+  {
+   "arquivo": "perfil2/semente_5/treino.parquet",
+   "bytes": 28087523,
+   "sha256": "4b8c7a41e0c7753d75b815f3387a979d53e0b2fc45360b6f0d96489a09572e38"
+  },
+  {
+   "arquivo": "perfil2/semente_5/verdade_1min.parquet",
+   "bytes": 3869182,
+   "sha256": "8da6fec28678d0b7a9aef4d1018a8433636f658d58fa2db817af2a1d3c5f4249"
+  },
+  {
+   "arquivo": "perfil3/semente_1/calibracao.parquet",
+   "bytes": 18474551,
+   "sha256": "21b1285ef0cb4aebb3a6844201aa1a80947f40e9fffbee0e22f92903cc483876"
+  },
+  {
+   "arquivo": "perfil3/semente_1/gabarito_falhas.csv",
+   "bytes": 7639,
+   "sha256": "ae56fdcee4d53b50abdfe35cda0616faf4e5accda3fda7cfaeed6225bf0b898c"
+  },
+  {
+   "arquivo": "perfil3/semente_1/resumo.json",
+   "bytes": 28350,
+   "sha256": "ca097bbc11c31ad6601aef6d9640d972a66bab9586cab15523b90e0fa327463c"
+  },
+  {
+   "arquivo": "perfil3/semente_1/teste.parquet",
+   "bytes": 18322684,
+   "sha256": "9b6a4d2eb728bd359895e46da87a994ce03d98cfdb1b661be74ad23ad2b7bcde"
+  },
+  {
+   "arquivo": "perfil3/semente_1/treino.parquet",
+   "bytes": 55585526,
+   "sha256": "454649b874791c918aca8598abb630c0dd6e4cae0f329eeff484edff3d0dbda9"
+  },
+  {
+   "arquivo": "perfil3/semente_1/verdade_1min.parquet",
+   "bytes": 5136159,
+   "sha256": "48babdb614c8aa80cb00aa19bf4fd6e765a7d05c5ead2011973ff757ae71e76d"
+  },
+  {
+   "arquivo": "perfil3/semente_2/calibracao.parquet",
+   "bytes": 18982718,
+   "sha256": "80e796406844be6942411707c95489fe892a2283c04b68658894b23fe042bb30"
+  },
+  {
+   "arquivo": "perfil3/semente_2/gabarito_falhas.csv",
+   "bytes": 7284,
+   "sha256": "4d1748df5274caee4e0dba20fc67ca2b19609c8c2b9dcac55fc3633aed74be35"
+  },
+  {
+   "arquivo": "perfil3/semente_2/resumo.json",
+   "bytes": 28339,
+   "sha256": "7a2fcf000b0ed7c1263a6ca50b5805c979d191b25c8f8be7b16579de4fa2aae0"
+  },
+  {
+   "arquivo": "perfil3/semente_2/teste.parquet",
+   "bytes": 18674771,
+   "sha256": "4a5ad1ad19b812ec5016733ec87ff81b13ad5338b5730688b5eb612bd4c47364"
+  },
+  {
+   "arquivo": "perfil3/semente_2/treino.parquet",
+   "bytes": 57307389,
+   "sha256": "46e7a16670f4706f50ecad9afe6db4ee7e95f76c69f8604f7019d4aa92d31b20"
+  },
+  {
+   "arquivo": "perfil3/semente_2/verdade_1min.parquet",
+   "bytes": 4638989,
+   "sha256": "702953b1edbc64f46e85f7e2c728db314b483117dc0842ac1988f6749743bd4b"
+  },
+  {
+   "arquivo": "perfil3/semente_3/calibracao.parquet",
+   "bytes": 19631549,
+   "sha256": "d5d60a4643b21760eb583bad6bbfd6a439ff6ed27c5adac9dfbc90a83d0403f0"
+  },
+  {
+   "arquivo": "perfil3/semente_3/gabarito_falhas.csv",
+   "bytes": 6986,
+   "sha256": "0befe94361fd45609fcbfbd14aa9bc02f934d8916645a242f9c71416c3a4918b"
+  },
+  {
+   "arquivo": "perfil3/semente_3/resumo.json",
+   "bytes": 28340,
+   "sha256": "f91a5559243f4954d581179e607dd78149ebc5969f22d9abfc97f1df78609a31"
+  },
+  {
+   "arquivo": "perfil3/semente_3/teste.parquet",
+   "bytes": 20220732,
+   "sha256": "ff944903f68d49a6f99ecf2262a45755e1a452a8ad83f948959f4f3f4b7d2d44"
+  },
+  {
+   "arquivo": "perfil3/semente_3/treino.parquet",
+   "bytes": 57072242,
+   "sha256": "9ea93fc7fb60109124fde3dfba6f5bee226239c2ce81a5dfb08e19a723c77110"
+  },
+  {
+   "arquivo": "perfil3/semente_3/verdade_1min.parquet",
+   "bytes": 4895185,
+   "sha256": "b9211b605955c92ff255f69f760ffb4dd219d51f668676b6b87c5285c8f12793"
+  },
+  {
+   "arquivo": "perfil3/semente_4/calibracao.parquet",
+   "bytes": 19157332,
+   "sha256": "b9d69a437ea804c11e74500dc55c339433cdb08d9e12413d615aa3dabc01744f"
+  },
+  {
+   "arquivo": "perfil3/semente_4/gabarito_falhas.csv",
+   "bytes": 6779,
+   "sha256": "154f273529576091bf9228f9eb3ddfa8cbadf4e740fd06124df9c1ba41ea7187"
+  },
+  {
+   "arquivo": "perfil3/semente_4/resumo.json",
+   "bytes": 28341,
+   "sha256": "45f6dd171eb8c4cf71498d106f0669e8e42a233b296a0a9a0d1423c7c55481c2"
+  },
+  {
+   "arquivo": "perfil3/semente_4/teste.parquet",
+   "bytes": 19616480,
+   "sha256": "16d7418c750bff0448cc162ad828dc75bcc7fe9e710bbbf9200f55ed5391fba7"
+  },
+  {
+   "arquivo": "perfil3/semente_4/treino.parquet",
+   "bytes": 58729264,
+   "sha256": "86bb461f3143cfdd3d93204d7af5bcce980fb8d67080daba8dcd875d92e88708"
+  },
+  {
+   "arquivo": "perfil3/semente_4/verdade_1min.parquet",
+   "bytes": 5076240,
+   "sha256": "e5ae03830a5feec071670b3587dc4596c420ec8c259f02d4166d419091a31e03"
+  },
+  {
+   "arquivo": "perfil3/semente_5/calibracao.parquet",
+   "bytes": 19120437,
+   "sha256": "f99db3ecaa0463062ba8b5f750a265bcc6bd659caa2ad321f6c6bc43ba13fc66"
+  },
+  {
+   "arquivo": "perfil3/semente_5/gabarito_falhas.csv",
+   "bytes": 7039,
+   "sha256": "17a187261a3528b002efba5d3a8ff2d5f9ccc8243eec32e126082b10293b02dc"
+  },
+  {
+   "arquivo": "perfil3/semente_5/resumo.json",
+   "bytes": 28345,
+   "sha256": "d718b683f5811a79bbfbf120b0ae627ea4665277c379f999b7acae4e0fa01ecb"
+  },
+  {
+   "arquivo": "perfil3/semente_5/teste.parquet",
+   "bytes": 19315506,
+   "sha256": "8167f704010def581adf868a1dfe2fd41f388b1506163cb967ef18840959bcbf"
+  },
+  {
+   "arquivo": "perfil3/semente_5/treino.parquet",
+   "bytes": 57334524,
+   "sha256": "73d197a80487a821c9b546a9965b6fff0d12e3380a25c21533365691ebb237be"
+  },
+  {
+   "arquivo": "perfil3/semente_5/verdade_1min.parquet",
+   "bytes": 5175088,
+   "sha256": "42d3400bcb22a3b506937b6cda1839665ed58ec00ead5306572b4eb6d39a85de"
+  }
+ ],
+ "total_mb": 863.8
+}

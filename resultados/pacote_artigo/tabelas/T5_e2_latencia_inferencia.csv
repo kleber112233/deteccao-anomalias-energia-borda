@@ -1,0 +1,11 @@
+casa,modelo,mediana (µs),p99 (µs),.onnx por canal (kB)
+perfil1_s1 (6 canais),Regra (limiar fixo),11.9,12.8,0.1
+perfil1_s1 (6 canais),Isolation Forest,2179.4,2373.4,918.2
+perfil1_s1 (6 canais),OCSVM,19.7,23.6,9.8
+perfil1_s1 (6 canais),Autoencoder,19.7,23.1,8.0
+perfil1_s1 (6 canais),LSTM-AE,199.9,213.7,61.5
+perfil3_s1 (32 canais),Regra (limiar fixo),10.9,12.3,0.1
+perfil3_s1 (32 canais),Isolation Forest,2349.6,2549.8,845.7
+perfil3_s1 (32 canais),OCSVM,19.5,23.9,10.7
+perfil3_s1 (32 canais),Autoencoder,20.6,24.3,7.9
+perfil3_s1 (32 canais),LSTM-AE,196.7,211.6,61.4

@@ -1,0 +1,16 @@
+{
+ "eventos": 158,
+ "detectados": 53,
+ "revocacao": 0.33544303797468356,
+ "precisao": 0.9814814814814815,
+ "f1": 0.5000000000000001,
+ "alertas": 85,
+ "alertas_falsos": 1,
+ "falsos_durante_falta": 0,
+ "dias_simulados": 29.73,
+ "fp_por_dia": 0.033637000700770844,
+ "atraso_sim_mediana_min": 35.28333333333333,
+ "latencia_sistema_mediana_s": 0.10833333333333334,
+ "velocidade": 120.0,
+ "faltas_de_energia": 14
+}

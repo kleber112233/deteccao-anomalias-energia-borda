@@ -1,0 +1,14 @@
+falha_id,tipo,alvo,canal_direto,ini,fim,detectado,atraso_min,localizado,canais_alerta
+F0018,magnitude,suite_3.chuveiro_eletrico,c1_c3,1801175334,1801176132,True,1.1,True,c1_c3
+F0020,fora_de_horario,cozinha.forno_eletrico,r8,1801456332,1801459032,False,,False,
+F0021,duracao_excessiva,area_gourmet.freezer,p2,1801573561,1801595161,True,0.9833333333333333,True,p2
+F0023,magnitude,cozinha.cafeteira,t4,1801818852,1801854131,True,0.8,True,t4
+F0024,pico,area_externa_piscina.bomba_piscina,c2_c2,1801950476,1801953933,False,,False,
+F0025,consumo_nao_explicado,geral,q,1802206504,1802223716,True,132.93333333333334,False,residuo
+F0026,pico,cozinha.geladeira,p1,1802346537,1802348930,False,,False,
+F0027,fora_de_horario,suite_2.tv,t3,1802405507,1802410907,False,,False,
+F0028,fora_de_horario,cozinha.forno_eletrico,r8,1802503728,1802506373,False,,False,
+F0030,queda,area_gourmet.freezer,p2,1802731945,1802748292,False,,False,
+F0032,consumo_nao_explicado,geral,q,1802921207,1802948532,False,,False,
+F0033,duracao_excessiva,cozinha.air_fryer,t7,1803074868,1803080268,False,,False,
+F0034,duracao_excessiva,suite_3.chuveiro_eletrico,c1_c3,1803166592,1803168692,True,1.4666666666666666,True,c1_c3

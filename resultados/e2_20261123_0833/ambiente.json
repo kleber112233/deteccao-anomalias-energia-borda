@@ -1,0 +1,11 @@
+{
+ "python": "3.11.2",
+ "numpy": "2.4.6",
+ "pandas": "3.1.1",
+ "scikit-learn": "1.9.1",
+ "onnxruntime": "1.32.0",
+ "sistema": "Linux-6.12.109+rpt-rpi-2712-aarch64-with-glibc2.36",
+ "processador": "aarch64",
+ "nucleos_logicos": 4,
+ "memoria_gb": 4.0
+}

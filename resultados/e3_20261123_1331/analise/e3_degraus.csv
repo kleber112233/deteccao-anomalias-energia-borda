@@ -1,0 +1,8 @@
+rodada,tipo,orcamento_inicial,controlador,minuto_inicio,casas,canais,msg_s_enviadas,msg_s_processadas,fracao_processada,exc_p95_mediana_s,exc_p95_pior_s,atraso_pior_s,fila_max,fila_fim_menos_inicio,escalados_pct,ms_por_minuto_casa,ms_estagio2_por_minuto_casa,cpu_detector_media,cpu_detector_max,cpu_mosquitto_media,mem_mb_max,temp_max,throttled,orcamentos_usados,base_atraso_s,sustentado_criterio,vazao_sustentada
+E3f_b1,degrau,1.0,False,0.0,4000,128000,3072.0,3004.1,0.9779,26.517,49.611,51.489,140006.0,31212.0,100.0,12.874,10.082,98.0,109.7,2.1,2657.6,54.3,0x0,1.0,0.823,False,False
+E3f_b005,degrau,0.05,False,0.0,4000,128000,3079.8,3060.8,0.9938,9.405,27.295,28.502,88085.0,36197.0,37.9,7.355,4.395,68.0,112.1,2.2,3305.2,52.7,0x0,0.05,0.822,False,True
+E3f_b005,regime_15min,0.05,False,14.706743399302164,4000,128000,3075.8,3122.5,1.0152,10.946,27.295,28.502,88085.0,36198.0,38.4,7.879,4.587,71.3,112.1,2.2,3305.2,51.6,0x0,0.05,0.822,False,True
+E3f_b005,regime_5min_final,0.05,False,24.706743399302166,4000,128000,3062.3,3164.6,1.0334,11.082,26.851,27.102,88085.0,-47735.0,38.74,7.848,4.38,72.3,109.7,2.2,3305.2,51.6,0x0,0.05,0.822,False,True
+E4f_ctrl,degrau,1.0,True,0.0,4000,128000,3079.4,3080.5,1.0004,6.29,48.28,49.893,150074.0,1.0,33.93,6.646,3.562,64.2,110.8,2.0,3354.1,54.9,0x0,"0.0,0.01,0.02,0.05,0.1,0.2,0.5,1.0",0.856,False,True
+E4f_ctrl,regime_15min,1.0,True,14.713171339035034,4000,128000,3074.5,3078.2,1.0012,0.517,48.28,49.893,150074.0,1.0,15.73,5.069,1.703,54.3,110.8,2.0,3354.1,50.5,0x0,"0.0,0.01",0.856,False,True
+E4f_ctrl,regime_5min_final,1.0,True,24.713171339035036,4000,128000,3060.6,3068.7,1.0026,0.265,37.655,39.231,118766.0,1.0,13.01,4.932,1.439,54.1,110.8,2.0,3354.1,50.5,0x0,"0.0,0.01",0.856,False,True

@@ -1,0 +1,26 @@
+{
+ "E3f_b1": {
+  "maior_degrau_criterio_casas": 0,
+  "maior_degrau_criterio_canais": 0,
+  "maior_vazao_sustentada_casas": 0,
+  "maior_vazao_sustentada_msg_s": 0.0,
+  "ms_por_minuto_casa_mediana": 12.874,
+  "escalados_pct_mediana": 100.0
+ },
+ "E3f_b005": {
+  "maior_degrau_criterio_casas": 0,
+  "maior_degrau_criterio_canais": 0,
+  "maior_vazao_sustentada_casas": 4000,
+  "maior_vazao_sustentada_msg_s": 3164.6,
+  "ms_por_minuto_casa_mediana": 7.848,
+  "escalados_pct_mediana": 38.4
+ },
+ "E4f_ctrl": {
+  "maior_degrau_criterio_casas": 0,
+  "maior_degrau_criterio_canais": 0,
+  "maior_vazao_sustentada_casas": 4000,
+  "maior_vazao_sustentada_msg_s": 3080.5,
+  "ms_por_minuto_casa_mediana": 5.069,
+  "escalados_pct_mediana": 15.73
+ }
+}

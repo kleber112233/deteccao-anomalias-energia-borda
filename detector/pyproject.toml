@@ -1,0 +1,13 @@
+[project]
+name = "detector"
+version = "0.1.0"
+description = "Baselines de detecção de anomalias de consumo de energia residencial, exportados para ONNX (TCC, UNIMAR)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "pyarrow", "scikit-learn", "onnxruntime", "onnx", "skl2onnx"]
+
+[project.optional-dependencies]
+redes = ["torch", "onnxscript"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning", "ignore::UserWarning"]

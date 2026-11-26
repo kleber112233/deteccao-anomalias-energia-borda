@@ -1,0 +1,1523 @@
+{
+ "perfil": "perfil3",
+ "casa": "perfil3",
+ "semente": 1,
+ "inicio": "2026-01-05",
+ "dias": 120,
+ "particoes": {
+  "treino": {
+   "dias": 72,
+   "inicio": "2026-01-05",
+   "linhas": 4793230
+  },
+  "calibracao": {
+   "dias": 24,
+   "inicio": "2026-03-18",
+   "linhas": 1593996
+  },
+  "teste": {
+   "dias": 24,
+   "inicio": "2026-04-11",
+   "linhas": 1591834
+  }
+ },
+ "canais": [
+  {
+   "chave": "q",
+   "medidor": "q",
+   "canal": 1,
+   "comodo": "quadro",
+   "geral": true,
+   "fase": null,
+   "modelo_id": "kron-konect-120",
+   "firmware": "mqtt_nativo",
+   "modo": "periodico",
+   "intervalo_s": 10,
+   "aparelhos": []
+  },
+  {
+   "chave": "c1_c1",
+   "medidor": "c1",
+   "canal": 1,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-pro-3em-120",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_master.chuveiro_eletrico"
+   ]
+  },
+  {
+   "chave": "c1_c2",
+   "medidor": "c1",
+   "canal": 2,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-pro-3em-120",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_2.chuveiro_eletrico"
+   ]
+  },
+  {
+   "chave": "c1_c3",
+   "medidor": "c1",
+   "canal": 3,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-pro-3em-120",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_3.chuveiro_eletrico"
+   ]
+  },
+  {
+   "chave": "c2_c1",
+   "medidor": "c2",
+   "canal": 1,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-pro-3em-120",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_4.chuveiro_eletrico"
+   ]
+  },
+  {
+   "chave": "c2_c2",
+   "medidor": "c2",
+   "canal": 2,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-pro-3em-120",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "area_externa_piscina.bomba_piscina"
+   ]
+  },
+  {
+   "chave": "c2_c3",
+   "medidor": "c2",
+   "canal": 3,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-pro-3em-120",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "garagem.carregador_veicular"
+   ]
+  },
+  {
+   "chave": "r1",
+   "medidor": "r1",
+   "canal": 1,
+   "comodo": "suite_master",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_master.ar_condicionado"
+   ]
+  },
+  {
+   "chave": "r2",
+   "medidor": "r2",
+   "canal": 1,
+   "comodo": "suite_2",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_2.ar_condicionado"
+   ]
+  },
+  {
+   "chave": "r3",
+   "medidor": "r3",
+   "canal": 1,
+   "comodo": "suite_3",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_3.ar_condicionado"
+   ]
+  },
+  {
+   "chave": "r4",
+   "medidor": "r4",
+   "canal": 1,
+   "comodo": "suite_4",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_4.ar_condicionado"
+   ]
+  },
+  {
+   "chave": "r5",
+   "medidor": "r5",
+   "canal": 1,
+   "comodo": "estar_jantar",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "estar_jantar.ar_condicionado"
+   ]
+  },
+  {
+   "chave": "r6",
+   "medidor": "r6",
+   "canal": 1,
+   "comodo": "cozinha",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "cozinha.micro_ondas"
+   ]
+  },
+  {
+   "chave": "r7",
+   "medidor": "r7",
+   "canal": 1,
+   "comodo": "cozinha",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "cozinha.lava_loucas"
+   ]
+  },
+  {
+   "chave": "r8",
+   "medidor": "r8",
+   "canal": 1,
+   "comodo": "cozinha",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "cozinha.forno_eletrico"
+   ]
+  },
+  {
+   "chave": "r9",
+   "medidor": "r9",
+   "canal": 1,
+   "comodo": "area_externa_piscina",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "area_externa_piscina.bomba_dagua"
+   ]
+  },
+  {
+   "chave": "p1",
+   "medidor": "p1",
+   "canal": 1,
+   "comodo": "cozinha",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-pm-mini-gen3",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "cozinha.geladeira"
+   ]
+  },
+  {
+   "chave": "p2",
+   "medidor": "p2",
+   "canal": 1,
+   "comodo": "area_gourmet",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-pm-mini-gen3",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "area_gourmet.freezer"
+   ]
+  },
+  {
+   "chave": "l1",
+   "medidor": "l1",
+   "canal": 1,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-mini-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "estar_jantar.lampada",
+    "cozinha.lampada",
+    "area_gourmet.lampada"
+   ]
+  },
+  {
+   "chave": "l2",
+   "medidor": "l2",
+   "canal": 1,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-mini-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "suite_master.lampada",
+    "suite_2.lampada",
+    "suite_3.lampada",
+    "suite_4.lampada"
+   ]
+  },
+  {
+   "chave": "l3",
+   "medidor": "l3",
+   "canal": 1,
+   "comodo": "quadro",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "shelly-1pm-mini-gen4",
+   "firmware": "shelly",
+   "modo": "evento",
+   "intervalo_s": 60,
+   "aparelhos": [
+    "area_externa_piscina.lampada",
+    "garagem.lampada"
+   ]
+  },
+  {
+   "chave": "t1",
+   "medidor": "t1",
+   "canal": 1,
+   "comodo": "estar_jantar",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "tplink-tapo-p110",
+   "firmware": "tapo",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "estar_jantar.tv",
+    "estar_jantar.videogame",
+    "estar_jantar.roteador"
+   ]
+  },
+  {
+   "chave": "t2",
+   "medidor": "t2",
+   "canal": 1,
+   "comodo": "suite_master",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "tplink-tapo-p110",
+   "firmware": "tapo",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "suite_master.tv"
+   ]
+  },
+  {
+   "chave": "t3",
+   "medidor": "t3",
+   "canal": 1,
+   "comodo": "suite_2",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "tplink-tapo-p110",
+   "firmware": "tapo",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "suite_2.tv"
+   ]
+  },
+  {
+   "chave": "t4",
+   "medidor": "t4",
+   "canal": 1,
+   "comodo": "cozinha",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "tplink-tapo-p110",
+   "firmware": "tapo",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "cozinha.cafeteira"
+   ]
+  },
+  {
+   "chave": "t5",
+   "medidor": "t5",
+   "canal": 1,
+   "comodo": "cozinha",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "tplink-tapo-p110",
+   "firmware": "tapo",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "cozinha.purificador_agua"
+   ]
+  },
+  {
+   "chave": "t6",
+   "medidor": "t6",
+   "canal": 1,
+   "comodo": "escritorio",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "tplink-tapo-p110",
+   "firmware": "tapo",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "escritorio.computador_desktop",
+    "escritorio.monitor"
+   ]
+  },
+  {
+   "chave": "t7",
+   "medidor": "t7",
+   "canal": 1,
+   "comodo": "cozinha",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "firmware": "tuya_local",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "cozinha.air_fryer"
+   ]
+  },
+  {
+   "chave": "t8",
+   "medidor": "t8",
+   "canal": 1,
+   "comodo": "lavanderia",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "firmware": "tuya_local",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "lavanderia.maquina_lavar"
+   ]
+  },
+  {
+   "chave": "t9",
+   "medidor": "t9",
+   "canal": 1,
+   "comodo": "lavanderia",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "firmware": "tuya_local",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "lavanderia.ferro_passar"
+   ]
+  },
+  {
+   "chave": "t10",
+   "medidor": "t10",
+   "canal": 1,
+   "comodo": "suite_master",
+   "geral": false,
+   "fase": null,
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "firmware": "tuya_local",
+   "modo": "periodico",
+   "intervalo_s": 30,
+   "aparelhos": [
+    "suite_master.secador_cabelo"
+   ]
+  }
+ ],
+ "kwh_mes_equivalente": 1148.9,
+ "falhas_injetadas": 34,
+ "falhas_efetivas": 30,
+ "falhas_por_tipo": {
+  "fora_de_horario": 6,
+  "duracao_excessiva": 6,
+  "magnitude": 6,
+  "falta_energia": 4,
+  "consumo_nao_explicado": 4,
+  "queda": 4,
+  "pico": 4
+ },
+ "falhas_por_particao": {
+  "calibracao": 17,
+  "teste": 17
+ },
+ "faltas_de_energia_da_rede": 1,
+ "kwh_por_aparelho": {
+  "garagem.carregador_veicular": 832.38,
+  "estar_jantar.ar_condicionado": 514.26,
+  "area_externa_piscina.bomba_piscina": 331.45,
+  "suite_master.chuveiro_eletrico": 292.88,
+  "estar_jantar.tv": 194.91,
+  "suite_4.ar_condicionado": 179.85,
+  "suite_2.chuveiro_eletrico": 177.7,
+  "cozinha.geladeira": 161.13,
+  "area_externa_piscina.bomba_dagua": 160.39,
+  "suite_3.ar_condicionado": 153.9,
+  "suite_3.chuveiro_eletrico": 140.1,
+  "suite_master.ar_condicionado": 133.62,
+  "lavanderia.maquina_lavar": 124.89,
+  "area_gourmet.freezer": 121.33,
+  "suite_2.ar_condicionado": 108.1,
+  "cozinha.lava_loucas": 98.99,
+  "suite_4.chuveiro_eletrico": 97.36,
+  "area_externa_piscina.lampada": 65.55,
+  "cozinha.forno_eletrico": 59.46,
+  "estar_jantar.videogame": 57.05,
+  "estar_jantar.lampada": 47.07,
+  "suite_master.secador_cabelo": 35.73,
+  "lavanderia.ferro_passar": 35.5,
+  "cozinha.air_fryer": 30.03,
+  "cozinha.micro_ondas": 29.45,
+  "cozinha.purificador_agua": 25.57,
+  "estar_jantar.roteador": 24.85,
+  "cozinha.lampada": 15.13,
+  "cozinha.cafeteira": 14.4,
+  "escritorio.monitor": 13.09,
+  "suite_master.tv": 11.88,
+  "garagem.motor_portao": 10.98,
+  "escritorio.computador_desktop": 10.28,
+  "suite_master.lampada": 9.84,
+  "suite_2.lampada": 6.68,
+  "suite_3.lampada": 6.62,
+  "suite_2.tv": 5.51,
+  "suite_4.lampada": 2.8,
+  "escritorio.lampada": 2.34,
+  "cozinha.liquidificador": 2.11,
+  "area_gourmet.lampada": 1.32,
+  "garagem.lampada": 1.03,
+  "lavanderia.lampada": 0.0
+ },
+ "por_dia": [
+  {
+   "data": "2026-01-05",
+   "particao": "treino",
+   "kwh": 35.351,
+   "tmax": 29.2,
+   "mensagens": 66635,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-06",
+   "particao": "treino",
+   "kwh": 42.013,
+   "tmax": 28.4,
+   "mensagens": 66579,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-07",
+   "particao": "treino",
+   "kwh": 35.155,
+   "tmax": 28.3,
+   "mensagens": 66561,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-08",
+   "particao": "treino",
+   "kwh": 39.119,
+   "tmax": 29.6,
+   "mensagens": 66601,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-09",
+   "particao": "treino",
+   "kwh": 40.063,
+   "tmax": 29.3,
+   "mensagens": 66581,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-10",
+   "particao": "treino",
+   "kwh": 34.746,
+   "tmax": 30.9,
+   "mensagens": 66533,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-11",
+   "particao": "treino",
+   "kwh": 47.745,
+   "tmax": 30.1,
+   "mensagens": 66596,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-12",
+   "particao": "treino",
+   "kwh": 39.429,
+   "tmax": 29.5,
+   "mensagens": 66589,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-13",
+   "particao": "treino",
+   "kwh": 36.51,
+   "tmax": 29.5,
+   "mensagens": 66583,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-14",
+   "particao": "treino",
+   "kwh": 40.695,
+   "tmax": 29.6,
+   "mensagens": 66593,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-15",
+   "particao": "treino",
+   "kwh": 31.626,
+   "tmax": 28.8,
+   "mensagens": 66612,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-16",
+   "particao": "treino",
+   "kwh": 39.02,
+   "tmax": 30.8,
+   "mensagens": 66621,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-17",
+   "particao": "treino",
+   "kwh": 46.73,
+   "tmax": 32.3,
+   "mensagens": 66632,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-18",
+   "particao": "treino",
+   "kwh": 54.496,
+   "tmax": 34.4,
+   "mensagens": 66619,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-19",
+   "particao": "treino",
+   "kwh": 59.473,
+   "tmax": 31.8,
+   "mensagens": 66672,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-20",
+   "particao": "treino",
+   "kwh": 49.216,
+   "tmax": 31.2,
+   "mensagens": 66675,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-21",
+   "particao": "treino",
+   "kwh": 40.079,
+   "tmax": 29.5,
+   "mensagens": 66568,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-22",
+   "particao": "treino",
+   "kwh": 37.315,
+   "tmax": 27.5,
+   "mensagens": 66638,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-23",
+   "particao": "treino",
+   "kwh": 33.316,
+   "tmax": 26.8,
+   "mensagens": 66546,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-24",
+   "particao": "treino",
+   "kwh": 39.071,
+   "tmax": 28.1,
+   "mensagens": 66595,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-25",
+   "particao": "treino",
+   "kwh": 37.234,
+   "tmax": 31.5,
+   "mensagens": 66565,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-26",
+   "particao": "treino",
+   "kwh": 45.197,
+   "tmax": 30.0,
+   "mensagens": 66588,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-27",
+   "particao": "treino",
+   "kwh": 43.06,
+   "tmax": 29.4,
+   "mensagens": 66679,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-28",
+   "particao": "treino",
+   "kwh": 41.06,
+   "tmax": 29.4,
+   "mensagens": 66622,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-29",
+   "particao": "treino",
+   "kwh": 38.038,
+   "tmax": 27.0,
+   "mensagens": 66548,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-30",
+   "particao": "treino",
+   "kwh": 35.519,
+   "tmax": 27.9,
+   "mensagens": 66526,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-01-31",
+   "particao": "treino",
+   "kwh": 36.122,
+   "tmax": 26.8,
+   "mensagens": 66511,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-01",
+   "particao": "treino",
+   "kwh": 30.136,
+   "tmax": 29.4,
+   "mensagens": 66558,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-02",
+   "particao": "treino",
+   "kwh": 41.56,
+   "tmax": 29.1,
+   "mensagens": 66647,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-03",
+   "particao": "treino",
+   "kwh": 34.973,
+   "tmax": 30.6,
+   "mensagens": 66550,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-04",
+   "particao": "treino",
+   "kwh": 45.596,
+   "tmax": 31.6,
+   "mensagens": 66588,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-05",
+   "particao": "treino",
+   "kwh": 54.165,
+   "tmax": 31.8,
+   "mensagens": 66637,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-06",
+   "particao": "treino",
+   "kwh": 40.797,
+   "tmax": 30.4,
+   "mensagens": 66619,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-07",
+   "particao": "treino",
+   "kwh": 43.636,
+   "tmax": 32.6,
+   "mensagens": 66583,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-08",
+   "particao": "treino",
+   "kwh": 41.076,
+   "tmax": 28.5,
+   "mensagens": 66635,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-09",
+   "particao": "treino",
+   "kwh": 44.424,
+   "tmax": 28.5,
+   "mensagens": 66575,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-10",
+   "particao": "treino",
+   "kwh": 29.226,
+   "tmax": 27.8,
+   "mensagens": 66627,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-11",
+   "particao": "treino",
+   "kwh": 32.263,
+   "tmax": 27.4,
+   "mensagens": 66599,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-12",
+   "particao": "treino",
+   "kwh": 40.078,
+   "tmax": 29.7,
+   "mensagens": 66564,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-13",
+   "particao": "treino",
+   "kwh": 42.626,
+   "tmax": 29.2,
+   "mensagens": 66594,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-14",
+   "particao": "treino",
+   "kwh": 38.415,
+   "tmax": 29.4,
+   "mensagens": 66573,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-15",
+   "particao": "treino",
+   "kwh": 26.545,
+   "tmax": 26.7,
+   "mensagens": 66564,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-16",
+   "particao": "treino",
+   "kwh": 32.106,
+   "tmax": 25.5,
+   "mensagens": 66603,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-17",
+   "particao": "treino",
+   "kwh": 32.825,
+   "tmax": 27.3,
+   "mensagens": 66530,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-18",
+   "particao": "treino",
+   "kwh": 37.175,
+   "tmax": 29.3,
+   "mensagens": 66559,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-19",
+   "particao": "treino",
+   "kwh": 51.138,
+   "tmax": 32.1,
+   "mensagens": 66661,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-20",
+   "particao": "treino",
+   "kwh": 46.677,
+   "tmax": 29.7,
+   "mensagens": 66678,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-21",
+   "particao": "treino",
+   "kwh": 35.405,
+   "tmax": 30.0,
+   "mensagens": 66599,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-22",
+   "particao": "treino",
+   "kwh": 31.011,
+   "tmax": 28.4,
+   "mensagens": 66548,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-23",
+   "particao": "treino",
+   "kwh": 45.078,
+   "tmax": 31.0,
+   "mensagens": 66642,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-24",
+   "particao": "treino",
+   "kwh": 37.076,
+   "tmax": 29.4,
+   "mensagens": 66593,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-25",
+   "particao": "treino",
+   "kwh": 39.648,
+   "tmax": 28.2,
+   "mensagens": 66581,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-26",
+   "particao": "treino",
+   "kwh": 38.389,
+   "tmax": 27.2,
+   "mensagens": 66535,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-27",
+   "particao": "treino",
+   "kwh": 43.88,
+   "tmax": 28.5,
+   "mensagens": 66620,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-02-28",
+   "particao": "treino",
+   "kwh": 30.8,
+   "tmax": 26.6,
+   "mensagens": 66580,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-01",
+   "particao": "treino",
+   "kwh": 22.528,
+   "tmax": 27.4,
+   "mensagens": 66460,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-02",
+   "particao": "treino",
+   "kwh": 28.272,
+   "tmax": 27.8,
+   "mensagens": 66562,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-03",
+   "particao": "treino",
+   "kwh": 38.373,
+   "tmax": 28.2,
+   "mensagens": 66573,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-04",
+   "particao": "treino",
+   "kwh": 38.962,
+   "tmax": 28.5,
+   "mensagens": 66578,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-05",
+   "particao": "treino",
+   "kwh": 44.632,
+   "tmax": 29.0,
+   "mensagens": 66584,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-06",
+   "particao": "treino",
+   "kwh": 30.533,
+   "tmax": 27.9,
+   "mensagens": 66568,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-07",
+   "particao": "treino",
+   "kwh": 28.611,
+   "tmax": 27.6,
+   "mensagens": 66527,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-08",
+   "particao": "treino",
+   "kwh": 33.741,
+   "tmax": 26.7,
+   "mensagens": 66527,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-09",
+   "particao": "treino",
+   "kwh": 34.775,
+   "tmax": 27.1,
+   "mensagens": 66539,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-10",
+   "particao": "treino",
+   "kwh": 31.239,
+   "tmax": 27.3,
+   "mensagens": 66605,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-11",
+   "particao": "treino",
+   "kwh": 28.115,
+   "tmax": 26.4,
+   "mensagens": 65359,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-12",
+   "particao": "treino",
+   "kwh": 36.821,
+   "tmax": 29.0,
+   "mensagens": 66547,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-13",
+   "particao": "treino",
+   "kwh": 42.351,
+   "tmax": 31.1,
+   "mensagens": 66638,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-14",
+   "particao": "treino",
+   "kwh": 45.129,
+   "tmax": 32.7,
+   "mensagens": 66674,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-15",
+   "particao": "treino",
+   "kwh": 33.801,
+   "tmax": 30.1,
+   "mensagens": 66552,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-16",
+   "particao": "treino",
+   "kwh": 40.442,
+   "tmax": 29.1,
+   "mensagens": 66670,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-17",
+   "particao": "treino",
+   "kwh": 38.091,
+   "tmax": 27.9,
+   "mensagens": 66557,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-18",
+   "particao": "calibracao",
+   "kwh": 37.569,
+   "tmax": 29.3,
+   "mensagens": 64130,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-19",
+   "particao": "calibracao",
+   "kwh": 43.169,
+   "tmax": 29.6,
+   "mensagens": 66660,
+   "linhas_anomalas": 852
+  },
+  {
+   "data": "2026-03-20",
+   "particao": "calibracao",
+   "kwh": 40.047,
+   "tmax": 30.2,
+   "mensagens": 66654,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-21",
+   "particao": "calibracao",
+   "kwh": 40.883,
+   "tmax": 31.2,
+   "mensagens": 66611,
+   "linhas_anomalas": 2956
+  },
+  {
+   "data": "2026-03-22",
+   "particao": "calibracao",
+   "kwh": 48.391,
+   "tmax": 32.7,
+   "mensagens": 66606,
+   "linhas_anomalas": 1008
+  },
+  {
+   "data": "2026-03-23",
+   "particao": "calibracao",
+   "kwh": 53.944,
+   "tmax": 31.4,
+   "mensagens": 66663,
+   "linhas_anomalas": 854
+  },
+  {
+   "data": "2026-03-24",
+   "particao": "calibracao",
+   "kwh": 41.756,
+   "tmax": 30.7,
+   "mensagens": 66602,
+   "linhas_anomalas": 2776
+  },
+  {
+   "data": "2026-03-25",
+   "particao": "calibracao",
+   "kwh": 49.743,
+   "tmax": 31.9,
+   "mensagens": 66593,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-26",
+   "particao": "calibracao",
+   "kwh": 44.156,
+   "tmax": 32.0,
+   "mensagens": 66618,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-27",
+   "particao": "calibracao",
+   "kwh": 45.916,
+   "tmax": 31.0,
+   "mensagens": 66603,
+   "linhas_anomalas": 3065
+  },
+  {
+   "data": "2026-03-28",
+   "particao": "calibracao",
+   "kwh": 44.044,
+   "tmax": 29.6,
+   "mensagens": 66576,
+   "linhas_anomalas": 689
+  },
+  {
+   "data": "2026-03-29",
+   "particao": "calibracao",
+   "kwh": 24.085,
+   "tmax": 29.3,
+   "mensagens": 66514,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-03-30",
+   "particao": "calibracao",
+   "kwh": 41.964,
+   "tmax": 28.9,
+   "mensagens": 66633,
+   "linhas_anomalas": 43
+  },
+  {
+   "data": "2026-03-31",
+   "particao": "calibracao",
+   "kwh": 39.007,
+   "tmax": 28.3,
+   "mensagens": 66566,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-01",
+   "particao": "calibracao",
+   "kwh": 23.713,
+   "tmax": 23.5,
+   "mensagens": 66535,
+   "linhas_anomalas": 358
+  },
+  {
+   "data": "2026-04-02",
+   "particao": "calibracao",
+   "kwh": 32.008,
+   "tmax": 26.1,
+   "mensagens": 66576,
+   "linhas_anomalas": 325
+  },
+  {
+   "data": "2026-04-03",
+   "particao": "calibracao",
+   "kwh": 38.442,
+   "tmax": 26.7,
+   "mensagens": 66570,
+   "linhas_anomalas": 851
+  },
+  {
+   "data": "2026-04-04",
+   "particao": "calibracao",
+   "kwh": 27.429,
+   "tmax": 27.8,
+   "mensagens": 66551,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-05",
+   "particao": "calibracao",
+   "kwh": 29.702,
+   "tmax": 27.8,
+   "mensagens": 66543,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-06",
+   "particao": "calibracao",
+   "kwh": 31.057,
+   "tmax": 25.1,
+   "mensagens": 66539,
+   "linhas_anomalas": 470
+  },
+  {
+   "data": "2026-04-07",
+   "particao": "calibracao",
+   "kwh": 25.029,
+   "tmax": 23.3,
+   "mensagens": 66495,
+   "linhas_anomalas": 1372
+  },
+  {
+   "data": "2026-04-08",
+   "particao": "calibracao",
+   "kwh": 31.622,
+   "tmax": 26.3,
+   "mensagens": 64928,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-09",
+   "particao": "calibracao",
+   "kwh": 32.841,
+   "tmax": 28.4,
+   "mensagens": 66602,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-10",
+   "particao": "calibracao",
+   "kwh": 37.419,
+   "tmax": 29.8,
+   "mensagens": 66628,
+   "linhas_anomalas": 212
+  },
+  {
+   "data": "2026-04-11",
+   "particao": "teste",
+   "kwh": 26.207,
+   "tmax": 27.2,
+   "mensagens": 66516,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-12",
+   "particao": "teste",
+   "kwh": 22.498,
+   "tmax": 26.9,
+   "mensagens": 66531,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-13",
+   "particao": "teste",
+   "kwh": 38.417,
+   "tmax": 27.3,
+   "mensagens": 66613,
+   "linhas_anomalas": 246
+  },
+  {
+   "data": "2026-04-14",
+   "particao": "teste",
+   "kwh": 34.365,
+   "tmax": 27.2,
+   "mensagens": 66603,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-15",
+   "particao": "teste",
+   "kwh": 39.181,
+   "tmax": 30.8,
+   "mensagens": 66632,
+   "linhas_anomalas": 2373
+  },
+  {
+   "data": "2026-04-16",
+   "particao": "teste",
+   "kwh": 38.099,
+   "tmax": 29.5,
+   "mensagens": 66675,
+   "linhas_anomalas": 383
+  },
+  {
+   "data": "2026-04-17",
+   "particao": "teste",
+   "kwh": 45.241,
+   "tmax": 31.6,
+   "mensagens": 66601,
+   "linhas_anomalas": 2298
+  },
+  {
+   "data": "2026-04-18",
+   "particao": "teste",
+   "kwh": 31.594,
+   "tmax": 30.0,
+   "mensagens": 64136,
+   "linhas_anomalas": 2681
+  },
+  {
+   "data": "2026-04-19",
+   "particao": "teste",
+   "kwh": 48.122,
+   "tmax": 31.6,
+   "mensagens": 66627,
+   "linhas_anomalas": 1440
+  },
+  {
+   "data": "2026-04-20",
+   "particao": "teste",
+   "kwh": 54.96,
+   "tmax": 32.0,
+   "mensagens": 66649,
+   "linhas_anomalas": 4455
+  },
+  {
+   "data": "2026-04-21",
+   "particao": "teste",
+   "kwh": 45.56,
+   "tmax": 32.6,
+   "mensagens": 66668,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-22",
+   "particao": "teste",
+   "kwh": 39.613,
+   "tmax": 28.6,
+   "mensagens": 66717,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-23",
+   "particao": "teste",
+   "kwh": 45.481,
+   "tmax": 30.1,
+   "mensagens": 66667,
+   "linhas_anomalas": 852
+  },
+  {
+   "data": "2026-04-24",
+   "particao": "teste",
+   "kwh": 43.307,
+   "tmax": 28.3,
+   "mensagens": 66703,
+   "linhas_anomalas": 1190
+  },
+  {
+   "data": "2026-04-25",
+   "particao": "teste",
+   "kwh": 28.27,
+   "tmax": 29.4,
+   "mensagens": 66513,
+   "linhas_anomalas": 854
+  },
+  {
+   "data": "2026-04-26",
+   "particao": "teste",
+   "kwh": 50.428,
+   "tmax": 26.5,
+   "mensagens": 66611,
+   "linhas_anomalas": 743
+  },
+  {
+   "data": "2026-04-27",
+   "particao": "teste",
+   "kwh": 28.469,
+   "tmax": 27.0,
+   "mensagens": 66587,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-28",
+   "particao": "teste",
+   "kwh": 30.669,
+   "tmax": 27.6,
+   "mensagens": 66595,
+   "linhas_anomalas": 352
+  },
+  {
+   "data": "2026-04-29",
+   "particao": "teste",
+   "kwh": 29.232,
+   "tmax": 26.9,
+   "mensagens": 66519,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-04-30",
+   "particao": "teste",
+   "kwh": 28.465,
+   "tmax": 26.9,
+   "mensagens": 66547,
+   "linhas_anomalas": 320
+  },
+  {
+   "data": "2026-05-01",
+   "particao": "teste",
+   "kwh": 26.322,
+   "tmax": 22.5,
+   "mensagens": 66547,
+   "linhas_anomalas": 2015
+  },
+  {
+   "data": "2026-05-02",
+   "particao": "teste",
+   "kwh": 21.379,
+   "tmax": 22.1,
+   "mensagens": 62553,
+   "linhas_anomalas": 1901
+  },
+  {
+   "data": "2026-05-03",
+   "particao": "teste",
+   "kwh": 22.821,
+   "tmax": 25.3,
+   "mensagens": 66484,
+   "linhas_anomalas": 0
+  },
+  {
+   "data": "2026-05-04",
+   "particao": "teste",
+   "kwh": 28.933,
+   "tmax": 24.2,
+   "mensagens": 66540,
+   "linhas_anomalas": 78
+  }
+ ],
+ "segundos_para_gerar": 66.9
+}

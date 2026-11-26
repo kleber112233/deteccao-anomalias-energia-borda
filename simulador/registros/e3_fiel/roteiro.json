@@ -1,0 +1,293 @@
+{
+ "pi": "192.168.0.57",
+ "dataset": "../datasets/v1/perfil3/semente_1",
+ "rampa": "0:4000",
+ "intervalo_s": null,
+ "modo": "fiel",
+ "processos": 8,
+ "rodadas": [
+  {
+   "rodada": "E3f_b1",
+   "comando": {
+    "marca": "E3f_b1",
+    "reset": true,
+    "orcamento": 1.0,
+    "controlador": false
+   },
+   "inicio": 1795451711.523714,
+   "fim": 1795452193.9789503,
+   "enviadas": 1478223,
+   "geradores": [
+    {
+     "enviadas": 184784,
+     "segundos": 480.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b1_p1.csv",
+     "prefixo": "carga1x1-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 184859,
+     "segundos": 480.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b1_p2.csv",
+     "prefixo": "carga1x2-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 184845,
+     "segundos": 480.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b1_p3.csv",
+     "prefixo": "carga1x3-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 184904,
+     "segundos": 480.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b1_p4.csv",
+     "prefixo": "carga1x4-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 184741,
+     "segundos": 480.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b1_p5.csv",
+     "prefixo": "carga1x5-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 184566,
+     "segundos": 480.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b1_p6.csv",
+     "prefixo": "carga1x6-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 184844,
+     "segundos": 480.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b1_p7.csv",
+     "prefixo": "carga1x7-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 184680,
+     "segundos": 480.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b1_p8.csv",
+     "prefixo": "carga1x8-",
+     "mqtt": true
+    }
+   ]
+  },
+  {
+   "rodada": "E3f_b005",
+   "comando": {
+    "marca": "E3f_b005",
+    "reset": true,
+    "orcamento": 0.05,
+    "controlador": false
+   },
+   "inicio": 1795452258.9818034,
+   "fim": 1795454061.3864074,
+   "enviadas": 5547281,
+   "geradores": [
+    {
+     "enviadas": 693806,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b005_p1.csv",
+     "prefixo": "carga2x1-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 692155,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b005_p2.csv",
+     "prefixo": "carga2x2-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693432,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b005_p3.csv",
+     "prefixo": "carga2x3-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693705,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b005_p4.csv",
+     "prefixo": "carga2x4-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693305,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b005_p5.csv",
+     "prefixo": "carga2x5-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693945,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b005_p6.csv",
+     "prefixo": "carga2x6-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693277,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b005_p7.csv",
+     "prefixo": "carga2x7-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693656,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E3f_b005_p8.csv",
+     "prefixo": "carga2x8-",
+     "mqtt": true
+    }
+   ]
+  },
+  {
+   "rodada": "E4f_ctrl",
+   "comando": {
+    "marca": "E4f_ctrl",
+    "reset": true,
+    "orcamento": 1.0,
+    "controlador": true,
+    "atraso_max": 30.0
+   },
+   "inicio": 1795454126.3889024,
+   "fim": 1795455929.1791828,
+   "enviadas": 5546381,
+   "geradores": [
+    {
+     "enviadas": 692879,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E4f_ctrl_p1.csv",
+     "prefixo": "carga3x1-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 691836,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E4f_ctrl_p2.csv",
+     "prefixo": "carga3x2-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693478,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E4f_ctrl_p3.csv",
+     "prefixo": "carga3x3-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693810,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E4f_ctrl_p4.csv",
+     "prefixo": "carga3x4-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 694219,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E4f_ctrl_p5.csv",
+     "prefixo": "carga3x5-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693179,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E4f_ctrl_p6.csv",
+     "prefixo": "carga3x6-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693808,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E4f_ctrl_p7.csv",
+     "prefixo": "carga3x7-",
+     "mqtt": true
+    },
+    {
+     "enviadas": 693172,
+     "segundos": 1800.0,
+     "canais_por_casa": 31,
+     "casas_max": 500,
+     "modo": "fiel",
+     "registro": "registros\\e3_fiel\\E4f_ctrl_p8.csv",
+     "prefixo": "carga3x8-",
+     "mqtt": true
+    }
+   ]
+  }
+ ]
+}

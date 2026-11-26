@@ -1,0 +1,19 @@
+# Ambiente do detector no Raspberry Pi 5
+# Sistema em uso: Raspberry Pi OS (Legacy, 64-bit) Lite (Debian 12 "bookworm"), Python 3.11
+# Conferido em 21/11/2026: todos têm pacote pronto (wheel) para aarch64 com Python 3.11 e 3.13, então nada compila no Pi.
+#
+# scikit-learn e onnxruntime ficam com versão travada porque precisam ser IGUAIS no notebook (treino/exportação)
+# e no Pi (inferência). Depois de instalar, rode `pip freeze > requirements-pi.lock.txt` e guarde o arquivo:
+# é ele que vai para o artigo como registro exato do ambiente.
+
+paho-mqtt>=2.1,<3        # cliente MQTT (recebe telemetria, publica alertas e comandos)
+numpy>=2.0,<3
+scikit-learn==1.9.1      # Isolation Forest e OCSVM de referência
+onnxruntime==1.32.0      # runtime único de inferência (IF, OCSVM, AE e LSTM-AE exportados para .onnx)
+psutil>=7,<8             # carga do Pi (CPU, memória) para o ajuste do limiar τ da cascata
+pandas>=2.2              # leitura dos datasets congelados (E1/E2 medidos no próprio Pi)
+pyarrow>=15
+httpx>=0.27              # Telegram (API HTTPS do bot), sem biblioteca extra
+
+# Opcional: só se for fazer a comparação ONNX Runtime x LiteRT (ex-TensorFlow Lite)
+# ai-edge-litert==2.4.0

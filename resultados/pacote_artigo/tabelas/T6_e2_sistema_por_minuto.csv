@@ -1,0 +1,13 @@
+versão,casa,orçamento (%),ms por minuto de casa,atributos,estágio 1,estágio 2,escalados (%),alertas
+atributos antigos,perfil1_s1 (6 canais),0,1.319,1.124,0.16,0.0,0.0,24
+atributos antigos,perfil1_s1 (6 canais),5,1.406,1.125,0.164,0.08,5.0,25
+atributos antigos,perfil1_s1 (6 canais),100,3.154,1.191,0.234,1.669,99.8,24
+atributos antigos,perfil3_s1 (32 canais),0,6.876,5.756,0.957,0.0,0.0,16
+atributos antigos,perfil3_s1 (32 canais),5,7.658,5.843,1.073,0.55,5.6,16
+atributos antigos,perfil3_s1 (32 canais),100,17.746,6.137,1.437,9.845,99.8,16
+atributos otimizados (final),perfil1_s1 (6 canais),0,0.475,0.289,0.155,0.0,0.0,24
+atributos otimizados (final),perfil1_s1 (6 canais),5,0.563,0.291,0.159,0.078,5.0,25
+atributos otimizados (final),perfil1_s1 (6 canais),100,2.231,0.316,0.222,1.633,99.8,24
+atributos otimizados (final),perfil3_s1 (32 canais),0,2.461,1.493,0.82,0.0,0.0,16
+atributos otimizados (final),perfil3_s1 (32 canais),5,3.217,1.563,0.955,0.522,5.6,16
+atributos otimizados (final),perfil3_s1 (32 canais),100,13.163,1.75,1.377,9.716,99.8,16

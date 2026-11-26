@@ -1,0 +1,78 @@
+{
+ "casa": "baselines/perfil1/semente_1",
+ "canais": 6,
+ "minutos_de_atributos": 36000,
+ "ms_atributos_por_minuto_casa_vetorizado": 0.012112599055550769,
+ "modelos": {
+  "regra": {
+   "canais": 6,
+   "inferencias": 8640,
+   "us_mediana": 11.852,
+   "us_p95": 12.24,
+   "us_p99": 12.82598000000001,
+   "us_media": 11.926983217592593,
+   "kb_total_onnx": 0.7,
+   "kb_por_canal": 0.1
+  },
+  "if": {
+   "canais": 6,
+   "inferencias": 8640,
+   "us_mediana": 2179.3655,
+   "us_p95": 2330.7739500000002,
+   "us_p99": 2373.4094100000007,
+   "us_media": 2201.821832754629,
+   "kb_total_onnx": 5509.3,
+   "kb_por_canal": 918.2
+  },
+  "ocsvm": {
+   "canais": 6,
+   "inferencias": 8640,
+   "us_mediana": 19.667,
+   "us_p95": 21.185,
+   "us_p99": 23.619140000000044,
+   "us_media": 19.92319432870371,
+   "kb_total_onnx": 58.5,
+   "kb_por_canal": 9.8
+  },
+  "ae": {
+   "canais": 6,
+   "inferencias": 8640,
+   "us_mediana": 19.741,
+   "us_p95": 20.314049999999998,
+   "us_p99": 23.11557000000002,
+   "us_media": 19.871498842592594,
+   "kb_total_onnx": 48.1,
+   "kb_por_canal": 8.0
+  },
+  "lstm_ae": {
+   "canais": 6,
+   "inferencias": 8640,
+   "us_mediana": 199.926,
+   "us_p95": 207.46389999999997,
+   "us_p99": 213.67759,
+   "us_media": 200.74919016203705,
+   "kb_total_onnx": 369.2,
+   "kb_por_canal": 61.5
+  }
+ },
+ "mb_sessoes": 24.7,
+ "mb_processo": 290.6,
+ "maquina": "aarch64",
+ "python": "3.11.2",
+ "pi_antes": {
+  "governador": "performance",
+  "freq_mhz": 2400.0,
+  "temp_c": 39.15,
+  "throttled": "throttled=0x0",
+  "clock_arm": "frequency(0)=2400020480",
+  "relogio": "2026-11-23 09:12:59"
+ },
+ "pi_depois": {
+  "governador": "performance",
+  "freq_mhz": 2400.0,
+  "temp_c": 43.0,
+  "throttled": "throttled=0x0",
+  "clock_arm": "frequency(0)=2400030464",
+  "relogio": "2026-11-23 09:13:23"
+ }
+}

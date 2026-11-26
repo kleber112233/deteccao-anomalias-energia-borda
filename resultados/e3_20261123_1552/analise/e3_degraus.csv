@@ -1,0 +1,4 @@
+rodada,tipo,orcamento_inicial,controlador,minuto_inicio,casas,canais,msg_s_enviadas,msg_s_processadas,fracao_processada,exc_p95_mediana_s,exc_p95_pior_s,atraso_pior_s,fila_max,fila_fim_menos_inicio,escalados_pct,ms_por_minuto_casa,ms_estagio2_por_minuto_casa,cpu_detector_media,cpu_detector_max,cpu_mosquitto_media,mem_mb_max,temp_max,throttled,orcamentos_usados,base_atraso_s,sustentado_criterio,vazao_sustentada
+E4f_ctrl,degrau,1.0,True,0.0,4000,128000,3079.8,3090.3,1.0034,11.88,44.687,46.563,137664.0,0.0,39.22,7.501,4.271,71.1,111.6,2.9,3298.2,52.7,0x0,"0.1,0.2,0.5,1.0",0.929,False,True
+E4f_ctrl,regime_15min,1.0,True,14.720119420687357,4000,128000,3076.7,3076.1,0.9998,15.017,28.44,29.408,81814.0,-10347.0,34.67,7.523,3.955,72.5,111.6,3.0,3298.2,52.7,0x0,0.1,0.929,False,True
+E4f_ctrl,regime_5min_final,1.0,True,24.720119420687357,4000,128000,3065.4,3072.3,1.0023,14.228,27.636,28.466,80934.0,-6692.0,35.2,7.709,4.043,74.6,111.6,3.0,3298.2,51.0,0x0,0.1,0.929,False,True

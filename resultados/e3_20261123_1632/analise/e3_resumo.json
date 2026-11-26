@@ -1,0 +1,18 @@
+{
+ "E6_b1": {
+  "maior_degrau_criterio_casas": 0,
+  "maior_degrau_criterio_canais": 0,
+  "maior_vazao_sustentada_casas": 0,
+  "maior_vazao_sustentada_msg_s": 0.0,
+  "ms_por_minuto_casa_mediana": 17.772,
+  "escalados_pct_mediana": 100.0
+ },
+ "E6_ctrl": {
+  "maior_degrau_criterio_casas": 0,
+  "maior_degrau_criterio_canais": 0,
+  "maior_vazao_sustentada_casas": 4000,
+  "maior_vazao_sustentada_msg_s": 3354.3,
+  "ms_por_minuto_casa_mediana": 7.368,
+  "escalados_pct_mediana": 11.83
+ }
+}

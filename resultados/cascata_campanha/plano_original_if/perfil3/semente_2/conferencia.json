@@ -1,0 +1,17 @@
+{
+ "modelos_sozinhos": {
+  "if": {
+   "f1": 0.0,
+   "f1_oficial": 0.13333333333333336
+  },
+  "lstm_ae": {
+   "f1": 0.4,
+   "f1_oficial": 0.23529411764705882
+  }
+ },
+ "custos_us_por_janela_x86": {
+  "if": 33.66060792795829,
+  "lstm_ae": 57.023051365240256
+ },
+ "vigilancia_min": 30
+}

@@ -1,0 +1,30 @@
+== antes  2026-11-23 09:12:57
+governador: performance
+freq_mhz: 2400
+temp=37.8'C
+throttled=0x0
+ 09:12:57 up 41 min,  1 user,  load average: 0.00, 0.02, 0.25
+== depois de custo perfil1_semente_1  2026-11-23 09:13:23
+governador: performance
+freq_mhz: 2400
+temp=42.2'C
+throttled=0x0
+ 09:13:23 up 42 min,  1 user,  load average: 0.46, 0.13, 0.28
+== depois de custo perfil3_semente_1  2026-11-23 09:15:41
+governador: performance
+freq_mhz: 2400
+temp=43.3'C
+throttled=0x0
+ 09:15:41 up 44 min,  1 user,  load average: 0.95, 0.45, 0.39
+== depois de reproduzir perfil1_s1  2026-11-23 09:17:41
+governador: performance
+freq_mhz: 2400
+temp=44.4'C
+throttled=0x0
+ 09:17:41 up 46 min,  1 user,  load average: 1.00, 0.64, 0.47
+== depois de reproduzir perfil3_s1  2026-11-23 09:29:11
+governador: performance
+freq_mhz: 2400
+temp=45.5'C
+throttled=0x0
+ 09:29:11 up 57 min,  1 user,  load average: 1.00, 0.98, 0.77

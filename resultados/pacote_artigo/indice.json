@@ -1,0 +1,97 @@
+[
+ {
+  "arquivo": "tabelas/T1_baselines_teste.csv",
+  "titulo": "E1 — baselines no teste: média ± desvio-padrão das 15 casas (3 perfis × 5 sementes)",
+  "fonte": "resultados/baselines_v1/tabela_por_semente.csv (DIARIO do detector, seção H)"
+ },
+ {
+  "arquivo": "tabelas/T1b_baselines_auc_por_perfil.csv",
+  "titulo": "E1 — AUC-PR por evento no teste, por perfil (média das 5 sementes)",
+  "fonte": "resultados/baselines_v1/tabela_perfil_modelo.csv"
+ },
+ {
+  "arquivo": "tabelas/T1c_baselines_por_tipo.csv",
+  "titulo": "E1 — falhas detectadas / falhas no teste, por tipo e modelo (15 casas somadas)",
+  "fonte": "resultados/baselines_v1/tabela_por_tipo.csv"
+ },
+ {
+  "arquivo": "figuras/F1_baselines_auc.png",
+  "titulo": "E1 — AUC-PR por evento dos cinco baselines no teste",
+  "fonte": "resultados/baselines_v1/tabela_por_semente.csv"
+ },
+ {
+  "arquivo": "tabelas/T2_cascata_orcamentos.csv",
+  "titulo": "E1 — cascata OCSVM + regra → LSTM-AE no teste, por orçamento (15 casas)",
+  "fonte": "resultados/cascata_v1/tabela_cascata.csv (DIARIO, seção I)"
+ },
+ {
+  "arquivo": "figuras/F2_cascata_orcamento.png",
+  "titulo": "E1 — F1 e custo da cascata em função do orçamento de escalada",
+  "fonte": "resultados/cascata_v1/tabela_cascata.csv"
+ },
+ {
+  "arquivo": "tabelas/T3_arquiteturas.csv",
+  "titulo": "Análise de sensibilidade da arquitetura (orçamento 5 %): no teste (exploratório) e nos 28 dias novos",
+  "fonte": "resultados/cascata_exploratoria e resultados/cascata_campanha (DIARIO K6, K7; testes pareados em K7)"
+ },
+ {
+  "arquivo": "tabelas/T4_campanha_robustez.csv",
+  "titulo": "Campanha com 28 dias novos por casa (15 casas, 418 dias, 423 falhas): robustez",
+  "fonte": "resultados/campanha_v1/tabela_campanha.csv (DIARIO K5)"
+ },
+ {
+  "arquivo": "figuras/F3_campanha_robustez.png",
+  "titulo": "Campanha — alertas falsos por dia em cada perturbação (azul: sem perturbação)",
+  "fonte": "resultados/campanha_v1/tabela_campanha.csv"
+ },
+ {
+  "arquivo": "tabelas/T5_e2_latencia_inferencia.csv",
+  "titulo": "E2 — latência de UMA inferência no Raspberry Pi 5 (lote 1, 1 thread, 2.000 repetições, 2,4 GHz, sem throttling)",
+  "fonte": "resultados/e2_20261123_0912/custo_*.json (DIARIO K9)"
+ },
+ {
+  "arquivo": "tabelas/T6_e2_sistema_por_minuto.csv",
+  "titulo": "E2 — custo do sistema ao vivo no Pi 5 por minuto de casa (36.000 min de teste), antes e depois da otimização",
+  "fonte": "resultados/e2_*/reproduzir_*.txt (DIARIO K9)"
+ },
+ {
+  "arquivo": "figuras/F4_e2_latencia.png",
+  "titulo": "E2 — latência de uma inferência por modelo no Pi 5 (perfil1_s1)",
+  "fonte": "resultados/e2_20261123_0912/custo_perfil1_semente_1.json"
+ },
+ {
+  "arquivo": "figuras/F5_e3_atraso_por_casas.png",
+  "titulo": "E3 (1ª rodada, rampa 50→3.000 casas): pior atraso de alerta por nº de casas. *Nesta rodada o gerador desalinhava os canais e o orçamento de 5 % escalou 64 % (DIARIO K11)",
+  "fonte": "resultados/e3_20261123_1012/analise/e3_degraus.csv"
+ },
+ {
+  "arquivo": "tabelas/T7_e3_rampa.csv",
+  "titulo": "E3 — 1ª rodada (rampa, uma mensagem por canal a cada 10 s), por degrau",
+  "fonte": "resultados/e3_20261123_1012/analise/e3_degraus.csv (DIARIO K11)"
+ },
+ {
+  "arquivo": "tabelas/T8_e3_e4_e6_4000_casas.csv",
+  "titulo": "E3/E4/E6 — 4.000 casas perfil3 fiéis (128 mil canais, ~3.080 msg/s): sustenta? (últimos 5 min de cada rodada)",
+  "fonte": "resultados/e3_20261123_1331, _1552, _1632 /analise/e3_degraus.csv (DIARIO K13, K14, K16)"
+ },
+ {
+  "arquivo": "figuras/F6_e4_e6_controlador.png",
+  "titulo": "E4 e E6 — trajetória do controlador de carga (orçamento e pior atraso por minuto)",
+  "fonte": "resultados/e3_20261123_1552 e e3_20261123_1632 /analise/e4_trajetoria.csv (DIARIO K14, K16)"
+ },
+ {
+  "arquivo": "tabelas/T9_e5_ponta_a_ponta.csv",
+  "titulo": "E5 — sessão ao vivo painel → MQTT → Pi 5 → painel (perfil1_s1, orçamento 5 %)",
+  "fonte": "resultados/e5_bateria_noturna (DIARIO K8)"
+ },
+ {
+  "arquivo": "figuras/F7_realismo_forma_do_dia.png",
+  "titulo": "Realismo — forma média do dia da casa real (Boa Energia) e dos 3 perfis",
+  "fonte": "tabelas/realismo_forma_do_dia.csv (scripts/realismo_boa_energia.py)"
+ },
+ {
+  "arquivo": "tabelas/realismo_boa_energia.csv",
+  "titulo": "Realismo — casa real (Boa Energia) × perfis simulados: consumo, variabilidade e forma",
+  "fonte": "dados_reais/boa_energia/BoaEnergia.csv + datasets/v1 (treino)"
+ }
+]

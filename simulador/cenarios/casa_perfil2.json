@@ -1,0 +1,503 @@
+{
+ "perfil": 2,
+ "nome": "Casa perfil 2 — mediano",
+ "ligacao": "bifásica 127/220 V",
+ "cidade": "Marília-SP (clima: INMET A763)",
+ "moradores": "dados/personas.json#perfil2",
+ "comodos": [
+  "Sala",
+  "Cozinha",
+  "Suíte casal",
+  "Quarto 1",
+  "Quarto 2",
+  "Escritório",
+  "Banheiro suíte",
+  "Banheiro social",
+  "Área de serviço",
+  "Área externa"
+ ],
+ "medidores": [
+  {
+   "rotulo": "Q",
+   "modelo_id": "tuya-medidor-2canais-bidirecional-80a",
+   "modelo": "Genérico (Tuya) Medidor Wi-Fi bidirecional 2 canais 80A CT",
+   "onde": "Quadro: 2 pinças, uma em cada fase (casa toda)",
+   "preco_brl": 275.88,
+   "mede": [
+    "casa toda"
+   ]
+  },
+  {
+   "rotulo": "C",
+   "modelo_id": "emylo-pw01-2canais-80a",
+   "modelo": "eMylo (Tuya) PW01 medidor Wi-Fi 2 canais com pinça 80A+80A",
+   "onde": "Quadro: 2 pinças nos circuitos dos chuveiros",
+   "preco_brl": 167.91,
+   "mede": [
+    "Banheiro suíte: chuveiro_eletrico",
+    "Banheiro social: chuveiro_eletrico"
+   ]
+  },
+  {
+   "rotulo": "R1",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito do ar-condicionado da suíte",
+   "preco_brl": 170.0,
+   "mede": [
+    "Suíte casal: ar_condicionado"
+   ]
+  },
+  {
+   "rotulo": "R2",
+   "modelo_id": "shelly-1pm-gen4",
+   "modelo": "Shelly 1PM Gen4 (S4SW-001P16EU)",
+   "onde": "Circuito da bomba d'água",
+   "preco_brl": 170.0,
+   "mede": [
+    "Área externa: bomba_dagua"
+   ]
+  },
+  {
+   "rotulo": "L1",
+   "modelo_id": "shelly-1pm-mini-gen3",
+   "modelo": "Shelly 1PM Mini Gen3 (S3SW-001P8EU)",
+   "onde": "Atrás do interruptor: iluminação sala + cozinha",
+   "preco_brl": 91.28,
+   "mede": [
+    "Sala: lampada",
+    "Cozinha: lampada"
+   ]
+  },
+  {
+   "rotulo": "L2",
+   "modelo_id": "shelly-1pm-mini-gen3",
+   "modelo": "Shelly 1PM Mini Gen3 (S3SW-001P8EU)",
+   "onde": "Atrás do interruptor: iluminação dos quartos",
+   "preco_brl": 91.28,
+   "mede": [
+    "Suíte casal: lampada",
+    "Quarto 1: lampada",
+    "Quarto 2: lampada"
+   ]
+  },
+  {
+   "rotulo": "T1",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada da geladeira",
+   "preco_brl": 46.58,
+   "mede": [
+    "Cozinha: geladeira"
+   ]
+  },
+  {
+   "rotulo": "T2",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada do rack da sala (TV + videogame + roteador)",
+   "preco_brl": 46.58,
+   "mede": [
+    "Sala: tv",
+    "Sala: videogame",
+    "Sala: roteador"
+   ]
+  },
+  {
+   "rotulo": "T3",
+   "modelo_id": "tplink-tapo-p110",
+   "modelo": "TP-Link Tapo P110 (versão Brasil 10A bivolt)",
+   "onde": "Tomada da mesa do escritório",
+   "preco_brl": 46.58,
+   "mede": [
+    "Escritório: notebook",
+    "Escritório: monitor"
+   ]
+  },
+  {
+   "rotulo": "T4",
+   "modelo_id": "positivo-smart-plug-max-ppw1600",
+   "modelo": "Positivo Casa Inteligente Smart Plug Max Wi-Fi 16A/1600W (PPW1600)",
+   "onde": "Tomada do micro-ondas",
+   "preco_brl": 51.99,
+   "mede": [
+    "Cozinha: micro_ondas"
+   ]
+  },
+  {
+   "rotulo": "T5",
+   "modelo_id": "novadigital-wk-br-pro-max-20a",
+   "modelo": "Novadigital WK-BR PRO MAX (Tomada Inteligente Wi-Fi 20A com medidor)",
+   "onde": "Tomada da air fryer",
+   "preco_brl": 61.74,
+   "mede": [
+    "Cozinha: air_fryer"
+   ]
+  },
+  {
+   "rotulo": "T6",
+   "modelo_id": "positivo-smart-plug-ppw1000",
+   "modelo": "Positivo Casa Inteligente Smart Plug Wi-Fi 10A/1000W (PPW1000)",
+   "onde": "Tomada da máquina de lavar",
+   "preco_brl": 83.0,
+   "mede": [
+    "Área de serviço: maquina_lavar"
+   ]
+  },
+  {
+   "rotulo": "T7",
+   "modelo_id": "ekaza-t005-16a",
+   "modelo": "EKAZA EKNX-T005 (Tomada Inteligente 16A com medidor)",
+   "onde": "Tomada do ferro",
+   "preco_brl": 50.29,
+   "mede": [
+    "Área de serviço: ferro_passar"
+   ]
+  }
+ ],
+ "aparelhos": [
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "geladeira-consul-crm44mb",
+   "aparelho": "Consul CRM44MB",
+   "tipo": "geladeira",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "T1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "microondas-lg-ms3091bc",
+   "aparelho": "LG MS3091BC (127V) / MS3091BCA (220V) EasyClean",
+   "tipo": "micro_ondas",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "T4",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "airfryer-philco-paf65a",
+   "aparelho": "Philco PAF65A (Visor Glass Redstone)",
+   "tipo": "air_fryer",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": "T5",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "cafeteira-filtro-mondial-c-30-18x",
+   "aparelho": "Mondial Dolce Arome C-30 18X",
+   "tipo": "cafeteira",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "liquidificador-britania-blq1300p",
+   "aparelho": "Britânia BLQ1300P",
+   "tipo": "liquidificador",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "purificador-ibbl-due",
+   "aparelho": "IBBL Due (compressor)",
+   "tipo": "purificador_agua",
+   "quantidade": 1,
+   "circuito": "tomadas cozinha",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "tv-samsung-un50u8000h",
+   "aparelho": "Samsung Smart TV Vision AI Crystal UHD 4K U8000H 2026 (UN50U8000HGXZD)",
+   "tipo": "tv",
+   "quantidade": 1,
+   "circuito": "tomadas sala",
+   "medido_por": "T2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "console-sony-ps5-slim",
+   "aparelho": "Sony PlayStation 5 Slim com leitor de discos (CFI-2114A), SSD 1 TB",
+   "tipo": "videogame",
+   "quantidade": 1,
+   "circuito": "tomadas sala",
+   "medido_por": "T2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "roteador-intelbras-w5-1200f",
+   "aparelho": "Intelbras W5-1200F (AC1200, Wi-Fi 5)",
+   "tipo": "roteador",
+   "quantidade": 1,
+   "circuito": "tomadas sala",
+   "medido_por": "T2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "vent-teto-ventisol-wind-inverter",
+   "aparelho": "Ventisol Wind Inverter",
+   "tipo": "ventilador",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte casal",
+   "aparelho_id": "ac-split-lg-dual-inverter-voice-9000",
+   "aparelho": "LG Dual Inverter Voice S3-Q09AA31F",
+   "tipo": "ar_condicionado",
+   "quantidade": 1,
+   "circuito": "ar suíte",
+   "medido_por": "R1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte casal",
+   "aparelho_id": "tv-lg-43ua7500psa",
+   "aparelho": "LG Smart TV UHD AI 4K UA75 (43UA7500PSA)",
+   "tipo": "tv",
+   "quantidade": 1,
+   "circuito": "tomadas quartos",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Quarto 1",
+   "aparelho_id": "vent-coluna-ventisol-60cm-oscilante",
+   "aparelho": "Ventisol Coluna Oscilante 60 cm (mod. 536)",
+   "tipo": "ventilador",
+   "quantidade": 1,
+   "circuito": "tomadas quartos",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Quarto 2",
+   "aparelho_id": "vent-coluna-ventisol-60cm-oscilante",
+   "aparelho": "Ventisol Coluna Oscilante 60 cm (mod. 536)",
+   "tipo": "ventilador",
+   "quantidade": 1,
+   "circuito": "tomadas quartos",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Escritório",
+   "aparelho_id": "notebook-lenovo-ideapad-slim3-15iwc11",
+   "aparelho": "Lenovo IdeaPad Slim 3 15IWC11 (Intel Core 5 320, 8 GB, 512 GB) - 83WA001JBO",
+   "tipo": "notebook",
+   "quantidade": 1,
+   "circuito": "tomadas escritório",
+   "medido_por": "T3",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Escritório",
+   "aparelho_id": "monitor-dell-p2425h",
+   "aparelho": "Dell Dell Pro 24 P2425H",
+   "tipo": "monitor",
+   "quantidade": 1,
+   "circuito": "tomadas escritório",
+   "medido_por": "T3",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Banheiro suíte",
+   "aparelho_id": "chuveiro-lorenzetti-advanced-7500w-220v",
+   "aparelho": "Lorenzetti Advanced Eletrônica (ref. 7510521)",
+   "tipo": "chuveiro_eletrico",
+   "quantidade": 1,
+   "circuito": "chuveiro suíte",
+   "medido_por": "C",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Banheiro social",
+   "aparelho_id": "chuveiro-lorenzetti-advanced-7500w-220v",
+   "aparelho": "Lorenzetti Advanced Eletrônica (ref. 7510521)",
+   "tipo": "chuveiro_eletrico",
+   "quantidade": 1,
+   "circuito": "chuveiro social",
+   "medido_por": "C",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Banheiro suíte",
+   "aparelho_id": "secador-taiff-easy-1700w",
+   "aparelho": "Taiff Easy 1700W",
+   "tipo": "secador_cabelo",
+   "quantidade": 1,
+   "circuito": "tomadas banheiro",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área de serviço",
+   "aparelho_id": "lavadora-brastemp-bwk16ab-16kg",
+   "aparelho": "Brastemp BWK16AB",
+   "tipo": "maquina_lavar",
+   "quantidade": 1,
+   "circuito": "tomadas serviço",
+   "medido_por": "T6",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área de serviço",
+   "aparelho_id": "ferro-arno-essentialgliss-fmq-vapor",
+   "aparelho": "Arno Essentialgliss FMQ",
+   "tipo": "ferro_passar",
+   "quantidade": 1,
+   "circuito": "tomadas serviço",
+   "medido_por": "T7",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área externa",
+   "aparelho_id": "pressurizador-lorenzetti-pl20",
+   "aparelho": "Lorenzetti PL20 (fluxostato)",
+   "tipo": "bomba_dagua",
+   "quantidade": 1,
+   "circuito": "bomba",
+   "medido_por": "R2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área externa",
+   "aparelho_id": "motor-portao-deslizante-garen-dz-niid",
+   "aparelho": "Garen DZ Niid",
+   "tipo": "motor_portao",
+   "quantidade": 1,
+   "circuito": "portão",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Sala",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 3,
+   "circuito": "iluminação social",
+   "medido_por": "L1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Cozinha",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 2,
+   "circuito": "iluminação social",
+   "medido_por": "L1",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Suíte casal",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação quartos",
+   "medido_por": "L2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Quarto 1",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação quartos",
+   "medido_por": "L2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Quarto 2",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação quartos",
+   "medido_por": "L2",
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Escritório",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Banheiro suíte",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Banheiro social",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área de serviço",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 1,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  },
+  {
+   "comodo": "Área externa",
+   "aparelho_id": "lampada-led-osram-cla75-12w",
+   "aparelho": "Osram / Ledvance LED CLA75 12 W E27",
+   "tipo": "lampada",
+   "quantidade": 2,
+   "circuito": "iluminação",
+   "medido_por": null,
+   "tambem_no_medidor_geral": true
+  }
+ ],
+ "resumo": {
+  "custo_med": 1353.11,
+  "custo_ap": 28041.73,
+  "n_ap": 37,
+  "n_tipos": 20,
+  "n_med": 13,
+  "fluxos": 15,
+  "medidos": 22,
+  "zig": [
+   "shelly-1pm-gen4",
+   "shelly-1pm-gen4"
+  ]
+ }
+}

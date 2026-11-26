@@ -1,0 +1,14 @@
+falha_id,tipo,alvo,canal_direto,ini,fim,detectado,atraso_min,localizado,canais_alerta
+F0018,duracao_excessiva,sala.tv,t3,1794879780,1794884400,False,,False,
+F0019,duracao_excessiva,area_de_servico.ferro_passar,t4,1794889527,1794900315,False,,False,
+F0020,queda,cozinha.geladeira,t1,1795024599,1795044815,False,,False,
+F0021,duracao_excessiva,area_de_servico.ferro_passar,t4,1795071046,1795081815,False,,False,
+F0022,fora_de_horario,cozinha.micro_ondas,t2,1795151031,1795151391,True,8.15,True,t2
+F0025,consumo_nao_explicado,geral,q,1795466059,1795488957,False,,False,
+F0026,pico,area_de_servico.ferro_passar,t4,1795646907,1795649154,False,,False,
+F0027,magnitude,cozinha.cafeteira,,1795767559,1795770405,False,,False,
+F0028,magnitude,sala.tv,t3,1795975920,1795991188,False,,False,
+F0029,pico,cozinha.geladeira,t1,1796070638,1796073189,False,,False,
+F0030,fora_de_horario,cozinha.micro_ondas,t2,1796109946,1796110306,True,9.233333333333333,True,t2
+F0031,fora_de_horario,sala.tv,t3,1796276484,1796281884,False,,False,
+F0032,consumo_nao_explicado,geral,q,1796411288,1796435782,False,,False,

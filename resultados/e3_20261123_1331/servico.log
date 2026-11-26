@@ -1,0 +1,1598 @@
+detector ouvindo localhost:1883 — casas: -; modo de carga: casas 'carga*' com o modelo pacotes/perfil3_s1, orçamento 1.0
+13:31:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.4%  mem=146.8 MB  temp=39.15 °C
+13:32:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=146.8 MB  temp=39.7 °C
+COMANDO {"marca": "E3f_b1", "reset": true, "orcamento": 1.0, "controlador": false} → {"marca": "E3f_b1", "orcamento": 1.0, "controlador": false, "atraso_max": 2.0, "casas": 0}
+13:32:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=146.8 MB  temp=39.15 °C
+13:32:24 casas=1000 canais=32000    442.5 msg/s  atraso p50/p95/máx=1.466/2.887/3.325 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 26.7%  mem=611.3 MB  temp=39.7 °C
+13:32:34 casas=1000 canais=32000    806.3 msg/s  atraso p50/p95/máx=0.816/0.83/0.836 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  5.0%  mem=612.9 MB  temp=40.8 °C
+13:32:44 casas=1000 canais=32000    266.5 msg/s  atraso p50/p95/máx=0.816/0.822/0.825 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  1.7%  mem=613.2 MB  temp=39.7 °C
+13:32:54 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=39.15 °C
+13:33:04 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=613.2 MB  temp=39.15 °C
+13:33:14 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=39.7 °C
+13:33:24 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=40.25 °C
+13:33:34 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=39.15 °C
+13:33:44 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=613.2 MB  temp=39.15 °C
+13:33:54 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=38.6 °C
+13:34:04 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=39.15 °C
+13:34:14 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=613.2 MB  temp=39.15 °C
+13:34:24 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=39.7 °C
+13:34:34 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=38.6 °C
+13:34:44 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=39.15 °C
+13:34:54 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=613.2 MB  temp=39.7 °C
+13:35:04 casas=1000 canais=32000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=613.2 MB  temp=39.7 °C
+COMANDO {"marca": "E3f_b1", "reset": true, "orcamento": 1.0, "controlador": false} → {"marca": "E3f_b1", "orcamento": 1.0, "controlador": false, "atraso_max": 2.0, "casas": 0}
+13:35:14 casas= 226 canais= 7232     49.5 msg/s  atraso p50/p95/máx=0.978/1.128/1.235 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=258  CPU=  6.1%  mem=613.2 MB  temp=40.8 °C
+13:35:24 casas=4000 canais=128000   1098.7 msg/s  atraso p50/p95/máx=9.224/10.103/10.693 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=101.8%  mem=2003.0 MB  temp=45.2 °C
+13:35:34 casas=4000 canais=128000   5193.7 msg/s  atraso p50/p95/máx=0.857/8.415/9.275 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 32.2%  mem=2014.0 MB  temp=42.45 °C
+13:35:44 casas=4000 canais=128000   2921.9 msg/s  atraso p50/p95/máx=0.827/0.887/0.934 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.4%  mem=2018.6 MB  temp=43.0 °C
+13:35:54 casas=4000 canais=128000   2633.5 msg/s  atraso p50/p95/máx=0.826/0.856/0.975 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 16.8%  mem=2025.1 MB  temp=42.45 °C
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-53/residuo: regra score=1.088
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-88/residuo: regra score=1.595
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-161/residuo: regra score=1.121
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-190/residuo: regra score=1.057
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-188/residuo: regra score=1.551
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-182/residuo: regra score=1.05
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-205/residuo: regra score=1.532
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-251/residuo: regra score=1.753
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-252/residuo: regra score=1.54
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-307/residuo: regra score=1.163
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-325/residuo: regra score=1.023
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-326/residuo: regra score=1.459
+13:36:04 casas=4000 canais=128000   1771.6 msg/s  atraso p50/p95/máx=0.827/0.874/4.395 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=9.701  fila=14759  CPU= 50.8%  mem=2062.6 MB  temp=46.3 °C
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-319/residuo: regra score=1.029
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-359/residuo: regra score=1.506
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-395/residuo: regra score=1.444
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-410/c2: regra score=1.037
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-400/residuo: regra score=1.505
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-423/residuo: regra score=1.503
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-423/c2: regra score=1.037
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-437/residuo: regra score=1.458
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-451/residuo: regra score=1.108
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-472/residuo: regra score=1.014
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-429/residuo: regra score=1.287
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-489/t5: regra score=1.623
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-444/residuo: regra score=1.393
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-445/residuo: regra score=1.506
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-48/t5: regra score=1.624
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-100/residuo: regra score=1.467
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-242/residuo: regra score=1.191
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-28/t5: regra score=1.617
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-32/residuo: regra score=1.071
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-47/residuo: regra score=1.477
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-78/residuo: regra score=1.476
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-397/residuo: regra score=1.084
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-113/residuo: regra score=1.503
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-408/residuo: regra score=1.504
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-6/r9: regra score=1.044
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-13/residuo: regra score=1.087
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-34/residuo: regra score=1.451
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-59/residuo: regra score=1.058
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-79/residuo: regra score=1.486
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-98/residuo: regra score=1.12
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-94/residuo: regra score=1.204
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-102/residuo: regra score=1.042
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-111/residuo: regra score=1.396
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-145/residuo: regra score=1.152
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-163/residuo: regra score=1.493
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-165/residuo: regra score=1.039
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-227/residuo: regra score=1.522
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-233/residuo: regra score=1.289
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-245/residuo: regra score=1.124
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-238/residuo: regra score=1.106
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-273/residuo: regra score=1.405
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-305/residuo: regra score=1.055
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-73/residuo: regra score=1.424
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-351/residuo: regra score=1.382
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-354/residuo: regra score=1.031
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-108/residuo: regra score=1.606
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-121/residuo: regra score=1.502
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-400/residuo: regra score=1.445
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-145/residuo: regra score=1.504
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-153/residuo: regra score=1.104
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-346/residuo: regra score=1.044
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-187/residuo: regra score=1.26
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-229/residuo: regra score=1.023
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-397/t5: regra score=1.623
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-403/residuo: regra score=1.233
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-435/residuo: regra score=1.448
+13:36:15 casas=4000 canais=128000    165.6 msg/s  atraso p50/p95/máx=9.005/13.331/14.995 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=10.872  fila=43860  CPU=107.0%  mem=2131.3 MB  temp=48.5 °C
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-470/residuo: regra score=1.503
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-313/residuo: regra score=1.042
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-315/c2: regra score=1.019
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-315/residuo: regra score=1.116
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-459/residuo: regra score=1.567
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-336/c2: regra score=1.019
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-336/residuo: regra score=1.12
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-341/residuo: regra score=1.627
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-342/residuo: regra score=1.523
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-366/t5: regra score=1.621
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-374/r9: regra score=1.045
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-390/residuo: regra score=1.125
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-23/residuo: regra score=1.219
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-30/r9: regra score=1.107
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-37/residuo: regra score=1.466
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-39/residuo: regra score=1.079
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-49/residuo: regra score=1.522
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-138/residuo: regra score=1.71
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-123/residuo: regra score=1.251
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-166/residuo: regra score=1.519
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-236/residuo: regra score=1.367
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-239/residuo: regra score=1.495
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-170/r9: regra score=1.044
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-242/residuo: regra score=1.22
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-264/residuo: regra score=1.082
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-296/residuo: regra score=1.518
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-317/residuo: regra score=1.552
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-357/residuo: regra score=1.061
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-358/residuo: regra score=1.47
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-402/residuo: regra score=1.52
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-389/residuo: regra score=1.495
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-407/residuo: regra score=1.027
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-337/t5: regra score=1.286
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-411/residuo: regra score=1.299
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-470/residuo: regra score=1.305
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-435/residuo: regra score=1.051
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-462/t5: regra score=1.627
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-18/residuo: regra score=1.127
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-55/residuo: regra score=1.448
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-123/residuo: regra score=1.184
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-167/residuo: regra score=1.522
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-183/residuo: regra score=1.026
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-277/residuo: regra score=1.185
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-303/residuo: regra score=1.063
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-412/residuo: regra score=1.115
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-115/residuo: regra score=1.235
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-123/residuo: regra score=1.194
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-135/residuo: regra score=1.131
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-282/residuo: regra score=1.573
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-24/residuo: regra score=1.524
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-316/residuo: regra score=1.55
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-13/residuo: regra score=1.419
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-68/residuo: regra score=1.22
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-69/c2: regra score=1.102
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-11/c2: regra score=1.103
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-32/residuo: regra score=1.528
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-419/residuo: regra score=1.027
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-171/residuo: regra score=1.03
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-87/residuo: regra score=1.518
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-101/residuo: regra score=1.103
+13:36:25 casas=4000 canais=128000    312.1 msg/s  atraso p50/p95/máx=19.7/23.623/24.047 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=9.667  fila=79380  CPU=109.7%  mem=2213.1 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-156/residuo: regra score=1.559
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-208/residuo: regra score=1.031
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-214/residuo: regra score=1.036
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-255/residuo: regra score=1.498
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-372/residuo: regra score=1.57
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-390/residuo: regra score=1.565
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-294/residuo: regra score=1.71
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-435/residuo: regra score=1.515
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-348/residuo: regra score=1.501
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-356/residuo: regra score=1.012
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-488/r9: regra score=1.079
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-365/residuo: regra score=1.215
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-369/residuo: regra score=1.477
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-411/residuo: regra score=1.399
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-461/residuo: regra score=1.562
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-437/c2: regra score=1.102
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-477/residuo: regra score=1.509
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-10/residuo: regra score=1.498
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-38/residuo: regra score=1.551
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-79/residuo: regra score=1.283
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-190/c2: regra score=1.102
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-207/residuo: regra score=1.182
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-227/residuo: regra score=1.46
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-184/residuo: regra score=1.444
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-303/residuo: regra score=1.498
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-281/residuo: regra score=1.5
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-344/residuo: regra score=1.499
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-348/residuo: regra score=1.456
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-421/residuo: regra score=1.496
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-435/residuo: regra score=1.652
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-462/residuo: regra score=1.448
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-416/residuo: regra score=1.588
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-1/residuo: regra score=1.156
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-83/r9: regra score=1.045
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-118/residuo: regra score=1.498
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-44/residuo: regra score=1.703
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-334/residuo: regra score=1.469
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-365/residuo: regra score=1.075
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-101/residuo: regra score=1.176
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-175/residuo: regra score=1.653
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-263/residuo: regra score=1.052
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-264/residuo: regra score=1.699
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-311/c2: regra score=1.014
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-372/r9: regra score=1.044
+13:36:35 casas=4000 canais=128000    562.1 msg/s  atraso p50/p95/máx=29.117/32.546/33.043 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=10.188  fila=103645  CPU=107.5%  mem=2274.1 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-474/residuo: regra score=1.369
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-95/residuo: regra score=1.46
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-140/residuo: regra score=1.081
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-271/residuo: regra score=1.7
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-417/residuo: regra score=1.463
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-116/residuo: regra score=1.562
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-307/residuo: regra score=1.502
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-243/residuo: regra score=1.482
+ALERTA 2026-11-23T13:36:00-03:00 carga1x3-221/residuo: regra score=1.57
+ALERTA 2026-11-23T13:36:00-03:00 carga1x6-272/r9: regra score=1.045
+ALERTA 2026-11-23T13:36:00-03:00 carga1x5-489/c2: regra score=1.102
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-42/r9: regra score=1.046
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-174/residuo: regra score=1.201
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-225/r9: regra score=1.047
+ALERTA 2026-11-23T13:36:00-03:00 carga1x4-264/residuo: regra score=1.191
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-155/residuo: regra score=1.196
+ALERTA 2026-11-23T13:36:00-03:00 carga1x1-368/residuo: regra score=1.19
+ALERTA 2026-11-23T13:36:00-03:00 carga1x2-424/residuo: regra score=1.22
+ALERTA 2026-11-23T13:36:00-03:00 carga1x8-232/c2: regra score=1.102
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-429/c2: regra score=1.019
+ALERTA 2026-11-23T13:36:00-03:00 carga1x7-462/residuo: regra score=1.037
+13:36:47 casas=4000 canais=128000  10580.9 msg/s  atraso p50/p95/máx=22.715/36.907/38.783 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=10.449  fila=0  CPU=104.2%  mem=2307.2 MB  temp=49.6 °C
+13:36:57 casas=4000 canais=128000   4302.5 msg/s  atraso p50/p95/máx=0.846/4.215/4.332 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 28.4%  mem=2307.2 MB  temp=45.2 °C
+ALERTA 2026-11-23T13:37:00-03:00 carga1x1-188/c2: regra score=1.037
+ALERTA 2026-11-23T13:37:00-03:00 carga1x1-252/c2: regra score=1.038
+ALERTA 2026-11-23T13:37:00-03:00 carga1x2-444/c2: regra score=1.017
+13:37:07 casas=4000 canais=128000    710.0 msg/s  atraso p50/p95/máx=0.825/4.819/7.286 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.257  fila=23980  CPU= 75.4%  mem=2307.6 MB  temp=48.5 °C
+ALERTA 2026-11-23T13:37:00-03:00 carga1x3-163/r9: regra score=1.045
+13:37:17 casas=4000 canais=128000    148.1 msg/s  atraso p50/p95/máx=12.0/16.526/16.974 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.296  fila=57027  CPU=108.7%  mem=2309.6 MB  temp=49.6 °C
+13:37:28 casas=4000 canais=128000    189.4 msg/s  atraso p50/p95/máx=21.011/24.184/26.614 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=15.255  fila=82042  CPU=106.5%  mem=2311.9 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:37:00-03:00 carga1x5-282/r9: regra score=1.047
+ALERTA 2026-11-23T13:37:00-03:00 carga1x3-156/c2: regra score=1.016
+ALERTA 2026-11-23T13:37:00-03:00 carga1x3-156/r9: regra score=1.046
+ALERTA 2026-11-23T13:37:00-03:00 carga1x3-477/r9: regra score=1.012
+13:37:38 casas=4000 canais=128000    304.5 msg/s  atraso p50/p95/máx=32.336/35.643/35.921 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.27  fila=114835  CPU=108.8%  mem=2359.7 MB  temp=50.15 °C
+ALERTA 2026-11-23T13:37:00-03:00 carga1x5-182/r9: regra score=1.017
+13:37:48 casas=4000 canais=128000    679.3 msg/s  atraso p50/p95/máx=41.536/44.275/44.612 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.308  fila=136324  CPU=107.1%  mem=2404.1 MB  temp=52.35 °C
+ALERTA 2026-11-23T13:37:00-03:00 carga1x5-206/t5: regra score=1.077
+13:37:58 casas=4000 canais=128000  16504.1 msg/s  atraso p50/p95/máx=25.583/46.769/49.111 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.202  fila=0  CPU= 96.4%  mem=2426.9 MB  temp=50.15 °C
+ALERTA 2026-11-23T13:38:00-03:00 carga1x1-19/t5: regra score=1.033
+13:38:08 casas=4000 canais=128000    605.5 msg/s  atraso p50/p95/máx=0.823/6.051/8.089 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=16.583  fila=25416  CPU= 83.0%  mem=2426.9 MB  temp=50.7 °C
+ALERTA 2026-11-23T13:38:00-03:00 carga1x7-180/t5: regra score=1.071
+ALERTA 2026-11-23T13:38:00-03:00 carga1x6-139/c2: regra score=1.037
+ALERTA 2026-11-23T13:38:00-03:00 carga1x6-169/r9: regra score=1.043
+13:38:18 casas=4000 canais=128000    146.6 msg/s  atraso p50/p95/máx=12.732/17.345/17.797 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.32  fila=58491  CPU=108.6%  mem=2418.6 MB  temp=51.25 °C
+ALERTA 2026-11-23T13:38:00-03:00 carga1x8-208/r9: regra score=1.019
+13:38:28 casas=4000 canais=128000    224.7 msg/s  atraso p50/p95/máx=22.688/26.41/26.867 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.381  fila=89337  CPU=108.4%  mem=2420.7 MB  temp=51.25 °C
+13:38:38 casas=4000 canais=128000    208.6 msg/s  atraso p50/p95/máx=30.71/36.356/36.815 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=15.647  fila=116958  CPU=107.4%  mem=2424.6 MB  temp=51.25 °C
+13:38:48 casas=4000 canais=128000    590.2 msg/s  atraso p50/p95/máx=41.153/44.916/45.212 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.407  fila=139288  CPU=106.7%  mem=2460.5 MB  temp=54.0 °C
+ALERTA 2026-11-23T13:38:00-03:00 carga1x3-424/r9: regra score=1.014
+13:38:58 casas=4000 canais=128000  14152.1 msg/s  atraso p50/p95/máx=32.642/49.597/51.472 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.461  fila=13719  CPU=105.4%  mem=2491.5 MB  temp=52.9 °C
+13:39:08 casas=4000 canais=128000   3105.6 msg/s  atraso p50/p95/máx=4.328/8.349/9.001 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.442  fila=26454  CPU= 95.8%  mem=2492.1 MB  temp=51.25 °C
+ALERTA 2026-11-23T13:39:00-03:00 carga1x8-464/r9: regra score=1.03
+13:39:18 casas=4000 canais=128000    117.2 msg/s  atraso p50/p95/máx=14.08/17.732/18.154 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=15.442  fila=59534  CPU=108.5%  mem=2493.5 MB  temp=52.9 °C
+ALERTA 2026-11-23T13:39:00-03:00 carga1x7-363/c2: regra score=1.102
+ALERTA 2026-11-23T13:39:00-03:00 carga1x8-208/c2: regra score=1.016
+13:39:28 casas=4000 canais=128000    227.8 msg/s  atraso p50/p95/máx=23.124/26.855/27.211 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.411  fila=89575  CPU=108.1%  mem=2495.5 MB  temp=52.35 °C
+13:39:38 casas=4000 canais=128000    311.2 msg/s  atraso p50/p95/máx=33.256/36.313/36.548 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.381  fila=115908  CPU=107.4%  mem=2497.5 MB  temp=52.9 °C
+ALERTA 2026-11-23T13:39:00-03:00 carga1x2-344/r9: regra score=1.045
+ALERTA 2026-11-23T13:39:00-03:00 carga1x7-342/t5: regra score=1.031
+13:39:48 casas=4000 canais=128000    482.5 msg/s  atraso p50/p95/máx=42.581/45.364/45.588 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=15.939  fila=139332  CPU=107.0%  mem=2508.5 MB  temp=53.45 °C
+13:39:59 casas=4000 canais=128000  14136.1 msg/s  atraso p50/p95/máx=33.021/49.964/51.847 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.475  fila=16954  CPU=106.0%  mem=2534.9 MB  temp=52.9 °C
+13:40:09 casas=4000 canais=128000   3083.7 msg/s  atraso p50/p95/máx=4.861/8.888/9.527 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.478  fila=27224  CPU= 99.2%  mem=2507.0 MB  temp=51.8 °C
+ALERTA 2026-11-23T13:40:00-03:00 carga1x5-481/r9: regra score=1.031
+13:40:19 casas=4000 canais=128000    116.0 msg/s  atraso p50/p95/máx=12.582/18.301/18.671 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=15.773  fila=60271  CPU=108.6%  mem=2508.3 MB  temp=52.35 °C
+13:40:29 casas=4000 canais=128000    227.0 msg/s  atraso p50/p95/máx=23.612/27.34/27.742 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.482  fila=90196  CPU=108.0%  mem=2510.3 MB  temp=51.25 °C
+ALERTA 2026-11-23T13:40:00-03:00 carga1x6-466/t5: regra score=1.032
+13:40:39 casas=4000 canais=128000    310.0 msg/s  atraso p50/p95/máx=33.647/36.728/37.072 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.463  fila=116404  CPU=107.8%  mem=2517.8 MB  temp=52.35 °C
+13:40:49 casas=4000 canais=128000    481.3 msg/s  atraso p50/p95/máx=40.763/45.839/46.103 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=16.232  fila=140006  CPU=107.2%  mem=2541.8 MB  temp=50.7 °C
+13:40:59 casas=4000 canais=128000  14471.8 msg/s  atraso p50/p95/máx=32.867/50.434/52.312 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.461  fila=15173  CPU=105.8%  mem=2575.8 MB  temp=52.35 °C
+ALERTA 2026-11-23T13:41:00-03:00 carga1x1-335/t5: regra score=1.07
+13:41:09 casas=4000 canais=128000   2793.5 msg/s  atraso p50/p95/máx=5.153/8.857/9.04 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.536  fila=28649  CPU=104.4%  mem=2576.6 MB  temp=52.9 °C
+13:41:19 casas=4000 canais=128000    145.7 msg/s  atraso p50/p95/máx=14.113/18.529/19.007 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.589  fila=61397  CPU=108.5%  mem=2574.9 MB  temp=52.35 °C
+13:41:29 casas=4000 canais=128000    197.1 msg/s  atraso p50/p95/máx=24.594/27.724/28.102 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=16.078  fila=91283  CPU=107.9%  mem=2576.5 MB  temp=51.8 °C
+13:41:39 casas=4000 canais=128000    309.2 msg/s  atraso p50/p95/máx=34.229/37.179/37.443 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.563  fila=117328  CPU=107.3%  mem=2578.5 MB  temp=53.45 °C
+ALERTA 2026-11-23T13:41:00-03:00 carga1x2-461/t5: regra score=1.073
+13:41:49 casas=4000 canais=128000    683.9 msg/s  atraso p50/p95/máx=42.898/45.85/46.125 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.539  fila=138682  CPU=107.2%  mem=2589.0 MB  temp=52.9 °C
+13:42:00 casas=4000 canais=128000  15105.7 msg/s  atraso p50/p95/máx=29.211/48.509/50.526 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.633  fila=2  CPU=103.9%  mem=2607.3 MB  temp=50.15 °C
+ALERTA 2026-11-23T13:42:00-03:00 carga1x2-445/r9: regra score=1.045
+13:42:10 casas=4000 canais=128000   1552.9 msg/s  atraso p50/p95/máx=4.008/5.624/9.634 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.573  fila=29393  CPU=108.4%  mem=2608.0 MB  temp=52.9 °C
+13:42:20 casas=4000 canais=128000    145.8 msg/s  atraso p50/p95/máx=14.862/18.944/19.381 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.657  fila=62308  CPU=108.4%  mem=2609.9 MB  temp=51.8 °C
+13:42:30 casas=4000 canais=128000    199.2 msg/s  atraso p50/p95/máx=22.933/28.27/28.655 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=16.303  fila=91970  CPU=108.0%  mem=2611.4 MB  temp=52.35 °C
+13:42:40 casas=4000 canais=128000    318.5 msg/s  atraso p50/p95/máx=34.927/37.845/38.009 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.666  fila=117789  CPU=107.2%  mem=2613.4 MB  temp=52.9 °C
+13:42:50 casas=4000 canais=128000    677.9 msg/s  atraso p50/p95/máx=43.398/46.33/46.692 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.674  fila=139231  CPU=106.9%  mem=2632.0 MB  temp=53.45 °C
+13:43:00 casas=4000 canais=128000  16855.2 msg/s  atraso p50/p95/máx=26.665/48.364/50.872 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.616  fila=2  CPU= 93.6%  mem=2657.6 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:43:00-03:00 carga1x2-321/c2: regra score=1.016
+ALERTA 2026-11-23T13:43:00-03:00 carga1x2-321/r9: regra score=1.045
+13:43:10 casas=4000 canais=128000    234.0 msg/s  atraso p50/p95/máx=0.911/9.393/9.916 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=16.288  fila=31212  CPU=102.9%  mem=2656.5 MB  temp=51.25 °C
+ALERTA 2026-11-23T13:43:00-03:00 carga1x5-330/r9: regra score=1.044
+ALERTA 2026-11-23T13:43:00-03:00 carga1x7-111/c2: regra score=1.012
+ALERTA 2026-11-23T13:43:00-03:00 carga1x6-138/t5: regra score=1.07
+13:43:20 casas=4000 canais=128000    146.8 msg/s  atraso p50/p95/máx=15.014/19.41/19.876 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.466  fila=38984  CPU=102.2%  mem=2658.5 MB  temp=51.8 °C
+13:43:30 casas=4000 canais=128000    245.5 msg/s  atraso p50/p95/máx=24.644/28.556/28.933 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.308  fila=36518  CPU=100.0%  mem=2660.5 MB  temp=52.9 °C
+13:43:40 casas=4000 canais=128000    351.1 msg/s  atraso p50/p95/máx=35.25/37.897/38.099 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.306  fila=33000  CPU= 99.9%  mem=2662.6 MB  temp=50.7 °C
+13:43:50 casas=4000 canais=128000    740.5 msg/s  atraso p50/p95/máx=43.224/46.207/46.402 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.303  fila=25566  CPU=100.1%  mem=2664.6 MB  temp=52.9 °C
+13:44:00 casas=4000 canais=128000   2549.0 msg/s  atraso p50/p95/máx=45.941/49.062/49.703 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=12.308  fila=0  CPU= 41.5%  mem=2665.5 MB  temp=47.95 °C
+13:44:10 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.2%  mem=2665.5 MB  temp=45.2 °C
+COMANDO {"marca": "E3f_b005", "reset": true, "orcamento": 0.05, "controlador": false} → {"marca": "E3f_b005", "orcamento": 0.05, "controlador": false, "atraso_max": 2.0, "casas": 0}
+13:44:20 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.5%  mem=2057.9 MB  temp=43.55 °C
+13:44:30 casas=3781 canais=120992    602.5 msg/s  atraso p50/p95/máx=4.805/9.333/9.582 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=2492  CPU= 93.2%  mem=2119.6 MB  temp=49.05 °C
+13:44:40 casas=4000 canais=128000   5561.2 msg/s  atraso p50/p95/máx=2.548/10.107/10.941 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=2  CPU= 46.9%  mem=2189.0 MB  temp=44.65 °C
+13:44:50 casas=4000 canais=128000   2736.8 msg/s  atraso p50/p95/máx=0.822/0.85/0.862 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=1  CPU= 17.6%  mem=2192.2 MB  temp=45.2 °C
+13:45:00 casas=4000 canais=128000   2997.8 msg/s  atraso p50/p95/máx=0.826/0.863/0.902 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.4%  mem=2200.3 MB  temp=44.65 °C
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-430/residuo: regra score=1.525
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-449/residuo: regra score=1.565
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-449/r9: regra score=1.019
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-456/r9: regra score=1.045
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-457/c2: regra score=1.102
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-454/t5: regra score=1.626
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-457/residuo: regra score=1.578
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-493/residuo: regra score=1.547
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-88/residuo: regra score=1.127
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-119/t5: regra score=1.617
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-132/residuo: regra score=1.764
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-147/residuo: regra score=1.173
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-199/residuo: regra score=1.021
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-223/residuo: regra score=1.502
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-236/t5: regra score=1.625
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-280/residuo: regra score=1.591
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-358/residuo: regra score=1.528
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-375/residuo: regra score=1.427
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-379/residuo: regra score=1.511
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-382/r9: regra score=1.045
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-382/residuo: regra score=1.475
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-387/residuo: regra score=1.764
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-388/residuo: regra score=1.465
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-434/residuo: regra score=1.517
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-437/residuo: regra score=1.196
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-445/residuo: regra score=1.502
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-463/residuo: regra score=1.551
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-485/residuo: regra score=1.72
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-487/residuo: regra score=1.303
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-498/residuo: regra score=1.339
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-12/c2: regra score=1.017
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-19/residuo: regra score=1.476
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-73/residuo: regra score=1.554
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-171/residuo: regra score=1.178
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-241/residuo: regra score=1.073
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-309/residuo: regra score=1.434
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-324/residuo: regra score=1.458
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-343/residuo: regra score=1.008
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-346/r9: regra score=1.048
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-377/residuo: regra score=1.511
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-476/residuo: regra score=1.515
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-493/r9: regra score=1.125
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-37/c2: regra score=1.086
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-43/residuo: regra score=1.765
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-53/residuo: regra score=1.526
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-50/r9: regra score=1.047
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-53/r9: regra score=1.125
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-182/c2: regra score=1.037
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-148/residuo: regra score=1.329
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-167/residuo: regra score=1.573
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-195/residuo: regra score=1.248
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-261/residuo: regra score=1.438
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-247/residuo: regra score=1.539
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-248/residuo: regra score=1.142
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-298/residuo: regra score=1.468
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-309/residuo: regra score=1.034
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-299/residuo: regra score=1.503
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-305/residuo: regra score=1.21
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-412/residuo: regra score=1.478
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-472/c2: regra score=1.103
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-419/residuo: regra score=1.592
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-448/residuo: regra score=1.606
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-462/residuo: regra score=1.505
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-496/residuo: regra score=1.533
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-5/residuo: regra score=1.122
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-17/residuo: regra score=1.471
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-68/residuo: regra score=1.507
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-81/residuo: regra score=1.487
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-92/residuo: regra score=1.54
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-102/residuo: regra score=1.503
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-131/residuo: regra score=1.343
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-193/residuo: regra score=1.127
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-250/c2: regra score=1.103
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-305/residuo: regra score=1.547
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-317/residuo: regra score=1.428
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-378/r9: regra score=1.045
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-386/residuo: regra score=1.223
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-442/residuo: regra score=1.194
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-453/residuo: regra score=1.503
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-465/residuo: regra score=1.759
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-499/residuo: regra score=1.764
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-16/residuo: regra score=1.342
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-47/residuo: regra score=1.117
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-49/residuo: regra score=1.515
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-46/residuo: regra score=1.504
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-31/residuo: regra score=1.713
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-74/residuo: regra score=1.54
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-92/c2: regra score=1.038
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-84/residuo: regra score=1.684
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-89/residuo: regra score=1.509
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-128/residuo: regra score=1.51
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-106/residuo: regra score=1.201
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-126/residuo: regra score=1.573
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-156/t5: regra score=1.626
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-168/residuo: regra score=1.56
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-167/residuo: regra score=1.207
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-183/r9: regra score=1.047
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-183/residuo: regra score=1.668
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-187/residuo: regra score=1.465
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-194/residuo: regra score=1.476
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-194/residuo: regra score=1.499
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-213/residuo: regra score=1.509
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-214/residuo: regra score=1.444
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-244/residuo: regra score=1.463
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-230/residuo: regra score=1.705
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-269/residuo: regra score=1.061
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-298/residuo: regra score=1.386
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-288/residuo: regra score=1.458
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-317/residuo: regra score=1.365
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-296/residuo: regra score=1.42
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-346/residuo: regra score=1.549
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-315/residuo: regra score=1.529
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-363/residuo: regra score=1.586
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-324/residuo: regra score=1.135
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-337/residuo: regra score=1.188
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-380/residuo: regra score=1.482
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-339/residuo: regra score=1.502
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-342/residuo: regra score=1.438
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-401/r9: regra score=1.033
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-455/residuo: regra score=1.145
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-444/residuo: regra score=1.498
+13:45:10 casas=4000 canais=128000    452.9 msg/s  atraso p50/p95/máx=3.25/9.219/9.772 s  orçamento=0.05→0.05  escalados=38.57%  ms/min-casa=4.742  fila=26916  CPU=106.2%  mem=2254.9 MB  temp=48.5 °C
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-16/residuo: regra score=1.504
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-25/residuo: regra score=1.767
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-28/residuo: regra score=1.715
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-31/residuo: regra score=1.559
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-107/residuo: regra score=1.051
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-125/residuo: regra score=1.715
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-238/r9: regra score=1.214
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-394/residuo: regra score=1.172
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-397/residuo: regra score=1.494
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-430/residuo: regra score=1.759
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-490/residuo: regra score=1.181
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-1/residuo: regra score=1.492
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-32/c2: regra score=1.102
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-328/residuo: regra score=1.511
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-332/residuo: regra score=1.494
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-440/residuo: regra score=1.494
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-18/residuo: regra score=1.532
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-160/r9: regra score=1.044
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-144/residuo: regra score=1.548
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-148/c2: regra score=1.102
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-198/r9: regra score=1.124
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-229/residuo: regra score=1.017
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-209/r9: regra score=1.018
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-276/residuo: regra score=1.551
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-307/residuo: regra score=1.527
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-239/residuo: regra score=1.551
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-344/residuo: regra score=1.505
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-268/residuo: regra score=1.514
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-349/residuo: regra score=1.46
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-368/r9: regra score=1.045
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-318/residuo: regra score=1.563
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-333/residuo: regra score=1.02
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-393/residuo: regra score=1.533
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-443/residuo: regra score=1.5
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-377/residuo: regra score=1.561
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-460/c2: regra score=1.037
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-492/t5: regra score=1.381
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-453/residuo: regra score=1.388
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-261/residuo: regra score=1.485
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-281/residuo: regra score=1.486
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-340/residuo: regra score=1.463
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-348/residuo: regra score=1.038
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-355/residuo: regra score=1.469
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-430/c2: regra score=1.102
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-490/residuo: regra score=1.032
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-35/residuo: regra score=1.482
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-49/residuo: regra score=1.509
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-96/t5: regra score=1.625
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-89/r9: regra score=1.018
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-90/residuo: regra score=1.529
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-90/residuo: regra score=1.046
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-120/residuo: regra score=1.079
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-101/residuo: regra score=1.587
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-121/residuo: regra score=1.599
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-134/residuo: regra score=1.039
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-128/residuo: regra score=1.476
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-158/residuo: regra score=1.653
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-218/residuo: regra score=1.498
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-232/c2: regra score=1.028
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-237/c2: regra score=1.037
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-208/residuo: regra score=1.716
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-204/residuo: regra score=1.574
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-208/residuo: regra score=1.167
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-210/residuo: regra score=1.475
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-274/r9: regra score=1.018
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-221/c2: regra score=1.102
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-261/residuo: regra score=1.177
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-279/residuo: regra score=1.419
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-260/residuo: regra score=1.695
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-320/residuo: regra score=1.075
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-301/residuo: regra score=1.483
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-308/c2: regra score=1.103
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-311/residuo: regra score=1.05
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-422/r9: regra score=1.044
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-422/residuo: regra score=1.168
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-478/residuo: regra score=1.764
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-500/residuo: regra score=1.109
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-328/c2: regra score=1.016
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-328/residuo: regra score=1.063
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-358/residuo: regra score=1.456
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-379/residuo: regra score=1.424
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-444/residuo: regra score=1.505
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-88/residuo: regra score=1.304
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-93/residuo: regra score=1.728
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-152/residuo: regra score=1.793
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-260/r9: regra score=1.045
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-429/residuo: regra score=1.569
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-58/residuo: regra score=1.494
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-155/residuo: regra score=1.543
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-176/residuo: regra score=1.453
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-269/residuo: regra score=1.112
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-273/c2: regra score=1.038
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-276/residuo: regra score=1.462
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-393/r9: regra score=1.048
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-12/residuo: regra score=1.741
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-191/residuo: regra score=1.56
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-186/residuo: regra score=1.619
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-260/residuo: regra score=1.456
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-304/residuo: regra score=1.524
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-346/residuo: regra score=1.509
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-19/residuo: regra score=1.649
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-106/residuo: regra score=1.19
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-344/residuo: regra score=1.465
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-489/residuo: regra score=1.463
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-100/residuo: regra score=1.13
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-235/t5: regra score=1.492
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-309/residuo: regra score=1.579
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-360/residuo: regra score=1.531
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-434/residuo: regra score=1.246
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-356/residuo: regra score=1.497
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-3/residuo: regra score=1.339
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-209/residuo: regra score=1.502
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-385/residuo: regra score=1.497
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-84/residuo: regra score=1.498
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-142/residuo: regra score=1.5
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-239/residuo: regra score=1.504
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-347/t5: regra score=1.621
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-144/residuo: regra score=1.499
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-381/residuo: regra score=1.398
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-393/residuo: regra score=1.504
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-448/residuo: regra score=1.717
+ALERTA 2026-11-23T13:45:00-03:00 carga2x4-38/residuo: regra score=1.498
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-29/residuo: regra score=1.509
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-77/residuo: regra score=1.509
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-351/residuo: regra score=1.422
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-440/residuo: regra score=1.764
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-189/r9: regra score=1.047
+ALERTA 2026-11-23T13:45:00-03:00 carga2x5-189/residuo: regra score=1.454
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-45/r9: regra score=1.045
+ALERTA 2026-11-23T13:45:00-03:00 carga2x2-45/t5: regra score=1.621
+13:45:20 casas=4000 canais=128000   1545.7 msg/s  atraso p50/p95/máx=14.475/14.997/15.184 s  orçamento=0.05→0.05  escalados=38.39%  ms/min-casa=4.74  fila=41780  CPU=107.5%  mem=2300.8 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:45:00-03:00 carga2x7-68/residuo: regra score=1.423
+ALERTA 2026-11-23T13:45:00-03:00 carga2x6-382/t5: regra score=1.62
+ALERTA 2026-11-23T13:45:00-03:00 carga2x3-39/residuo: regra score=1.343
+ALERTA 2026-11-23T13:45:00-03:00 carga2x1-264/residuo: regra score=1.352
+ALERTA 2026-11-23T13:45:00-03:00 carga2x8-465/c2: regra score=1.018
+13:45:30 casas=4000 canais=128000   7744.6 msg/s  atraso p50/p95/máx=2.807/13.251/14.202 s  orçamento=0.05→0.05  escalados=35.05%  ms/min-casa=5.342  fila=0  CPU= 47.7%  mem=2302.3 MB  temp=46.3 °C
+13:45:40 casas=4000 canais=128000   3284.5 msg/s  atraso p50/p95/máx=0.826/0.863/0.918 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.6%  mem=2304.4 MB  temp=46.3 °C
+13:45:50 casas=4000 canais=128000   2610.0 msg/s  atraso p50/p95/máx=0.825/0.85/0.87 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 17.2%  mem=2309.7 MB  temp=43.55 °C
+13:46:01 casas=4000 canais=128000   2932.0 msg/s  atraso p50/p95/máx=0.826/0.863/0.972 s  orçamento=0.05→0.05  escalados=39.47%  ms/min-casa=6.028  fila=43  CPU= 20.6%  mem=2315.5 MB  temp=45.2 °C
+ALERTA 2026-11-23T13:46:00-03:00 carga2x5-132/c2: regra score=1.102
+ALERTA 2026-11-23T13:46:00-03:00 carga2x5-387/c2: regra score=1.102
+ALERTA 2026-11-23T13:46:00-03:00 carga2x5-463/c2: regra score=1.037
+ALERTA 2026-11-23T13:46:00-03:00 carga2x5-485/r9: regra score=1.048
+ALERTA 2026-11-23T13:46:00-03:00 carga2x2-12/r9: regra score=1.046
+ALERTA 2026-11-23T13:46:00-03:00 carga2x2-73/c2: regra score=1.037
+ALERTA 2026-11-23T13:46:00-03:00 carga2x7-43/c2: regra score=1.102
+ALERTA 2026-11-23T13:46:00-03:00 carga2x7-166/c2: regra score=1.09
+ALERTA 2026-11-23T13:46:00-03:00 carga2x3-499/c2: regra score=1.102
+ALERTA 2026-11-23T13:46:00-03:00 carga2x4-168/c2: regra score=1.016
+ALERTA 2026-11-23T13:46:00-03:00 carga2x4-168/r9: regra score=1.046
+ALERTA 2026-11-23T13:46:00-03:00 carga2x8-230/r9: regra score=1.05
+13:46:11 casas=4000 canais=128000    268.1 msg/s  atraso p50/p95/máx=5.216/9.419/10.018 s  orçamento=0.05→0.05  escalados=36.65%  ms/min-casa=5.898  fila=29332  CPU=105.7%  mem=2333.9 MB  temp=47.95 °C
+ALERTA 2026-11-23T13:46:00-03:00 carga2x4-441/t5: regra score=1.07
+ALERTA 2026-11-23T13:46:00-03:00 carga2x5-25/c2: regra score=1.102
+ALERTA 2026-11-23T13:46:00-03:00 carga2x7-144/r9: regra score=1.044
+ALERTA 2026-11-23T13:46:00-03:00 carga2x8-478/c2: regra score=1.103
+13:46:21 casas=4000 canais=128000    502.6 msg/s  atraso p50/p95/máx=14.878/18.487/18.964 s  orçamento=0.05→0.05  escalados=36.65%  ms/min-casa=5.853  fila=54347  CPU=107.8%  mem=2363.1 MB  temp=50.15 °C
+ALERTA 2026-11-23T13:46:00-03:00 carga2x1-440/c2: regra score=1.103
+13:46:31 casas=4000 canais=128000   8893.9 msg/s  atraso p50/p95/máx=11.334/20.901/21.524 s  orçamento=0.05→0.05  escalados=37.37%  ms/min-casa=8.281  fila=0  CPU= 93.1%  mem=2382.6 MB  temp=49.05 °C
+13:46:41 casas=4000 canais=128000   3237.7 msg/s  atraso p50/p95/máx=0.828/0.863/0.882 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.6%  mem=2382.6 MB  temp=46.3 °C
+13:46:51 casas=4000 canais=128000   2609.9 msg/s  atraso p50/p95/máx=0.826/0.854/0.875 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 17.3%  mem=2382.6 MB  temp=45.2 °C
+13:47:01 casas=4000 canais=128000   2906.0 msg/s  atraso p50/p95/máx=0.827/0.87/1.205 s  orçamento=0.05→0.05  escalados=37.96%  ms/min-casa=5.949  fila=295  CPU= 23.0%  mem=2382.6 MB  temp=46.85 °C
+13:47:11 casas=4000 canais=128000    267.3 msg/s  atraso p50/p95/máx=5.491/9.778/10.274 s  orçamento=0.05→0.05  escalados=36.89%  ms/min-casa=6.019  fila=29570  CPU=108.5%  mem=2392.3 MB  temp=49.6 °C
+13:47:21 casas=4000 canais=128000    395.3 msg/s  atraso p50/p95/máx=14.037/17.411/19.6 s  orçamento=0.05→0.05  escalados=36.6%  ms/min-casa=7.278  fila=50699  CPU=106.5%  mem=2401.9 MB  temp=49.05 °C
+ALERTA 2026-11-23T13:47:00-03:00 carga2x1-142/r9: regra score=1.045
+13:47:31 casas=4000 canais=128000   9112.1 msg/s  atraso p50/p95/máx=11.693/21.391/21.98 s  orçamento=0.05→0.05  escalados=37.31%  ms/min-casa=6.158  fila=1  CPU= 93.0%  mem=2424.5 MB  temp=47.95 °C
+13:47:41 casas=4000 canais=128000   3252.1 msg/s  atraso p50/p95/máx=0.829/0.864/0.88 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.8%  mem=2424.5 MB  temp=46.85 °C
+13:47:51 casas=4000 canais=128000   2780.9 msg/s  atraso p50/p95/máx=0.826/0.856/0.873 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.5%  mem=2424.5 MB  temp=46.3 °C
+13:48:01 casas=4000 canais=128000   2647.0 msg/s  atraso p50/p95/máx=0.828/0.903/1.428 s  orçamento=0.05→0.05  escalados=37.5%  ms/min-casa=6.105  fila=2028  CPU= 27.5%  mem=2424.5 MB  temp=46.85 °C
+ALERTA 2026-11-23T13:48:00-03:00 carga2x5-291/r9: regra score=1.043
+ALERTA 2026-11-23T13:48:00-03:00 carga2x3-203/t5: regra score=1.071
+13:48:11 casas=4000 canais=128000    267.7 msg/s  atraso p50/p95/máx=5.887/10.295/10.84 s  orçamento=0.05→0.05  escalados=36.81%  ms/min-casa=6.086  fila=32283  CPU=108.8%  mem=2425.8 MB  temp=49.05 °C
+ALERTA 2026-11-23T13:48:00-03:00 carga2x4-30/c2: regra score=1.048
+13:48:21 casas=4000 canais=128000    384.2 msg/s  atraso p50/p95/máx=16.207/19.465/19.869 s  orçamento=0.05→0.05  escalados=36.87%  ms/min-casa=7.513  fila=61687  CPU=108.8%  mem=2443.9 MB  temp=49.05 °C
+ALERTA 2026-11-23T13:48:00-03:00 carga2x5-395/c2: regra score=1.019
+13:48:31 casas=4000 canais=128000   9392.8 msg/s  atraso p50/p95/máx=11.189/21.573/22.196 s  orçamento=0.05→0.05  escalados=37.45%  ms/min-casa=6.138  fila=0  CPU= 92.8%  mem=2455.5 MB  temp=49.6 °C
+13:48:42 casas=4000 canais=128000   3159.2 msg/s  atraso p50/p95/máx=0.828/0.864/0.883 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.2%  mem=2455.5 MB  temp=46.85 °C
+13:48:52 casas=4000 canais=128000   2917.8 msg/s  atraso p50/p95/máx=0.828/0.862/0.904 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.4%  mem=2455.5 MB  temp=47.4 °C
+ALERTA 2026-11-23T13:49:00-03:00 carga2x5-142/c2: regra score=1.016
+ALERTA 2026-11-23T13:49:00-03:00 carga2x5-142/r9: regra score=1.045
+13:49:02 casas=4000 canais=128000   2314.7 msg/s  atraso p50/p95/máx=0.827/0.854/1.418 s  orçamento=0.05→0.05  escalados=37.57%  ms/min-casa=6.209  fila=3123  CPU= 27.1%  mem=2455.5 MB  temp=46.85 °C
+ALERTA 2026-11-23T13:49:00-03:00 carga2x2-271/r9: regra score=1.033
+ALERTA 2026-11-23T13:49:00-03:00 carga2x7-437/c2: regra score=1.015
+ALERTA 2026-11-23T13:49:00-03:00 carga2x7-437/r9: regra score=1.046
+13:49:13 casas=4000 canais=128000    223.0 msg/s  atraso p50/p95/máx=5.927/10.159/12.581 s  orçamento=0.05→0.05  escalados=36.95%  ms/min-casa=7.38  fila=31613  CPU=107.0%  mem=2455.9 MB  temp=47.4 °C
+ALERTA 2026-11-23T13:49:00-03:00 carga2x6-443/r9: regra score=1.045
+13:49:23 casas=4000 canais=128000    471.1 msg/s  atraso p50/p95/máx=17.171/21.203/21.589 s  orçamento=0.05→0.05  escalados=36.99%  ms/min-casa=6.182  fila=68192  CPU=110.9%  mem=2482.5 MB  temp=51.8 °C
+ALERTA 2026-11-23T13:49:00-03:00 carga2x1-37/r9: regra score=1.017
+13:49:33 casas=4000 canais=128000   9867.3 msg/s  atraso p50/p95/máx=10.561/21.88/22.603 s  orçamento=0.05→0.05  escalados=37.55%  ms/min-casa=6.238  fila=1  CPU= 81.0%  mem=2487.4 MB  temp=47.4 °C
+13:49:43 casas=4000 canais=128000   3003.7 msg/s  atraso p50/p95/máx=0.829/0.867/0.885 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=6  CPU= 20.2%  mem=2487.4 MB  temp=46.3 °C
+13:49:53 casas=4000 canais=128000   3037.2 msg/s  atraso p50/p95/máx=0.829/0.869/0.909 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.1%  mem=2487.4 MB  temp=45.2 °C
+13:50:03 casas=4000 canais=128000   1844.4 msg/s  atraso p50/p95/máx=0.828/0.862/3.048 s  orçamento=0.05→0.05  escalados=37.72%  ms/min-casa=6.347  fila=8860  CPU= 39.3%  mem=2487.9 MB  temp=46.3 °C
+ALERTA 2026-11-23T13:50:00-03:00 carga2x2-271/c2: regra score=1.016
+13:50:13 casas=4000 canais=128000    209.2 msg/s  atraso p50/p95/máx=8.856/12.415/12.845 s  orçamento=0.05→0.05  escalados=36.94%  ms/min-casa=7.729  fila=38517  CPU=108.3%  mem=2491.6 MB  temp=50.7 °C
+ALERTA 2026-11-23T13:50:00-03:00 carga2x7-63/t5: regra score=1.075
+13:50:23 casas=4000 canais=128000    451.5 msg/s  atraso p50/p95/máx=17.482/21.372/21.864 s  orçamento=0.05→0.05  escalados=37.12%  ms/min-casa=6.24  fila=70823  CPU=109.7%  mem=2515.9 MB  temp=51.25 °C
+13:50:33 casas=4000 canais=128000  10189.9 msg/s  atraso p50/p95/máx=10.608/22.49/23.207 s  orçamento=0.05→0.05  escalados=37.45%  ms/min-casa=6.241  fila=0  CPU= 85.8%  mem=2521.0 MB  temp=49.05 °C
+13:50:44 casas=4000 canais=128000   2824.8 msg/s  atraso p50/p95/máx=0.829/0.858/0.877 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.1%  mem=2521.0 MB  temp=46.3 °C
+13:50:54 casas=4000 canais=128000   3005.5 msg/s  atraso p50/p95/máx=0.83/0.87/0.907 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.0%  mem=2521.0 MB  temp=44.65 °C
+ALERTA 2026-11-23T13:51:00-03:00 carga2x4-471/t5: regra score=1.071
+13:51:04 casas=4000 canais=128000   1672.4 msg/s  atraso p50/p95/máx=0.829/0.858/3.635 s  orçamento=0.05→0.05  escalados=37.83%  ms/min-casa=13.578  fila=3333  CPU= 45.4%  mem=2521.0 MB  temp=46.85 °C
+ALERTA 2026-11-23T13:51:00-03:00 carga2x2-4/c2: regra score=1.019
+13:51:14 casas=4000 canais=128000    261.4 msg/s  atraso p50/p95/máx=8.354/12.831/13.312 s  orçamento=0.05→0.05  escalados=37.06%  ms/min-casa=6.286  fila=38415  CPU=109.9%  mem=2523.7 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:51:00-03:00 carga2x2-131/t5: regra score=1.071
+ALERTA 2026-11-23T13:51:00-03:00 carga2x6-121/c2: regra score=1.048
+ALERTA 2026-11-23T13:51:00-03:00 carga2x3-397/r9: regra score=1.042
+13:51:24 casas=4000 canais=128000    531.4 msg/s  atraso p50/p95/máx=18.354/21.588/22.057 s  orçamento=0.05→0.05  escalados=37.12%  ms/min-casa=6.346  fila=69854  CPU=109.5%  mem=2546.3 MB  temp=49.6 °C
+13:51:34 casas=4000 canais=128000  10100.3 msg/s  atraso p50/p95/máx=12.314/23.4/24.811 s  orçamento=0.05→0.05  escalados=37.78%  ms/min-casa=9.224  fila=0  CPU= 98.8%  mem=2556.1 MB  temp=47.95 °C
+13:51:44 casas=4000 canais=128000   2824.4 msg/s  atraso p50/p95/máx=0.829/0.857/0.867 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.1%  mem=2556.1 MB  temp=45.75 °C
+13:51:54 casas=4000 canais=128000   3033.1 msg/s  atraso p50/p95/máx=0.83/0.868/0.906 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.1%  mem=2556.1 MB  temp=45.2 °C
+ALERTA 2026-11-23T13:52:00-03:00 carga2x5-99/t5: regra score=1.072
+13:52:04 casas=4000 canais=128000   1734.7 msg/s  atraso p50/p95/máx=0.83/1.129/3.743 s  orçamento=0.05→0.05  escalados=37.75%  ms/min-casa=6.373  fila=10456  CPU= 50.8%  mem=2556.1 MB  temp=47.4 °C
+ALERTA 2026-11-23T13:52:00-03:00 carga2x4-67/t5: regra score=1.074
+ALERTA 2026-11-23T13:52:00-03:00 carga2x5-24/t5: regra score=1.071
+13:52:14 casas=4000 canais=128000    277.1 msg/s  atraso p50/p95/máx=8.989/12.855/12.997 s  orçamento=0.05→0.05  escalados=36.89%  ms/min-casa=6.307  fila=38526  CPU=108.0%  mem=2557.2 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:52:00-03:00 carga2x6-160/t5: regra score=1.069
+ALERTA 2026-11-23T13:52:00-03:00 carga2x8-391/t5: regra score=1.069
+ALERTA 2026-11-23T13:52:00-03:00 carga2x4-363/c2: regra score=1.019
+13:52:24 casas=4000 canais=128000    437.6 msg/s  atraso p50/p95/máx=17.024/20.009/21.877 s  orçamento=0.05→0.05  escalados=37.42%  ms/min-casa=8.086  fila=63504  CPU=107.8%  mem=2572.2 MB  temp=49.6 °C
+13:52:34 casas=4000 canais=128000  10180.4 msg/s  atraso p50/p95/máx=10.707/22.752/23.432 s  orçamento=0.05→0.05  escalados=37.87%  ms/min-casa=6.51  fila=0  CPU= 83.1%  mem=2588.4 MB  temp=46.3 °C
+13:52:44 casas=4000 canais=128000   2954.9 msg/s  atraso p50/p95/máx=0.83/0.866/0.898 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=2  CPU= 19.9%  mem=2588.4 MB  temp=45.75 °C
+13:52:54 casas=4000 canais=128000   2947.1 msg/s  atraso p50/p95/máx=0.832/0.874/0.913 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.7%  mem=2588.4 MB  temp=45.2 °C
+13:53:04 casas=4000 canais=128000   1612.2 msg/s  atraso p50/p95/máx=0.831/1.568/4.07 s  orçamento=0.05→0.05  escalados=37.9%  ms/min-casa=6.538  fila=12592  CPU= 53.3%  mem=2589.1 MB  temp=48.5 °C
+ALERTA 2026-11-23T13:53:00-03:00 carga2x7-456/c2: regra score=1.015
+ALERTA 2026-11-23T13:53:00-03:00 carga2x7-456/r9: regra score=1.045
+ALERTA 2026-11-23T13:53:00-03:00 carga2x3-285/r9: regra score=1.03
+13:53:14 casas=4000 canais=128000    277.3 msg/s  atraso p50/p95/máx=9.424/13.227/13.527 s  orçamento=0.05→0.05  escalados=36.98%  ms/min-casa=6.436  fila=41552  CPU=108.1%  mem=2596.6 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:53:00-03:00 carga2x6-101/t5: regra score=1.07
+ALERTA 2026-11-23T13:53:00-03:00 carga2x6-198/p1: regra score=1.178
+ALERTA 2026-11-23T13:53:00-03:00 carga2x7-457/t5: regra score=1.072
+ALERTA 2026-11-23T13:53:00-03:00 carga2x4-125/t5: regra score=1.073
+13:53:24 casas=4000 canais=128000    396.0 msg/s  atraso p50/p95/máx=17.048/22.578/22.876 s  orçamento=0.05→0.05  escalados=37.52%  ms/min-casa=8.272  fila=72658  CPU=109.4%  mem=2623.3 MB  temp=50.15 °C
+ALERTA 2026-11-23T13:53:00-03:00 carga2x8-154/t5: regra score=1.073
+13:53:34 casas=4000 canais=128000  10449.4 msg/s  atraso p50/p95/máx=11.084/23.299/23.958 s  orçamento=0.05→0.05  escalados=37.77%  ms/min-casa=6.495  fila=0  CPU= 83.9%  mem=2631.0 MB  temp=48.5 °C
+13:53:45 casas=4000 canais=128000   2946.5 msg/s  atraso p50/p95/máx=0.831/0.866/0.89 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.1%  mem=2631.0 MB  temp=46.3 °C
+13:53:55 casas=4000 canais=128000   2821.8 msg/s  atraso p50/p95/máx=0.831/0.867/0.907 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.7%  mem=2631.0 MB  temp=45.2 °C
+13:54:05 casas=4000 canais=128000   1560.4 msg/s  atraso p50/p95/máx=0.83/1.539/4.255 s  orçamento=0.05→0.05  escalados=37.82%  ms/min-casa=6.534  fila=13199  CPU= 55.6%  mem=2632.3 MB  temp=47.95 °C
+13:54:15 casas=4000 canais=128000    193.8 msg/s  atraso p50/p95/máx=8.033/11.641/14.134 s  orçamento=0.05→0.05  escalados=37.04%  ms/min-casa=8.255  fila=40453  CPU=107.5%  mem=2636.7 MB  temp=49.05 °C
+ALERTA 2026-11-23T13:54:00-03:00 carga2x7-457/r9: regra score=1.015
+ALERTA 2026-11-23T13:54:00-03:00 carga2x1-101/t5: regra score=1.076
+ALERTA 2026-11-23T13:54:00-03:00 carga2x8-172/t5: regra score=1.069
+13:54:25 casas=4000 canais=128000    505.9 msg/s  atraso p50/p95/máx=18.922/22.522/23.005 s  orçamento=0.05→0.05  escalados=37.47%  ms/min-casa=6.52  fila=72044  CPU=110.0%  mem=2664.0 MB  temp=49.6 °C
+13:54:35 casas=4000 canais=128000  10392.2 msg/s  atraso p50/p95/máx=11.253/23.366/24.03 s  orçamento=0.05→0.05  escalados=38.0%  ms/min-casa=6.616  fila=0  CPU= 83.0%  mem=2672.7 MB  temp=47.4 °C
+13:54:45 casas=4000 canais=128000   2945.3 msg/s  atraso p50/p95/máx=0.831/0.862/0.887 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.8%  mem=2672.7 MB  temp=46.3 °C
+13:54:55 casas=4000 canais=128000   2823.7 msg/s  atraso p50/p95/máx=0.832/0.866/0.912 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.8%  mem=2672.7 MB  temp=45.2 °C
+ALERTA 2026-11-23T13:55:00-03:00 carga2x1-351/c2: regra score=1.019
+13:55:05 casas=4000 canais=128000   1562.1 msg/s  atraso p50/p95/máx=0.831/1.768/4.524 s  orçamento=0.05→0.05  escalados=37.96%  ms/min-casa=6.585  fila=13208  CPU= 58.5%  mem=2673.7 MB  temp=47.95 °C
+13:55:15 casas=4000 canais=128000    192.5 msg/s  atraso p50/p95/máx=10.479/14.024/14.413 s  orçamento=0.05→0.05  escalados=37.18%  ms/min-casa=8.338  fila=42641  CPU=108.1%  mem=2678.2 MB  temp=50.15 °C
+ALERTA 2026-11-23T13:55:00-03:00 carga2x7-201/r9: regra score=1.017
+ALERTA 2026-11-23T13:55:00-03:00 carga2x5-250/t5: regra score=1.074
+13:55:25 casas=4000 canais=128000    507.0 msg/s  atraso p50/p95/máx=19.157/22.82/23.28 s  orçamento=0.05→0.05  escalados=37.51%  ms/min-casa=6.601  fila=72120  CPU=109.0%  mem=2704.9 MB  temp=49.05 °C
+13:55:35 casas=4000 canais=128000  10412.4 msg/s  atraso p50/p95/máx=11.515/23.631/24.307 s  orçamento=0.05→0.05  escalados=37.99%  ms/min-casa=6.658  fila=0  CPU= 82.7%  mem=2713.4 MB  temp=49.05 °C
+13:55:45 casas=4000 canais=128000   2955.5 msg/s  atraso p50/p95/máx=0.832/0.864/0.918 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.9%  mem=2713.4 MB  temp=46.3 °C
+13:55:55 casas=4000 canais=128000   2840.6 msg/s  atraso p50/p95/máx=0.832/0.866/0.913 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.8%  mem=2713.4 MB  temp=45.2 °C
+13:56:05 casas=4000 canais=128000   1473.9 msg/s  atraso p50/p95/máx=0.832/0.879/4.889 s  orçamento=0.05→0.05  escalados=38.21%  ms/min-casa=11.943  fila=14206  CPU= 60.9%  mem=2714.2 MB  temp=47.4 °C
+13:56:15 casas=4000 canais=128000    246.0 msg/s  atraso p50/p95/máx=9.753/14.268/14.68 s  orçamento=0.05→0.05  escalados=37.27%  ms/min-casa=6.594  fila=43415  CPU=108.4%  mem=2720.5 MB  temp=47.95 °C
+13:56:25 casas=4000 canais=128000    551.7 msg/s  atraso p50/p95/máx=19.866/22.84/23.307 s  orçamento=0.05→0.05  escalados=37.65%  ms/min-casa=6.642  fila=72699  CPU=109.2%  mem=2745.7 MB  temp=50.7 °C
+13:56:35 casas=4000 canais=128000  10451.2 msg/s  atraso p50/p95/máx=13.947/25.856/26.639 s  orçamento=0.05→0.05  escalados=38.1%  ms/min-casa=9.973  fila=0  CPU=103.4%  mem=2766.4 MB  temp=50.15 °C
+13:56:45 casas=4000 canais=128000   2994.5 msg/s  atraso p50/p95/máx=0.832/0.869/0.915 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=4  CPU= 20.2%  mem=2766.4 MB  temp=45.75 °C
+13:56:55 casas=4000 canais=128000   2837.3 msg/s  atraso p50/p95/máx=0.833/0.879/0.913 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.9%  mem=2766.4 MB  temp=47.95 °C
+13:57:05 casas=4000 canais=128000   1377.3 msg/s  atraso p50/p95/máx=0.834/2.639/5.076 s  orçamento=0.05→0.05  escalados=38.04%  ms/min-casa=6.709  fila=15484  CPU= 63.5%  mem=2767.5 MB  temp=47.95 °C
+13:57:15 casas=4000 canais=128000    277.1 msg/s  atraso p50/p95/máx=10.705/14.004/14.306 s  orçamento=0.05→0.05  escalados=37.25%  ms/min-casa=6.712  fila=44462  CPU=108.2%  mem=2771.0 MB  temp=51.25 °C
+ALERTA 2026-11-23T13:57:00-03:00 carga2x2-354/t5: regra score=1.07
+13:57:25 casas=4000 canais=128000    369.3 msg/s  atraso p50/p95/máx=17.974/23.608/23.959 s  orçamento=0.05→0.05  escalados=37.87%  ms/min-casa=8.8  fila=74926  CPU=108.9%  mem=2789.4 MB  temp=50.7 °C
+ALERTA 2026-11-23T13:57:00-03:00 carga2x1-201/r9: regra score=1.016
+13:57:36 casas=4000 canais=128000  10656.7 msg/s  atraso p50/p95/máx=12.16/24.363/25.032 s  orçamento=0.05→0.05  escalados=38.11%  ms/min-casa=6.76  fila=0  CPU= 85.1%  mem=2798.2 MB  temp=49.05 °C
+13:57:46 casas=4000 canais=128000   2947.2 msg/s  atraso p50/p95/máx=0.833/0.868/0.892 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.7%  mem=2798.2 MB  temp=47.95 °C
+13:57:56 casas=4000 canais=128000   2802.3 msg/s  atraso p50/p95/máx=0.833/0.875/0.92 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.7%  mem=2798.2 MB  temp=45.75 °C
+13:58:06 casas=4000 canais=128000   1396.2 msg/s  atraso p50/p95/máx=0.835/2.626/5.316 s  orçamento=0.05→0.05  escalados=37.92%  ms/min-casa=6.758  fila=15284  CPU= 66.1%  mem=2799.4 MB  temp=48.5 °C
+ALERTA 2026-11-23T13:58:00-03:00 carga2x8-131/r9: regra score=1.032
+ALERTA 2026-11-23T13:58:00-03:00 carga2x1-150/c2: regra score=1.064
+13:58:17 casas=4000 canais=128000    196.9 msg/s  atraso p50/p95/máx=9.599/13.448/15.45 s  orçamento=0.05→0.05  escalados=37.37%  ms/min-casa=8.511  fila=41598  CPU=106.9%  mem=2802.8 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:58:00-03:00 carga2x7-329/t5: regra score=1.077
+13:58:27 casas=4000 canais=128000    696.7 msg/s  atraso p50/p95/máx=22.584/24.003/24.109 s  orçamento=0.05→0.05  escalados=37.91%  ms/min-casa=6.817  fila=74266  CPU=110.3%  mem=2830.8 MB  temp=50.7 °C
+13:58:37 casas=4000 canais=128000  10549.9 msg/s  atraso p50/p95/máx=11.717/24.539/25.163 s  orçamento=0.05→0.05  escalados=38.28%  ms/min-casa=7.003  fila=0  CPU= 76.5%  mem=2839.1 MB  temp=49.6 °C
+13:58:47 casas=4000 canais=128000   2912.0 msg/s  atraso p50/p95/máx=0.834/0.865/0.888 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.6%  mem=2839.1 MB  temp=46.85 °C
+13:58:57 casas=4000 canais=128000   2801.9 msg/s  atraso p50/p95/máx=0.834/0.875/0.917 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.6%  mem=2839.1 MB  temp=45.75 °C
+ALERTA 2026-11-23T13:59:00-03:00 carga2x7-90/r9: regra score=1.017
+13:59:07 casas=4000 canais=128000   1281.5 msg/s  atraso p50/p95/máx=0.835/3.815/6.451 s  orçamento=0.05→0.05  escalados=37.92%  ms/min-casa=6.807  fila=16812  CPU= 73.7%  mem=2840.6 MB  temp=49.6 °C
+ALERTA 2026-11-23T13:59:00-03:00 carga2x7-461/r9: regra score=1.031
+ALERTA 2026-11-23T13:59:00-03:00 carga2x1-485/r9: regra score=1.045
+13:59:17 casas=4000 canais=128000    183.1 msg/s  atraso p50/p95/máx=12.414/16.082/16.312 s  orçamento=0.05→0.05  escalados=37.39%  ms/min-casa=8.857  fila=47200  CPU=108.2%  mem=2846.5 MB  temp=51.25 °C
+ALERTA 2026-11-23T13:59:00-03:00 carga2x2-139/r9: regra score=1.043
+ALERTA 2026-11-23T13:59:00-03:00 carga2x6-489/t5: regra score=1.067
+13:59:27 casas=4000 canais=128000    653.8 msg/s  atraso p50/p95/máx=22.502/24.322/24.419 s  orçamento=0.05→0.05  escalados=37.97%  ms/min-casa=6.888  fila=74742  CPU=109.1%  mem=2872.2 MB  temp=51.8 °C
+13:59:37 casas=4000 canais=128000  10599.3 msg/s  atraso p50/p95/máx=12.338/25.071/25.671 s  orçamento=0.05→0.05  escalados=38.41%  ms/min-casa=6.942  fila=0  CPU= 78.8%  mem=2883.1 MB  temp=49.05 °C
+13:59:47 casas=4000 canais=128000   2938.2 msg/s  atraso p50/p95/máx=0.835/0.867/0.89 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.8%  mem=2883.1 MB  temp=46.85 °C
+13:59:57 casas=4000 canais=128000   2796.4 msg/s  atraso p50/p95/máx=0.835/0.877/0.899 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=7  CPU= 18.6%  mem=2883.1 MB  temp=46.3 °C
+14:00:07 casas=4000 canais=128000   1191.9 msg/s  atraso p50/p95/máx=0.834/4.647/6.824 s  orçamento=0.05→0.05  escalados=38.32%  ms/min-casa=10.398  fila=17926  CPU= 79.4%  mem=2883.8 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:00:00-03:00 carga2x4-491/t5: regra score=1.069
+14:00:17 casas=4000 canais=128000    250.6 msg/s  atraso p50/p95/máx=12.049/16.241/16.481 s  orçamento=0.05→0.05  escalados=37.44%  ms/min-casa=6.869  fila=47744  CPU=108.5%  mem=2889.5 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:00:00-03:00 carga2x1-166/c2: regra score=1.078
+ALERTA 2026-11-23T14:00:00-03:00 carga2x4-274/t5: regra score=1.07
+14:00:27 casas=4000 canais=128000    672.0 msg/s  atraso p50/p95/máx=22.993/24.513/24.633 s  orçamento=0.05→0.05  escalados=38.05%  ms/min-casa=6.925  fila=75205  CPU=109.0%  mem=2913.3 MB  temp=51.8 °C
+ALERTA 2026-11-23T14:00:00-03:00 carga2x6-80/t5: regra score=1.069
+14:00:37 casas=4000 canais=128000  10643.9 msg/s  atraso p50/p95/máx=14.635/27.484/28.097 s  orçamento=0.05→0.05  escalados=38.42%  ms/min-casa=11.244  fila=0  CPU= 99.0%  mem=2938.8 MB  temp=52.35 °C
+14:00:47 casas=4000 canais=128000   2969.5 msg/s  atraso p50/p95/máx=0.835/0.875/0.919 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=1  CPU= 20.2%  mem=2952.3 MB  temp=47.4 °C
+14:00:57 casas=4000 canais=128000   2804.6 msg/s  atraso p50/p95/máx=0.833/0.872/0.897 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.7%  mem=2956.4 MB  temp=47.4 °C
+14:01:07 casas=4000 canais=128000   1166.5 msg/s  atraso p50/p95/máx=0.842/4.5/6.978 s  orçamento=0.05→0.05  escalados=38.11%  ms/min-casa=6.935  fila=18672  CPU= 77.5%  mem=2958.4 MB  temp=49.05 °C
+ALERTA 2026-11-23T14:01:00-03:00 carga2x3-427/t5: regra score=1.073
+ALERTA 2026-11-23T14:01:00-03:00 carga2x4-73/t5: regra score=1.072
+14:01:17 casas=4000 canais=128000    287.2 msg/s  atraso p50/p95/máx=13.151/15.728/16.026 s  orçamento=0.05→0.05  escalados=37.75%  ms/min-casa=6.934  fila=48501  CPU=108.4%  mem=2961.9 MB  temp=51.8 °C
+ALERTA 2026-11-23T14:01:00-03:00 carga2x7-238/t5: regra score=1.074
+ALERTA 2026-11-23T14:01:00-03:00 carga2x7-444/c2: regra score=1.037
+ALERTA 2026-11-23T14:01:00-03:00 carga2x8-261/t5: regra score=1.033
+14:01:27 casas=4000 canais=128000    517.6 msg/s  atraso p50/p95/máx=24.058/24.882/25.017 s  orçamento=0.05→0.05  escalados=37.96%  ms/min-casa=9.26  fila=77523  CPU=109.0%  mem=2968.5 MB  temp=52.35 °C
+14:01:37 casas=4000 canais=128000  10849.2 msg/s  atraso p50/p95/máx=13.039/25.747/26.336 s  orçamento=0.05→0.05  escalados=38.48%  ms/min-casa=7.186  fila=0  CPU= 82.0%  mem=2981.7 MB  temp=49.6 °C
+14:01:48 casas=4000 canais=128000   2885.1 msg/s  atraso p50/p95/máx=0.835/0.866/0.889 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.5%  mem=2981.7 MB  temp=47.4 °C
+14:01:58 casas=4000 canais=128000   2793.8 msg/s  atraso p50/p95/máx=0.837/0.877/0.927 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.7%  mem=2981.7 MB  temp=46.85 °C
+ALERTA 2026-11-23T14:02:00-03:00 carga2x2-76/t5: regra score=1.074
+14:02:08 casas=4000 canais=128000   1097.5 msg/s  atraso p50/p95/máx=0.839/4.915/7.236 s  orçamento=0.05→0.05  escalados=38.15%  ms/min-casa=6.962  fila=18815  CPU= 82.9%  mem=2983.4 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:02:00-03:00 carga2x4-111/t5: regra score=1.069
+ALERTA 2026-11-23T14:02:00-03:00 carga2x4-326/c2: regra score=1.019
+14:02:18 casas=4000 canais=128000    193.8 msg/s  atraso p50/p95/máx=13.687/16.421/16.532 s  orçamento=0.05→0.05  escalados=37.55%  ms/min-casa=9.144  fila=49369  CPU=108.5%  mem=2986.0 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:02:00-03:00 carga2x4-318/r9: regra score=1.017
+14:02:28 casas=4000 canais=128000    702.6 msg/s  atraso p50/p95/máx=23.996/25.021/25.154 s  orçamento=0.05→0.05  escalados=38.24%  ms/min-casa=7.047  fila=76578  CPU=109.2%  mem=2995.8 MB  temp=50.7 °C
+14:02:38 casas=4000 canais=128000  10748.4 msg/s  atraso p50/p95/máx=12.651/25.535/26.139 s  orçamento=0.05→0.05  escalados=38.52%  ms/min-casa=7.113  fila=0  CPU= 76.9%  mem=3006.1 MB  temp=49.6 °C
+14:02:48 casas=4000 canais=128000   2885.7 msg/s  atraso p50/p95/máx=0.833/0.863/0.878 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.6%  mem=3006.1 MB  temp=46.3 °C
+14:02:58 casas=4000 canais=128000   2795.5 msg/s  atraso p50/p95/máx=0.835/0.872/0.907 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.9%  mem=3006.1 MB  temp=46.3 °C
+ALERTA 2026-11-23T14:03:00-03:00 carga2x6-82/r9: regra score=1.03
+14:03:08 casas=4000 canais=128000   1046.3 msg/s  atraso p50/p95/máx=0.838/5.393/7.514 s  orçamento=0.05→0.05  escalados=38.29%  ms/min-casa=10.789  fila=19300  CPU= 80.6%  mem=3006.9 MB  temp=49.05 °C
+14:03:18 casas=4000 canais=128000    233.0 msg/s  atraso p50/p95/máx=12.392/16.678/16.991 s  orçamento=0.05→0.05  escalados=37.72%  ms/min-casa=7.032  fila=49493  CPU=109.1%  mem=3010.5 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:03:00-03:00 carga2x2-274/t5: regra score=1.073
+ALERTA 2026-11-23T14:03:00-03:00 carga2x6-280/t5: regra score=1.071
+ALERTA 2026-11-23T14:03:00-03:00 carga2x7-486/t5: regra score=1.067
+14:03:28 casas=4000 canais=128000    650.4 msg/s  atraso p50/p95/máx=23.691/25.34/25.442 s  orçamento=0.05→0.05  escalados=38.32%  ms/min-casa=7.082  fila=77240  CPU=109.1%  mem=3022.7 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:03:00-03:00 carga2x1-245/t5: regra score=1.07
+14:03:38 casas=4000 canais=128000  10817.1 msg/s  atraso p50/p95/máx=15.974/28.117/29.324 s  orçamento=0.05→0.05  escalados=38.55%  ms/min-casa=11.048  fila=0  CPU=104.2%  mem=3046.1 MB  temp=50.7 °C
+14:03:48 casas=4000 canais=128000   2903.6 msg/s  atraso p50/p95/máx=0.834/0.866/0.925 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=1  CPU= 19.8%  mem=3046.1 MB  temp=47.4 °C
+14:03:58 casas=4000 canais=128000   2864.8 msg/s  atraso p50/p95/máx=0.836/0.873/0.895 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.3%  mem=3046.1 MB  temp=46.3 °C
+ALERTA 2026-11-23T14:04:00-03:00 carga2x2-263/c2: regra score=1.086
+14:04:08 casas=4000 canais=128000    997.9 msg/s  atraso p50/p95/máx=0.839/5.627/7.791 s  orçamento=0.05→0.05  escalados=38.38%  ms/min-casa=7.05  fila=19547  CPU= 89.1%  mem=3048.0 MB  temp=49.6 °C
+ALERTA 2026-11-23T14:04:00-03:00 carga2x1-204/r9: regra score=1.033
+14:04:18 casas=4000 canais=128000    309.5 msg/s  atraso p50/p95/máx=14.049/16.462/16.822 s  orçamento=0.05→0.05  escalados=37.84%  ms/min-casa=7.04  fila=49064  CPU=108.8%  mem=3051.4 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:04:00-03:00 carga2x3-83/r9: regra score=1.032
+14:04:28 casas=4000 canais=128000    621.5 msg/s  atraso p50/p95/máx=24.766/25.505/25.569 s  orçamento=0.05→0.05  escalados=38.34%  ms/min-casa=9.584  fila=78095  CPU=109.5%  mem=3054.0 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:04:00-03:00 carga2x2-14/c2: regra score=1.033
+14:04:38 casas=4000 canais=128000  10883.3 msg/s  atraso p50/p95/máx=13.03/25.91/26.483 s  orçamento=0.05→0.05  escalados=38.61%  ms/min-casa=7.2  fila=1  CPU= 75.9%  mem=3061.8 MB  temp=49.05 °C
+14:04:48 casas=4000 canais=128000   2896.1 msg/s  atraso p50/p95/máx=0.834/0.89/0.929 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.3%  mem=3061.8 MB  temp=47.95 °C
+14:04:58 casas=4000 canais=128000   2999.9 msg/s  atraso p50/p95/máx=0.833/0.862/0.897 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.6%  mem=3061.8 MB  temp=46.85 °C
+ALERTA 2026-11-23T14:05:00-03:00 carga2x8-417/t5: regra score=1.069
+14:05:08 casas=4000 canais=128000    668.4 msg/s  atraso p50/p95/máx=0.835/6.604/8.088 s  orçamento=0.05→0.05  escalados=38.43%  ms/min-casa=7.13  fila=21942  CPU= 91.1%  mem=3063.8 MB  temp=49.6 °C
+ALERTA 2026-11-23T14:05:00-03:00 carga2x4-135/c2: regra score=1.024
+ALERTA 2026-11-23T14:05:00-03:00 carga2x1-204/c2: regra score=1.016
+14:05:19 casas=4000 canais=128000    213.1 msg/s  atraso p50/p95/máx=12.575/17.334/17.524 s  orçamento=0.05→0.05  escalados=37.68%  ms/min-casa=9.355  fila=51354  CPU=108.4%  mem=3066.4 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:05:00-03:00 carga2x1-8/t5: regra score=1.07
+ALERTA 2026-11-23T14:05:00-03:00 carga2x8-372/t5: regra score=1.067
+ALERTA 2026-11-23T14:05:00-03:00 carga2x1-383/t5: regra score=1.073
+14:05:29 casas=4000 canais=128000    712.4 msg/s  atraso p50/p95/máx=24.912/25.933/25.989 s  orçamento=0.05→0.05  escalados=38.43%  ms/min-casa=7.167  fila=80687  CPU=109.6%  mem=3078.9 MB  temp=52.35 °C
+ALERTA 2026-11-23T14:05:00-03:00 carga2x2-390/r9: regra score=1.017
+14:05:39 casas=4000 canais=128000  11080.8 msg/s  atraso p50/p95/máx=13.07/26.138/26.728 s  orçamento=0.05→0.05  escalados=38.85%  ms/min-casa=7.188  fila=0  CPU= 73.5%  mem=3088.1 MB  temp=47.95 °C
+14:05:49 casas=4000 canais=128000   2760.4 msg/s  atraso p50/p95/máx=0.835/0.867/0.891 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.0%  mem=3088.1 MB  temp=45.2 °C
+14:05:59 casas=4000 canais=128000   2978.4 msg/s  atraso p50/p95/máx=0.836/0.871/0.906 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.1%  mem=3088.1 MB  temp=46.85 °C
+ALERTA 2026-11-23T14:06:00-03:00 carga2x5-299/r9: regra score=1.033
+ALERTA 2026-11-23T14:06:00-03:00 carga2x2-397/t5: regra score=1.074
+14:06:09 casas=4000 canais=128000    660.1 msg/s  atraso p50/p95/máx=0.838/4.521/8.378 s  orçamento=0.05→0.05  escalados=38.51%  ms/min-casa=9.997  fila=22020  CPU= 93.5%  mem=3089.3 MB  temp=48.5 °C
+ALERTA 2026-11-23T14:06:00-03:00 carga2x6-496/r9: regra score=1.031
+ALERTA 2026-11-23T14:06:00-03:00 carga2x3-78/t5: regra score=1.072
+14:06:19 casas=4000 canais=128000    268.4 msg/s  atraso p50/p95/máx=14.17/17.31/17.53 s  orçamento=0.05→0.05  escalados=37.96%  ms/min-casa=7.09  fila=50858  CPU=108.5%  mem=3092.7 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:06:00-03:00 carga2x3-24/c2: regra score=1.086
+14:06:29 casas=4000 canais=128000    782.2 msg/s  atraso p50/p95/máx=24.77/25.543/25.651 s  orçamento=0.05→0.05  escalados=38.6%  ms/min-casa=7.199  fila=79544  CPU=109.8%  mem=3103.7 MB  temp=51.8 °C
+14:06:39 casas=4000 canais=128000  10962.8 msg/s  atraso p50/p95/máx=15.784/27.171/28.873 s  orçamento=0.05→0.05  escalados=38.56%  ms/min-casa=12.555  fila=0  CPU= 97.0%  mem=3120.6 MB  temp=49.6 °C
+14:06:49 casas=4000 canais=128000   2761.2 msg/s  atraso p50/p95/máx=0.835/0.866/0.877 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=2  CPU= 19.0%  mem=3120.6 MB  temp=47.95 °C
+14:06:59 casas=4000 canais=128000   2987.5 msg/s  atraso p50/p95/máx=0.836/0.87/0.905 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.3%  mem=3120.6 MB  temp=47.4 °C
+ALERTA 2026-11-23T14:07:00-03:00 carga2x5-299/c2: regra score=1.016
+14:07:09 casas=4000 canais=128000    703.0 msg/s  atraso p50/p95/máx=0.842/7.116/8.603 s  orçamento=0.05→0.05  escalados=38.61%  ms/min-casa=7.134  fila=22012  CPU= 96.5%  mem=3122.8 MB  temp=49.05 °C
+ALERTA 2026-11-23T14:07:00-03:00 carga2x8-499/t5: regra score=1.07
+ALERTA 2026-11-23T14:07:00-03:00 carga2x5-52/t5: regra score=1.07
+ALERTA 2026-11-23T14:07:00-03:00 carga2x5-127/t5: regra score=1.07
+ALERTA 2026-11-23T14:07:00-03:00 carga2x7-121/t5: regra score=1.071
+14:07:19 casas=4000 canais=128000    321.2 msg/s  atraso p50/p95/máx=14.462/17.311/17.666 s  orçamento=0.05→0.05  escalados=38.03%  ms/min-casa=7.089  fila=50190  CPU=108.4%  mem=3126.2 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:07:00-03:00 carga2x6-393/r9: regra score=1.045
+ALERTA 2026-11-23T14:07:00-03:00 carga2x8-38/t5: regra score=1.071
+14:07:29 casas=4000 canais=128000    671.2 msg/s  atraso p50/p95/máx=25.246/25.893/25.967 s  orçamento=0.05→0.05  escalados=38.59%  ms/min-casa=9.891  fila=80214  CPU=109.6%  mem=3130.3 MB  temp=51.25 °C
+14:07:39 casas=4000 canais=128000  11034.4 msg/s  atraso p50/p95/máx=13.358/26.293/26.888 s  orçamento=0.05→0.05  escalados=38.65%  ms/min-casa=7.212  fila=0  CPU= 71.5%  mem=3140.9 MB  temp=50.15 °C
+14:07:49 casas=4000 canais=128000   2775.3 msg/s  atraso p50/p95/máx=0.838/0.867/0.933 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.0%  mem=3140.9 MB  temp=47.4 °C
+14:07:59 casas=4000 canais=128000   3039.6 msg/s  atraso p50/p95/máx=0.839/0.877/0.909 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.4%  mem=3140.9 MB  temp=45.75 °C
+ALERTA 2026-11-23T14:08:00-03:00 carga2x7-99/c2: regra score=1.037
+ALERTA 2026-11-23T14:08:00-03:00 carga2x7-113/c2: regra score=1.037
+ALERTA 2026-11-23T14:08:00-03:00 carga2x7-320/c2: regra score=1.039
+ALERTA 2026-11-23T14:08:00-03:00 carga2x7-448/r9: regra score=1.031
+14:08:09 casas=4000 canais=128000    561.3 msg/s  atraso p50/p95/máx=0.851/7.707/8.889 s  orçamento=0.05→0.05  escalados=38.62%  ms/min-casa=7.159  fila=23876  CPU= 98.8%  mem=3143.1 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:08:00-03:00 carga2x2-58/t5: regra score=1.069
+ALERTA 2026-11-23T14:08:00-03:00 carga2x2-226/t5: regra score=1.07
+14:08:19 casas=4000 canais=128000    222.3 msg/s  atraso p50/p95/máx=13.931/15.541/18.163 s  orçamento=0.05→0.05  escalados=37.92%  ms/min-casa=9.521  fila=46630  CPU=106.8%  mem=3145.7 MB  temp=48.5 °C
+14:08:29 casas=4000 canais=128000    814.7 msg/s  atraso p50/p95/máx=25.178/25.949/26.06 s  orçamento=0.05→0.05  escalados=38.77%  ms/min-casa=7.277  fila=81655  CPU=111.3%  mem=3158.0 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:08:00-03:00 carga2x8-467/r9: regra score=1.016
+14:08:40 casas=4000 canais=128000  11233.1 msg/s  atraso p50/p95/máx=13.396/26.34/26.947 s  orçamento=0.05→0.05  escalados=38.56%  ms/min-casa=7.231  fila=0  CPU= 69.5%  mem=3168.0 MB  temp=48.5 °C
+14:08:50 casas=4000 canais=128000   2670.2 msg/s  atraso p50/p95/máx=0.836/0.864/0.885 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.4%  mem=3168.0 MB  temp=47.4 °C
+14:09:00 casas=4000 canais=128000   3009.5 msg/s  atraso p50/p95/máx=0.838/0.877/0.922 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.3%  mem=3168.0 MB  temp=46.3 °C
+ALERTA 2026-11-23T14:09:00-03:00 carga2x6-283/r9: regra score=1.032
+14:09:11 casas=4000 canais=128000    361.7 msg/s  atraso p50/p95/máx=0.842/7.774/11.073 s  orçamento=0.05→0.05  escalados=38.63%  ms/min-casa=9.246  fila=22442  CPU=101.2%  mem=3169.3 MB  temp=49.05 °C
+14:09:22 casas=4000 canais=128000    318.2 msg/s  atraso p50/p95/máx=17.152/19.722/20.122 s  orçamento=0.05→0.05  escalados=38.2%  ms/min-casa=7.284  fila=64645  CPU=112.1%  mem=3172.7 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:09:00-03:00 carga2x8-159/r9: regra score=1.017
+ALERTA 2026-11-23T14:09:00-03:00 carga2x1-400/c2: regra score=1.086
+14:09:32 casas=4000 canais=128000   1197.5 msg/s  atraso p50/p95/máx=26.113/27.058/27.082 s  orçamento=0.05→0.05  escalados=38.82%  ms/min-casa=7.238  fila=83933  CPU=108.4%  mem=3188.2 MB  temp=51.25 °C
+14:09:42 casas=4000 canais=128000  11534.6 msg/s  atraso p50/p95/máx=12.614/25.686/27.101 s  orçamento=0.05→0.05  escalados=38.54%  ms/min-casa=7.266  fila=0  CPU= 75.2%  mem=3193.7 MB  temp=49.05 °C
+14:09:52 casas=4000 canais=128000   2901.2 msg/s  atraso p50/p95/máx=0.838/0.876/0.907 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.0%  mem=3193.7 MB  temp=46.85 °C
+14:10:02 casas=4000 canais=128000   2301.0 msg/s  atraso p50/p95/máx=0.837/0.866/2.206 s  orçamento=0.05→0.05  escalados=39.25%  ms/min-casa=7.297  fila=3262  CPU= 30.1%  mem=3193.7 MB  temp=47.95 °C
+14:10:12 casas=4000 canais=128000    228.6 msg/s  atraso p50/p95/máx=6.425/10.799/11.28 s  orçamento=0.05→0.05  escalados=38.46%  ms/min-casa=7.269  fila=33642  CPU=108.5%  mem=3196.6 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:10:00-03:00 carga2x7-31/r9: regra score=1.016
+14:10:22 casas=4000 canais=128000    366.1 msg/s  atraso p50/p95/máx=16.19/19.937/20.315 s  orçamento=0.05→0.05  escalados=38.49%  ms/min-casa=7.293  fila=64676  CPU=109.1%  mem=3200.0 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:10:00-03:00 carga2x4-271/c2: regra score=1.015
+ALERTA 2026-11-23T14:10:00-03:00 carga2x4-271/r9: regra score=1.045
+14:10:32 casas=4000 canais=128000   1073.1 msg/s  atraso p50/p95/máx=26.404/27.303/27.4 s  orçamento=0.05→0.05  escalados=38.9%  ms/min-casa=10.005  fila=83959  CPU=107.9%  mem=3215.3 MB  temp=50.15 °C
+14:10:42 casas=4000 canais=128000  11536.9 msg/s  atraso p50/p95/máx=13.042/26.108/27.439 s  orçamento=0.05→0.05  escalados=38.61%  ms/min-casa=7.434  fila=0  CPU= 53.5%  mem=3223.2 MB  temp=47.4 °C
+14:10:52 casas=4000 canais=128000   2908.9 msg/s  atraso p50/p95/máx=0.84/0.884/0.931 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.0%  mem=3223.2 MB  temp=47.95 °C
+14:11:02 casas=4000 canais=128000   2308.6 msg/s  atraso p50/p95/máx=0.841/0.872/1.89 s  orçamento=0.05→0.05  escalados=38.6%  ms/min-casa=7.266  fila=3579  CPU= 27.3%  mem=3223.2 MB  temp=47.95 °C
+ALERTA 2026-11-23T14:11:00-03:00 carga2x2-433/t5: regra score=1.07
+14:11:12 casas=4000 canais=128000    230.2 msg/s  atraso p50/p95/máx=6.619/11.071/11.574 s  orçamento=0.05→0.05  escalados=38.49%  ms/min-casa=7.261  fila=33990  CPU=108.4%  mem=3225.4 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:11:00-03:00 carga2x8-438/c2: regra score=1.037
+14:11:22 casas=4000 canais=128000    245.0 msg/s  atraso p50/p95/máx=15.513/20.443/20.737 s  orçamento=0.05→0.05  escalados=38.53%  ms/min-casa=9.793  fila=66630  CPU=109.2%  mem=3227.9 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:11:00-03:00 carga2x1-320/t5: regra score=1.074
+ALERTA 2026-11-23T14:11:00-03:00 carga2x8-348/c2: regra score=1.029
+ALERTA 2026-11-23T14:11:00-03:00 carga2x8-48/r9: regra score=1.017
+14:11:32 casas=4000 canais=128000   1164.7 msg/s  atraso p50/p95/máx=26.411/27.428/27.747 s  orçamento=0.05→0.05  escalados=39.04%  ms/min-casa=7.341  fila=85141  CPU=107.9%  mem=3242.2 MB  temp=51.8 °C
+14:11:42 casas=4000 canais=128000  11616.7 msg/s  atraso p50/p95/máx=12.934/26.598/27.924 s  orçamento=0.05→0.05  escalados=38.67%  ms/min-casa=7.314  fila=0  CPU= 55.3%  mem=3250.0 MB  temp=49.6 °C
+14:11:52 casas=4000 canais=128000   3046.4 msg/s  atraso p50/p95/máx=0.839/0.915/0.939 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.9%  mem=3250.0 MB  temp=48.5 °C
+14:12:02 casas=4000 canais=128000   2104.7 msg/s  atraso p50/p95/máx=0.841/0.879/2.184 s  orçamento=0.05→0.05  escalados=38.62%  ms/min-casa=7.301  fila=6028  CPU= 31.9%  mem=3250.0 MB  temp=49.6 °C
+14:12:12 casas=4000 canais=128000    174.3 msg/s  atraso p50/p95/máx=5.679/11.508/11.944 s  orçamento=0.05→0.05  escalados=38.68%  ms/min-casa=9.732  fila=36674  CPU=108.4%  mem=3252.2 MB  temp=49.6 °C
+ALERTA 2026-11-23T14:12:00-03:00 carga2x5-53/t5: regra score=1.073
+14:12:22 casas=4000 canais=128000    307.6 msg/s  atraso p50/p95/máx=17.56/20.593/21.02 s  orçamento=0.05→0.05  escalados=38.51%  ms/min-casa=7.345  fila=69746  CPU=109.5%  mem=3255.6 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:12:00-03:00 carga2x8-90/r9: regra score=1.045
+14:12:32 casas=4000 canais=128000   1205.4 msg/s  atraso p50/p95/máx=26.337/27.313/27.584 s  orçamento=0.05→0.05  escalados=39.16%  ms/min-casa=7.351  fila=88085  CPU=108.0%  mem=3270.9 MB  temp=52.35 °C
+14:12:43 casas=4000 canais=128000  11767.8 msg/s  atraso p50/p95/máx=12.509/26.414/27.75 s  orçamento=0.05→0.05  escalados=38.24%  ms/min-casa=7.2  fila=0  CPU= 73.7%  mem=3275.3 MB  temp=49.6 °C
+14:12:53 casas=4000 canais=128000   2993.8 msg/s  atraso p50/p95/máx=0.838/0.87/0.899 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.8%  mem=3275.3 MB  temp=48.5 °C
+ALERTA 2026-11-23T14:13:00-03:00 carga2x8-460/c2: regra score=1.019
+14:13:03 casas=4000 canais=128000   1935.8 msg/s  atraso p50/p95/máx=0.838/0.865/2.747 s  orçamento=0.05→0.05  escalados=39.3%  ms/min-casa=7.394  fila=7391  CPU= 37.7%  mem=3275.4 MB  temp=49.05 °C
+ALERTA 2026-11-23T14:13:00-03:00 carga2x8-26/c2: regra score=1.019
+14:13:13 casas=4000 canais=128000    227.0 msg/s  atraso p50/p95/máx=7.2/11.631/12.158 s  orçamento=0.05→0.05  escalados=38.62%  ms/min-casa=7.329  fila=36346  CPU=108.1%  mem=3278.6 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:13:00-03:00 carga2x1-136/c2: regra score=1.019
+ALERTA 2026-11-23T14:13:00-03:00 carga2x2-26/t5: regra score=1.072
+ALERTA 2026-11-23T14:13:00-03:00 carga2x7-308/t5: regra score=1.071
+14:13:23 casas=4000 canais=128000    379.9 msg/s  atraso p50/p95/máx=16.748/20.692/21.184 s  orçamento=0.05→0.05  escalados=38.74%  ms/min-casa=7.359  fila=68724  CPU=109.7%  mem=3282.0 MB  temp=51.8 °C
+ALERTA 2026-11-23T14:13:00-03:00 carga2x1-347/r9: regra score=1.033
+14:13:33 casas=4000 canais=128000   1110.8 msg/s  atraso p50/p95/máx=26.838/27.673/27.754 s  orçamento=0.05→0.05  escalados=39.2%  ms/min-casa=10.29  fila=87990  CPU=108.0%  mem=3297.1 MB  temp=52.35 °C
+ALERTA 2026-11-23T14:13:00-03:00 carga2x6-102/c2: regra score=1.033
+14:13:43 casas=4000 canais=128000  11761.3 msg/s  atraso p50/p95/máx=12.558/26.448/27.85 s  orçamento=0.05→0.05  escalados=38.11%  ms/min-casa=7.281  fila=0  CPU= 49.1%  mem=3302.3 MB  temp=47.4 °C
+14:13:53 casas=4000 canais=128000   2991.1 msg/s  atraso p50/p95/máx=0.839/0.873/0.907 s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.4%  mem=3302.3 MB  temp=47.4 °C
+14:14:03 casas=4000 canais=128000   1954.0 msg/s  atraso p50/p95/máx=0.838/0.863/2.74 s  orçamento=0.05→0.05  escalados=39.06%  ms/min-casa=7.358  fila=7217  CPU= 40.3%  mem=3302.3 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:14:00-03:00 carga2x2-263/residuo: regra score=1.092
+ALERTA 2026-11-23T14:14:00-03:00 carga2x6-60/t5: regra score=1.069
+ALERTA 2026-11-23T14:14:00-03:00 carga2x1-184/r9: regra score=1.055
+14:14:13 casas=4000 canais=128000    226.7 msg/s  atraso p50/p95/máx=7.418/11.904/12.434 s  orçamento=0.05→0.05  escalados=38.77%  ms/min-casa=7.346  fila=36198  CPU=108.4%  mem=3305.2 MB  temp=49.6 °C
+ALERTA 2026-11-23T14:14:00-03:00 carga2x1-479/t5: regra score=1.071
+14:14:23 casas=4000 canais=128000    278.5 msg/s  atraso p50/p95/máx=15.953/21.255/21.55 s  orçamento=0.05→0.05  escalados=38.8%  ms/min-casa=9.833  fila=56641  CPU=106.3%  mem=3307.9 MB  temp=49.6 °C
+ALERTA 2026-11-23T14:14:00-03:00 carga2x4-343/c2: regra score=1.053
+14:14:33 casas=4000 canais=128000   1421.2 msg/s  atraso p50/p95/máx=26.391/27.08/27.211 s  orçamento=0.05→0.05  escalados=39.11%  ms/min-casa=7.036  fila=42320  CPU=100.0%  mem=3311.4 MB  temp=51.8 °C
+14:14:43 casas=4000 canais=128000   4224.3 msg/s  atraso p50/p95/máx=21.07/25.837/26.691 s  orçamento=0.05→0.05  escalados=35.94%  ms/min-casa=6.792  fila=0  CPU=  9.9%  mem=3311.7 MB  temp=46.85 °C
+14:14:53 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.3%  mem=3311.7 MB  temp=44.1 °C
+14:15:03 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.2%  mem=3311.7 MB  temp=43.55 °C
+14:15:13 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.05→0.05  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.3%  mem=3311.7 MB  temp=44.1 °C
+COMANDO {"marca": "E4f_ctrl", "reset": true, "orcamento": 1.0, "controlador": true, "atraso_max": 30.0} → {"marca": "E4f_ctrl", "orcamento": 1.0, "controlador": true, "atraso_max": 30.0, "casas": 0}
+14:15:26 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 33.0%  mem=2325.7 MB  temp=46.3 °C
+14:15:36 casas=2977 canais=95264    369.0 msg/s  atraso p50/p95/máx=3.81/7.727/7.945 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=2213  CPU= 73.0%  mem=2219.5 MB  temp=48.5 °C
+14:15:46 casas=4000 canais=128000   5223.6 msg/s  atraso p50/p95/máx=2.647/9.478/10.346 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 54.8%  mem=2442.2 MB  temp=45.75 °C
+14:15:56 casas=4000 canais=128000   2771.0 msg/s  atraso p50/p95/máx=0.861/0.915/0.946 s  orçamento=1.0→1.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 17.9%  mem=2445.7 MB  temp=45.2 °C
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-10/residuo: regra score=1.044
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-23/residuo: regra score=1.12
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-42/residuo: regra score=1.044
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-54/residuo: regra score=1.181
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-26/residuo: regra score=1.388
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-38/residuo: regra score=1.417
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-79/residuo: regra score=1.744
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-85/residuo: regra score=1.461
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-43/residuo: regra score=1.457
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-66/residuo: regra score=1.306
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-107/residuo: regra score=1.501
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-73/residuo: regra score=1.082
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-72/residuo: regra score=1.594
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-74/residuo: regra score=1.504
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-91/residuo: regra score=1.7
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-155/residuo: regra score=1.05
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-108/residuo: regra score=1.615
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-176/residuo: regra score=1.764
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-178/residuo: regra score=1.198
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-193/residuo: regra score=1.541
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-145/c2: regra score=1.102
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-134/residuo: regra score=1.501
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-150/residuo: regra score=1.409
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-155/r9: regra score=1.046
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-174/residuo: regra score=1.106
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-183/residuo: regra score=1.755
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-212/residuo: regra score=1.461
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-233/residuo: regra score=1.452
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-266/residuo: regra score=1.188
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-303/residuo: regra score=1.62
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-277/r9: regra score=1.045
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-292/r9: regra score=1.047
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-344/residuo: regra score=1.764
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-348/residuo: regra score=1.514
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-319/residuo: regra score=1.476
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-342/residuo: regra score=1.5
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-427/residuo: regra score=1.2
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-393/residuo: regra score=1.125
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-378/residuo: regra score=1.765
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-406/residuo: regra score=1.679
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-436/residuo: regra score=1.559
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-478/residuo: regra score=1.067
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-483/residuo: regra score=1.6
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-466/c2: regra score=1.074
+14:16:06 casas=4000 canais=128000   1724.1 msg/s  atraso p50/p95/máx=0.885/1.033/6.122 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=8.681  fila=13168  CPU= 67.0%  mem=2470.4 MB  temp=49.05 °C
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-475/residuo: regra score=1.154
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-473/residuo: regra score=1.556
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-495/residuo: regra score=1.536
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-490/residuo: regra score=1.455
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-20/residuo: regra score=1.067
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-2/residuo: regra score=1.008
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-7/residuo: regra score=1.175
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-11/residuo: regra score=1.531
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-37/c2: regra score=1.103
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-53/residuo: regra score=1.478
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-10/residuo: regra score=1.501
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-44/residuo: regra score=1.437
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-54/residuo: regra score=1.024
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-63/residuo: regra score=1.126
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-94/residuo: regra score=1.259
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-47/residuo: regra score=1.467
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-119/c2: regra score=1.102
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-93/residuo: regra score=1.058
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-99/residuo: regra score=1.698
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-125/residuo: regra score=1.483
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-130/t5: regra score=1.631
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-190/residuo: regra score=1.387
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-196/residuo: regra score=1.479
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-190/residuo: regra score=1.329
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-199/residuo: regra score=1.518
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-208/residuo: regra score=1.767
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-217/residuo: regra score=1.5
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-194/residuo: regra score=1.422
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-230/residuo: regra score=1.679
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-210/residuo: regra score=1.498
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-315/residuo: regra score=1.601
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-271/residuo: regra score=1.561
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-285/residuo: regra score=1.468
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-342/residuo: regra score=1.712
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-348/residuo: regra score=1.428
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-341/residuo: regra score=1.463
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-317/residuo: regra score=1.016
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-376/residuo: regra score=1.44
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-403/residuo: regra score=1.508
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-389/residuo: regra score=1.173
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-419/residuo: regra score=1.215
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-384/residuo: regra score=1.707
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-390/residuo: regra score=1.231
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-395/residuo: regra score=1.502
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-458/residuo: regra score=1.676
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-436/residuo: regra score=1.504
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-424/t5: regra score=1.62
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-421/residuo: regra score=1.503
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-472/residuo: regra score=1.501
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-434/r9: regra score=1.008
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-477/residuo: regra score=1.523
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-493/r9: regra score=1.045
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-25/residuo: regra score=1.467
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-37/residuo: regra score=1.456
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-38/residuo: regra score=1.161
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-51/c2: regra score=1.102
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-112/residuo: regra score=1.464
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-120/residuo: regra score=1.554
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-137/residuo: regra score=1.444
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-169/residuo: regra score=1.698
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-192/residuo: regra score=1.461
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-214/r9: regra score=1.046
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-217/residuo: regra score=1.252
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-259/residuo: regra score=1.095
+14:16:16 casas=4000 canais=128000    142.2 msg/s  atraso p50/p95/máx=11.738/15.632/16.068 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=9.764  fila=40489  CPU=107.1%  mem=2517.7 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-393/residuo: regra score=1.281
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-400/t5: regra score=1.626
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-441/residuo: regra score=1.501
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-462/residuo: regra score=1.024
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-471/residuo: regra score=1.555
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-21/residuo: regra score=1.115
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-27/residuo: regra score=1.069
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-2/residuo: regra score=1.535
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-77/residuo: regra score=1.141
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-95/residuo: regra score=1.177
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-165/residuo: regra score=1.068
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-234/residuo: regra score=1.092
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-320/residuo: regra score=1.628
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-372/residuo: regra score=1.233
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-377/residuo: regra score=1.017
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-418/residuo: regra score=1.101
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-423/residuo: regra score=1.37
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-328/residuo: regra score=1.463
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-440/residuo: regra score=1.474
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-464/residuo: regra score=1.238
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-417/residuo: regra score=1.646
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-469/residuo: regra score=1.12
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-491/residuo: regra score=1.501
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-46/residuo: regra score=1.078
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-48/residuo: regra score=1.038
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-50/residuo: regra score=1.462
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-72/c2: regra score=1.102
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-41/residuo: regra score=1.107
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-112/residuo: regra score=1.402
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-195/residuo: regra score=1.51
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-131/residuo: regra score=1.454
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-134/residuo: regra score=1.17
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-196/residuo: regra score=1.341
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-260/residuo: regra score=1.103
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-181/residuo: regra score=1.148
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-229/residuo: regra score=1.207
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-251/residuo: regra score=1.347
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-265/r9: regra score=1.047
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-232/residuo: regra score=1.042
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-297/residuo: regra score=1.497
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-286/residuo: regra score=1.309
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-339/residuo: regra score=1.082
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-283/t5: regra score=1.622
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-292/residuo: regra score=1.507
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-351/residuo: regra score=1.509
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-365/r9: regra score=1.045
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-313/r9: regra score=1.05
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-353/residuo: regra score=1.027
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-465/residuo: regra score=1.37
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-445/residuo: regra score=1.088
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-473/residuo: regra score=1.055
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-469/residuo: regra score=1.26
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-476/residuo: regra score=1.109
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-56/residuo: regra score=1.5
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-101/r9: regra score=1.008
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-148/residuo: regra score=1.442
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-274/residuo: regra score=1.106
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-299/c2: regra score=1.033
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-360/residuo: regra score=1.34
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-463/residuo: regra score=1.066
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-38/residuo: regra score=1.499
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-43/residuo: regra score=1.508
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-80/residuo: regra score=1.441
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-86/residuo: regra score=1.516
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-84/residuo: regra score=1.522
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-271/residuo: regra score=1.432
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-217/residuo: regra score=1.166
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-221/residuo: regra score=1.776
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-248/residuo: regra score=1.358
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-344/residuo: regra score=1.512
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-353/r9: regra score=1.019
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-175/residuo: regra score=1.53
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-294/residuo: regra score=1.465
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-195/residuo: regra score=1.016
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-383/residuo: regra score=1.483
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-410/residuo: regra score=1.498
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-416/c2: regra score=1.101
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-256/residuo: regra score=1.555
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-258/residuo: regra score=1.561
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-489/residuo: regra score=1.075
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-297/residuo: regra score=1.102
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-302/residuo: regra score=1.533
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-424/residuo: regra score=1.012
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-439/c2: regra score=1.037
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-445/residuo: regra score=1.527
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-464/residuo: regra score=1.459
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-472/residuo: regra score=1.536
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-396/residuo: regra score=1.478
+14:16:26 casas=4000 canais=128000    292.7 msg/s  atraso p50/p95/máx=19.808/23.541/24.187 s  orçamento=1.0→1.0  escalados=100.0%  ms/min-casa=8.645  fila=68860  CPU=107.6%  mem=2568.4 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-440/residuo: regra score=1.434
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-462/residuo: regra score=1.068
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-496/residuo: regra score=1.528
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-2/residuo: regra score=1.436
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-71/residuo: regra score=1.538
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-52/residuo: regra score=1.566
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-27/residuo: regra score=1.432
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-95/r9: regra score=1.034
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-117/residuo: regra score=1.767
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-96/residuo: regra score=1.507
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-53/residuo: regra score=1.511
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-139/residuo: regra score=1.511
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-116/residuo: regra score=1.512
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-150/residuo: regra score=1.071
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-88/residuo: regra score=1.527
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-185/residuo: regra score=1.445
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-152/residuo: regra score=1.526
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-210/residuo: regra score=1.742
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-234/residuo: regra score=1.172
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-120/residuo: regra score=1.555
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-125/residuo: regra score=1.211
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-220/residuo: regra score=1.505
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-244/residuo: regra score=1.051
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-134/residuo: regra score=1.198
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-159/residuo: regra score=1.158
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-328/residuo: regra score=1.506
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-317/residuo: regra score=1.049
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-193/residuo: regra score=1.11
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-311/residuo: regra score=1.709
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-344/residuo: regra score=1.709
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-230/residuo: regra score=1.568
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-397/residuo: regra score=1.386
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-422/residuo: regra score=1.587
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-391/residuo: regra score=1.103
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-393/c2: regra score=1.102
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-392/residuo: regra score=1.478
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-430/residuo: regra score=1.096
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-431/residuo: regra score=1.431
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-436/residuo: regra score=1.023
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-311/residuo: regra score=1.204
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-473/c2: regra score=1.102
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-495/residuo: regra score=1.563
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-371/residuo: regra score=1.112
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-418/residuo: regra score=1.508
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-431/r9: regra score=1.124
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-432/residuo: regra score=1.574
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-438/residuo: regra score=1.531
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-28/residuo: regra score=1.211
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-44/residuo: regra score=1.144
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-88/residuo: regra score=1.056
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-157/residuo: regra score=1.22
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-206/residuo: regra score=1.658
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-245/residuo: regra score=1.51
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-327/c2: regra score=1.102
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-337/residuo: regra score=1.009
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-417/residuo: regra score=1.531
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-442/residuo: regra score=1.463
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-17/residuo: regra score=1.533
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-25/residuo: regra score=1.5
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-99/residuo: regra score=1.767
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-171/residuo: regra score=1.511
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-217/residuo: regra score=1.179
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-224/t5: regra score=1.624
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-245/residuo: regra score=1.471
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-280/residuo: regra score=1.19
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-457/residuo: regra score=1.49
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-488/residuo: regra score=1.505
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-437/residuo: regra score=1.072
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-491/residuo: regra score=1.464
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-79/residuo: regra score=1.735
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-60/residuo: regra score=1.021
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-64/r9: regra score=1.045
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-64/residuo: regra score=1.499
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-84/residuo: regra score=1.459
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-79/residuo: regra score=1.503
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-178/residuo: regra score=1.764
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-216/residuo: regra score=1.764
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-291/residuo: regra score=1.436
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-351/residuo: regra score=1.42
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-357/residuo: regra score=1.185
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-440/residuo: regra score=1.487
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-454/residuo: regra score=1.478
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-100/residuo: regra score=1.463
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-189/residuo: regra score=1.545
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-226/residuo: regra score=1.584
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-62/residuo: regra score=1.475
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-440/residuo: regra score=1.33
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-347/residuo: regra score=1.499
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-493/residuo: regra score=1.503
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-148/residuo: regra score=1.666
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-181/residuo: regra score=1.107
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-203/residuo: regra score=1.516
+ALERTA 2026-11-23T14:16:00-03:00 carga3x5-411/residuo: regra score=1.52
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-175/r9: regra score=1.032
+14:16:38 casas=4000 canais=128000    704.7 msg/s  atraso p50/p95/máx=30.203/30.814/32.36 s  orçamento=1.0→0.5  escalados=100.0%  ms/min-casa=10.115  fila=97265  CPU=107.8%  mem=2620.1 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:16:00-03:00 carga3x4-411/residuo: regra score=1.566
+ALERTA 2026-11-23T14:16:00-03:00 carga3x3-374/residuo: regra score=1.474
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-134/c2: regra score=1.036
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-243/residuo: regra score=1.501
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-219/residuo: regra score=1.501
+ALERTA 2026-11-23T14:16:00-03:00 carga3x8-290/r9: regra score=1.062
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-213/r9: regra score=1.033
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-429/residuo: regra score=1.801
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-393/residuo: regra score=1.73
+ALERTA 2026-11-23T14:16:00-03:00 carga3x2-456/residuo: regra score=1.486
+ALERTA 2026-11-23T14:16:00-03:00 carga3x1-410/residuo: regra score=1.627
+ALERTA 2026-11-23T14:16:00-03:00 carga3x6-475/residuo: regra score=1.09
+ALERTA 2026-11-23T14:16:00-03:00 carga3x7-278/residuo: regra score=1.53
+14:16:48 casas=4000 canais=128000  12991.8 msg/s  atraso p50/p95/máx=13.499/31.579/33.406 s  orçamento=0.5→0.5  escalados=89.64%  ms/min-casa=8.586  fila=0  CPU= 57.2%  mem=2631.6 MB  temp=48.5 °C
+14:16:58 casas=4000 canais=128000   2671.5 msg/s  atraso p50/p95/máx=0.856/0.925/0.962 s  orçamento=0.5→0.5  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 17.7%  mem=2631.6 MB  temp=46.3 °C
+ALERTA 2026-11-23T14:17:00-03:00 carga3x5-55/r9: regra score=1.044
+ALERTA 2026-11-23T14:17:00-03:00 carga3x3-176/c2: regra score=1.101
+ALERTA 2026-11-23T14:17:00-03:00 carga3x5-183/c2: regra score=1.092
+ALERTA 2026-11-23T14:17:00-03:00 carga3x3-344/c2: regra score=1.103
+14:17:08 casas=4000 canais=128000   1469.5 msg/s  atraso p50/p95/máx=0.904/1.758/7.629 s  orçamento=0.5→0.5  escalados=90.6%  ms/min-casa=11.221  fila=15853  CPU= 81.4%  mem=2631.6 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:17:00-03:00 carga3x3-478/r9: regra score=1.042
+ALERTA 2026-11-23T14:17:00-03:00 carga3x4-473/c2: regra score=1.037
+ALERTA 2026-11-23T14:17:00-03:00 carga3x8-208/c2: regra score=1.102
+14:17:18 casas=4000 canais=128000    123.2 msg/s  atraso p50/p95/máx=12.629/17.155/17.592 s  orçamento=0.5→0.5  escalados=90.59%  ms/min-casa=11.247  fila=44699  CPU=107.3%  mem=2631.6 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:17:00-03:00 carga3x7-120/c2: regra score=1.037
+ALERTA 2026-11-23T14:17:00-03:00 carga3x3-77/r9: regra score=1.046
+14:17:28 casas=4000 canais=128000    229.1 msg/s  atraso p50/p95/máx=22.227/26.145/26.604 s  orçamento=0.5→0.5  escalados=90.59%  ms/min-casa=11.258  fila=72790  CPU=107.5%  mem=2636.0 MB  temp=52.9 °C
+ALERTA 2026-11-23T14:17:00-03:00 carga3x5-344/r9: regra score=1.045
+ALERTA 2026-11-23T14:17:00-03:00 carga3x5-383/r9: regra score=1.044
+ALERTA 2026-11-23T14:17:00-03:00 carga3x3-455/t5: regra score=1.034
+ALERTA 2026-11-23T14:17:00-03:00 carga3x3-485/t5: regra score=1.028
+ALERTA 2026-11-23T14:17:00-03:00 carga3x8-117/c2: regra score=1.103
+14:17:38 casas=4000 canais=128000    149.2 msg/s  atraso p50/p95/máx=31.478/35.253/35.659 s  orçamento=0.5→0.5  escalados=90.6%  ms/min-casa=13.683  fila=107201  CPU=108.9%  mem=2681.9 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:17:00-03:00 carga3x3-99/c2: regra score=1.102
+ALERTA 2026-11-23T14:17:00-03:00 carga3x2-79/r9: regra score=1.047
+ALERTA 2026-11-23T14:17:00-03:00 carga3x6-178/c2: regra score=1.103
+ALERTA 2026-11-23T14:17:00-03:00 carga3x6-182/r9: regra score=1.042
+ALERTA 2026-11-23T14:17:00-03:00 carga3x8-216/c2: regra score=1.102
+ALERTA 2026-11-23T14:17:00-03:00 carga3x7-189/r9: regra score=1.042
+14:17:48 casas=4000 canais=128000    915.4 msg/s  atraso p50/p95/máx=40.737/41.662/41.864 s  orçamento=0.5→0.2  escalados=90.65%  ms/min-casa=11.279  fila=129167  CPU=107.7%  mem=2715.3 MB  temp=51.8 °C
+14:17:58 casas=4000 canais=128000  15511.8 msg/s  atraso p50/p95/máx=21.447/40.326/43.096 s  orçamento=0.2→0.2  escalados=88.98%  ms/min-casa=11.433  fila=0  CPU= 54.6%  mem=2722.9 MB  temp=49.05 °C
+14:18:09 casas=4000 canais=128000   1357.1 msg/s  atraso p50/p95/máx=0.953/1.204/8.623 s  orçamento=0.2→0.2  escalados=90.65%  ms/min-casa=14.542  fila=15991  CPU= 85.3%  mem=2722.9 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:18:00-03:00 carga3x1-143/t5: regra score=1.074
+ALERTA 2026-11-23T14:18:00-03:00 carga3x1-242/t5: regra score=1.07
+14:18:19 casas=4000 canais=128000    120.4 msg/s  atraso p50/p95/máx=13.542/18.12/18.586 s  orçamento=0.2→0.2  escalados=90.6%  ms/min-casa=11.379  fila=49608  CPU=108.7%  mem=2722.9 MB  temp=52.35 °C
+ALERTA 2026-11-23T14:18:00-03:00 carga3x5-464/t5: regra score=1.034
+14:18:29 casas=4000 canais=128000    217.7 msg/s  atraso p50/p95/máx=23.521/27.214/27.611 s  orçamento=0.2→0.2  escalados=90.58%  ms/min-casa=11.354  fila=77228  CPU=107.5%  mem=2722.9 MB  temp=53.45 °C
+ALERTA 2026-11-23T14:18:00-03:00 carga3x7-90/t5: regra score=1.033
+ALERTA 2026-11-23T14:18:00-03:00 carga3x5-153/t5: regra score=1.031
+14:18:39 casas=4000 canais=128000    149.3 msg/s  atraso p50/p95/máx=30.459/34.295/36.725 s  orçamento=0.2→0.2  escalados=90.62%  ms/min-casa=14.179  fila=105681  CPU=107.5%  mem=2730.9 MB  temp=52.9 °C
+14:18:49 casas=4000 canais=128000    726.0 msg/s  atraso p50/p95/máx=42.932/43.594/43.732 s  orçamento=0.2→0.2  escalados=90.65%  ms/min-casa=11.434  fila=135544  CPU=109.3%  mem=2767.2 MB  temp=52.35 °C
+14:18:59 casas=4000 canais=128000  16163.9 msg/s  atraso p50/p95/máx=23.848/43.606/45.474 s  orçamento=0.2→0.1  escalados=89.85%  ms/min-casa=11.387  fila=1  CPU= 68.8%  mem=2772.5 MB  temp=49.6 °C
+14:19:09 casas=4000 canais=128000   1088.8 msg/s  atraso p50/p95/máx=1.06/4.362/8.928 s  orçamento=0.1→0.1  escalados=90.64%  ms/min-casa=11.426  fila=21824  CPU= 93.9%  mem=2772.5 MB  temp=52.9 °C
+14:19:19 casas=4000 canais=128000     97.6 msg/s  atraso p50/p95/máx=12.982/16.602/18.943 s  orçamento=0.1→0.1  escalados=90.6%  ms/min-casa=14.125  fila=48823  CPU=106.8%  mem=2772.5 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:19:00-03:00 carga3x3-29/c2: regra score=1.03
+ALERTA 2026-11-23T14:19:00-03:00 carga3x3-245/t5: regra score=1.035
+ALERTA 2026-11-23T14:19:00-03:00 carga3x8-41/t5: regra score=1.032
+14:19:29 casas=4000 canais=128000    216.3 msg/s  atraso p50/p95/máx=23.864/27.505/27.979 s  orçamento=0.1→0.1  escalados=90.6%  ms/min-casa=11.455  fila=82546  CPU=109.0%  mem=2772.5 MB  temp=52.9 °C
+ALERTA 2026-11-23T14:19:00-03:00 carga3x2-19/t5: regra score=1.072
+ALERTA 2026-11-23T14:19:00-03:00 carga3x2-106/t5: regra score=1.028
+ALERTA 2026-11-23T14:19:00-03:00 carga3x6-371/t5: regra score=1.034
+ALERTA 2026-11-23T14:19:00-03:00 carga3x2-337/t5: regra score=1.032
+14:19:39 casas=4000 canais=128000    182.6 msg/s  atraso p50/p95/máx=31.695/36.466/37.009 s  orçamento=0.1→0.1  escalados=90.6%  ms/min-casa=11.473  fila=113864  CPU=108.1%  mem=2772.5 MB  temp=54.0 °C
+14:19:50 casas=4000 canais=128000    742.0 msg/s  atraso p50/p95/máx=41.522/42.571/44.787 s  orçamento=0.1→0.1  escalados=90.67%  ms/min-casa=14.241  fila=131126  CPU=105.9%  mem=2792.5 MB  temp=52.9 °C
+14:20:00 casas=4000 canais=128000  16877.8 msg/s  atraso p50/p95/máx=22.565/44.153/46.062 s  orçamento=0.1→0.1  escalados=89.66%  ms/min-casa=11.614  fila=0  CPU= 69.4%  mem=2807.9 MB  temp=50.15 °C
+14:20:10 casas=4000 canais=128000    286.7 msg/s  atraso p50/p95/máx=1.043/8.774/10.015 s  orçamento=0.1→0.05  escalados=90.64%  ms/min-casa=11.498  fila=26008  CPU=100.4%  mem=2807.9 MB  temp=52.9 °C
+ALERTA 2026-11-23T14:20:00-03:00 carga3x8-405/r9: regra score=1.043
+14:20:20 casas=4000 canais=128000    121.1 msg/s  atraso p50/p95/máx=14.962/19.525/20.027 s  orçamento=0.05→0.05  escalados=90.59%  ms/min-casa=11.509  fila=56030  CPU=107.7%  mem=2807.9 MB  temp=51.8 °C
+ALERTA 2026-11-23T14:20:00-03:00 carga3x6-64/t5: regra score=1.035
+ALERTA 2026-11-23T14:20:00-03:00 carga3x1-298/t5: regra score=1.035
+14:20:30 casas=4000 canais=128000    199.4 msg/s  atraso p50/p95/máx=23.177/26.65/29.059 s  orçamento=0.05→0.05  escalados=90.59%  ms/min-casa=14.48  fila=81308  CPU=106.7%  mem=2807.9 MB  temp=52.9 °C
+ALERTA 2026-11-23T14:20:00-03:00 carga3x5-228/c2: regra score=1.039
+ALERTA 2026-11-23T14:20:00-03:00 carga3x3-470/r9: regra score=1.043
+ALERTA 2026-11-23T14:20:00-03:00 carga3x2-38/t5: regra score=1.067
+14:20:40 casas=4000 canais=128000    175.2 msg/s  atraso p50/p95/máx=33.015/37.637/38.108 s  orçamento=0.05→0.05  escalados=90.64%  ms/min-casa=11.552  fila=118449  CPU=109.6%  mem=2808.5 MB  temp=52.35 °C
+ALERTA 2026-11-23T14:20:00-03:00 carga3x7-212/t5: regra score=1.074
+14:20:50 casas=4000 canais=128000   1013.6 msg/s  atraso p50/p95/máx=42.221/43.678/44.123 s  orçamento=0.05→0.05  escalados=90.54%  ms/min-casa=11.562  fila=138445  CPU=107.4%  mem=2832.2 MB  temp=53.45 °C
+14:21:00 casas=4000 canais=128000  16831.0 msg/s  atraso p50/p95/máx=20.0/41.655/44.455 s  orçamento=0.05→0.05  escalados=88.23%  ms/min-casa=10.984  fila=0  CPU= 50.7%  mem=2832.2 MB  temp=49.05 °C
+ALERTA 2026-11-23T14:21:00-03:00 carga3x4-393/c2: regra score=1.091
+14:21:10 casas=4000 canais=128000     92.7 msg/s  atraso p50/p95/máx=4.292/9.926/10.304 s  orçamento=0.05→0.05  escalados=90.63%  ms/min-casa=14.539  fila=26179  CPU=102.0%  mem=2832.2 MB  temp=51.25 °C
+ALERTA 2026-11-23T14:21:00-03:00 carga3x2-86/t5: regra score=1.071
+14:21:20 casas=4000 canais=128000    119.1 msg/s  atraso p50/p95/máx=15.239/19.84/20.296 s  orçamento=0.05→0.02  escalados=90.61%  ms/min-casa=11.569  fila=56251  CPU=107.7%  mem=2832.2 MB  temp=52.9 °C
+ALERTA 2026-11-23T14:21:00-03:00 carga3x5-372/t5: regra score=1.034
+14:21:31 casas=4000 canais=128000    225.1 msg/s  atraso p50/p95/máx=24.885/28.855/29.344 s  orçamento=0.02→0.02  escalados=90.58%  ms/min-casa=11.622  fila=90063  CPU=109.0%  mem=2832.2 MB  temp=52.9 °C
+ALERTA 2026-11-23T14:21:00-03:00 carga3x3-158/r9: regra score=1.015
+ALERTA 2026-11-23T14:21:00-03:00 carga3x2-234/r9: regra score=1.031
+14:21:41 casas=4000 canais=128000    135.6 msg/s  atraso p50/p95/máx=32.169/37.95/38.405 s  orçamento=0.02→0.02  escalados=90.63%  ms/min-casa=14.795  fila=118813  CPU=107.6%  mem=2838.7 MB  temp=51.8 °C
+14:21:51 casas=4000 canais=128000    785.0 msg/s  atraso p50/p95/máx=44.265/45.207/45.405 s  orçamento=0.02→0.02  escalados=90.68%  ms/min-casa=11.657  fila=141085  CPU=107.5%  mem=2866.2 MB  temp=52.9 °C
+14:22:01 casas=4000 canais=128000  17099.8 msg/s  atraso p50/p95/máx=22.407/44.926/46.818 s  orçamento=0.02→0.02  escalados=89.85%  ms/min-casa=11.619  fila=0  CPU= 69.7%  mem=2871.7 MB  temp=48.5 °C
+14:22:11 casas=4000 canais=128000    118.1 msg/s  atraso p50/p95/máx=5.517/10.176/10.594 s  orçamento=0.02→0.02  escalados=90.65%  ms/min-casa=11.625  fila=25948  CPU=105.0%  mem=2871.7 MB  temp=51.8 °C
+ALERTA 2026-11-23T14:22:00-03:00 carga3x2-298/r9: regra score=1.032
+ALERTA 2026-11-23T14:22:00-03:00 carga3x1-491/c2: regra score=1.019
+14:22:21 casas=4000 canais=128000     94.7 msg/s  atraso p50/p95/máx=14.569/20.128/20.588 s  orçamento=0.02→0.02  escalados=90.59%  ms/min-casa=14.559  fila=56246  CPU=107.7%  mem=2871.7 MB  temp=53.45 °C
+14:22:31 casas=4000 canais=128000    226.8 msg/s  atraso p50/p95/máx=25.126/29.177/29.612 s  orçamento=0.02→0.01  escalados=90.61%  ms/min-casa=11.69  fila=90053  CPU=109.1%  mem=2871.7 MB  temp=53.45 °C
+ALERTA 2026-11-23T14:22:00-03:00 carga3x4-192/t5: regra score=1.034
+ALERTA 2026-11-23T14:22:00-03:00 carga3x6-430/t5: regra score=1.037
+14:22:41 casas=4000 canais=128000    172.1 msg/s  atraso p50/p95/máx=33.596/38.163/38.696 s  orçamento=0.01→0.01  escalados=90.65%  ms/min-casa=11.664  fila=118438  CPU=107.5%  mem=2873.0 MB  temp=54.0 °C
+ALERTA 2026-11-23T14:22:00-03:00 carga3x1-438/r9: regra score=1.045
+14:22:51 casas=4000 canais=128000    744.2 msg/s  atraso p50/p95/máx=44.607/45.516/45.691 s  orçamento=0.01→0.01  escalados=90.68%  ms/min-casa=15.134  fila=141124  CPU=107.6%  mem=2897.8 MB  temp=52.35 °C
+14:23:01 casas=4000 canais=128000  17103.0 msg/s  atraso p50/p95/máx=22.77/45.272/47.18 s  orçamento=0.01→0.01  escalados=89.76%  ms/min-casa=11.65  fila=112  CPU= 70.3%  mem=2903.3 MB  temp=49.05 °C
+14:23:11 casas=4000 canais=128000    120.1 msg/s  atraso p50/p95/máx=5.725/10.411/10.899 s  orçamento=0.01→0.01  escalados=90.66%  ms/min-casa=11.807  fila=28057  CPU=107.3%  mem=2903.3 MB  temp=51.25 °C
+14:23:21 casas=4000 canais=128000    116.5 msg/s  atraso p50/p95/máx=15.907/20.353/20.882 s  orçamento=0.01→0.01  escalados=90.6%  ms/min-casa=11.774  fila=58430  CPU=107.9%  mem=2903.3 MB  temp=52.9 °C
+ALERTA 2026-11-23T14:23:00-03:00 carga3x5-401/t5: regra score=1.032
+14:23:31 casas=4000 canais=128000    198.6 msg/s  atraso p50/p95/máx=25.965/29.48/29.927 s  orçamento=0.01→0.01  escalados=90.59%  ms/min-casa=14.96  fila=92992  CPU=109.1%  mem=2903.6 MB  temp=52.35 °C
+ALERTA 2026-11-23T14:23:00-03:00 carga3x2-441/t5: regra score=1.071
+14:23:41 casas=4000 canais=128000    171.4 msg/s  atraso p50/p95/máx=33.845/38.414/38.981 s  orçamento=0.01→0.0  escalados=90.66%  ms/min-casa=11.756  fila=122527  CPU=107.7%  mem=2905.3 MB  temp=53.45 °C
+ALERTA 2026-11-23T14:23:00-03:00 carga3x7-115/t5: regra score=1.072
+14:23:51 casas=4000 canais=128000  15025.6 msg/s  atraso p50/p95/máx=16.597/37.517/39.382 s  orçamento=0.0→0.0  escalados=0.11%  ms/min-casa=2.337  fila=0  CPU= 63.6%  mem=2906.8 MB  temp=49.6 °C
+14:24:01 casas=4000 canais=128000   2773.1 msg/s  atraso p50/p95/máx=0.866/1.018/1.219 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.63  fila=2157  CPU= 23.0%  mem=2906.8 MB  temp=49.05 °C
+ALERTA 2026-11-23T14:24:00-03:00 carga3x8-83/r9: regra score=1.029
+ALERTA 2026-11-23T14:24:00-03:00 carga3x3-256/t5: regra score=1.036
+ALERTA 2026-11-23T14:24:00-03:00 carga3x1-111/t5: regra score=1.033
+ALERTA 2026-11-23T14:24:00-03:00 carga3x1-227/t5: regra score=1.071
+ALERTA 2026-11-23T14:24:00-03:00 carga3x2-469/t5: regra score=1.035
+14:24:11 casas=4000 canais=128000    609.1 msg/s  atraso p50/p95/máx=4.739/8.735/9.161 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.042  fila=24135  CPU=107.8%  mem=2906.8 MB  temp=50.7 °C
+14:24:21 casas=4000 canais=128000   5433.9 msg/s  atraso p50/p95/máx=2.571/8.231/9.277 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.419  fila=0  CPU= 43.2%  mem=2906.8 MB  temp=47.95 °C
+14:24:31 casas=4000 canais=128000   3633.5 msg/s  atraso p50/p95/máx=0.874/1.091/1.143 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 24.1%  mem=2906.8 MB  temp=46.3 °C
+14:24:41 casas=4000 canais=128000   3109.2 msg/s  atraso p50/p95/máx=0.867/0.94/0.971 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.6%  mem=2906.8 MB  temp=46.3 °C
+14:24:52 casas=4000 canais=128000   2850.4 msg/s  atraso p50/p95/máx=0.86/0.919/0.957 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.8%  mem=2906.8 MB  temp=45.2 °C
+ALERTA 2026-11-23T14:25:00-03:00 carga3x5-59/t5: regra score=1.072
+14:25:02 casas=4000 canais=128000   2806.9 msg/s  atraso p50/p95/máx=0.864/1.013/1.474 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.504  fila=2010  CPU= 25.4%  mem=2906.8 MB  temp=45.75 °C
+ALERTA 2026-11-23T14:25:00-03:00 carga3x2-80/r9: regra score=1.044
+ALERTA 2026-11-23T14:25:00-03:00 carga3x2-245/r9: regra score=1.044
+ALERTA 2026-11-23T14:25:00-03:00 carga3x7-422/c2: regra score=1.048
+ALERTA 2026-11-23T14:25:00-03:00 carga3x5-390/t5: regra score=1.067
+ALERTA 2026-11-23T14:25:00-03:00 carga3x4-461/t5: regra score=1.072
+ALERTA 2026-11-23T14:25:00-03:00 carga3x8-197/t5: regra score=1.035
+ALERTA 2026-11-23T14:25:00-03:00 carga3x8-277/t5: regra score=1.032
+ALERTA 2026-11-23T14:25:00-03:00 carga3x8-299/r9: regra score=1.045
+ALERTA 2026-11-23T14:25:00-03:00 carga3x8-482/r9: regra score=1.057
+ALERTA 2026-11-23T14:25:00-03:00 carga3x7-41/r9: regra score=1.018
+14:25:12 casas=4000 canais=128000   1577.1 msg/s  atraso p50/p95/máx=5.669/7.015/7.395 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.471  fila=14261  CPU=107.8%  mem=2906.8 MB  temp=49.05 °C
+14:25:22 casas=4000 canais=128000   4445.6 msg/s  atraso p50/p95/máx=0.904/4.596/5.528 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.294  fila=0  CPU= 24.0%  mem=2906.8 MB  temp=44.65 °C
+14:25:32 casas=4000 canais=128000   3635.7 msg/s  atraso p50/p95/máx=0.871/1.089/1.137 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 23.8%  mem=2906.8 MB  temp=44.65 °C
+14:25:42 casas=4000 canais=128000   3108.8 msg/s  atraso p50/p95/máx=0.876/2.831/2.88 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 39.7%  mem=2906.8 MB  temp=46.3 °C
+14:25:52 casas=4000 canais=128000   2853.9 msg/s  atraso p50/p95/máx=0.862/0.916/0.953 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.0%  mem=2906.8 MB  temp=44.65 °C
+14:26:02 casas=4000 canais=128000   2823.6 msg/s  atraso p50/p95/máx=0.867/1.034/1.717 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.506  fila=1857  CPU= 27.7%  mem=2906.8 MB  temp=44.65 °C
+ALERTA 2026-11-23T14:26:00-03:00 carga3x6-36/r9: regra score=1.016
+ALERTA 2026-11-23T14:26:00-03:00 carga3x4-48/r9: regra score=1.032
+ALERTA 2026-11-23T14:26:00-03:00 carga3x6-127/t5: regra score=1.035
+ALERTA 2026-11-23T14:26:00-03:00 carga3x3-123/c2: regra score=1.019
+ALERTA 2026-11-23T14:26:00-03:00 carga3x7-326/t5: regra score=1.07
+14:26:12 casas=4000 canais=128000   1567.0 msg/s  atraso p50/p95/máx=5.95/7.276/7.601 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.536  fila=14197  CPU=107.8%  mem=2906.8 MB  temp=47.4 °C
+14:26:22 casas=4000 canais=128000   4440.8 msg/s  atraso p50/p95/máx=0.904/4.871/5.798 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.677  fila=4  CPU= 24.1%  mem=2906.8 MB  temp=45.2 °C
+14:26:32 casas=4000 canais=128000   3667.3 msg/s  atraso p50/p95/máx=0.874/1.093/1.149 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=1  CPU= 24.1%  mem=2906.8 MB  temp=44.65 °C
+14:26:42 casas=4000 canais=128000   3189.6 msg/s  atraso p50/p95/máx=0.867/0.937/0.962 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.0%  mem=2906.8 MB  temp=44.65 °C
+14:26:52 casas=4000 canais=128000   2931.2 msg/s  atraso p50/p95/máx=0.863/0.925/0.954 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=2  CPU= 19.5%  mem=2906.8 MB  temp=45.75 °C
+14:27:02 casas=4000 canais=128000   2639.5 msg/s  atraso p50/p95/máx=0.87/1.026/1.973 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.614  fila=3188  CPU= 29.5%  mem=2906.8 MB  temp=45.2 °C
+ALERTA 2026-11-23T14:27:00-03:00 carga3x2-204/c2: regra score=1.029
+ALERTA 2026-11-23T14:27:00-03:00 carga3x3-11/r9: regra score=1.045
+ALERTA 2026-11-23T14:27:00-03:00 carga3x8-293/t5: regra score=1.032
+ALERTA 2026-11-23T14:27:00-03:00 carga3x2-426/t5: regra score=1.077
+ALERTA 2026-11-23T14:27:00-03:00 carga3x2-497/r9: regra score=1.014
+14:27:12 casas=4000 canais=128000    592.8 msg/s  atraso p50/p95/máx=5.326/7.477/9.028 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.256  fila=17557  CPU=105.8%  mem=2906.8 MB  temp=47.4 °C
+ALERTA 2026-11-23T14:27:00-03:00 carga3x2-319/c2: regra score=1.019
+ALERTA 2026-11-23T14:27:00-03:00 carga3x8-411/r9: regra score=1.044
+ALERTA 2026-11-23T14:27:00-03:00 carga3x7-175/r9: regra score=1.044
+ALERTA 2026-11-23T14:27:00-03:00 carga3x3-425/c2: regra score=1.015
+ALERTA 2026-11-23T14:27:00-03:00 carga3x3-425/r9: regra score=1.046
+14:27:22 casas=4000 canais=128000   5798.6 msg/s  atraso p50/p95/máx=2.55/9.0/9.799 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.92  fila=0  CPU= 48.3%  mem=2907.6 MB  temp=44.65 °C
+14:27:32 casas=4000 canais=128000   3433.2 msg/s  atraso p50/p95/máx=0.869/1.093/1.139 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 22.8%  mem=2907.6 MB  temp=44.1 °C
+14:27:42 casas=4000 canais=128000   3191.2 msg/s  atraso p50/p95/máx=0.868/0.952/0.996 s  orçamento=0.0→0.01  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.3%  mem=2907.6 MB  temp=45.2 °C
+14:27:52 casas=4000 canais=128000   2966.3 msg/s  atraso p50/p95/máx=0.863/0.926/0.952 s  orçamento=0.01→0.01  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.1%  mem=2910.9 MB  temp=43.0 °C
+14:28:02 casas=4000 canais=128000   2395.6 msg/s  atraso p50/p95/máx=0.864/1.025/2.276 s  orçamento=0.01→0.01  escalados=90.68%  ms/min-casa=12.113  fila=4305  CPU= 31.3%  mem=2914.9 MB  temp=44.65 °C
+ALERTA 2026-11-23T14:28:00-03:00 carga3x8-33/t5: regra score=1.074
+14:28:12 casas=4000 canais=128000    116.8 msg/s  atraso p50/p95/máx=7.315/11.872/12.249 s  orçamento=0.01→0.01  escalados=90.68%  ms/min-casa=12.07  fila=32349  CPU=107.4%  mem=2936.1 MB  temp=49.6 °C
+14:28:22 casas=4000 canais=128000     86.6 msg/s  atraso p50/p95/máx=16.288/21.92/22.243 s  orçamento=0.01→0.01  escalados=90.61%  ms/min-casa=15.644  fila=62719  CPU=107.9%  mem=2972.6 MB  temp=49.6 °C
+14:28:32 casas=4000 canais=128000    226.6 msg/s  atraso p50/p95/máx=26.566/30.74/31.221 s  orçamento=0.01→0.01  escalados=90.63%  ms/min-casa=12.081  fila=94731  CPU=108.8%  mem=3011.6 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:28:00-03:00 carga3x3-52/t5: regra score=1.028
+ALERTA 2026-11-23T14:28:00-03:00 carga3x3-117/t5: regra score=1.03
+ALERTA 2026-11-23T14:28:00-03:00 carga3x6-32/t5: regra score=1.028
+14:28:42 casas=4000 canais=128000    161.3 msg/s  atraso p50/p95/máx=35.267/39.762/40.323 s  orçamento=0.01→0.01  escalados=90.68%  ms/min-casa=12.108  fila=125160  CPU=107.9%  mem=3048.7 MB  temp=48.5 °C
+14:28:53 casas=4000 canais=128000    748.3 msg/s  atraso p50/p95/máx=44.373/45.429/47.295 s  orçamento=0.01→0.0  escalados=90.69%  ms/min-casa=15.553  fila=142321  CPU=105.9%  mem=3071.3 MB  temp=50.15 °C
+14:29:04 casas=4000 canais=128000  17099.2 msg/s  atraso p50/p95/máx=23.386/45.107/47.876 s  orçamento=0.0→0.0  escalados=0.08%  ms/min-casa=2.766  fila=5116  CPU= 78.4%  mem=3076.6 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:29:00-03:00 carga3x6-412/c2: regra score=1.019
+ALERTA 2026-11-23T14:29:00-03:00 carga3x7-145/t5: regra score=1.028
+ALERTA 2026-11-23T14:29:00-03:00 carga3x3-262/t5: regra score=1.03
+ALERTA 2026-11-23T14:29:00-03:00 carga3x6-287/t5: regra score=1.073
+14:29:14 casas=4000 canais=128000   3419.7 msg/s  atraso p50/p95/máx=4.662/7.512/8.257 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.72  fila=0  CPU=103.2%  mem=3076.6 MB  temp=49.05 °C
+14:29:24 casas=4000 canais=128000   3148.8 msg/s  atraso p50/p95/máx=0.867/0.939/0.97 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.9%  mem=3076.6 MB  temp=46.85 °C
+14:29:34 casas=4000 canais=128000   3380.3 msg/s  atraso p50/p95/máx=0.869/1.093/1.14 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 22.1%  mem=3076.6 MB  temp=45.75 °C
+14:29:44 casas=4000 canais=128000   3168.2 msg/s  atraso p50/p95/máx=0.869/0.945/0.973 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.8%  mem=3076.6 MB  temp=44.65 °C
+14:29:54 casas=4000 canais=128000   2968.5 msg/s  atraso p50/p95/máx=0.865/0.927/0.943 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.5%  mem=3076.6 MB  temp=44.65 °C
+ALERTA 2026-11-23T14:30:00-03:00 carga3x5-48/c2: regra score=1.019
+14:30:04 casas=4000 canais=128000   2323.2 msg/s  atraso p50/p95/máx=0.872/1.378/3.636 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.704  fila=4959  CPU= 44.8%  mem=3076.6 MB  temp=45.75 °C
+ALERTA 2026-11-23T14:30:00-03:00 carga3x8-404/c2: regra score=1.019
+ALERTA 2026-11-23T14:30:00-03:00 carga3x3-470/t5: regra score=1.072
+ALERTA 2026-11-23T14:30:00-03:00 carga3x8-444/t5: regra score=1.072
+14:30:14 casas=4000 canais=128000    699.7 msg/s  atraso p50/p95/máx=6.482/10.314/10.509 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.651  fila=25281  CPU=107.7%  mem=3076.6 MB  temp=48.5 °C
+14:30:24 casas=4000 canais=128000   5891.6 msg/s  atraso p50/p95/máx=1.543/9.259/9.923 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.015  fila=0  CPU= 39.2%  mem=3076.6 MB  temp=45.2 °C
+14:30:34 casas=4000 canais=128000   3372.1 msg/s  atraso p50/p95/máx=0.871/1.103/1.153 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 22.3%  mem=3076.6 MB  temp=43.55 °C
+14:30:44 casas=4000 canais=128000   3232.0 msg/s  atraso p50/p95/máx=0.871/0.945/0.971 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.5%  mem=3076.6 MB  temp=44.65 °C
+14:30:54 casas=4000 canais=128000   2995.2 msg/s  atraso p50/p95/máx=0.867/0.927/0.955 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.8%  mem=3076.6 MB  temp=44.65 °C
+14:31:04 casas=4000 canais=128000   2238.3 msg/s  atraso p50/p95/máx=0.876/1.62/3.899 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.778  fila=6030  CPU= 47.3%  mem=3076.6 MB  temp=46.3 °C
+ALERTA 2026-11-23T14:31:00-03:00 carga3x2-382/c2: regra score=1.086
+14:31:14 casas=4000 canais=128000   3606.5 msg/s  atraso p50/p95/máx=5.031/7.742/8.535 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.829  fila=0  CPU=103.2%  mem=3076.6 MB  temp=46.3 °C
+14:31:24 casas=4000 canais=128000   3192.0 msg/s  atraso p50/p95/máx=0.874/0.951/0.981 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.4%  mem=3076.6 MB  temp=45.75 °C
+14:31:34 casas=4000 canais=128000   3378.7 msg/s  atraso p50/p95/máx=0.869/1.1/1.148 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 22.3%  mem=3076.6 MB  temp=43.55 °C
+14:31:44 casas=4000 canais=128000   3118.5 msg/s  atraso p50/p95/máx=0.87/0.945/0.971 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.8%  mem=3076.6 MB  temp=44.65 °C
+14:31:54 casas=4000 canais=128000   2932.1 msg/s  atraso p50/p95/máx=0.867/0.932/0.959 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.6%  mem=3076.6 MB  temp=44.1 °C
+14:32:04 casas=4000 canais=128000   2098.6 msg/s  atraso p50/p95/máx=0.873/1.04/4.197 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=8.563  fila=3256  CPU= 48.2%  mem=3076.6 MB  temp=44.65 °C
+ALERTA 2026-11-23T14:32:00-03:00 carga3x7-163/t5: regra score=1.034
+ALERTA 2026-11-23T14:32:00-03:00 carga3x2-183/c2: regra score=1.048
+14:32:14 casas=4000 canais=128000    862.5 msg/s  atraso p50/p95/máx=9.092/10.802/11.088 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.886  fila=28516  CPU=109.6%  mem=3076.6 MB  temp=47.4 °C
+14:32:24 casas=4000 canais=128000   6036.6 msg/s  atraso p50/p95/máx=1.821/9.48/10.265 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.831  fila=0  CPU= 37.4%  mem=3076.6 MB  temp=45.2 °C
+14:32:34 casas=4000 canais=128000   3371.0 msg/s  atraso p50/p95/máx=0.869/1.107/1.153 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 22.4%  mem=3076.6 MB  temp=44.65 °C
+14:32:44 casas=4000 canais=128000   3117.1 msg/s  atraso p50/p95/máx=0.873/0.955/1.0 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.8%  mem=3076.6 MB  temp=44.65 °C
+14:32:55 casas=4000 canais=128000   2931.4 msg/s  atraso p50/p95/máx=0.866/0.926/0.943 s  orçamento=0.0→0.01  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.3%  mem=3076.6 MB  temp=43.55 °C
+14:33:05 casas=4000 canais=128000   2080.1 msg/s  atraso p50/p95/máx=0.871/1.042/4.481 s  orçamento=0.01→0.01  escalados=90.7%  ms/min-casa=12.261  fila=7449  CPU= 52.1%  mem=3076.6 MB  temp=46.3 °C
+ALERTA 2026-11-23T14:33:00-03:00 carga3x2-59/c2: regra score=1.019
+14:33:15 casas=4000 canais=128000     83.8 msg/s  atraso p50/p95/máx=8.443/11.783/14.465 s  orçamento=0.01→0.01  escalados=90.68%  ms/min-casa=16.354  fila=36444  CPU=107.4%  mem=3076.6 MB  temp=47.95 °C
+ALERTA 2026-11-23T14:33:00-03:00 carga3x2-232/r9: regra score=1.057
+14:33:25 casas=4000 canais=128000    115.9 msg/s  atraso p50/p95/máx=19.627/23.662/24.214 s  orçamento=0.01→0.01  escalados=90.64%  ms/min-casa=12.365  fila=67275  CPU=107.9%  mem=3109.4 MB  temp=48.5 °C
+ALERTA 2026-11-23T14:33:00-03:00 carga3x3-35/c2: regra score=1.037
+ALERTA 2026-11-23T14:33:00-03:00 carga3x6-330/t5: regra score=1.029
+ALERTA 2026-11-23T14:33:00-03:00 carga3x4-124/r9: regra score=1.016
+ALERTA 2026-11-23T14:33:00-03:00 carga3x3-144/t5: regra score=1.034
+14:33:35 casas=4000 canais=128000    225.9 msg/s  atraso p50/p95/máx=28.287/32.002/32.596 s  orçamento=0.01→0.01  escalados=90.67%  ms/min-casa=12.414  fila=98919  CPU=108.7%  mem=3147.8 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:33:00-03:00 carga3x3-314/t5: regra score=1.075
+14:33:45 casas=4000 canais=128000    118.7 msg/s  atraso p50/p95/máx=36.293/39.674/42.564 s  orçamento=0.01→0.01  escalados=90.67%  ms/min-casa=16.677  fila=128702  CPU=107.7%  mem=3183.5 MB  temp=51.8 °C
+14:33:55 casas=4000 canais=128000    832.4 msg/s  atraso p50/p95/máx=48.045/49.136/49.34 s  orçamento=0.01→0.01  escalados=90.73%  ms/min-casa=12.326  fila=150074  CPU=107.5%  mem=3217.1 MB  temp=51.25 °C
+14:34:05 casas=4000 canais=128000  17047.9 msg/s  atraso p50/p95/máx=26.338/47.979/50.749 s  orçamento=0.01→0.0  escalados=90.34%  ms/min-casa=12.288  fila=7411  CPU=103.9%  mem=3213.1 MB  temp=50.7 °C
+ALERTA 2026-11-23T14:34:00-03:00 carga3x4-423/c2: regra score=1.015
+ALERTA 2026-11-23T14:34:00-03:00 carga3x4-423/r9: regra score=1.045
+ALERTA 2026-11-23T14:34:00-03:00 carga3x3-154/t5: regra score=1.035
+ALERTA 2026-11-23T14:34:00-03:00 carga3x1-29/p1: regra score=1.178
+ALERTA 2026-11-23T14:34:00-03:00 carga3x7-197/t5: regra score=1.035
+ALERTA 2026-11-23T14:34:00-03:00 carga3x6-123/r9: regra score=1.044
+ALERTA 2026-11-23T14:34:00-03:00 carga3x2-363/t5: regra score=1.073
+14:34:15 casas=4000 canais=128000    726.2 msg/s  atraso p50/p95/máx=9.498/11.681/11.964 s  orçamento=0.0→0.0  escalados=0.03%  ms/min-casa=2.899  fila=30151  CPU=108.1%  mem=3200.1 MB  temp=50.7 °C
+14:34:25 casas=4000 canais=128000   6296.6 msg/s  atraso p50/p95/máx=2.724/10.485/11.827 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.953  fila=0  CPU= 39.9%  mem=3200.1 MB  temp=46.3 °C
+14:34:35 casas=4000 canais=128000   3487.9 msg/s  atraso p50/p95/máx=0.918/3.308/3.362 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 45.2%  mem=3200.1 MB  temp=46.3 °C
+14:34:45 casas=4000 canais=128000   3084.2 msg/s  atraso p50/p95/máx=0.87/0.949/0.977 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.4%  mem=3200.1 MB  temp=45.75 °C
+14:34:55 casas=4000 canais=128000   2897.2 msg/s  atraso p50/p95/máx=0.865/0.924/0.956 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.2%  mem=3200.1 MB  temp=45.2 °C
+ALERTA 2026-11-23T14:35:00-03:00 carga3x3-416/c2: regra score=1.086
+14:35:05 casas=4000 canais=128000   2052.0 msg/s  atraso p50/p95/máx=0.881/2.841/5.037 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.894  fila=7961  CPU= 57.9%  mem=3200.1 MB  temp=48.5 °C
+ALERTA 2026-11-23T14:35:00-03:00 carga3x7-381/r9: regra score=1.016
+14:35:15 casas=4000 canais=128000   3768.2 msg/s  atraso p50/p95/máx=5.489/8.259/9.026 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.958  fila=0  CPU= 96.9%  mem=3200.1 MB  temp=46.3 °C
+14:35:25 casas=4000 canais=128000   3215.2 msg/s  atraso p50/p95/máx=0.871/0.94/0.975 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.5%  mem=3200.1 MB  temp=45.2 °C
+14:35:35 casas=4000 canais=128000   3395.6 msg/s  atraso p50/p95/máx=0.875/1.102/1.152 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 22.5%  mem=3200.1 MB  temp=45.75 °C
+14:35:45 casas=4000 canais=128000   3082.9 msg/s  atraso p50/p95/máx=0.871/0.948/0.975 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.5%  mem=3200.1 MB  temp=44.65 °C
+14:35:55 casas=4000 canais=128000   2895.8 msg/s  atraso p50/p95/máx=0.867/0.936/0.979 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.1%  mem=3200.1 MB  temp=45.2 °C
+14:36:05 casas=4000 canais=128000   2063.3 msg/s  atraso p50/p95/máx=0.88/3.121/5.278 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.87  fila=7805  CPU= 60.4%  mem=3200.1 MB  temp=47.4 °C
+ALERTA 2026-11-23T14:36:00-03:00 carga3x2-99/r9: regra score=1.045
+ALERTA 2026-11-23T14:36:00-03:00 carga3x2-387/t5: regra score=1.032
+ALERTA 2026-11-23T14:36:00-03:00 carga3x7-413/t5: regra score=1.035
+ALERTA 2026-11-23T14:36:00-03:00 carga3x4-296/t5: regra score=1.034
+ALERTA 2026-11-23T14:36:00-03:00 carga3x4-302/r9: regra score=1.045
+ALERTA 2026-11-23T14:36:00-03:00 carga3x1-331/t5: regra score=1.031
+14:36:15 casas=4000 canais=128000   1244.4 msg/s  atraso p50/p95/máx=9.976/11.137/11.428 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.995  fila=25161  CPU=108.3%  mem=3200.1 MB  temp=47.4 °C
+ALERTA 2026-11-23T14:36:00-03:00 carga3x5-363/r9: regra score=1.044
+14:36:26 casas=4000 canais=128000   5725.9 msg/s  atraso p50/p95/máx=0.971/8.915/9.786 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.851  fila=0  CPU= 31.4%  mem=3200.1 MB  temp=45.75 °C
+14:36:36 casas=4000 canais=128000   3386.9 msg/s  atraso p50/p95/máx=0.872/1.104/1.155 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 22.6%  mem=3200.1 MB  temp=44.65 °C
+14:36:46 casas=4000 canais=128000   3084.7 msg/s  atraso p50/p95/máx=0.873/0.952/0.98 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.7%  mem=3200.1 MB  temp=44.65 °C
+14:36:56 casas=4000 canais=128000   2897.2 msg/s  atraso p50/p95/máx=0.868/0.931/0.966 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 19.2%  mem=3200.1 MB  temp=44.65 °C
+14:37:06 casas=4000 canais=128000   2078.8 msg/s  atraso p50/p95/máx=0.885/3.372/5.539 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.861  fila=7698  CPU= 63.1%  mem=3200.1 MB  temp=46.3 °C
+ALERTA 2026-11-23T14:37:00-03:00 carga3x2-162/t5: regra score=1.035
+ALERTA 2026-11-23T14:37:00-03:00 carga3x2-497/t5: regra score=1.032
+ALERTA 2026-11-23T14:37:00-03:00 carga3x5-450/t5: regra score=1.035
+ALERTA 2026-11-23T14:37:00-03:00 carga3x8-350/t5: regra score=1.072
+ALERTA 2026-11-23T14:37:00-03:00 carga3x1-417/c2: regra score=1.086
+14:37:16 casas=4000 canais=128000   3337.5 msg/s  atraso p50/p95/máx=5.562/8.31/9.049 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.993  fila=4  CPU=107.1%  mem=3200.1 MB  temp=47.4 °C
+14:37:26 casas=4000 canais=128000   3624.0 msg/s  atraso p50/p95/máx=0.878/2.285/3.169 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 24.4%  mem=3200.1 MB  temp=44.1 °C
+14:37:36 casas=4000 canais=128000   3622.6 msg/s  atraso p50/p95/máx=0.876/1.102/1.157 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 24.1%  mem=3200.1 MB  temp=45.75 °C
+14:37:46 casas=4000 canais=128000   3018.1 msg/s  atraso p50/p95/máx=0.871/0.94/0.977 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.1%  mem=3200.1 MB  temp=43.0 °C
+14:37:57 casas=4000 canais=128000   2765.8 msg/s  atraso p50/p95/máx=0.868/0.95/0.968 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.4%  mem=3200.1 MB  temp=43.55 °C
+ALERTA 2026-11-23T14:38:00-03:00 carga3x1-457/c2: regra score=1.029
+ALERTA 2026-11-23T14:38:00-03:00 carga3x4-33/c2: regra score=1.015
+ALERTA 2026-11-23T14:38:00-03:00 carga3x4-33/r9: regra score=1.046
+14:38:07 casas=4000 canais=128000   1924.8 msg/s  atraso p50/p95/máx=0.896/4.891/5.773 s  orçamento=0.0→0.01  escalados=0.0%  ms/min-casa=2.911  fila=11096  CPU= 70.8%  mem=3200.1 MB  temp=46.3 °C
+14:38:17 casas=4000 canais=128000    208.7 msg/s  atraso p50/p95/máx=9.902/13.801/14.507 s  orçamento=0.01→0.01  escalados=90.56%  ms/min-casa=12.483  fila=37687  CPU=107.2%  mem=3200.5 MB  temp=46.85 °C
+ALERTA 2026-11-23T14:38:00-03:00 carga3x4-445/r9: regra score=1.056
+14:38:27 casas=4000 canais=128000    118.7 msg/s  atraso p50/p95/máx=18.334/24.136/24.46 s  orçamento=0.01→0.01  escalados=90.68%  ms/min-casa=16.696  fila=67797  CPU=108.1%  mem=3200.5 MB  temp=49.05 °C
+ALERTA 2026-11-23T14:38:00-03:00 carga3x2-127/r9: regra score=1.044
+14:38:37 casas=4000 canais=128000    981.6 msg/s  atraso p50/p95/máx=28.534/30.084/30.499 s  orçamento=0.01→0.01  escalados=90.62%  ms/min-casa=12.562  fila=94333  CPU=109.1%  mem=3224.7 MB  temp=50.15 °C
+14:38:47 casas=4000 canais=128000  12419.9 msg/s  atraso p50/p95/máx=11.333/29.25/31.126 s  orçamento=0.01→0.01  escalados=88.87%  ms/min-casa=12.556  fila=0  CPU= 45.5%  mem=3226.8 MB  temp=46.3 °C
+14:38:57 casas=4000 canais=128000   2744.4 msg/s  atraso p50/p95/máx=0.867/0.941/0.97 s  orçamento=0.01→0.01  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.6%  mem=3226.8 MB  temp=45.2 °C
+14:39:07 casas=4000 canais=128000   1704.1 msg/s  atraso p50/p95/máx=0.888/1.057/6.76 s  orçamento=0.01→0.01  escalados=90.71%  ms/min-casa=12.486  fila=13298  CPU= 73.6%  mem=3226.8 MB  temp=47.95 °C
+14:39:17 casas=4000 canais=128000     82.9 msg/s  atraso p50/p95/máx=10.672/16.376/16.738 s  orçamento=0.01→0.0  escalados=90.7%  ms/min-casa=16.618  fila=41145  CPU=107.3%  mem=3226.8 MB  temp=48.5 °C
+ALERTA 2026-11-23T14:39:00-03:00 carga3x4-183/t5: regra score=1.034
+14:39:27 casas=4000 canais=128000   3561.8 msg/s  atraso p50/p95/máx=18.509/21.274/22.052 s  orçamento=0.0→0.0  escalados=0.03%  ms/min-casa=3.032  fila=32867  CPU=109.0%  mem=3226.8 MB  temp=49.6 °C
+14:39:37 casas=4000 canais=128000   7459.1 msg/s  atraso p50/p95/máx=1.769/11.93/13.842 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 33.5%  mem=3226.8 MB  temp=44.65 °C
+14:39:47 casas=4000 canais=128000   3087.3 msg/s  atraso p50/p95/máx=0.871/0.947/0.977 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.6%  mem=3226.8 MB  temp=45.2 °C
+14:39:57 casas=4000 canais=128000   2683.3 msg/s  atraso p50/p95/máx=0.865/0.935/0.963 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 17.7%  mem=3226.8 MB  temp=43.0 °C
+14:40:07 casas=4000 canais=128000   1733.0 msg/s  atraso p50/p95/máx=0.927/5.438/6.102 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.959  fila=13154  CPU= 77.1%  mem=3226.8 MB  temp=47.4 °C
+ALERTA 2026-11-23T14:40:00-03:00 carga3x2-336/t5: regra score=1.076
+ALERTA 2026-11-23T14:40:00-03:00 carga3x1-308/c2: regra score=1.086
+14:40:17 casas=4000 canais=128000   4305.2 msg/s  atraso p50/p95/máx=7.285/10.605/11.443 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=4.279  fila=0  CPU=105.9%  mem=3226.8 MB  temp=49.05 °C
+14:40:27 casas=4000 canais=128000   3018.9 msg/s  atraso p50/p95/máx=0.872/0.956/0.991 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.3%  mem=3226.8 MB  temp=45.2 °C
+14:40:37 casas=4000 canais=128000   3567.0 msg/s  atraso p50/p95/máx=0.881/1.118/1.174 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 24.0%  mem=3226.8 MB  temp=45.2 °C
+14:40:47 casas=4000 canais=128000   3093.7 msg/s  atraso p50/p95/máx=0.873/0.957/0.98 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.5%  mem=3226.8 MB  temp=46.3 °C
+14:40:57 casas=4000 canais=128000   2682.4 msg/s  atraso p50/p95/máx=0.867/0.938/0.964 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 17.8%  mem=3226.8 MB  temp=44.1 °C
+ALERTA 2026-11-23T14:41:00-03:00 carga3x2-382/residuo: regra score=1.092
+14:41:08 casas=4000 canais=128000   1753.4 msg/s  atraso p50/p95/máx=0.924/5.618/6.354 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=2.984  fila=12942  CPU= 79.7%  mem=3226.8 MB  temp=47.4 °C
+ALERTA 2026-11-23T14:41:00-03:00 carga3x6-356/t5: regra score=1.03
+ALERTA 2026-11-23T14:41:00-03:00 carga3x4-391/c2: regra score=1.086
+14:41:18 casas=4000 canais=128000   4283.2 msg/s  atraso p50/p95/máx=4.872/8.509/9.289 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.043  fila=0  CPU= 80.2%  mem=3226.8 MB  temp=46.85 °C
+14:41:28 casas=4000 canais=128000   3016.4 msg/s  atraso p50/p95/máx=0.87/0.951/0.99 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.3%  mem=3226.8 MB  temp=45.75 °C
+14:41:38 casas=4000 canais=128000   3568.2 msg/s  atraso p50/p95/máx=0.882/1.125/1.178 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 23.7%  mem=3226.8 MB  temp=44.1 °C
+14:41:48 casas=4000 canais=128000   3091.4 msg/s  atraso p50/p95/máx=0.871/0.948/0.973 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.6%  mem=3226.8 MB  temp=45.2 °C
+14:41:58 casas=4000 canais=128000   2683.2 msg/s  atraso p50/p95/máx=0.866/0.938/0.962 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 17.8%  mem=3226.8 MB  temp=44.1 °C
+ALERTA 2026-11-23T14:42:00-03:00 carga3x4-199/c2: regra score=1.037
+14:42:08 casas=4000 canais=128000   1576.7 msg/s  atraso p50/p95/máx=0.921/5.761/7.593 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=4.812  fila=14729  CPU= 82.2%  mem=3226.8 MB  temp=46.85 °C
+ALERTA 2026-11-23T14:42:00-03:00 carga3x5-343/t5: regra score=1.037
+ALERTA 2026-11-23T14:42:00-03:00 carga3x7-191/t5: regra score=1.038
+14:42:18 casas=4000 canais=128000   4462.5 msg/s  atraso p50/p95/máx=7.494/11.085/11.901 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.057  fila=0  CPU=102.2%  mem=3226.8 MB  temp=46.85 °C
+14:42:28 casas=4000 canais=128000   3017.0 msg/s  atraso p50/p95/máx=0.874/0.948/0.987 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.2%  mem=3226.8 MB  temp=44.1 °C
+14:42:38 casas=4000 canais=128000   3568.4 msg/s  atraso p50/p95/máx=0.88/1.107/1.163 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 23.7%  mem=3226.8 MB  temp=45.2 °C
+14:42:48 casas=4000 canais=128000   3109.6 msg/s  atraso p50/p95/máx=0.875/0.947/0.977 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 20.7%  mem=3226.8 MB  temp=43.55 °C
+14:42:58 casas=4000 canais=128000   2766.6 msg/s  atraso p50/p95/máx=0.866/0.978/1.018 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 18.3%  mem=3226.8 MB  temp=44.65 °C
+ALERTA 2026-11-23T14:43:00-03:00 carga3x1-64/c2: regra score=1.009
+ALERTA 2026-11-23T14:43:00-03:00 carga3x4-257/r9: regra score=1.031
+ALERTA 2026-11-23T14:43:00-03:00 carga3x8-276/t5: regra score=1.036
+14:43:08 casas=4000 canais=128000   1688.0 msg/s  atraso p50/p95/máx=0.943/6.004/6.86 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.02  fila=13319  CPU= 84.2%  mem=3226.8 MB  temp=47.4 °C
+ALERTA 2026-11-23T14:43:00-03:00 carga3x3-73/t5: regra score=1.037
+ALERTA 2026-11-23T14:43:00-03:00 carga3x4-83/t5: regra score=1.071
+ALERTA 2026-11-23T14:43:00-03:00 carga3x3-291/t5: regra score=1.032
+ALERTA 2026-11-23T14:43:00-03:00 carga3x7-339/t5: regra score=1.07
+14:43:18 casas=4000 canais=128000   4464.7 msg/s  atraso p50/p95/máx=7.046/11.198/12.002 s  orçamento=0.0→0.01  escalados=0.0%  ms/min-casa=4.536  fila=0  CPU=102.6%  mem=3229.5 MB  temp=46.85 °C
+14:43:28 casas=4000 canais=128000   3141.9 msg/s  atraso p50/p95/máx=0.872/1.006/1.061 s  orçamento=0.01→0.01  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.5%  mem=3229.5 MB  temp=45.75 °C
+14:43:38 casas=4000 canais=128000   3479.5 msg/s  atraso p50/p95/máx=0.877/1.116/1.17 s  orçamento=0.01→0.01  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 23.3%  mem=3229.5 MB  temp=43.55 °C
+14:43:48 casas=4000 canais=128000   3258.4 msg/s  atraso p50/p95/máx=0.88/0.955/0.978 s  orçamento=0.01→0.01  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 21.8%  mem=3229.5 MB  temp=44.65 °C
+14:43:58 casas=4000 canais=128000   2616.1 msg/s  atraso p50/p95/máx=0.867/0.933/0.943 s  orçamento=0.01→0.01  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 17.4%  mem=3229.5 MB  temp=43.55 °C
+14:44:08 casas=4000 canais=128000   1097.0 msg/s  atraso p50/p95/máx=0.927/3.255/8.206 s  orçamento=0.01→0.01  escalados=90.75%  ms/min-casa=12.642  fila=18550  CPU= 85.4%  mem=3229.5 MB  temp=47.4 °C
+14:44:21 casas=4000 canais=128000     85.1 msg/s  atraso p50/p95/máx=13.024/17.375/20.522 s  orçamento=0.01→0.01  escalados=90.66%  ms/min-casa=16.031  fila=49450  CPU=106.6%  mem=3258.6 MB  temp=48.5 °C
+14:44:31 casas=4000 canais=128000    183.4 msg/s  atraso p50/p95/máx=25.683/29.145/29.561 s  orçamento=0.01→0.01  escalados=90.68%  ms/min-casa=12.665  fila=90514  CPU=110.8%  mem=3307.9 MB  temp=49.6 °C
+ALERTA 2026-11-23T14:44:00-03:00 carga3x3-26/t5: regra score=1.028
+ALERTA 2026-11-23T14:44:00-03:00 carga3x3-351/t5: regra score=1.073
+14:44:41 casas=4000 canais=128000    180.0 msg/s  atraso p50/p95/máx=32.81/37.986/38.592 s  orçamento=0.01→0.0  escalados=90.7%  ms/min-casa=12.577  fila=118766  CPU=107.6%  mem=3342.5 MB  temp=50.15 °C
+ALERTA 2026-11-23T14:44:00-03:00 carga3x8-227/t5: regra score=1.035
+ALERTA 2026-11-23T14:44:00-03:00 carga3x1-329/t5: regra score=1.034
+ALERTA 2026-11-23T14:44:00-03:00 carga3x6-483/r9: regra score=1.033
+ALERTA 2026-11-23T14:44:00-03:00 carga3x6-297/r9: regra score=1.016
+14:44:51 casas=4000 canais=128000  14803.4 msg/s  atraso p50/p95/máx=18.655/38.511/40.087 s  orçamento=0.0→0.0  escalados=0.08%  ms/min-casa=3.109  fila=0  CPU= 78.4%  mem=3354.1 MB  temp=47.95 °C
+14:45:01 casas=4000 canais=128000   2999.5 msg/s  atraso p50/p95/máx=0.877/1.022/1.063 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=23  CPU= 20.4%  mem=3354.1 MB  temp=44.65 °C
+ALERTA 2026-11-23T14:45:00-03:00 carga3x3-416/residuo: regra score=1.092
+ALERTA 2026-11-23T14:45:00-03:00 carga3x6-136/r9: regra score=1.032
+ALERTA 2026-11-23T14:45:00-03:00 carga3x3-16/t5: regra score=1.037
+ALERTA 2026-11-23T14:45:00-03:00 carga3x4-367/c2: regra score=1.015
+ALERTA 2026-11-23T14:45:00-03:00 carga3x4-367/r9: regra score=1.045
+14:45:11 casas=4000 canais=128000    428.1 msg/s  atraso p50/p95/máx=7.899/9.551/9.791 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=4.194  fila=23096  CPU=107.7%  mem=3343.7 MB  temp=47.95 °C
+ALERTA 2026-11-23T14:45:00-03:00 carga3x3-194/t5: regra score=1.036
+ALERTA 2026-11-23T14:45:00-03:00 carga3x5-414/t5: regra score=1.037
+ALERTA 2026-11-23T14:45:00-03:00 carga3x1-36/t5: regra score=1.037
+ALERTA 2026-11-23T14:45:00-03:00 carga3x6-483/c2: regra score=1.016
+14:45:21 casas=4000 canais=128000   5500.9 msg/s  atraso p50/p95/máx=5.881/11.298/12.13 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=3.077  fila=1  CPU= 78.0%  mem=3348.7 MB  temp=47.4 °C
+14:45:31 casas=4000 canais=128000   2160.6 msg/s  atraso p50/p95/máx=0.878/0.96/0.979 s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 14.6%  mem=3348.7 MB  temp=45.75 °C
+14:45:41 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.3%  mem=3348.7 MB  temp=42.45 °C
+14:45:51 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.2%  mem=3348.7 MB  temp=43.55 °C
+14:46:01 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.2%  mem=3348.7 MB  temp=43.0 °C
+14:46:11 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.2%  mem=3348.7 MB  temp=42.45 °C
+14:46:21 casas=4000 canais=128000      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.2%  mem=3348.7 MB  temp=43.0 °C
+COMANDO {"marca": "fim", "reset": true} → {"marca": "fim", "orcamento": 0.0, "controlador": true, "atraso_max": 30.0, "casas": 0}
+14:46:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU= 33.1%  mem=2428.7 MB  temp=43.55 °C
+14:46:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2422.7 MB  temp=41.9 °C
+14:46:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=2422.7 MB  temp=42.45 °C
+14:47:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=41.9 °C
+14:47:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=41.35 °C
+14:47:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=41.9 °C
+14:47:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:47:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:47:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.7 °C
+14:48:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=41.35 °C
+14:48:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:48:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:48:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:48:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:48:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:49:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:49:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:49:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:49:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.7 °C
+14:49:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:49:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=2421.7 MB  temp=39.15 °C
+14:50:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.7 °C
+14:50:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:50:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=2421.7 MB  temp=40.25 °C
+14:50:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:50:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:50:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:51:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.7 °C
+14:51:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:51:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:51:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:51:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:51:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:52:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:52:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:52:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:52:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=2421.7 MB  temp=40.25 °C
+14:52:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:52:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:53:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:53:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=38.05 °C
+14:53:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:53:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:53:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:53:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:54:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:54:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:54:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:54:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.1%  mem=2421.7 MB  temp=40.8 °C
+14:54:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:54:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:55:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:55:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:55:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:55:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=41.35 °C
+14:55:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.7 °C
+14:55:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:56:04 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:56:14 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.8 °C
+14:56:24 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=39.15 °C
+14:56:34 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:56:44 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+14:56:54 casas=   0 canais=    0      0.0 msg/s  atraso p50/p95/máx=None/None/None s  orçamento=0.0→0.0  escalados=0.0%  ms/min-casa=0.0  fila=0  CPU=  0.0%  mem=2421.7 MB  temp=40.25 °C
+detector parado.

@@ -1,0 +1,41 @@
+falha_id,tipo,alvo,comodo,canal_direto,inicio,fim,efeito_inicio,efeito_fim,efetiva,alerta_de_aparelho,origem,params,dia,particao
+R739779_14803,falta_energia,rede,,,2026-06-12 04:06:43,2026-06-12 05:33:42,2026-06-12 04:06:43,2026-06-12 05:33:42,True,False,rede,{},2026-06-12,treino
+R739792_39175,falta_energia,rede,,,2026-06-25 10:52:55,2026-06-25 10:56:05,2026-06-25 10:52:55,2026-06-25 10:56:05,True,False,rede,{},2026-06-25,treino
+F0001,consumo_nao_explicado,geral,,q_c1,2026-08-12 10:47:04,2026-08-12 17:11:58,2026-08-12 10:47:04,2026-08-12 17:11:58,True,True,plano,"{""potencia_w"": 540}",2026-08-12,calibracao
+F0002,queda,suite_casal.ar_condicionado,Suíte casal,r1,2026-08-13 03:30:56,2026-08-13 06:19:18,,,False,True,plano,"{""fator"": 0.4}",2026-08-13,calibracao
+F0003,magnitude,cozinha.micro_ondas,Cozinha,t4,2026-08-14 01:45:02,2026-08-14 11:32:34,2026-08-14 06:14:44,2026-08-14 06:16:28,True,True,plano,"{""fator"": 2.09}",2026-08-14,calibracao
+F0004,duracao_excessiva,cozinha.air_fryer,Cozinha,t5,2026-08-15 14:17:04,2026-08-15 15:47:04,2026-08-15 14:17:04,2026-08-15 15:47:04,True,True,plano,{},2026-08-15,calibracao
+F0005,pico,cozinha.air_fryer,Cozinha,t5,2026-08-16 02:56:12,2026-08-16 03:56:12,2026-08-16 03:09:04,2026-08-16 03:49:59,True,True,plano,"{""n_picos"": 5, ""fator"": 4.1, ""largura_s"": 3}",2026-08-16,calibracao
+F0006,consumo_nao_explicado,geral,,q_c1,2026-08-18 14:05:19,2026-08-18 22:13:00,2026-08-18 14:05:19,2026-08-18 22:13:00,True,True,plano,"{""potencia_w"": 593}",2026-08-18,calibracao
+F0007,duracao_excessiva,banheiro_suite.chuveiro_eletrico,Banheiro suíte,c_c1,2026-08-20 16:24:59,2026-08-20 16:59:59,2026-08-20 19:07:42,2026-08-20 19:42:42,True,True,plano,{},2026-08-20,calibracao
+F0008,magnitude,cozinha.geladeira,Cozinha,t1,2026-08-21 13:19:28,2026-08-22 05:12:15,2026-08-21 13:39:47,2026-08-21 23:41:44,True,True,plano,"{""fator"": 2.03}",2026-08-21,calibracao
+F0008,magnitude,cozinha.geladeira,Cozinha,t1,2026-08-21 13:19:28,2026-08-22 05:12:15,2026-08-22 00:20:10,2026-08-22 05:01:29,True,True,plano,"{""fator"": 2.03}",2026-08-22,calibracao
+F0009,fora_de_horario,area_externa.bomba_dagua,Área externa,r2,2026-08-23 02:08:56,2026-08-23 02:38:56,2026-08-23 02:08:56,2026-08-23 02:38:56,True,True,plano,{},2026-08-23,calibracao
+F0010,fora_de_horario,sala.videogame,Sala,t2,2026-08-24 01:47:25,2026-08-24 03:47:25,2026-08-24 01:47:25,2026-08-24 03:47:25,True,True,plano,{},2026-08-24,calibracao
+F0011,falta_energia,rede,,,2026-08-25 07:22:57,2026-08-25 08:36:49,2026-08-25 07:22:57,2026-08-25 08:36:49,True,False,plano,{},2026-08-25,calibracao
+F0012,magnitude,suite_casal.ar_condicionado,Suíte casal,r1,2026-08-26 09:57:39,2026-08-26 20:57:50,,,False,True,plano,"{""fator"": 1.86}",2026-08-26,calibracao
+F0013,fora_de_horario,banheiro_suite.chuveiro_eletrico,Banheiro suíte,c_c1,2026-08-27 03:36:47,2026-08-27 03:48:47,2026-08-27 03:36:47,2026-08-27 03:48:47,True,True,plano,{},2026-08-27,calibracao
+F0014,pico,cozinha.air_fryer,Cozinha,t5,2026-08-29 13:04:05,2026-08-29 14:04:05,2026-08-29 13:09:05,2026-08-29 13:43:00,True,True,plano,"{""n_picos"": 6, ""fator"": 3.3, ""largura_s"": 3}",2026-08-29,calibracao
+F0015,queda,suite_casal.ar_condicionado,Suíte casal,r1,2026-08-31 04:42:20,2026-08-31 07:59:14,2026-08-31 04:42:20,2026-08-31 07:59:14,True,True,plano,"{""fator"": 0.4}",2026-08-31,calibracao
+F0016,duracao_excessiva,suite_casal.ar_condicionado,Suíte casal,r1,2026-09-01 05:28:29,2026-09-01 12:28:29,2026-09-01 05:28:29,2026-09-01 12:28:29,True,True,plano,{},2026-09-01,calibracao
+F0017,falta_energia,rede,,,2026-09-02 17:34:47,2026-09-02 18:56:40,2026-09-02 17:34:47,2026-09-02 18:56:40,True,False,plano,{},2026-09-02,calibracao
+F0018,duracao_excessiva,suite_casal.ar_condicionado,Suíte casal,r1,2026-09-04 00:53:37,2026-09-04 07:53:37,2026-09-04 00:53:37,2026-09-04 07:53:37,True,True,plano,{},2026-09-04,teste
+F0019,fora_de_horario,sala.videogame,Sala,t2,2026-09-06 01:13:08,2026-09-06 03:13:08,2026-09-06 01:13:08,2026-09-06 03:13:08,True,True,plano,{},2026-09-06,teste
+F0020,fora_de_horario,banheiro_social.chuveiro_eletrico,Banheiro social,c_c2,2026-09-07 03:25:13,2026-09-07 03:37:13,2026-09-07 03:25:13,2026-09-07 03:37:13,True,True,plano,{},2026-09-07,teste
+F0021,pico,cozinha.air_fryer,Cozinha,t5,2026-09-08 05:02:10,2026-09-08 06:02:10,2026-09-08 05:03:18,2026-09-08 06:01:43,True,True,plano,"{""n_picos"": 8, ""fator"": 5.4, ""largura_s"": 1}",2026-09-08,teste
+F0022,magnitude,cozinha.micro_ondas,Cozinha,t4,2026-09-09 12:40:27,2026-09-09 22:59:16,2026-09-09 12:40:27,2026-09-09 19:17:11,True,True,plano,"{""fator"": 2.12}",2026-09-09,teste
+F0023,duracao_excessiva,cozinha.geladeira,Cozinha,t1,2026-09-12 06:01:20,2026-09-12 12:01:20,2026-09-12 06:01:20,2026-09-12 12:00:41,True,True,plano,{},2026-09-12,teste
+F0024,magnitude,banheiro_suite.chuveiro_eletrico,Banheiro suíte,c_c1,2026-09-13 19:20:28,2026-09-14 18:54:56,2026-09-13 21:32:49,2026-09-13 21:43:51,True,True,plano,"{""fator"": 1.92}",2026-09-13,teste
+F0024,magnitude,banheiro_suite.chuveiro_eletrico,Banheiro suíte,c_c1,2026-09-13 19:20:28,2026-09-14 18:54:56,2026-09-14 17:47:57,2026-09-14 17:56:22,True,True,plano,"{""fator"": 1.92}",2026-09-14,teste
+F0025,magnitude,cozinha.air_fryer,Cozinha,t5,2026-09-14 19:21:01,2026-09-15 12:37:36,,,False,True,plano,"{""fator"": 2.01}",2026-09-14,teste
+F0025,magnitude,cozinha.air_fryer,Cozinha,t5,2026-09-14 19:21:01,2026-09-15 12:37:36,,,False,True,plano,"{""fator"": 2.01}",2026-09-15,teste
+F0026,falta_energia,rede,,,2026-09-15 07:10:45,2026-09-15 07:59:03,2026-09-15 07:10:45,2026-09-15 07:59:03,True,False,plano,{},2026-09-15,teste
+F0027,fora_de_horario,quarto_2.ventilador,Quarto 2,,2026-09-17 04:15:18,2026-09-17 06:15:18,2026-09-17 04:15:18,2026-09-17 06:15:18,True,True,plano,{},2026-09-17,teste
+F0028,falta_energia,rede,,,2026-09-18 06:34:12,2026-09-18 07:17:11,2026-09-18 06:34:12,2026-09-18 07:17:11,True,False,plano,{},2026-09-18,teste
+F0029,pico,area_de_servico.ferro_passar,Área de serviço,t7,2026-09-19 13:46:47,2026-09-19 14:46:47,2026-09-19 13:51:44,2026-09-19 14:30:38,True,True,plano,"{""n_picos"": 4, ""fator"": 3.4, ""largura_s"": 2}",2026-09-19,teste
+F0030,duracao_excessiva,area_de_servico.ferro_passar,Área de serviço,t7,2026-09-21 00:18:09,2026-09-21 03:18:09,2026-09-21 00:18:09,2026-09-21 03:18:09,True,True,plano,{},2026-09-21,teste
+F0031,consumo_nao_explicado,geral,,q_c1,2026-09-22 14:35:38,2026-09-22 18:09:48,2026-09-22 14:35:38,2026-09-22 18:09:48,True,True,plano,"{""potencia_w"": 816}",2026-09-22,teste
+F0032,queda,banheiro_suite.chuveiro_eletrico,Banheiro suíte,c_c1,2026-09-24 08:00:47,2026-09-24 10:15:33,,,False,True,plano,"{""fator"": 0.4}",2026-09-24,teste
+F0033,consumo_nao_explicado,geral,,q_c1,2026-09-25 16:59:27,2026-09-26 03:47:18,2026-09-25 16:59:27,2026-09-26 00:00:00,True,True,plano,"{""potencia_w"": 350}",2026-09-25,teste
+F0033,consumo_nao_explicado,geral,,q_c1,2026-09-25 16:59:27,2026-09-26 03:47:18,2026-09-26 00:00:00,2026-09-26 03:47:18,True,True,plano,"{""potencia_w"": 350}",2026-09-26,teste
+F0034,queda,cozinha.purificador_agua,Cozinha,,2026-09-27 05:28:05,2026-09-27 09:53:06,2026-09-27 05:32:33,2026-09-27 09:52:00,True,True,plano,"{""fator"": 0.0}",2026-09-27,teste

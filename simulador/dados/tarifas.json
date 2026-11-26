@@ -1,0 +1,9 @@
+{
+ "distribuidora": "CPFL Paulista (concessionária de Marília-SP)",
+ "tarifa_kwh_com_tributos": 0.95,
+ "origem_tarifa": "ASSUMIDO: valor redondo para o painel. A ANEEL aprovou reajuste médio de +12,13% para a CPFL Paulista em abril de 2026 (notícia de 22/04/2026); a tarifa B1 exata com tributos deve ser copiada de uma fatura ou da resolução homologatória antes de entrar no artigo.",
+ "bandeira_atual": "verde",
+ "bandeiras_adicional_por_kwh": {"verde": 0.0, "amarela": 0.01885, "vermelha_1": 0.04463, "vermelha_2": 0.07877},
+ "origem_bandeiras": "Valores da ANEEL vigentes em 2024-2025 (R$ por 100 kWh: 1,885 / 4,463 / 7,877). ASSUMIDO que continuam válidos; conferir.",
+ "tarifa_social": {"ativa": false, "nota": "Tarifa Social de Energia Elétrica (famílias do CadÚnico). Regra de descontos mudou em 2025; não aplicada por padrão. Conferir a regra vigente na ANEEL antes de usar."}
+}

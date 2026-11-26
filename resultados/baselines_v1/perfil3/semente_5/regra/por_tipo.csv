@@ -1,0 +1,7 @@
+tipo,eventos,detectados,atraso_mediana_min,perfil,semente,modelo
+consumo_nao_explicado,2,1,132.93333333333334,perfil3,5,regra
+duracao_excessiva,3,2,1.2249999999999999,perfil3,5,regra
+fora_de_horario,3,0,,perfil3,5,regra
+magnitude,2,2,0.9500000000000001,perfil3,5,regra
+pico,2,0,,perfil3,5,regra
+queda,1,0,,perfil3,5,regra

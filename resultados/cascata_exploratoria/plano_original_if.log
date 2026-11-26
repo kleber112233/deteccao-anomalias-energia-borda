@@ -1,0 +1,175 @@
+[perfil3 s4] scores dos modelos oficiais prontos em 47 s
+[perfil3 s5] scores dos modelos oficiais prontos em 47 s
+[perfil3 s4] b=1.0   τ=   -inf escalados=100.0%  F1=0.417  R=0.385  rev.estágio1=1.000  custo=1.56×LSTM
+[perfil3 s5] b=1.0   τ=   -inf escalados=100.0%  F1=0.462  R=0.462  rev.estágio1=1.000  custo=1.54×LSTM
+[perfil3 s4] b=0.5   τ=   0.11 escalados= 46.4%  F1=0.417  R=0.385  rev.estágio1=1.000  custo=1.03×LSTM
+[perfil3 s5] b=0.5   τ=   0.09 escalados= 51.0%  F1=0.462  R=0.462  rev.estágio1=1.000  custo=1.04×LSTM
+[perfil3 s4] b=0.2   τ=   0.40 escalados= 18.5%  F1=0.417  R=0.385  rev.estágio1=1.000  custo=0.75×LSTM
+[perfil3 s5] b=0.2   τ=   0.35 escalados= 20.5%  F1=0.462  R=0.462  rev.estágio1=1.000  custo=0.74×LSTM
+[perfil3 s5] b=0.1   τ=   0.63 escalados= 10.3%  F1=0.500  R=0.462  rev.estágio1=0.769  custo=0.64×LSTM
+[perfil3 s4] b=0.1   τ=   0.63 escalados=  9.5%  F1=0.500  R=0.385  rev.estágio1=0.923  custo=0.66×LSTM
+[perfil3 s5] b=0.05  τ=   0.81 escalados=  5.3%  F1=0.500  R=0.462  rev.estágio1=0.692  custo=0.59×LSTM
+[perfil3 s4] b=0.05  τ=   0.82 escalados=  4.8%  F1=0.500  R=0.385  rev.estágio1=0.769  custo=0.61×LSTM
+[perfil3 s5] b=0.02  τ=   0.91 escalados=  2.1%  F1=0.417  R=0.385  rev.estágio1=0.615  custo=0.56×LSTM
+[perfil3 s4] b=0.02  τ=   0.92 escalados=  1.8%  F1=0.500  R=0.385  rev.estágio1=0.692  custo=0.58×LSTM
+[perfil3 s5] b=0.01  τ=   0.94 escalados=  1.1%  F1=0.000  R=0.000  rev.estágio1=0.385  custo=0.55×LSTM
+[perfil3 s4] b=0.01  τ=   0.95 escalados=  0.9%  F1=0.526  R=0.385  rev.estágio1=0.615  custo=0.57×LSTM
+[perfil3 s5] b=0.0   τ=    inf escalados=  0.0%  F1=0.000  R=0.000  rev.estágio1=0.000  custo=0.54×LSTM
+[perfil3 s5] cascata pronta em 3.7 min; conferência (F1 sozinho × oficial): if 0.000×0.000, lstm_ae 0.462×0.462
+perfil3 s5 concluída em 3.7 min
+[perfil3 s4] b=0.0   τ=    inf escalados=  0.0%  F1=0.273  R=0.231  rev.estágio1=0.000  custo=0.56×LSTM
+[perfil3 s4] cascata pronta em 3.7 min; conferência (F1 sozinho × oficial): if 0.273×0.273, lstm_ae 0.417×0.417
+perfil3 s4 concluída em 3.7 min
+[perfil3 s3] scores dos modelos oficiais prontos em 40 s
+[perfil3 s2] scores dos modelos oficiais prontos em 40 s
+[perfil3 s3] b=1.0   τ=   -inf escalados=100.0%  F1=0.250  R=0.167  rev.estágio1=1.000  custo=1.59×LSTM
+[perfil3 s2] b=1.0   τ=   -inf escalados=100.0%  F1=0.316  R=0.231  rev.estágio1=1.000  custo=1.59×LSTM
+[perfil3 s3] b=0.5   τ=   0.11 escalados= 57.0%  F1=0.250  R=0.167  rev.estágio1=1.000  custo=1.16×LSTM
+[perfil3 s2] b=0.5   τ=   0.12 escalados= 48.9%  F1=0.316  R=0.231  rev.estágio1=1.000  custo=1.08×LSTM
+[perfil3 s3] b=0.2   τ=   0.43 escalados= 24.1%  F1=0.250  R=0.167  rev.estágio1=1.000  custo=0.83×LSTM
+[perfil3 s2] b=0.2   τ=   0.38 escalados= 20.0%  F1=0.316  R=0.231  rev.estágio1=0.923  custo=0.79×LSTM
+[perfil3 s3] b=0.1   τ=   0.69 escalados= 12.7%  F1=0.250  R=0.167  rev.estágio1=0.917  custo=0.71×LSTM
+[perfil3 s2] b=0.1   τ=   0.63 escalados= 11.3%  F1=0.632  R=0.462  rev.estágio1=0.846  custo=0.70×LSTM
+[perfil3 s3] b=0.05  τ=   0.84 escalados=  6.3%  F1=0.250  R=0.167  rev.estágio1=0.750  custo=0.65×LSTM
+[perfil3 s2] b=0.05  τ=   0.83 escalados=  6.5%  F1=0.556  R=0.385  rev.estágio1=0.769  custo=0.66×LSTM
+[perfil3 s3] b=0.02  τ=   0.92 escalados=  2.8%  F1=0.250  R=0.167  rev.estágio1=0.583  custo=0.61×LSTM
+[perfil3 s2] b=0.02  τ=   0.91 escalados=  3.0%  F1=0.353  R=0.231  rev.estágio1=0.769  custo=0.62×LSTM
+[perfil3 s3] b=0.01  τ=   0.95 escalados=  1.4%  F1=0.250  R=0.167  rev.estágio1=0.500  custo=0.60×LSTM
+[perfil3 s3] b=0.0   τ=    inf escalados=  0.0%  F1=0.000  R=0.000  rev.estágio1=0.000  custo=0.59×LSTM
+[perfil3 s3] cascata pronta em 3.7 min; conferência (F1 sozinho × oficial): if 0.000×0.000, lstm_ae 0.286×0.286
+perfil3 s3 concluída em 3.7 min
+[perfil3 s2] b=0.01  τ=   0.94 escalados=  1.5%  F1=0.353  R=0.231  rev.estágio1=0.615  custo=0.61×LSTM
+[perfil3 s2] b=0.0   τ=    inf escalados=  0.0%  F1=0.070  R=0.154  rev.estágio1=0.000  custo=0.59×LSTM
+[perfil3 s2] cascata pronta em 3.8 min; conferência (F1 sozinho × oficial): if 0.133×0.133, lstm_ae 0.235×0.235
+perfil3 s2 concluída em 3.8 min
+[perfil2 s5] scores dos modelos oficiais prontos em 26 s
+[perfil3 s1] scores dos modelos oficiais prontos em 52 s
+[perfil2 s5] b=1.0   τ=   -inf escalados=100.0%  F1=0.400  R=0.308  rev.estágio1=1.000  custo=1.31×LSTM
+[perfil2 s5] b=0.5   τ=   0.09 escalados= 49.5%  F1=0.400  R=0.308  rev.estágio1=1.000  custo=0.81×LSTM
+[perfil3 s1] b=1.0   τ=   -inf escalados=100.0%  F1=0.053  R=0.071  rev.estágio1=1.000  custo=1.59×LSTM
+[perfil2 s5] b=0.2   τ=   0.43 escalados= 19.1%  F1=0.455  R=0.385  rev.estágio1=0.923  custo=0.50×LSTM
+[perfil2 s5] b=0.1   τ=   0.62 escalados=  9.8%  F1=0.455  R=0.385  rev.estágio1=0.769  custo=0.41×LSTM
+[perfil3 s1] b=0.5   τ=   0.10 escalados= 53.8%  F1=0.054  R=0.071  rev.estágio1=1.000  custo=1.13×LSTM
+[perfil2 s5] b=0.05  τ=   0.80 escalados=  4.6%  F1=0.476  R=0.385  rev.estágio1=0.692  custo=0.36×LSTM
+[perfil2 s5] b=0.02  τ=   0.90 escalados=  2.2%  F1=0.500  R=0.385  rev.estágio1=0.615  custo=0.34×LSTM
+[perfil3 s1] b=0.2   τ=   0.38 escalados= 20.5%  F1=0.051  R=0.071  rev.estágio1=1.000  custo=0.79×LSTM
+[perfil2 s5] b=0.01  τ=   0.94 escalados=  1.1%  F1=0.471  R=0.308  rev.estágio1=0.462  custo=0.32×LSTM
+[perfil2 s5] b=0.0   τ=    inf escalados=  0.0%  F1=0.000  R=0.000  rev.estágio1=0.000  custo=0.31×LSTM
+[perfil2 s5] cascata pronta em 2.0 min; conferência (F1 sozinho × oficial): if 0.000×0.000, lstm_ae 0.400×0.400
+perfil2 s5 concluída em 2.0 min
+[perfil2 s4] scores dos modelos oficiais prontos em 20 s
+[perfil3 s1] b=0.1   τ=   0.69 escalados= 10.1%  F1=0.059  R=0.071  rev.estágio1=0.857  custo=0.69×LSTM
+[perfil2 s4] b=1.0   τ=   -inf escalados=100.0%  F1=0.316  R=0.214  rev.estágio1=1.000  custo=1.31×LSTM
+[perfil3 s1] b=0.05  τ=   0.83 escalados=  5.2%  F1=0.057  R=0.071  rev.estágio1=0.714  custo=0.64×LSTM
+[perfil2 s4] b=0.5   τ=   0.10 escalados= 48.5%  F1=0.316  R=0.214  rev.estágio1=1.000  custo=0.79×LSTM
+[perfil2 s4] b=0.2   τ=   0.47 escalados= 18.6%  F1=0.316  R=0.214  rev.estágio1=1.000  custo=0.50×LSTM
+[perfil3 s1] b=0.02  τ=   0.92 escalados=  2.3%  F1=0.053  R=0.071  rev.estágio1=0.571  custo=0.61×LSTM
+[perfil2 s4] b=0.1   τ=   0.65 escalados=  9.7%  F1=0.316  R=0.214  rev.estágio1=1.000  custo=0.41×LSTM
+[perfil2 s4] b=0.05  τ=   0.81 escalados=  5.1%  F1=0.316  R=0.214  rev.estágio1=0.929  custo=0.36×LSTM
+[perfil3 s1] b=0.01  τ=   0.95 escalados=  1.3%  F1=0.062  R=0.071  rev.estágio1=0.571  custo=0.60×LSTM
+[perfil3 s1] b=0.0   τ=    inf escalados=  0.0%  F1=0.047  R=0.071  rev.estágio1=0.000  custo=0.59×LSTM
+[perfil3 s1] cascata pronta em 3.7 min; conferência (F1 sozinho × oficial): if 0.045×0.045, lstm_ae 0.095×0.095
+perfil3 s1 concluída em 3.7 min
+[perfil2 s4] b=0.02  τ=   0.90 escalados=  1.8%  F1=0.256  R=0.357  rev.estágio1=0.643  custo=0.33×LSTM
+[perfil2 s4] b=0.01  τ=   0.94 escalados=  0.9%  F1=0.222  R=0.143  rev.estágio1=0.500  custo=0.32×LSTM
+[perfil2 s4] b=0.0   τ=    inf escalados=  0.0%  F1=0.118  R=0.071  rev.estágio1=0.000  custo=0.31×LSTM
+[perfil2 s4] cascata pronta em 1.8 min; conferência (F1 sozinho × oficial): if 0.118×0.118, lstm_ae 0.300×0.300
+perfil2 s4 concluída em 1.8 min
+[perfil2 s3] scores dos modelos oficiais prontos em 20 s
+[perfil2 s3] b=1.0   τ=   -inf escalados=100.0%  F1=0.250  R=0.154  rev.estágio1=1.000  custo=1.53×LSTM
+[perfil2 s2] scores dos modelos oficiais prontos em 21 s
+[perfil2 s3] b=0.5   τ=   0.09 escalados= 54.2%  F1=0.250  R=0.154  rev.estágio1=1.000  custo=1.07×LSTM
+[perfil2 s2] b=1.0   τ=   -inf escalados=100.0%  F1=0.364  R=0.308  rev.estágio1=1.000  custo=1.52×LSTM
+[perfil2 s3] b=0.2   τ=   0.44 escalados= 22.8%  F1=0.250  R=0.154  rev.estágio1=1.000  custo=0.76×LSTM
+[perfil2 s2] b=0.5   τ=   0.14 escalados= 49.7%  F1=0.364  R=0.308  rev.estágio1=1.000  custo=1.02×LSTM
+[perfil2 s3] b=0.1   τ=   0.67 escalados= 12.1%  F1=0.250  R=0.154  rev.estágio1=0.923  custo=0.65×LSTM
+[perfil2 s2] b=0.2   τ=   0.44 escalados= 19.8%  F1=0.364  R=0.308  rev.estágio1=1.000  custo=0.72×LSTM
+[perfil2 s3] b=0.05  τ=   0.83 escalados=  6.5%  F1=0.250  R=0.154  rev.estágio1=0.769  custo=0.60×LSTM
+[perfil2 s2] b=0.1   τ=   0.63 escalados=  9.5%  F1=0.400  R=0.308  rev.estágio1=0.923  custo=0.61×LSTM
+[perfil2 s3] b=0.02  τ=   0.90 escalados=  2.5%  F1=0.267  R=0.154  rev.estágio1=0.538  custo=0.55×LSTM
+[perfil2 s2] b=0.05  τ=   0.81 escalados=  4.7%  F1=0.444  R=0.308  rev.estágio1=0.692  custo=0.57×LSTM
+[perfil2 s3] b=0.01  τ=   0.94 escalados=  1.3%  F1=0.267  R=0.154  rev.estágio1=0.538  custo=0.54×LSTM
+[perfil2 s3] b=0.0   τ=    inf escalados=  0.0%  F1=0.071  R=0.077  rev.estágio1=0.000  custo=0.53×LSTM
+[perfil2 s3] cascata pronta em 2.0 min; conferência (F1 sozinho × oficial): if 0.071×0.071, lstm_ae 0.250×0.250
+perfil2 s3 concluída em 2.0 min
+[perfil2 s2] b=0.02  τ=   0.91 escalados=  1.6%  F1=0.444  R=0.308  rev.estágio1=0.462  custo=0.54×LSTM
+[perfil2 s1] scores dos modelos oficiais prontos em 20 s
+[perfil2 s2] b=0.01  τ=   0.95 escalados=  0.7%  F1=0.353  R=0.231  rev.estágio1=0.385  custo=0.53×LSTM
+[perfil2 s2] b=0.0   τ=    inf escalados=  0.0%  F1=0.105  R=0.077  rev.estágio1=0.000  custo=0.52×LSTM
+[perfil2 s2] cascata pronta em 2.0 min; conferência (F1 sozinho × oficial): if 0.105×0.105, lstm_ae 0.364×0.364
+perfil2 s2 concluída em 2.0 min
+[perfil1 s5] scores dos modelos oficiais prontos em 8 s
+[perfil1 s5] b=1.0   τ=   -inf escalados=100.0%  F1=0.435  R=0.417  rev.estágio1=1.000  custo=1.40×LSTM
+[perfil2 s1] b=1.0   τ=   -inf escalados=100.0%  F1=0.178  R=0.286  rev.estágio1=1.000  custo=1.53×LSTM
+[perfil1 s5] b=0.5   τ=   0.15 escalados= 49.1%  F1=0.435  R=0.417  rev.estágio1=1.000  custo=0.89×LSTM
+[perfil1 s5] b=0.2   τ=   0.47 escalados= 19.6%  F1=0.400  R=0.333  rev.estágio1=0.917  custo=0.60×LSTM
+[perfil2 s1] b=0.5   τ=   0.11 escalados= 51.0%  F1=0.178  R=0.286  rev.estágio1=1.000  custo=1.04×LSTM
+[perfil1 s5] b=0.1   τ=   0.61 escalados=  9.7%  F1=0.316  R=0.250  rev.estágio1=0.833  custo=0.50×LSTM
+[perfil1 s5] b=0.05  τ=   0.76 escalados=  5.2%  F1=0.400  R=0.250  rev.estágio1=0.583  custo=0.45×LSTM
+[perfil1 s5] b=0.02  τ=   0.89 escalados=  2.2%  F1=0.316  R=0.250  rev.estágio1=0.333  custo=0.42×LSTM
+[perfil2 s1] b=0.2   τ=   0.45 escalados= 19.9%  F1=0.316  R=0.214  rev.estágio1=1.000  custo=0.73×LSTM
+[perfil1 s5] b=0.01  τ=   0.93 escalados=  1.2%  F1=0.316  R=0.250  rev.estágio1=0.333  custo=0.41×LSTM
+[perfil1 s5] b=0.0   τ=    inf escalados=  0.0%  F1=0.222  R=0.167  rev.estágio1=0.000  custo=0.40×LSTM
+[perfil1 s5] cascata pronta em 0.7 min; conferência (F1 sozinho × oficial): if 0.222×0.222, lstm_ae 0.435×0.435
+perfil1 s5 concluída em 0.7 min
+[perfil1 s4] scores dos modelos oficiais prontos em 8 s
+[perfil2 s1] b=0.1   τ=   0.65 escalados= 10.3%  F1=0.316  R=0.214  rev.estágio1=1.000  custo=0.64×LSTM
+[perfil1 s4] b=1.0   τ=   -inf escalados=100.0%  F1=0.583  R=0.538  rev.estágio1=1.000  custo=1.40×LSTM
+[perfil2 s1] b=0.05  τ=   0.82 escalados=  5.1%  F1=0.316  R=0.214  rev.estágio1=0.786  custo=0.58×LSTM
+[perfil1 s4] b=0.5   τ=   0.16 escalados= 47.7%  F1=0.571  R=0.462  rev.estágio1=1.000  custo=0.88×LSTM
+[perfil1 s4] b=0.2   τ=   0.56 escalados= 17.6%  F1=0.636  R=0.538  rev.estágio1=1.000  custo=0.58×LSTM
+[perfil2 s1] b=0.02  τ=   0.91 escalados=  2.3%  F1=0.316  R=0.214  rev.estágio1=0.643  custo=0.56×LSTM
+[perfil1 s4] b=0.1   τ=   0.72 escalados=  7.0%  F1=0.636  R=0.538  rev.estágio1=0.692  custo=0.47×LSTM
+[perfil1 s4] b=0.05  τ=   0.81 escalados=  4.0%  F1=0.235  R=0.154  rev.estágio1=0.692  custo=0.44×LSTM
+[perfil2 s1] b=0.01  τ=   0.94 escalados=  1.1%  F1=0.273  R=0.214  rev.estágio1=0.500  custo=0.54×LSTM
+[perfil2 s1] b=0.0   τ=    inf escalados=  0.0%  F1=0.316  R=0.214  rev.estágio1=0.000  custo=0.53×LSTM
+[perfil2 s1] cascata pronta em 1.9 min; conferência (F1 sozinho × oficial): if 0.316×0.316, lstm_ae 0.178×0.178
+perfil2 s1 concluída em 1.9 min
+[perfil1 s4] b=0.02  τ=   0.91 escalados=  1.5%  F1=0.235  R=0.154  rev.estágio1=0.462  custo=0.42×LSTM
+[perfil1 s4] b=0.01  τ=   0.95 escalados=  0.6%  F1=0.235  R=0.154  rev.estágio1=0.231  custo=0.41×LSTM
+[perfil1 s4] b=0.0   τ=    inf escalados=  0.0%  F1=0.235  R=0.154  rev.estágio1=0.000  custo=0.40×LSTM
+[perfil1 s4] cascata pronta em 0.9 min; conferência (F1 sozinho × oficial): if 0.235×0.235, lstm_ae 0.583×0.583
+perfil1 s4 concluída em 0.9 min
+[perfil1 s3] scores dos modelos oficiais prontos em 10 s
+[perfil1 s2] scores dos modelos oficiais prontos em 8 s
+[perfil1 s3] b=1.0   τ=   -inf escalados=100.0%  F1=0.316  R=0.214  rev.estágio1=1.000  custo=1.33×LSTM
+[perfil1 s2] b=1.0   τ=   -inf escalados=100.0%  F1=0.159  R=0.538  rev.estágio1=1.000  custo=1.31×LSTM
+[perfil1 s3] b=0.5   τ=   0.19 escalados= 55.1%  F1=0.341  R=0.500  rev.estágio1=1.000  custo=0.88×LSTM
+[perfil1 s2] b=0.5   τ=   0.16 escalados= 48.1%  F1=0.214  R=0.462  rev.estágio1=1.000  custo=0.79×LSTM
+[perfil1 s3] b=0.2   τ=   0.60 escalados= 23.3%  F1=0.308  R=0.429  rev.estágio1=1.000  custo=0.56×LSTM
+[perfil1 s2] b=0.2   τ=   0.54 escalados= 19.3%  F1=0.238  R=0.385  rev.estágio1=0.923  custo=0.50×LSTM
+[perfil1 s3] b=0.1   τ=   0.72 escalados= 12.5%  F1=0.304  R=0.500  rev.estágio1=0.929  custo=0.45×LSTM
+[perfil1 s2] b=0.1   τ=   0.72 escalados= 11.3%  F1=0.150  R=0.231  rev.estágio1=0.692  custo=0.43×LSTM
+[perfil1 s3] b=0.05  τ=   0.81 escalados=  6.2%  F1=0.296  R=0.571  rev.estágio1=0.786  custo=0.39×LSTM
+[perfil1 s2] b=0.05  τ=   0.81 escalados=  6.8%  F1=0.167  R=0.154  rev.estágio1=0.462  custo=0.38×LSTM
+[perfil1 s3] b=0.02  τ=   0.92 escalados=  2.4%  F1=0.162  R=0.214  rev.estágio1=0.286  custo=0.35×LSTM
+[perfil1 s2] b=0.02  τ=   0.89 escalados=  3.4%  F1=0.000  R=0.000  rev.estágio1=0.231  custo=0.35×LSTM
+[perfil1 s3] b=0.01  τ=   0.95 escalados=  1.0%  F1=0.118  R=0.143  rev.estágio1=0.143  custo=0.34×LSTM
+[perfil1 s3] b=0.0   τ=    inf escalados=  0.0%  F1=0.067  R=0.143  rev.estágio1=0.000  custo=0.33×LSTM
+[perfil1 s3] cascata pronta em 0.9 min; conferência (F1 sozinho × oficial): if 0.067×0.067, lstm_ae 0.400×0.400
+perfil1 s3 concluída em 0.9 min
+[perfil1 s2] b=0.01  τ=   0.93 escalados=  1.5%  F1=0.000  R=0.000  rev.estágio1=0.231  custo=0.33×LSTM
+[perfil1 s2] b=0.0   τ=    inf escalados=  0.0%  F1=0.000  R=0.000  rev.estágio1=0.000  custo=0.31×LSTM
+[perfil1 s2] cascata pronta em 0.8 min; conferência (F1 sozinho × oficial): if 0.000×0.000, lstm_ae 0.197×0.197
+perfil1 s2 concluída em 0.8 min
+[perfil1 s1] scores dos modelos oficiais prontos em 7 s
+[perfil1 s1] b=1.0   τ=   -inf escalados=100.0%  F1=0.581  R=0.643  rev.estágio1=1.000  custo=1.30×LSTM
+[perfil1 s1] b=0.5   τ=   0.15 escalados= 52.4%  F1=0.581  R=0.643  rev.estágio1=1.000  custo=0.83×LSTM
+[perfil1 s1] b=0.2   τ=   0.50 escalados= 20.7%  F1=0.500  R=0.500  rev.estágio1=0.929  custo=0.51×LSTM
+[perfil1 s1] b=0.1   τ=   0.66 escalados= 10.7%  F1=0.240  R=0.214  rev.estágio1=0.857  custo=0.41×LSTM
+[perfil1 s1] b=0.05  τ=   0.78 escalados=  5.5%  F1=0.174  R=0.143  rev.estágio1=0.500  custo=0.36×LSTM
+[perfil1 s1] b=0.02  τ=   0.89 escalados=  2.2%  F1=0.091  R=0.071  rev.estágio1=0.357  custo=0.33×LSTM
+[perfil1 s1] b=0.01  τ=   0.94 escalados=  1.2%  F1=0.000  R=0.000  rev.estágio1=0.214  custo=0.31×LSTM
+[perfil1 s1] b=0.0   τ=    inf escalados=  0.0%  F1=0.000  R=0.000  rev.estágio1=0.000  custo=0.30×LSTM
+[perfil1 s1] cascata pronta em 0.8 min; conferência (F1 sozinho × oficial): if 0.000×0.000, lstm_ae 0.581×0.581
+perfil1 s1 concluída em 0.8 min
+ orcamento  escalados_mean  f1_mean  f1_std  revocacao_mean  fp_por_dia_mean  revocacao_estagio1_mean  custo_relativo_ao_lstm_mean
+      0.00           0.000    0.102   0.109           0.091            0.517                    0.000                        0.454
+      0.01           0.011    0.230   0.166           0.163            0.181                    0.415                        0.465
+      0.02           0.023    0.277   0.154           0.223            0.269                    0.520                        0.477
+      0.05           0.055    0.329   0.146           0.268            0.244                    0.706                        0.508
+      0.10           0.104    0.355   0.165           0.304            0.286                    0.862                        0.558
+      0.20           0.203    0.352   0.137           0.318            0.311                    0.974                        0.657
+      0.50           0.508    0.343   0.143           0.338            0.419                    1.000                        0.962
+      1.00           1.000    0.338   0.149           0.329            0.464                    1.000                        1.454
+pronto em 16.7 min; resultados em ../resultados/cascata_exploratoria/plano_original_if

@@ -1,0 +1,1817 @@
+top - 15:52:48 up  5:42,  2 users,  load average: 0.00, 0.00, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3588.3 free,    234.4 used,    300.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3815.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.09 mosquit+
+
+top - 15:52:58 up  5:42,  2 users,  load average: 0.07, 0.02, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.9 us,  0.1 sy,  0.0 ni, 97.8 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3469.0 free,    350.3 used,    304.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3699.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.1   0.2   3:56.10 mosquit+
+
+top - 15:53:08 up  5:42,  2 users,  load average: 0.06, 0.02, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3495.2 free,    324.0 used,    304.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3725.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:53:18 up  5:42,  2 users,  load average: 0.05, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3497.6 free,    321.6 used,    304.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3728.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:53:28 up  5:43,  2 users,  load average: 0.04, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3510.9 free,    308.3 used,    304.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3741.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:53:38 up  5:43,  2 users,  load average: 0.04, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3514.5 free,    304.7 used,    304.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3745.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:53:48 up  5:43,  2 users,  load average: 0.03, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3505.2 free,    313.9 used,    304.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3735.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:53:58 up  5:43,  2 users,  load average: 0.02, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3513.0 free,    306.1 used,    304.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3743.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:54:08 up  5:43,  2 users,  load average: 0.02, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3516.3 free,    302.8 used,    304.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3747.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:54:18 up  5:43,  2 users,  load average: 0.02, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3504.6 free,    314.4 used,    304.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3735.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:54:28 up  5:44,  2 users,  load average: 0.01, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3512.4 free,    306.6 used,    304.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3743.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:54:38 up  5:44,  2 users,  load average: 0.01, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3515.4 free,    303.6 used,    304.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3746.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:54:48 up  5:44,  2 users,  load average: 0.01, 0.01, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   3504.3 free,    314.7 used,    304.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   3735.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   3:56.10 mosquit+
+
+top - 15:54:58 up  5:44,  2 users,  load average: 0.16, 0.04, 0.01
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.2 us,  1.5 sy,  0.0 ni, 76.2 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1669.8 free,   2149.1 used,    304.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1900.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   1.8   0.2   3:56.28 mosquit+
+
+top - 15:55:08 up  5:44,  2 users,  load average: 0.29, 0.07, 0.02
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.4 us,  1.4 sy,  0.0 ni, 74.1 id,  0.1 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1545.9 free,   2273.0 used,    304.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1776.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.1   0.2   3:56.49 mosquit+
+
+top - 15:55:18 up  5:44,  2 users,  load average: 0.40, 0.10, 0.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.2 us,  0.9 sy,  0.0 ni, 78.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1486.4 free,   2332.4 used,    304.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1717.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   1.8   0.2   3:56.67 mosquit+
+
+top - 15:55:28 up  5:45,  2 users,  load average: 0.34, 0.10, 0.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.1 us,  1.2 sy,  0.0 ni, 94.7 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1527.7 free,   2291.0 used,    304.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1758.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   1.9   0.2   3:56.86 mosquit+
+
+top - 15:55:38 up  5:45,  2 users,  load average: 0.29, 0.09, 0.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.0 us,  1.3 sy,  0.0 ni, 94.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1534.7 free,   2284.0 used,    304.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1765.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   1.9   0.2   3:57.05 mosquit+
+
+top - 15:55:48 up  5:45,  2 users,  load average: 0.24, 0.09, 0.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.2 us,  1.3 sy,  0.0 ni, 94.5 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1517.5 free,   2301.1 used,    304.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1748.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   1.9   0.2   3:57.24 mosquit+
+
+top - 15:55:58 up  5:45,  2 users,  load average: 0.20, 0.09, 0.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  1.5 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1516.7 free,   2301.9 used,    304.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1747.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.1   0.2   3:57.45 mosquit+
+
+top - 15:56:08 up  5:45,  2 users,  load average: 0.25, 0.10, 0.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.7 us,  1.0 sy,  0.0 ni, 78.2 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1502.4 free,   2316.2 used,    304.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1733.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.2   0.2   3:57.67 mosquit+
+
+top - 15:56:18 up  5:45,  2 users,  load average: 0.37, 0.13, 0.04
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.4 us,  0.6 sy,  0.0 ni, 73.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1431.8 free,   2386.8 used,    304.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1663.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   1.8   0.2   3:57.85 mosquit+
+
+top - 15:56:28 up  5:46,  2 users,  load average: 0.47, 0.16, 0.05
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.8 us,  0.8 sy,  0.0 ni, 72.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1372.0 free,   2446.5 used,    304.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1603.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   1.9   0.2   3:58.04 mosquit+
+
+top - 15:56:38 up  5:46,  2 users,  load average: 0.55, 0.19, 0.07
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.7 us,  1.0 sy,  0.0 ni, 72.3 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1320.4 free,   2498.1 used,    304.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1551.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.0   0.2   3:58.24 mosquit+
+
+top - 15:56:48 up  5:46,  2 users,  load average: 0.62, 0.22, 0.08
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  0.7 sy,  0.0 ni, 72.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1266.6 free,   2551.9 used,    304.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1497.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.0   0.2   3:58.44 mosquit+
+
+top - 15:56:58 up  5:46,  2 users,  load average: 0.68, 0.24, 0.09
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 21.4 us,  1.1 sy,  0.0 ni, 77.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1247.0 free,   2571.5 used,    304.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1478.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.2   0.2   3:58.66 mosquit+
+
+top - 15:57:08 up  5:46,  2 users,  load average: 0.65, 0.25, 0.09
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 21.0 us,  1.2 sy,  0.0 ni, 77.8 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1259.2 free,   2559.3 used,    304.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1490.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.1   0.2   3:58.87 mosquit+
+
+top - 15:57:18 up  5:46,  2 users,  load average: 0.71, 0.28, 0.10
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.7 us,  0.7 sy,  0.0 ni, 72.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1256.6 free,   2561.8 used,    304.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1487.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   1.8   0.2   3:59.05 mosquit+
+
+top - 15:57:28 up  5:47,  2 users,  load average: 0.75, 0.30, 0.11
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.2 sy,  0.0 ni, 71.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1259.7 free,   2558.7 used,    304.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1491.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   3:59.33 mosquit+
+
+top - 15:57:38 up  5:47,  2 users,  load average: 0.79, 0.32, 0.12
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.4 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1256.1 free,   2562.3 used,    305.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1487.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   3:59.61 mosquit+
+
+top - 15:57:48 up  5:47,  2 users,  load average: 0.82, 0.35, 0.13
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.3 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1194.5 free,   2623.8 used,    305.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1425.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   3:59.93 mosquit+
+
+top - 15:57:58 up  5:47,  2 users,  load average: 0.77, 0.35, 0.13
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.6 us,  1.4 sy,  0.0 ni, 80.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1208.6 free,   2609.7 used,    305.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1440.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:00.23 mosquit+
+
+top - 15:58:08 up  5:47,  2 users,  load average: 0.73, 0.36, 0.14
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.1 us,  1.8 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1217.9 free,   2600.3 used,    305.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1449.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:00.57 mosquit+
+
+top - 15:58:18 up  5:47,  2 users,  load average: 0.77, 0.38, 0.15
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.4 us,  1.6 sy,  0.0 ni, 70.7 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1212.0 free,   2606.3 used,    305.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1443.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.8   0.2   4:00.95 mosquit+
+
+top - 15:58:28 up  5:48,  2 users,  load average: 0.81, 0.40, 0.16
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.3 us,  1.3 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1214.2 free,   2604.0 used,    305.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1445.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.5   0.2   4:01.30 mosquit+
+
+top - 15:58:38 up  5:48,  2 users,  load average: 0.84, 0.42, 0.17
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.3 us,  1.4 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1211.5 free,   2606.7 used,    305.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1443.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:01.63 mosquit+
+
+top - 15:58:48 up  5:48,  2 users,  load average: 0.78, 0.42, 0.17
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13.0 us,  1.8 sy,  0.0 ni, 85.1 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1198.3 free,   2619.8 used,    305.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1429.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:01.97 mosquit+
+
+top - 15:58:58 up  5:48,  2 users,  load average: 0.74, 0.42, 0.18
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  1.5 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1209.6 free,   2608.6 used,    305.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1441.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:02.26 mosquit+
+
+top - 15:59:08 up  5:48,  2 users,  load average: 0.93, 0.48, 0.20
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.9 us,  1.7 sy,  0.0 ni, 77.1 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1210.2 free,   2607.9 used,    305.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1441.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:02.60 mosquit+
+
+top - 15:59:18 up  5:48,  2 users,  load average: 0.94, 0.49, 0.20
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.4 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1192.7 free,   2625.4 used,    305.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1424.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:02.88 mosquit+
+
+top - 15:59:28 up  5:49,  2 users,  load average: 0.95, 0.51, 0.21
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.6 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1199.5 free,   2618.6 used,    305.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1431.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.6   0.2   4:03.24 mosquit+
+
+top - 15:59:38 up  5:49,  2 users,  load average: 0.80, 0.49, 0.21
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  1.9 sy,  0.0 ni, 91.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1202.5 free,   2615.6 used,    305.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1434.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:03.52 mosquit+
+
+top - 15:59:48 up  5:49,  2 users,  load average: 0.90, 0.53, 0.22
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.2 us,  1.8 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1196.2 free,   2621.8 used,    305.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1428.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:03.82 mosquit+
+
+top - 15:59:58 up  5:49,  2 users,  load average: 0.84, 0.53, 0.23
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.5 us,  2.2 sy,  0.0 ni, 92.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1202.7 free,   2615.3 used,    305.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1434.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:04.14 mosquit+
+
+top - 16:00:08 up  5:49,  2 users,  load average: 0.86, 0.54, 0.24
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.9 us,  1.6 sy,  0.0 ni, 79.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1201.4 free,   2616.6 used,    305.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1433.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:04.46 mosquit+
+
+top - 16:00:18 up  5:49,  2 users,  load average: 0.88, 0.56, 0.24
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.4 sy,  0.0 ni, 71.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1191.5 free,   2626.5 used,    305.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1423.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:04.75 mosquit+
+
+top - 16:00:28 up  5:50,  2 users,  load average: 0.90, 0.57, 0.25
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.6 sy,  0.0 ni, 71.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1188.9 free,   2629.1 used,    305.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1420.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:05.05 mosquit+
+
+top - 16:00:38 up  5:50,  2 users,  load average: 0.84, 0.57, 0.26
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.2 us,  1.5 sy,  0.0 ni, 90.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1186.8 free,   2631.1 used,    305.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1418.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:05.33 mosquit+
+
+top - 16:00:48 up  5:50,  2 users,  load average: 0.71, 0.55, 0.25
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.8 us,  1.7 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1182.5 free,   2635.4 used,    305.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1414.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:05.61 mosquit+
+
+top - 16:00:58 up  5:50,  2 users,  load average: 0.68, 0.55, 0.26
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.1 us,  1.8 sy,  0.0 ni, 93.9 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1188.9 free,   2629.0 used,    305.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1420.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:05.87 mosquit+
+
+top - 16:01:08 up  5:50,  2 users,  load average: 0.65, 0.55, 0.26
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.2 us,  1.8 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1189.1 free,   2628.8 used,    305.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1421.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:06.16 mosquit+
+
+top - 16:01:18 up  5:50,  2 users,  load average: 0.79, 0.58, 0.27
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.4 us,  1.6 sy,  0.0 ni, 70.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1148.7 free,   2669.1 used,    305.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1380.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:06.50 mosquit+
+
+top - 16:01:28 up  5:51,  2 users,  load average: 0.82, 0.59, 0.28
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.5 us,  1.6 sy,  0.0 ni, 70.6 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1123.6 free,   2694.2 used,    305.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1355.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:06.84 mosquit+
+
+top - 16:01:38 up  5:51,  2 users,  load average: 0.77, 0.59, 0.28
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13.7 us,  1.4 sy,  0.0 ni, 84.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1127.5 free,   2690.3 used,    305.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1359.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.4   0.2   4:07.08 mosquit+
+
+top - 16:01:48 up  5:51,  2 users,  load average: 0.65, 0.57, 0.28
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  1.7 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1112.5 free,   2705.3 used,    305.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1344.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:07.35 mosquit+
+
+top - 16:01:58 up  5:51,  2 users,  load average: 0.62, 0.57, 0.28
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.2 us,  1.5 sy,  0.0 ni, 94.0 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1133.8 free,   2683.9 used,    305.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1365.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:07.64 mosquit+
+
+top - 16:02:08 up  5:51,  2 users,  load average: 0.61, 0.57, 0.28
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.4 us,  1.8 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1137.1 free,   2680.7 used,    305.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1369.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:07.98 mosquit+
+
+top - 16:02:18 up  5:51,  2 users,  load average: 0.75, 0.60, 0.30
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.3 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1117.1 free,   2700.6 used,    305.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1349.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:08.25 mosquit+
+
+top - 16:02:28 up  5:52,  2 users,  load average: 0.87, 0.63, 0.31
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.7 sy,  0.0 ni, 71.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1090.1 free,   2727.5 used,    305.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1322.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:08.59 mosquit+
+
+top - 16:02:38 up  5:52,  2 users,  load average: 0.96, 0.66, 0.32
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 14.1 us,  1.7 sy,  0.0 ni, 84.1 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,   1090.4 free,   2727.3 used,    305.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1322.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:08.85 mosquit+
+
+top - 16:02:48 up  5:52,  2 users,  load average: 0.81, 0.63, 0.32
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.3 us,  1.6 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1082.9 free,   2734.7 used,    305.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1315.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:09.13 mosquit+
+
+top - 16:02:58 up  5:52,  2 users,  load average: 0.77, 0.63, 0.32
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.9 us,  2.3 sy,  0.0 ni, 92.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1095.3 free,   2722.3 used,    305.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1327.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:09.44 mosquit+
+
+top - 16:03:08 up  5:52,  2 users,  load average: 0.73, 0.63, 0.32
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.7 us,  1.5 sy,  0.0 ni, 80.5 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1098.5 free,   2719.1 used,    305.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1330.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:09.78 mosquit+
+
+top - 16:03:18 up  5:52,  2 users,  load average: 0.77, 0.64, 0.33
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.8 us,  1.5 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1063.9 free,   2753.6 used,    305.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1296.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:10.08 mosquit+
+
+top - 16:03:28 up  5:53,  2 users,  load average: 0.81, 0.65, 0.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.5 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1050.0 free,   2767.5 used,    305.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1282.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:10.39 mosquit+
+
+top - 16:03:38 up  5:53,  2 users,  load average: 0.76, 0.65, 0.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12.3 us,  1.5 sy,  0.0 ni, 86.0 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1050.0 free,   2767.5 used,    305.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1282.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:10.68 mosquit+
+
+top - 16:03:48 up  5:53,  2 users,  load average: 0.64, 0.62, 0.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.2 us,  1.4 sy,  0.0 ni, 92.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1050.1 free,   2767.4 used,    305.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1282.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:10.94 mosquit+
+
+top - 16:03:58 up  5:53,  2 users,  load average: 0.93, 0.69, 0.36
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.8 us,  2.0 sy,  0.0 ni, 89.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1057.5 free,   2760.0 used,    305.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1289.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:11.27 mosquit+
+
+top - 16:04:08 up  5:53,  2 users,  load average: 1.18, 0.75, 0.38
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.7 us,  1.5 sy,  0.0 ni, 77.6 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1059.3 free,   2758.1 used,    305.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1291.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:11.57 mosquit+
+
+top - 16:04:18 up  5:53,  2 users,  load average: 1.15, 0.76, 0.39
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.4 sy,  0.0 ni, 71.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1043.3 free,   2774.1 used,    305.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1275.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:11.88 mosquit+
+
+top - 16:04:28 up  5:54,  2 users,  load average: 1.28, 0.80, 0.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.8 us,  1.5 sy,  0.0 ni, 71.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1014.4 free,   2803.0 used,    305.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1246.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:12.22 mosquit+
+
+top - 16:04:38 up  5:54,  2 users,  load average: 1.32, 0.82, 0.42
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 10.4 us,  1.8 sy,  0.0 ni, 87.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1025.1 free,   2792.3 used,    306.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1257.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:12.48 mosquit+
+
+top - 16:04:48 up  5:54,  2 users,  load average: 1.27, 0.83, 0.43
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  1.6 sy,  0.0 ni, 93.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1017.5 free,   2799.8 used,    306.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1250.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:12.76 mosquit+
+
+top - 16:04:58 up  5:54,  2 users,  load average: 1.15, 0.82, 0.43
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.7 us,  2.3 sy,  0.0 ni, 91.7 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,   1027.0 free,   2790.3 used,    306.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1259.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:13.08 mosquit+
+
+top - 16:05:08 up  5:54,  2 users,  load average: 1.14, 0.82, 0.43
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.4 us,  1.3 sy,  0.0 ni, 79.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,   1028.6 free,   2788.7 used,    306.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1261.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:13.38 mosquit+
+
+top - 16:05:18 up  5:54,  2 users,  load average: 1.12, 0.83, 0.44
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.4 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    989.4 free,   2827.8 used,    306.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1221.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:13.70 mosquit+
+
+top - 16:05:28 up  5:55,  2 users,  load average: 1.10, 0.83, 0.45
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.6 us,  1.5 sy,  0.0 ni, 71.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    974.8 free,   2842.4 used,    306.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1207.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:14.01 mosquit+
+
+top - 16:05:38 up  5:55,  2 users,  load average: 1.00, 0.82, 0.45
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13.1 us,  1.5 sy,  0.0 ni, 85.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    970.3 free,   2846.9 used,    306.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1202.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:14.28 mosquit+
+
+top - 16:05:48 up  5:55,  2 users,  load average: 0.93, 0.81, 0.45
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.1 us,  1.8 sy,  0.0 ni, 92.9 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    956.2 free,   2860.9 used,    306.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1188.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:14.56 mosquit+
+
+top - 16:05:58 up  5:55,  2 users,  load average: 0.78, 0.79, 0.45
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.3 us,  1.7 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    972.2 free,   2845.0 used,    306.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1204.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:14.83 mosquit+
+
+top - 16:06:08 up  5:55,  2 users,  load average: 0.89, 0.81, 0.46
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.6 us,  1.5 sy,  0.0 ni, 80.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    973.7 free,   2843.4 used,    306.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1206.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:15.13 mosquit+
+
+top - 16:06:18 up  5:55,  2 users,  load average: 0.91, 0.82, 0.46
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.3 us,  1.4 sy,  0.0 ni, 71.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    952.0 free,   2865.1 used,    306.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1184.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:15.41 mosquit+
+
+top - 16:06:28 up  5:56,  2 users,  load average: 0.92, 0.82, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.4 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    925.2 free,   2891.9 used,    306.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1157.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:15.68 mosquit+
+
+top - 16:06:38 up  5:56,  2 users,  load average: 0.85, 0.81, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.1 us,  1.7 sy,  0.0 ni, 82.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    916.9 free,   2900.2 used,    306.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1149.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:15.97 mosquit+
+
+top - 16:06:48 up  5:56,  2 users,  load average: 0.80, 0.80, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  1.8 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    921.5 free,   2895.5 used,    306.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1154.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:16.24 mosquit+
+
+top - 16:06:58 up  5:56,  2 users,  load average: 0.76, 0.79, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.4 us,  1.6 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    928.7 free,   2888.3 used,    306.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1161.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:16.52 mosquit+
+
+top - 16:07:08 up  5:56,  2 users,  load average: 0.88, 0.82, 0.48
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.4 us,  1.8 sy,  0.0 ni, 78.5 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    928.4 free,   2888.6 used,    306.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1161.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:16.86 mosquit+
+
+top - 16:07:18 up  5:56,  2 users,  load average: 0.90, 0.82, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.2 sy,  0.0 ni, 71.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    909.7 free,   2907.3 used,    306.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1142.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:17.16 mosquit+
+
+top - 16:07:28 up  5:57,  2 users,  load average: 0.91, 0.83, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.9 sy,  0.0 ni, 71.1 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    886.0 free,   2930.9 used,    306.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1118.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:17.50 mosquit+
+
+top - 16:07:38 up  5:57,  2 users,  load average: 0.85, 0.82, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 14.6 us,  1.4 sy,  0.0 ni, 83.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    885.6 free,   2931.3 used,    306.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1118.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:17.78 mosquit+
+
+top - 16:07:48 up  5:57,  2 users,  load average: 0.72, 0.79, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.9 us,  1.6 sy,  0.0 ni, 93.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    869.7 free,   2947.2 used,    306.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1102.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:18.08 mosquit+
+
+top - 16:07:58 up  5:57,  2 users,  load average: 0.61, 0.76, 0.48
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.4 us,  1.6 sy,  0.0 ni, 93.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    886.4 free,   2930.5 used,    306.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1119.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:18.34 mosquit+
+
+top - 16:08:08 up  5:57,  2 users,  load average: 0.59, 0.76, 0.48
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.6 us,  1.8 sy,  0.0 ni, 78.3 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    889.6 free,   2927.2 used,    306.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1122.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:18.68 mosquit+
+
+top - 16:08:18 up  5:57,  2 users,  load average: 0.66, 0.77, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.4 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    874.2 free,   2942.6 used,    306.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1107.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:18.99 mosquit+
+
+top - 16:08:28 up  5:58,  2 users,  load average: 0.71, 0.77, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.5 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    844.4 free,   2972.4 used,    306.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1077.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:19.33 mosquit+
+
+top - 16:08:38 up  5:58,  2 users,  load average: 0.67, 0.76, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.2 us,  1.6 sy,  0.0 ni, 83.1 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    836.1 free,   2980.7 used,    306.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1069.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:19.61 mosquit+
+
+top - 16:08:48 up  5:58,  2 users,  load average: 0.57, 0.74, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.4 us,  1.8 sy,  0.0 ni, 93.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    841.1 free,   2975.6 used,    306.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1074.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:19.90 mosquit+
+
+top - 16:08:58 up  5:58,  2 users,  load average: 0.48, 0.71, 0.48
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.3 us,  2.1 sy,  0.0 ni, 92.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    848.1 free,   2968.6 used,    306.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1081.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:20.21 mosquit+
+
+top - 16:09:08 up  5:58,  2 users,  load average: 0.57, 0.72, 0.49
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.2 us,  1.4 sy,  0.0 ni, 78.1 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    831.2 free,   2985.5 used,    306.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1064.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:20.50 mosquit+
+
+top - 16:09:18 up  5:58,  2 users,  load average: 0.71, 0.75, 0.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.2 sy,  0.0 ni, 71.6 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    830.7 free,   2985.9 used,    306.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1063.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:20.78 mosquit+
+
+top - 16:09:28 up  5:59,  2 users,  load average: 0.83, 0.77, 0.51
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.7 sy,  0.0 ni, 70.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    799.8 free,   3016.9 used,    306.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1032.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.6   0.2   4:21.14 mosquit+
+
+top - 16:09:38 up  5:59,  2 users,  load average: 1.07, 0.83, 0.53
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 14.8 us,  1.4 sy,  0.0 ni, 83.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    800.8 free,   3015.8 used,    306.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1033.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:21.43 mosquit+
+
+top - 16:09:48 up  5:59,  2 users,  load average: 0.98, 0.82, 0.53
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  1.9 sy,  0.0 ni, 93.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    796.8 free,   3019.8 used,    306.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1030.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:21.72 mosquit+
+
+top - 16:09:58 up  5:59,  2 users,  load average: 0.83, 0.79, 0.52
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.9 us,  2.1 sy,  0.0 ni, 92.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    804.4 free,   3012.2 used,    306.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1037.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:22.02 mosquit+
+
+top - 16:10:08 up  5:59,  2 users,  load average: 0.78, 0.78, 0.52
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.9 us,  1.6 sy,  0.0 ni, 78.3 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    807.4 free,   3009.2 used,    306.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1040.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:22.31 mosquit+
+
+top - 16:10:18 up  5:59,  2 users,  load average: 0.82, 0.79, 0.53
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.6 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    792.6 free,   3023.9 used,    306.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1025.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:22.62 mosquit+
+
+top - 16:10:28 up  6:00,  2 users,  load average: 0.84, 0.80, 0.54
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.3 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    761.6 free,   3055.0 used,    306.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    994.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:22.91 mosquit+
+
+top - 16:10:39 up  6:00,  2 users,  load average: 0.94, 0.82, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.6 us,  1.6 sy,  0.0 ni, 82.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    758.6 free,   3057.9 used,    306.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    991.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:23.20 mosquit+
+
+top - 16:10:49 up  6:00,  2 users,  load average: 0.80, 0.79, 0.54
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.1 us,  1.4 sy,  0.0 ni, 94.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    761.2 free,   3055.2 used,    306.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    994.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.4   0.2   4:23.44 mosquit+
+
+top - 16:10:59 up  6:00,  2 users,  load average: 0.67, 0.77, 0.53
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.9 us,  1.9 sy,  0.0 ni, 88.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    761.2 free,   3055.1 used,    307.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    994.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:23.73 mosquit+
+
+top - 16:11:09 up  6:00,  2 users,  load average: 0.65, 0.76, 0.53
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.8 us,  1.9 sy,  0.0 ni, 78.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    756.9 free,   3059.5 used,    307.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    990.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:24.06 mosquit+
+
+top - 16:11:19 up  6:00,  2 users,  load average: 0.78, 0.78, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.3 us,  1.6 sy,  0.0 ni, 70.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    741.4 free,   3074.9 used,    307.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    974.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.7   0.2   4:24.43 mosquit+
+
+top - 16:11:29 up  6:01,  2 users,  load average: 0.89, 0.81, 0.56
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.5 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    723.8 free,   3092.5 used,    307.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    957.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:24.73 mosquit+
+
+top - 16:11:39 up  6:01,  2 users,  load average: 0.82, 0.80, 0.56
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.4 us,  1.7 sy,  0.0 ni, 80.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    703.9 free,   3112.4 used,    307.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    937.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:25.01 mosquit+
+
+top - 16:11:49 up  6:01,  2 users,  load average: 0.70, 0.77, 0.55
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  1.8 sy,  0.0 ni, 93.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    700.8 free,   3115.4 used,    307.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    934.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 R   2.9   0.2   4:25.30 mosquit+
+
+top - 16:11:59 up  6:01,  2 users,  load average: 0.67, 0.76, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  2.0 sy,  0.0 ni, 93.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    715.1 free,   3101.1 used,    307.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    948.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:25.62 mosquit+
+
+top - 16:12:09 up  6:01,  2 users,  load average: 0.65, 0.75, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.1 us,  1.6 sy,  0.0 ni, 78.0 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    716.1 free,   3100.2 used,    307.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    949.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:25.91 mosquit+
+
+top - 16:12:19 up  6:01,  2 users,  load average: 0.70, 0.76, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.4 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    707.2 free,   3109.0 used,    307.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    940.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:26.23 mosquit+
+
+top - 16:12:29 up  6:02,  2 users,  load average: 0.75, 0.77, 0.56
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.4 sy,  0.0 ni, 71.5 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    687.6 free,   3128.5 used,    307.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    921.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:26.53 mosquit+
+
+top - 16:12:39 up  6:02,  2 users,  load average: 0.87, 0.79, 0.57
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.1 us,  1.8 sy,  0.0 ni, 81.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    673.6 free,   3142.5 used,    307.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    907.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:26.86 mosquit+
+
+top - 16:12:49 up  6:02,  2 users,  load average: 0.73, 0.77, 0.56
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  1.5 sy,  0.0 ni, 93.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    675.1 free,   3141.0 used,    307.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    908.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:27.15 mosquit+
+
+top - 16:12:59 up  6:02,  2 users,  load average: 0.77, 0.78, 0.56
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.8 us,  1.5 sy,  0.0 ni, 93.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    683.6 free,   3132.5 used,    307.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    917.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:27.46 mosquit+
+
+top - 16:13:09 up  6:02,  2 users,  load average: 0.73, 0.77, 0.56
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.3 us,  1.6 sy,  0.0 ni, 75.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    683.7 free,   3132.5 used,    307.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    917.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:27.77 mosquit+
+
+top - 16:13:19 up  6:02,  2 users,  load average: 0.85, 0.79, 0.57
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.8 us,  1.6 sy,  0.0 ni, 71.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    674.1 free,   3142.0 used,    307.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    907.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:28.07 mosquit+
+
+top - 16:13:29 up  6:03,  2 users,  load average: 0.88, 0.80, 0.58
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.5 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    662.7 free,   3153.3 used,    307.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    896.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:28.36 mosquit+
+
+top - 16:13:39 up  6:03,  2 users,  load average: 0.81, 0.79, 0.58
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.6 us,  1.6 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    655.1 free,   3160.9 used,    307.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    888.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:28.67 mosquit+
+
+top - 16:13:49 up  6:03,  2 users,  load average: 0.85, 0.80, 0.58
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.9 us,  1.9 sy,  0.0 ni, 92.9 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    653.8 free,   3162.2 used,    307.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    887.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:28.93 mosquit+
+
+top - 16:13:59 up  6:03,  2 users,  load average: 0.72, 0.77, 0.58
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.1 us,  2.1 sy,  0.0 ni, 92.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    660.4 free,   3155.6 used,    307.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    894.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:29.22 mosquit+
+
+top - 16:14:09 up  6:03,  2 users,  load average: 0.84, 0.79, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 23.6 us,  1.4 sy,  0.0 ni, 74.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    660.7 free,   3155.3 used,    307.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    894.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:29.53 mosquit+
+
+top - 16:14:19 up  6:03,  2 users,  load average: 0.86, 0.80, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.3 sy,  0.0 ni, 71.6 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    653.5 free,   3162.4 used,    307.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    887.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:29.80 mosquit+
+
+top - 16:14:29 up  6:04,  2 users,  load average: 0.96, 0.82, 0.60
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.6 sy,  0.0 ni, 71.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    638.5 free,   3177.5 used,    307.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    872.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.5   0.2   4:30.15 mosquit+
+
+top - 16:14:39 up  6:04,  2 users,  load average: 0.88, 0.81, 0.60
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13.9 us,  1.4 sy,  0.0 ni, 84.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    630.0 free,   3185.9 used,    307.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    863.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:30.41 mosquit+
+
+top - 16:14:49 up  6:04,  2 users,  load average: 0.75, 0.79, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.9 us,  1.5 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    628.7 free,   3187.1 used,    307.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    862.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:30.68 mosquit+
+
+top - 16:14:59 up  6:04,  2 users,  load average: 0.71, 0.78, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.0 us,  2.1 sy,  0.0 ni, 92.5 id,  0.0 wa,  0.0 hi,  0.4 si,  0.0 st 
+MiB Mem :   4049.8 total,    635.3 free,   3180.5 used,    307.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    869.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:30.97 mosquit+
+
+top - 16:15:09 up  6:04,  2 users,  load average: 0.75, 0.78, 0.60
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.6 us,  1.7 sy,  0.0 ni, 78.4 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    634.5 free,   3181.3 used,    307.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    868.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.6   0.2   4:31.33 mosquit+
+
+top - 16:15:19 up  6:04,  2 users,  load average: 0.79, 0.79, 0.60
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.1 sy,  0.0 ni, 71.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    621.3 free,   3194.5 used,    307.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    855.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:31.59 mosquit+
+
+top - 16:15:29 up  6:05,  2 users,  load average: 0.90, 0.82, 0.61
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.4 sy,  0.0 ni, 71.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    602.5 free,   3213.3 used,    307.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    836.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:31.88 mosquit+
+
+top - 16:15:39 up  6:05,  2 users,  load average: 0.99, 0.84, 0.62
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.9 us,  1.9 sy,  0.0 ni, 79.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    588.7 free,   3227.0 used,    307.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    822.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:32.16 mosquit+
+
+top - 16:15:49 up  6:05,  2 users,  load average: 0.92, 0.83, 0.62
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  1.5 sy,  0.0 ni, 93.7 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    579.0 free,   3236.7 used,    307.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    813.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:32.43 mosquit+
+
+top - 16:15:59 up  6:05,  2 users,  load average: 0.78, 0.80, 0.61
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.3 us,  2.4 sy,  0.0 ni, 92.1 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    597.3 free,   3218.5 used,    307.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    831.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:32.76 mosquit+
+
+top - 16:16:09 up  6:05,  2 users,  load average: 0.74, 0.79, 0.61
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.6 us,  1.5 sy,  0.0 ni, 75.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    600.5 free,   3215.2 used,    307.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    834.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:33.08 mosquit+
+
+top - 16:16:19 up  6:05,  2 users,  load average: 0.85, 0.81, 0.62
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.2 sy,  0.0 ni, 71.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    592.6 free,   3223.1 used,    307.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    826.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:33.39 mosquit+
+
+top - 16:16:29 up  6:06,  2 users,  load average: 0.95, 0.84, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.6 sy,  0.0 ni, 71.1 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    577.6 free,   3238.0 used,    307.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    811.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:33.72 mosquit+
+
+top - 16:16:39 up  6:06,  2 users,  load average: 0.88, 0.83, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.5 us,  1.7 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    571.5 free,   3244.2 used,    307.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    805.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.5   0.2   4:33.97 mosquit+
+
+top - 16:16:49 up  6:06,  2 users,  load average: 0.74, 0.80, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.4 us,  2.1 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    563.9 free,   3251.7 used,    307.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    798.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:34.24 mosquit+
+
+top - 16:16:59 up  6:06,  2 users,  load average: 0.70, 0.79, 0.62
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.2 us,  1.7 sy,  0.0 ni, 92.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    572.8 free,   3242.8 used,    307.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    807.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:34.54 mosquit+
+
+top - 16:17:09 up  6:06,  2 users,  load average: 0.75, 0.80, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.8 us,  2.0 sy,  0.0 ni, 72.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    577.8 free,   3237.8 used,    307.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    812.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:34.85 mosquit+
+
+top - 16:17:19 up  6:06,  2 users,  load average: 0.79, 0.80, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.5 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    568.8 free,   3246.7 used,    307.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    803.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:35.16 mosquit+
+
+top - 16:17:29 up  6:07,  2 users,  load average: 0.82, 0.81, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.3 sy,  0.0 ni, 71.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    558.7 free,   3256.8 used,    307.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    792.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:35.46 mosquit+
+
+top - 16:17:39 up  6:07,  2 users,  load average: 0.77, 0.80, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.0 us,  1.2 sy,  0.0 ni, 80.7 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    533.6 free,   3281.9 used,    307.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    767.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:35.75 mosquit+
+
+top - 16:17:49 up  6:07,  2 users,  load average: 0.65, 0.77, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  1.9 sy,  0.0 ni, 93.4 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    535.1 free,   3280.4 used,    307.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    769.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:36.03 mosquit+
+
+top - 16:17:59 up  6:07,  2 users,  load average: 0.55, 0.75, 0.62
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.0 us,  1.7 sy,  0.0 ni, 93.0 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    541.2 free,   3274.3 used,    307.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    775.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:36.34 mosquit+
+
+top - 16:18:09 up  6:07,  2 users,  load average: 0.54, 0.74, 0.62
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.0 us,  1.4 sy,  0.0 ni, 78.5 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    541.0 free,   3274.5 used,    307.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    775.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:36.64 mosquit+
+
+top - 16:18:19 up  6:07,  2 users,  load average: 0.62, 0.75, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.7 sy,  0.0 ni, 71.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    526.7 free,   3288.8 used,    307.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    761.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:36.95 mosquit+
+
+top - 16:18:29 up  6:08,  2 users,  load average: 0.67, 0.76, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.5 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    526.1 free,   3289.3 used,    307.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    760.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:37.21 mosquit+
+
+top - 16:18:39 up  6:08,  2 users,  load average: 0.73, 0.76, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.8 us,  1.6 sy,  0.0 ni, 78.4 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    513.3 free,   3302.1 used,    307.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    747.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:37.53 mosquit+
+
+top - 16:18:49 up  6:08,  2 users,  load average: 0.61, 0.74, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.0 us,  1.8 sy,  0.0 ni, 93.0 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    510.1 free,   3305.2 used,    308.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    744.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:37.82 mosquit+
+
+top - 16:18:59 up  6:08,  2 users,  load average: 0.60, 0.73, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  1.8 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    517.4 free,   3297.9 used,    308.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    751.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:38.10 mosquit+
+
+top - 16:19:09 up  6:08,  2 users,  load average: 0.59, 0.72, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.3 us,  1.5 sy,  0.0 ni, 80.9 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    517.2 free,   3298.2 used,    308.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    751.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:38.40 mosquit+
+
+top - 16:19:19 up  6:08,  2 users,  load average: 0.73, 0.75, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.8 sy,  0.0 ni, 70.9 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    506.7 free,   3308.6 used,    308.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    741.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.4   0.2   4:38.74 mosquit+
+
+top - 16:19:29 up  6:09,  2 users,  load average: 0.77, 0.76, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.6 sy,  0.0 ni, 71.0 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    500.7 free,   3314.6 used,    308.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    735.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:39.06 mosquit+
+
+top - 16:19:39 up  6:09,  2 users,  load average: 0.81, 0.77, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.5 us,  1.5 sy,  0.0 ni, 75.9 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    479.4 free,   3335.8 used,    308.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    713.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:39.33 mosquit+
+
+top - 16:19:49 up  6:09,  2 users,  load average: 0.76, 0.76, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.2 us,  1.8 sy,  0.0 ni, 92.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    479.8 free,   3335.4 used,    308.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    714.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.2   0.2   4:39.65 mosquit+
+
+top - 16:19:59 up  6:09,  2 users,  load average: 0.64, 0.73, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.3 us,  1.9 sy,  0.0 ni, 93.5 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    486.7 free,   3328.5 used,    308.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    721.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:39.94 mosquit+
+
+top - 16:20:09 up  6:09,  2 users,  load average: 0.62, 0.73, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 23.6 us,  1.9 sy,  0.0 ni, 74.2 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    483.5 free,   3331.7 used,    308.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    718.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.6   0.2   4:40.30 mosquit+
+
+top - 16:20:19 up  6:09,  2 users,  load average: 0.75, 0.75, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.3 sy,  0.0 ni, 71.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    479.3 free,   3335.9 used,    308.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    713.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.4   0.2   4:40.54 mosquit+
+
+top - 16:20:29 up  6:10,  2 users,  load average: 0.79, 0.76, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.4 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    475.0 free,   3340.2 used,    308.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    709.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:40.87 mosquit+
+
+top - 16:20:39 up  6:10,  2 users,  load average: 0.82, 0.77, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.8 us,  1.6 sy,  0.0 ni, 81.4 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    464.1 free,   3351.2 used,    308.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    698.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:41.16 mosquit+
+
+top - 16:20:49 up  6:10,  2 users,  load average: 0.69, 0.74, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  1.5 sy,  0.0 ni, 93.6 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    463.0 free,   3352.0 used,    308.2 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    697.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.6   0.2   4:41.42 mosquit+
+
+top - 16:20:59 up  6:10,  2 users,  load average: 0.58, 0.72, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.4 us,  1.7 sy,  0.0 ni, 93.6 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    468.5 free,   3346.6 used,    308.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    703.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:41.69 mosquit+
+
+top - 16:21:09 up  6:10,  2 users,  load average: 0.72, 0.74, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.9 us,  1.8 sy,  0.0 ni, 77.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    469.8 free,   3345.4 used,    308.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    704.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.6   0.2   4:42.05 mosquit+
+
+top - 16:21:19 up  6:10,  2 users,  load average: 0.77, 0.75, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.3 sy,  0.0 ni, 71.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    458.0 free,   3357.0 used,    308.3 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    692.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:42.34 mosquit+
+
+top - 16:21:29 up  6:11,  2 users,  load average: 0.80, 0.76, 0.65
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.4 us,  1.6 sy,  0.0 ni, 70.9 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    443.0 free,   3372.0 used,    308.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    677.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 R   3.5   0.2   4:42.69 mosquit+
+
+top - 16:21:39 up  6:11,  2 users,  load average: 0.91, 0.79, 0.66
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.8 us,  1.3 sy,  0.0 ni, 72.8 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    430.3 free,   3384.6 used,    308.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    665.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:42.96 mosquit+
+
+top - 16:21:49 up  6:11,  2 users,  load average: 0.77, 0.76, 0.66
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.9 us,  2.1 sy,  0.0 ni, 92.8 id,  0.1 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    415.6 free,   3399.3 used,    308.4 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    650.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:43.23 mosquit+
+
+top - 16:21:59 up  6:11,  2 users,  load average: 0.65, 0.73, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.2 us,  2.1 sy,  0.0 ni, 92.4 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    426.7 free,   3388.3 used,    308.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    661.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:43.56 mosquit+
+
+top - 16:22:09 up  6:11,  2 users,  load average: 0.63, 0.73, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.4 us,  1.7 sy,  0.0 ni, 75.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    430.1 free,   3384.9 used,    308.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    664.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:43.86 mosquit+
+
+top - 16:22:19 up  6:11,  2 users,  load average: 0.69, 0.74, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.2 us,  1.4 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    419.5 free,   3395.4 used,    308.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    654.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:44.17 mosquit+
+
+top - 16:22:29 up  6:12,  2 users,  load average: 0.74, 0.75, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 26.9 us,  1.5 sy,  0.0 ni, 71.5 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    421.0 free,   3393.9 used,    308.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    655.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.3   0.2   4:44.50 mosquit+
+
+top - 16:22:39 up  6:12,  2 users,  load average: 0.70, 0.74, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.8 us,  1.7 sy,  0.0 ni, 79.2 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    407.8 free,   3407.1 used,    308.5 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    642.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:44.78 mosquit+
+
+top - 16:22:49 up  6:12,  2 users,  load average: 0.66, 0.73, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  1.7 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    403.6 free,   3411.1 used,    308.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    638.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:45.06 mosquit+
+
+top - 16:22:59 up  6:12,  2 users,  load average: 0.63, 0.72, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.9 us,  2.0 sy,  0.0 ni, 92.9 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    411.5 free,   3403.3 used,    308.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    646.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:45.36 mosquit+
+
+top - 16:23:09 up  6:12,  2 users,  load average: 0.77, 0.75, 0.66
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 21.4 us,  1.6 sy,  0.0 ni, 76.7 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    410.6 free,   3404.2 used,    308.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    645.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:45.65 mosquit+
+
+top - 16:23:19 up  6:12,  2 users,  load average: 0.81, 0.76, 0.66
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.5 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    402.6 free,   3412.1 used,    308.6 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    637.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:45.94 mosquit+
+
+top - 16:23:29 up  6:13,  2 users,  load average: 0.92, 0.78, 0.67
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.3 sy,  0.0 ni, 71.6 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    393.8 free,   3420.8 used,    308.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    628.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.7   0.2   4:46.21 mosquit+
+
+top - 16:23:39 up  6:13,  2 users,  load average: 0.93, 0.79, 0.67
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.0 us,  1.6 sy,  0.0 ni, 78.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    370.5 free,   3444.1 used,    308.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    605.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.1   0.2   4:46.52 mosquit+
+
+top - 16:23:49 up  6:13,  2 users,  load average: 0.87, 0.78, 0.67
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.0 us,  1.7 sy,  0.0 ni, 93.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    363.3 free,   3451.3 used,    308.7 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    598.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:46.81 mosquit+
+
+top - 16:23:59 up  6:13,  2 users,  load average: 0.73, 0.75, 0.66
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.9 us,  1.9 sy,  0.0 ni, 93.0 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem :   4049.8 total,    377.4 free,   3437.1 used,    308.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    612.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:47.10 mosquit+
+
+top - 16:24:09 up  6:13,  2 users,  load average: 0.77, 0.76, 0.67
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 21.9 us,  1.8 sy,  0.0 ni, 76.1 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st 
+MiB Mem :   4049.8 total,    380.8 free,   3433.8 used,    308.8 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    616.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:47.39 mosquit+
+
+top - 16:24:19 up  6:13,  2 users,  load average: 0.81, 0.77, 0.67
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.1 us,  1.5 sy,  0.0 ni, 71.3 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    360.9 free,   3453.6 used,    308.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    596.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.0   0.2   4:47.69 mosquit+
+
+top - 16:24:29 up  6:14,  2 users,  load average: 1.14, 0.84, 0.70
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.0 us,  1.6 sy,  0.0 ni, 71.2 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    363.5 free,   3451.0 used,    308.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    598.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   3.5   0.2   4:48.04 mosquit+
+
+top - 16:24:39 up  6:14,  2 users,  load average: 1.12, 0.85, 0.70
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.2 us,  1.5 sy,  0.0 ni, 79.1 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    349.1 free,   3465.4 used,    308.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    584.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.8   0.2   4:48.32 mosquit+
+
+top - 16:24:49 up  6:14,  2 users,  load average: 1.02, 0.84, 0.70
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  1.6 sy,  0.0 ni, 93.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st 
+MiB Mem :   4049.8 total,    345.1 free,   3469.3 used,    308.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    580.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   2.9   0.2   4:48.61 mosquit+
+
+top - 16:24:59 up  6:14,  2 users,  load average: 0.86, 0.81, 0.69
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,    356.3 free,   3458.1 used,    308.9 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    591.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   4:48.61 mosquit+
+
+top - 16:25:09 up  6:14,  2 users,  load average: 0.73, 0.78, 0.68
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,    358.9 free,   3455.5 used,    309.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    594.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   4:48.61 mosquit+
+
+top - 16:25:19 up  6:14,  2 users,  load average: 0.62, 0.76, 0.68
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,    350.7 free,   3463.7 used,    309.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    586.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.1   0.2   4:48.62 mosquit+
+
+top - 16:25:29 up  6:15,  2 users,  load average: 0.52, 0.73, 0.67
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,    356.6 free,   3457.7 used,    309.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    592.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   4:48.62 mosquit+
+
+top - 16:25:39 up  6:15,  2 users,  load average: 0.44, 0.71, 0.66
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,    358.4 free,   3456.0 used,    309.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    593.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   4:48.62 mosquit+
+
+top - 16:25:49 up  6:15,  2 users,  load average: 0.37, 0.68, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.9 us,  0.0 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,    341.2 free,   3473.1 used,    309.0 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.    576.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   4:48.62 mosquit+
+
+top - 16:25:59 up  6:15,  2 users,  load average: 0.39, 0.68, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.8 us,  0.3 sy,  0.0 ni, 89.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1226.3 free,   2587.9 used,    309.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1461.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   4:48.62 mosquit+
+
+top - 16:26:09 up  6:15,  2 users,  load average: 0.33, 0.65, 0.64
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.2 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1234.8 free,   2579.4 used,    309.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1470.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   4:48.62 mosquit+
+
+top - 16:26:19 up  6:15,  2 users,  load average: 0.28, 0.63, 0.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.2 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   4049.8 total,   1234.7 free,   2579.5 used,    309.1 buff/cache     
+MiB Swap:    512.0 total,    511.0 free,      1.0 used.   1470.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    670 mosquit+  20   0   15840   7952   6096 S   0.0   0.2   4:48.62 mosquit+

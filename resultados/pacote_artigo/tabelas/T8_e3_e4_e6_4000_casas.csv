@@ -1,0 +1,6 @@
+configuração,trecho,processado (%),fila (fim − início),pior atraso (s),escalados (%),ms por min-casa,CPU detector (%),orçamentos,memória (MB)
+"LSTM-AE sempre (100 %), 2,4 GHz",degrau,97.8,31212,51.5,100.0,12.87,98.0,1.0,2657.6
+"cascata 5 %, 2,4 GHz",regime_5min_final,103.3,-47735,27.1,38.7,7.85,72.3,0.05,3305.2
+"controlador (limite 30 s), 2,4 GHz",regime_5min_final,100.2,-6692,28.5,35.2,7.71,74.6,0.1,3298.2
+"LSTM-AE sempre (100 %), 1,5 GHz",degrau,74.0,260680,131.0,100.0,17.77,109.7,1.0,2989.6
+"controlador (limite 30 s), 1,5 GHz",regime_5min_final,100.6,-2,30.5,11.8,7.37,82.4,"0.0,0.01",3310.8

@@ -1,0 +1,434 @@
+{
+ "consultado_em": "2026-11-17",
+ "api": "https://pbe.inmetro.gov.br/integracao/api/itens/buscar",
+ "refrigeradores_293": {
+  "geladeira-consul-crd37mb": {
+   "kwh_dia_16c": 0.6,
+   "kwh_dia_32c": 1.3,
+   "kwh_mes": 29.3,
+   "registro": "005217/2016"
+  },
+  "geladeira-consul-cra30mb": {
+   "kwh_dia_16c": 0.3,
+   "kwh_dia_32c": 0.7,
+   "kwh_mes": 16.7,
+   "registro": "005222/2016"
+  },
+  "geladeira-consul-crm44mb": {
+   "kwh_dia_16c": 0.4,
+   "kwh_dia_32c": 1.0,
+   "kwh_mes": 24.9,
+   "registro": "005218/2016"
+  },
+  "freezer-consul-cvu20mb": {
+   "kwh_dia_16c": 0.7,
+   "kwh_dia_32c": 1.3,
+   "kwh_mes": 29.1,
+   "registro": "005220/2016"
+  },
+  "freezer-consul-cha22mb": {
+   "kwh_dia_16c": 0.5,
+   "kwh_dia_32c": 0.8,
+   "kwh_mes": 24.5,
+   "registro": "005219/2016"
+  },
+  "freezer-consul-cvu26mb": {
+   "kwh_dia_16c": 0.5,
+   "kwh_dia_32c": 1.1,
+   "kwh_mes": 32.0,
+   "registro": "005220/2016"
+  },
+  "freezer-consul-cvu30mb": {
+   "kwh_dia_16c": 0.6,
+   "kwh_dia_32c": 1.1,
+   "kwh_mes": 27.1,
+   "registro": "005220/2016"
+  },
+  "freezer-consul-chb53mb": {
+   "kwh_dia_16c": 0.7,
+   "kwh_dia_32c": 1.0,
+   "kwh_mes": 36.2,
+   "registro": "005219/2016"
+  },
+  "geladeira-electrolux-dci39t": {
+   "kwh_dia_16c": null,
+   "kwh_dia_32c": null,
+   "kwh_mes": 21.3,
+   "registro": "014063/2025"
+  },
+  "geladeira-electrolux-dc35a": {
+   "kwh_dia_16c": 0.7,
+   "kwh_dia_32c": 1.2,
+   "kwh_mes": 28.5,
+   "registro": "005402/2016"
+  },
+  "geladeira-electrolux-if44": {
+   "kwh_dia_16c": 0.5,
+   "kwh_dia_32c": 1.2,
+   "kwh_mes": 25.9,
+   "registro": "005404/2016"
+  },
+  "geladeira-electrolux-im7": {
+   "kwh_dia_16c": null,
+   "kwh_dia_32c": null,
+   "kwh_mes": 39.1,
+   "registro": "005404/2016"
+  },
+  "geladeira-brastemp-bro85mb": {
+   "kwh_dia_16c": 0.5,
+   "kwh_dia_32c": 1.2,
+   "kwh_mes": 31.3,
+   "registro": "005218/2016"
+  },
+  "geladeira-electrolux-es40s": {
+   "kwh_dia_16c": 0.5,
+   "kwh_dia_32c": 1.2,
+   "kwh_mes": 26.2,
+   "registro": "018893/2024"
+  },
+  "smart-geladeira-samsung-rt53dg6650s9": {
+   "kwh_dia_16c": 0.6,
+   "kwh_dia_32c": 1.2,
+   "kwh_mes": 28.0,
+   "registro": "011206/2025"
+  },
+  "smart-geladeira-lg-side-by-side-gc-l257slp1": {
+   "kwh_dia_16c": 0.8,
+   "kwh_dia_32c": 1.6,
+   "kwh_mes": 36.3,
+   "registro": "013224/2025"
+  },
+  "freezer-electrolux-hb200": {
+   "kwh_dia_16c": null,
+   "kwh_dia_32c": null,
+   "kwh_mes": 18.6,
+   "registro": "011658/2025"
+  },
+  "freezer-electrolux-he150": {
+   "kwh_dia_16c": null,
+   "kwh_dia_32c": null,
+   "kwh_mes": 21.6,
+   "registro": "000816/2022"
+  },
+  "freezer-electrolux-fei27t": {
+   "kwh_dia_16c": 0.4,
+   "kwh_dia_32c": 1.3,
+   "kwh_mes": 25.4,
+   "registro": "005399/2016"
+  },
+  "freezer-brastemp-bvr28pb": {
+   "kwh_dia_16c": 0.9,
+   "kwh_dia_32c": 1.5,
+   "kwh_mes": 35.7,
+   "registro": "005221/2016"
+  }
+ },
+ "lavadoras_322": {
+  "lavadora-colormaq-lcs10-tanquinho-10kg": {
+   "kwh_ciclo_fria": 0.11,
+   "kwh_ciclo_quente": null,
+   "tempo_ciclo_min": 66,
+   "registro": "002320/2023"
+  },
+  "lavadora-colormaq-lca13-13kg": {
+   "kwh_ciclo_fria": 0.41,
+   "kwh_ciclo_quente": null,
+   "tempo_ciclo_min": 230,
+   "registro": "002789/2023"
+  },
+  "lavadora-consul-cwb09bb-9kg": {
+   "kwh_ciclo_fria": 0.25,
+   "kwh_ciclo_quente": null,
+   "tempo_ciclo_min": 188,
+   "registro": "000727/2023"
+  },
+  "lavadora-brastemp-bwr12bb-12kg-agua-quente": {
+   "kwh_ciclo_fria": 0.37,
+   "kwh_ciclo_quente": 3.7,
+   "tempo_ciclo_min": 220,
+   "registro": "000727/2023"
+  },
+  "lavadora-philco-plr14a-14kg": {
+   "kwh_ciclo_fria": 0.34,
+   "kwh_ciclo_quente": null,
+   "tempo_ciclo_min": 225,
+   "registro": "006404/2024"
+  },
+  "lava-seca-philco-pls10b-11-7kg": {
+   "kwh_ciclo_fria": 0.22,
+   "kwh_ciclo_quente": 1.01,
+   "tempo_ciclo_min": 197,
+   "registro": "003306/2023"
+  },
+  "lavadora-brastemp-bwk16ab-16kg": {
+   "kwh_ciclo_fria": 0.49,
+   "kwh_ciclo_quente": null,
+   "tempo_ciclo_min": 300,
+   "registro": "000727/2023"
+  },
+  "lava-seca-electrolux-lsp11-11-7kg": {
+   "kwh_ciclo_fria": 0.34,
+   "kwh_ciclo_quente": 1.7,
+   "tempo_ciclo_min": 230,
+   "registro": "000992/2023 (inativo)"
+  },
+  "lava-seca-brastemp-bno14ab-14-8kg": {
+   "kwh_ciclo_fria": 0.3,
+   "kwh_ciclo_quente": 2.14,
+   "tempo_ciclo_min": 257,
+   "registro": "001715/2023"
+  },
+  "smart-lavaseca-lg-vc5-cv3012wc5a-sem-wifi": {
+   "kwh_ciclo_fria": 0.23,
+   "kwh_ciclo_quente": 1.52,
+   "tempo_ciclo_min": 273,
+   "registro": "003187/2023"
+  },
+  "smart-lavaseca-samsung-wd13fg6b34beaz": {
+   "kwh_ciclo_fria": 0.3,
+   "kwh_ciclo_quente": 1.54,
+   "tempo_ciclo_min": 290,
+   "registro": "000406/2023"
+  },
+  "smart-lavaseca-lg-vc4-cv5012wc4": {
+   "kwh_ciclo_fria": 0.23,
+   "kwh_ciclo_quente": 1.51,
+   "tempo_ciclo_min": 269,
+   "registro": "003187/2023"
+  }
+ },
+ "condicionadores_166": {
+  "ac-janela-consul-ccb07fb-mecanico": {
+   "w_35c_total": 748,
+   "w_35c_parcial": null,
+   "w_29c_parcial": null,
+   "espera_w": 1,
+   "idrs": 3.11,
+   "kwh_ano": 584.0,
+   "registro": "003901/2012"
+  },
+  "ac-janela-consul-ccn07fb": {
+   "w_35c_total": 748,
+   "w_35c_parcial": null,
+   "w_29c_parcial": null,
+   "espera_w": 1,
+   "idrs": 3.11,
+   "kwh_ano": 584.0,
+   "registro": "003901/2012"
+  },
+  "ac-janela-springer-midea-qck078rb": {
+   "w_35c_total": 805.2,
+   "w_35c_parcial": null,
+   "w_29c_parcial": null,
+   "espera_w": 3,
+   "idrs": 3.1,
+   "kwh_ano": 586.1,
+   "registro": "001260/2015 (QCK078BB)"
+  },
+  "ac-janela-springer-midea-mck128bb-12000": {
+   "w_35c_total": 1192.1,
+   "w_35c_parcial": null,
+   "w_29c_parcial": null,
+   "espera_w": 3,
+   "idrs": 3.12,
+   "kwh_ano": 932.0,
+   "registro": "001262/2015"
+  },
+  "ac-split-midea-airvolution-lite-9000": {
+   "w_35c_total": 1000,
+   "w_35c_parcial": 465,
+   "w_29c_parcial": 298.8,
+   "espera_w": 4,
+   "idrs": 4.6,
+   "kwh_ano": 473.9,
+   "registro": "006337/2023"
+  },
+  "ac-split-elgin-eco-inverter-iii-9000": {
+   "w_35c_total": 834,
+   "w_35c_parcial": 310,
+   "w_29c_parcial": 198,
+   "espera_w": 2,
+   "idrs": 7.0,
+   "kwh_ano": 327.0,
+   "registro": "006724/2014 (HJFI09C2WG)"
+  },
+  "ac-split-agratto-one-top-12000-onoff-127v": {
+   "w_35c_total": 1256,
+   "w_35c_parcial": null,
+   "w_29c_parcial": null,
+   "espera_w": 1,
+   "idrs": 3.5,
+   "kwh_ano": 829.0,
+   "registro": "009646/2022"
+  },
+  "ac-split-midea-ai-ecomaster-9000-inverter": {
+   "w_35c_total": 688.5,
+   "w_35c_parcial": 282.3,
+   "w_29c_parcial": 176.2,
+   "espera_w": 6,
+   "idrs": 7.6,
+   "kwh_ano": 286.9,
+   "registro": "006337/2023"
+  },
+  "ac-split-lg-dual-inverter-voice-9000": {
+   "w_35c_total": 750,
+   "w_35c_parcial": 289,
+   "w_29c_parcial": 196.5,
+   "espera_w": 4,
+   "idrs": 7.0,
+   "kwh_ano": 311.2,
+   "registro": "004733/2023"
+  },
+  "smart-ac-midea-ai-ecomaster-9000-qf-42ezvqc09m5": {
+   "w_35c_total": 696.4,
+   "w_35c_parcial": 277.5,
+   "w_29c_parcial": 176.2,
+   "espera_w": 6,
+   "idrs": 7.6,
+   "kwh_ano": 287.0,
+   "registro": "006337/2023"
+  },
+  "ac-split-samsung-windfree-ai-pro-12000": {
+   "w_35c_total": 1150,
+   "w_35c_parcial": 360,
+   "w_29c_parcial": 237,
+   "espera_w": 2,
+   "idrs": 7.0,
+   "kwh_ano": 416.0,
+   "registro": "012321/2024 (linha AR60H12D1C; a linha D1A do mesmo registro traz 760/255/176 W)"
+  },
+  "smart-ac-lg-dual-inverter-ai-voice-12000-s3-q12ja33j": {
+   "w_35c_total": 1060,
+   "w_35c_parcial": 340,
+   "w_29c_parcial": 230,
+   "espera_w": 4,
+   "idrs": 7.7,
+   "kwh_ano": 377.4,
+   "registro": "004733/2023"
+  },
+  "smart-ac-samsung-windfree-connect-ai-12000-f-ar12dyfaawk": {
+   "w_35c_total": 1170,
+   "w_35c_parcial": 395,
+   "w_29c_parcial": 287,
+   "espera_w": 2,
+   "idrs": 6.0,
+   "kwh_ano": 488.0,
+   "registro": "012321/2024"
+  },
+  "smart-ac-samsung-windfree-pro-energy-9000-f-ar09cvfaawk": {
+   "w_35c_total": 633,
+   "w_35c_parcial": 193,
+   "w_29c_parcial": 136,
+   "espera_w": 2,
+   "idrs": 9.0,
+   "kwh_ano": 273.0,
+   "registro": "008048/2022"
+  },
+  "ac-split-lg-ai-dual-inverter-voice-12000-110v": {
+   "w_35c_total": 1115,
+   "w_35c_parcial": 394,
+   "w_29c_parcial": 280,
+   "espera_w": 5,
+   "idrs": 6.3,
+   "kwh_ano": 461.7,
+   "registro": "004733/2023"
+  },
+  "ac-split-lg-ai-dual-inverter-voice-18000": {
+   "w_35c_total": 1600,
+   "w_35c_parcial": 573,
+   "w_29c_parcial": 388,
+   "espera_w": 3,
+   "idrs": 7.0,
+   "kwh_ano": 622.6,
+   "registro": "004733/2023"
+  },
+  "ac-split-midea-ai-ecomaster-18000-quente-frio": {
+   "w_35c_total": 1508.8,
+   "w_35c_parcial": 550,
+   "w_29c_parcial": 346.9,
+   "espera_w": 4,
+   "idrs": 7.6,
+   "kwh_ano": 573.7,
+   "registro": "006337/2023"
+  },
+  "smart-ac-lg-artcool-ai-dual-inverter-18000-s3-w18klr7a": {
+   "w_35c_total": 1790,
+   "w_35c_parcial": 663,
+   "w_29c_parcial": 460,
+   "espera_w": 4,
+   "idrs": 6.2,
+   "kwh_ano": 742.4,
+   "registro": "004733/2023"
+  }
+ },
+ "ventiladores_184": {
+  "vent-coluna-eos-evc60-turbo-vento": {
+   "w_baixa": 83.9,
+   "w_media": 89.7,
+   "w_alta": 93.4,
+   "registro": "007054/2020"
+  },
+  "vent-mesa-britania-bvt320p-30cm": {
+   "w_baixa": 48.7,
+   "w_media": 55.0,
+   "w_alta": 62.7,
+   "registro": "006775/2020"
+  },
+  "vent-mesa-arno-vf42-40cm": {
+   "w_baixa": 89,
+   "w_media": 106,
+   "w_alta": 128,
+   "registro": "001690/2022"
+  },
+  "vent-mesa-philco-pvt492pa-40cm": {
+   "w_baixa": 111.0,
+   "w_media": 120.8,
+   "w_alta": 131.4,
+   "registro": "003221/2024"
+  },
+  "vent-mesa-arno-xtreme-ve70-40cm": {
+   "w_baixa": 78,
+   "w_media": 106.5,
+   "w_alta": 127,
+   "registro": "007938/2023"
+  },
+  "vent-mesa-arno-xtreme-force-breeze-vb50-50cm": {
+   "w_baixa": 79.1,
+   "w_media": 109.5,
+   "w_alta": 132.6,
+   "registro": "004070/2020"
+  },
+  "vent-coluna-arno-vd5c-ultra-silence": {
+   "w_baixa": 89,
+   "w_media": 107,
+   "w_alta": 131,
+   "registro": "007022/2019"
+  }
+ },
+ "ventiladores_teto_323": {
+  "vent-teto-britania-cancun-bvt01b": {
+   "kwh_mes_alta": 1.54,
+   "kwh_mes_media": 1.14,
+   "kwh_mes_baixa": 0.89,
+   "registro": "012074/2022"
+  },
+  "vent-teto-ventisol-fenix-premium": {
+   "kwh_mes_alta": 1.94,
+   "kwh_mes_media": 1.78,
+   "kwh_mes_baixa": null,
+   "registro": "010932/2022"
+  },
+  "vent-teto-eos-evx110b-turbo-vento": {
+   "kwh_mes_alta": 1.15,
+   "kwh_mes_media": 0.53,
+   "kwh_mes_baixa": 0.13,
+   "registro": "017252/2024"
+  },
+  "vent-teto-arno-ultimate-vx10": {
+   "kwh_mes_alta": 0.88,
+   "kwh_mes_media": 0.45,
+   "kwh_mes_baixa": 0.13,
+   "registro": "012287/2022"
+  }
+ }
+}
